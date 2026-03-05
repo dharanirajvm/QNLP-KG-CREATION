@@ -1,0 +1,16 @@
+2026-02-25 20:18:56,053 | INFO | Run directory: runs\lambeq_relation_20260225_201856
+2026-02-25 20:18:56,055 | INFO | Arguments: {'dataset_csv': WindowsPath('data/relation_extraction_discocat_v2.csv'), 'diagrams_pkl': WindowsPath('data/simplified_bobcat_diagrams_toy_v2.pkl'), 'output_root': WindowsPath('runs'), 'seed': 42, 'log_level': 'INFO', 'parse_log_every': 500, 'circuit_log_every': 500, 'rewrite_log_max_errors': 5, 'batch_size': 16, 'train_log_every_batches': 0, 'max_samples': 0, 'max_circuit_width': 0, 'model_init_split': 'all', 'epochs': 35, 'learning_rate': 0.05, 'weight_decay': 0.0, 'hidden_dim': 32, 'dropout': 0.1, 'val_size': 0.15, 'test_size': 0.15, 'early_stopping_patience': 8, 'n_layers': 1, 'n_single_qubit_params': 3, 'n_qubits_noun': 1, 'n_qubits_sentence': 3, 'n_qubits_preposition': 1, 'n_qubits_other': 1, 'pennylane_backend': 'default.qubit', 'shots': 0, 'kg_confidence_threshold': 0.5, 'epoch_sample_count': 3, 'relation_order': ['lives_in', 'works_at', 'studies_at', 'born_in', 'located_in', 'part_of', 'married_to', 'parent_of', 'owns', 'uses']}
+2026-02-25 20:18:56,055 | INFO | Stage: load_samples
+2026-02-25 20:18:56,056 | INFO | Loading pre-parsed diagrams from: data\simplified_bobcat_diagrams_toy_v2.pkl
+2026-02-25 20:18:57,357 | INFO | Loaded diagram pickle entries: total=3000 valid=3000 skipped=0
+2026-02-25 20:18:57,358 | INFO | Loaded sample relations | classes=10 | distribution={'studies_at': 300, 'born_in': 300, 'part_of': 300, 'married_to': 300, 'parent_of': 300, 'uses': 300, 'owns': 300, 'located_in': 300, 'works_at': 300, 'lives_in': 300}
+2026-02-25 20:18:57,360 | INFO | Stage complete: load_samples | elapsed=1.30s
+2026-02-25 20:18:57,361 | INFO | Stage: preprocess_samples
+2026-02-25 20:18:57,368 | ERROR | Pipeline failed with an unhandled exception.
+Traceback (most recent call last):
+  File "C:\Users\DHARANIRAJ VM\Documents\FYP-25\QNLP\Phase-1\lambeq\qnlp\LLM-Simplification\train_lambeq_relation_classifier.py", line 903, in main
+    attach_missing_entities_from_csv(samples, args.dataset_csv, logger)
+  File "C:\Users\DHARANIRAJ VM\Documents\FYP-25\QNLP\Phase-1\lambeq\qnlp\LLM-Simplification\train_lambeq_relation_classifier.py", line 346, in attach_missing_entities_from_csv
+    (row["sentence"], row["relation"]): (row.get("entity_1"), row.get("entity_2"))
+     ~~~^^^^^^^^^^^^
+KeyError: 'sentence'

@@ -1,0 +1,11 @@
+true\pred,lives_in,works_at,studies_at,born_in,located_in,part_of,married_to,parent_of,owns,uses
+lives_in,32,13,0,0,0,0,0,0,0,0
+works_at,0,21,14,0,0,0,0,0,0,10
+studies_at,0,7,38,0,0,0,0,0,0,0
+born_in,0,0,0,45,0,0,0,0,0,0
+located_in,0,0,0,0,45,0,0,0,0,0
+part_of,0,0,0,0,0,45,0,0,0,0
+married_to,0,0,0,0,0,0,43,2,0,0
+parent_of,0,0,0,0,0,3,0,42,0,0
+owns,0,0,0,0,0,0,0,0,45,0
+uses,0,0,0,0,0,6,0,0,0,39

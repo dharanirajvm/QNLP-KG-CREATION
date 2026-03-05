@@ -1,0 +1,444 @@
+{"head": "zane", "relation": "uses", "tail": "spark", "confidence": 0.9973480701446533, "sentence": "zane routinely operates the spark today"}
+{"head": "hospital", "relation": "located_in", "tail": "boston", "confidence": 0.9994309544563293, "sentence": "hospital is located in boston today"}
+{"head": "quinn", "relation": "parent_of", "tail": "bob", "confidence": 0.9220815896987915, "sentence": "quinn is parent of bob officially"}
+{"head": "yasmin", "relation": "studies_at", "tail": "ucla", "confidence": 0.5134374499320984, "sentence": "yasmin diligently trains at ucla now"}
+{"head": "dave", "relation": "born_in", "tail": "prague", "confidence": 1.0, "sentence": "dave was born in prague officially"}
+{"head": "henry", "relation": "owns", "tail": "house", "confidence": 0.9999997615814209, "sentence": "henry legally owns house today"}
+{"head": "carol", "relation": "works_at", "tail": "google", "confidence": 0.8406935930252075, "sentence": "carol currently works at google now"}
+{"head": "museum", "relation": "located_in", "tail": "delhi", "confidence": 0.9989883303642273, "sentence": "museum is located in delhi today"}
+{"head": "mia", "relation": "lives_in", "tail": "london", "confidence": 0.9999364614486694, "sentence": "mia usually resides in london today"}
+{"head": "victor", "relation": "works_at", "tail": "duke", "confidence": 0.6077463626861572, "sentence": "victor actively trains at duke today"}
+{"head": "warehouse", "relation": "located_in", "tail": "berlin", "confidence": 0.9991568326950073, "sentence": "warehouse is located in berlin currently"}
+{"head": "irene", "relation": "uses", "tail": "tableau", "confidence": 0.5305333137512207, "sentence": "irene regularly handles the tableau effectively"}
+{"head": "paul", "relation": "works_at", "tail": "vienna", "confidence": 0.7111912965774536, "sentence": "paul currently resides in vienna daily"}
+{"head": "paul", "relation": "uses", "tail": "tensorflow", "confidence": 0.997557520866394, "sentence": "paul routinely uses tensorflow carefully"}
+{"head": "tina", "relation": "lives_in", "tail": "seoul", "confidence": 0.9999364614486694, "sentence": "tina usually resides in seoul daily"}
+{"head": "bob", "relation": "married_to", "tail": "henry", "confidence": 0.9738654494285583, "sentence": "bob is married to henry officially"}
+{"head": "irene", "relation": "uses", "tail": "slack", "confidence": 0.9973784685134888, "sentence": "irene routinely operates the slack effectively"}
+{"head": "umar", "relation": "born_in", "tail": "tokyo", "confidence": 1.0, "sentence": "umar was born in tokyo historically"}
+{"head": "xavier", "relation": "owns", "tail": "laptop", "confidence": 0.9999996423721313, "sentence": "xavier securely keeps laptop today"}
+{"head": "yasmin", "relation": "owns", "tail": "phone", "confidence": 0.9999988079071045, "sentence": "yasmin securely keeps the phone currently"}
+{"head": "mia", "relation": "studies_at", "tail": "oxford", "confidence": 0.9721060991287231, "sentence": "mia seriously trains at oxford now"}
+{"head": "liam", "relation": "uses", "tail": "airbnb", "confidence": 0.5535001158714294, "sentence": "liam regularly leads at airbnb today"}
+{"head": "museum", "relation": "located_in", "tail": "vienna", "confidence": 0.9988749623298645, "sentence": "museum is located in vienna officially"}
+{"head": "jack", "relation": "works_at", "tail": "tesla", "confidence": 0.6539797186851501, "sentence": "jack actively leads at tesla"}
+{"head": "olivia", "relation": "studies_at", "tail": "yale", "confidence": 0.7483705878257751, "sentence": "olivia diligently trains at yale today"}
+{"head": "xavier", "relation": "studies_at", "tail": "cambridge", "confidence": 0.975756049156189, "sentence": "xavier seriously learns at cambridge now"}
+{"head": "mia", "relation": "works_at", "tail": "yale", "confidence": 0.6552161574363708, "sentence": "mia seriously trains at yale"}
+{"head": "alice", "relation": "studies_at", "tail": "duke", "confidence": 0.8155233860015869, "sentence": "alice actively learns at duke daily"}
+{"head": "yasmin", "relation": "owns", "tail": "laptop", "confidence": 0.9999984502792358, "sentence": "yasmin legally holds the laptop officially"}
+{"head": "emma", "relation": "works_at", "tail": "amazon", "confidence": 0.8407270312309265, "sentence": "emma currently works at amazon now"}
+{"head": "motor", "relation": "part_of", "tail": "system", "confidence": 0.9499391913414001, "sentence": "motor is part of system officially"}
+{"head": "quinn", "relation": "born_in", "tail": "oslo", "confidence": 1.0, "sentence": "quinn was born in oslo officially"}
+{"head": "plugin", "relation": "part_of", "tail": "server", "confidence": 0.959627091884613, "sentence": "plugin is part of server"}
+{"head": "library", "relation": "located_in", "tail": "dallas", "confidence": 0.9958009123802185, "sentence": "library is located in dallas"}
+{"head": "olivia", "relation": "owns", "tail": "house", "confidence": 0.9974085688591003, "sentence": "olivia personally keeps the house today"}
+{"head": "noah", "relation": "married_to", "tail": "frank", "confidence": 0.9977332353591919, "sentence": "noah is married to frank officially"}
+{"head": "zane", "relation": "studies_at", "tail": "cornell", "confidence": 0.6214194893836975, "sentence": "zane actively studies at cornell"}
+{"head": "panel", "relation": "part_of", "tail": "platform", "confidence": 0.9652503728866577, "sentence": "panel is part of platform today"}
+{"head": "noah", "relation": "works_at", "tail": "yale", "confidence": 0.6163312792778015, "sentence": "noah actively learns at yale today"}
+{"head": "zane", "relation": "parent_of", "tail": "quinn", "confidence": 0.9891891479492188, "sentence": "zane is parent of quinn biologically"}
+{"head": "sam", "relation": "studies_at", "tail": "paypal", "confidence": 0.6812090277671814, "sentence": "sam actively works at paypal"}
+{"head": "plugin", "relation": "part_of", "tail": "robot", "confidence": 0.9607614278793335, "sentence": "plugin is part of robot officially"}
+{"head": "engine", "relation": "part_of", "tail": "aircraft", "confidence": 0.9637778997421265, "sentence": "engine is part of aircraft"}
+{"head": "mia", "relation": "owns", "tail": "house", "confidence": 0.9999996423721313, "sentence": "mia securely holds the house today"}
+{"head": "gallery", "relation": "located_in", "tail": "delhi", "confidence": 0.9985674619674683, "sentence": "gallery is located in delhi officially"}
+{"head": "tina", "relation": "born_in", "tail": "london", "confidence": 1.0, "sentence": "tina was born in london officially"}
+{"head": "liam", "relation": "part_of", "tail": "karen", "confidence": 0.9137915968894958, "sentence": "liam is parent of karen officially"}
+{"head": "karen", "relation": "studies_at", "tail": "oracle", "confidence": 0.7016797661781311, "sentence": "karen actively works at oracle daily"}
+{"head": "alice", "relation": "uses", "tail": "excel", "confidence": 0.5583664178848267, "sentence": "alice regularly uses excel today"}
+{"head": "emma", "relation": "uses", "tail": "slack", "confidence": 0.9973134398460388, "sentence": "emma routinely operates slack today"}
+{"head": "grace", "relation": "uses", "tail": "uber", "confidence": 0.5006451606750488, "sentence": "grace regularly leads at uber now"}
+{"head": "rachel", "relation": "owns", "tail": "studio", "confidence": 1.0, "sentence": "rachel legally owns studio today"}
+{"head": "noah", "relation": "part_of", "tail": "sql", "confidence": 0.5478198528289795, "sentence": "noah daily uses sql today"}
+{"head": "olivia", "relation": "uses", "tail": "kafka", "confidence": 0.9975752234458923, "sentence": "olivia routinely uses kafka carefully"}
+{"head": "alice", "relation": "studies_at", "tail": "ucla", "confidence": 0.753969669342041, "sentence": "alice actively studies at ucla now"}
+{"head": "emma", "relation": "works_at", "tail": "airbnb", "confidence": 0.837197482585907, "sentence": "emma currently serves at airbnb"}
+{"head": "motor", "relation": "part_of", "tail": "pipeline", "confidence": 0.9549161791801453, "sentence": "motor is part of pipeline currently"}
+{"head": "rachel", "relation": "uses", "tail": "linux", "confidence": 0.9973773956298828, "sentence": "rachel routinely operates linux effectively"}
+{"head": "henry", "relation": "lives_in", "tail": "tokyo", "confidence": 0.9999361038208008, "sentence": "henry often resides in tokyo now"}
+{"head": "bob", "relation": "owns", "tail": "scooter", "confidence": 1.0, "sentence": "bob securely owns scooter currently"}
+{"head": "henry", "relation": "lives_in", "tail": "madrid", "confidence": 0.5058968663215637, "sentence": "henry currently lives in madrid today"}
+{"head": "quinn", "relation": "born_in", "tail": "london", "confidence": 1.0, "sentence": "quinn was born in london historically"}
+{"head": "bob", "relation": "lives_in", "tail": "denver", "confidence": 0.9999362230300903, "sentence": "bob often resides in denver daily"}
+{"head": "xavier", "relation": "married_to", "tail": "irene", "confidence": 0.9999496936798096, "sentence": "xavier is married to irene happily"}
+{"head": "emma", "relation": "married_to", "tail": "noah", "confidence": 0.9918036460876465, "sentence": "emma is married to noah"}
+{"head": "olivia", "relation": "uses", "tail": "docker", "confidence": 0.9975292086601257, "sentence": "olivia routinely handles the docker carefully"}
+{"head": "victor", "relation": "married_to", "tail": "carol", "confidence": 0.999677300453186, "sentence": "victor is married to carol happily"}
+{"head": "port", "relation": "located_in", "tail": "miami", "confidence": 0.9994637370109558, "sentence": "port is located in miami"}
+{"head": "library", "relation": "located_in", "tail": "dubai", "confidence": 0.9957450032234192, "sentence": "library is located in dubai officially"}
+{"head": "jack", "relation": "born_in", "tail": "zurich", "confidence": 1.0, "sentence": "jack was born in zurich recently"}
+{"head": "bob", "relation": "uses", "tail": "samsung", "confidence": 0.5524950623512268, "sentence": "bob regularly works at samsung daily"}
+{"head": "karen", "relation": "born_in", "tail": "dubai", "confidence": 1.0, "sentence": "karen was born in dubai historically"}
+{"head": "yasmin", "relation": "parent_of", "tail": "bob", "confidence": 0.9547454118728638, "sentence": "yasmin is parent of bob officially"}
+{"head": "dave", "relation": "lives_in", "tail": "denver", "confidence": 0.9999364614486694, "sentence": "dave usually dwells in denver"}
+{"head": "xavier", "relation": "born_in", "tail": "seoul", "confidence": 1.0, "sentence": "xavier was born in seoul historically"}
+{"head": "airport", "relation": "located_in", "tail": "paris", "confidence": 0.9939848780632019, "sentence": "airport is located in paris officially"}
+{"head": "emma", "relation": "parent_of", "tail": "bob", "confidence": 0.9593997001647949, "sentence": "emma is parent of bob"}
+{"head": "library", "relation": "located_in", "tail": "prague", "confidence": 0.9957165122032166, "sentence": "library is located in prague currently"}
+{"head": "mia", "relation": "born_in", "tail": "zurich", "confidence": 1.0, "sentence": "mia was born in zurich historically"}
+{"head": "tina", "relation": "parent_of", "tail": "henry", "confidence": 0.9582275748252869, "sentence": "tina is parent of henry officially"}
+{"head": "rachel", "relation": "works_at", "tail": "oracle", "confidence": 0.5993973016738892, "sentence": "rachel currently works at oracle today"}
+{"head": "zane", "relation": "part_of", "tail": "jira", "confidence": 0.5805388689041138, "sentence": "zane daily operates jira today"}
+{"head": "emma", "relation": "born_in", "tail": "paris", "confidence": 1.0, "sentence": "emma was born in paris officially"}
+{"head": "office", "relation": "located_in", "tail": "berlin", "confidence": 0.9883126616477966, "sentence": "office is located in berlin"}
+{"head": "liam", "relation": "owns", "tail": "camera", "confidence": 0.9994151592254639, "sentence": "liam personally owns camera officially"}
+{"head": "paul", "relation": "parent_of", "tail": "olivia", "confidence": 0.9617501497268677, "sentence": "paul is parent of olivia"}
+{"head": "victor", "relation": "owns", "tail": "printer", "confidence": 0.998965859413147, "sentence": "victor personally keeps the printer officially"}
+{"head": "karen", "relation": "married_to", "tail": "umar", "confidence": 0.9996715784072876, "sentence": "karen is married to umar legally"}
+{"head": "henry", "relation": "born_in", "tail": "london", "confidence": 1.0, "sentence": "henry was born in london"}
+{"head": "olivia", "relation": "owns", "tail": "printer", "confidence": 0.9975956082344055, "sentence": "olivia personally owns the printer officially"}
+{"head": "mia", "relation": "owns", "tail": "scooter", "confidence": 0.9999996423721313, "sentence": "mia securely keeps scooter currently"}
+{"head": "paul", "relation": "owns", "tail": "scooter", "confidence": 0.987993597984314, "sentence": "paul personally keeps the scooter currently"}
+{"head": "paul", "relation": "born_in", "tail": "paris", "confidence": 1.0, "sentence": "paul was born in paris officially"}
+{"head": "port", "relation": "located_in", "tail": "london", "confidence": 0.9995118379592896, "sentence": "port is located in london today"}
+{"head": "henry", "relation": "lives_in", "tail": "dubai", "confidence": 0.9999347925186157, "sentence": "henry often resides in dubai"}
+{"head": "xavier", "relation": "lives_in", "tail": "london", "confidence": 0.9999352693557739, "sentence": "xavier often lives in london today"}
+{"head": "wendy", "relation": "studies_at", "tail": "mit", "confidence": 0.8357675671577454, "sentence": "wendy actively learns at mit daily"}
+{"head": "carol", "relation": "married_to", "tail": "bob", "confidence": 0.9999500513076782, "sentence": "carol is married to bob officially"}
+{"head": "museum", "relation": "located_in", "tail": "paris", "confidence": 0.9989883303642273, "sentence": "museum is located in paris today"}
+{"head": "gallery", "relation": "located_in", "tail": "oslo", "confidence": 0.9985888600349426, "sentence": "gallery is located in oslo"}
+{"head": "quinn", "relation": "studies_at", "tail": "epfl", "confidence": 0.9623891115188599, "sentence": "quinn seriously studies at epfl today"}
+{"head": "frank", "relation": "parent_of", "tail": "jack", "confidence": 0.9728112816810608, "sentence": "frank is parent of jack biologically"}
+{"head": "irene", "relation": "studies_at", "tail": "epfl", "confidence": 0.7538827061653137, "sentence": "irene diligently trains at epfl today"}
+{"head": "bob", "relation": "married_to", "tail": "wendy", "confidence": 0.9738653302192688, "sentence": "bob is married to wendy officially"}
+{"head": "victor", "relation": "parent_of", "tail": "alice", "confidence": 0.9199687242507935, "sentence": "victor is parent of alice legally"}
+{"head": "jack", "relation": "married_to", "tail": "karen", "confidence": 0.9999493360519409, "sentence": "jack is married to karen happily"}
+{"head": "rachel", "relation": "parent_of", "tail": "yasmin", "confidence": 0.819495439529419, "sentence": "rachel is parent of yasmin"}
+{"head": "emma", "relation": "owns", "tail": "console", "confidence": 1.0, "sentence": "emma securely keeps console officially"}
+{"head": "yasmin", "relation": "uses", "tail": "python", "confidence": 0.5601776242256165, "sentence": "yasmin regularly handles the python effectively"}
+{"head": "terminal", "relation": "located_in", "tail": "phoenix", "confidence": 0.9997381567955017, "sentence": "terminal is located in phoenix currently"}
+{"head": "library", "relation": "located_in", "tail": "madrid", "confidence": 0.9961509704589844, "sentence": "library is located in madrid today"}
+{"head": "irene", "relation": "works_at", "tail": "airbnb", "confidence": 0.6053978800773621, "sentence": "irene currently works at airbnb today"}
+{"head": "irene", "relation": "married_to", "tail": "umar", "confidence": 0.9728456735610962, "sentence": "irene is married to umar happily"}
+{"head": "grace", "relation": "uses", "tail": "figma", "confidence": 0.997260570526123, "sentence": "grace routinely handles figma today"}
+{"head": "quinn", "relation": "lives_in", "tail": "madrid", "confidence": 0.9999347925186157, "sentence": "quinn often resides in madrid"}
+{"head": "mia", "relation": "works_at", "tail": "netflix", "confidence": 0.8427956700325012, "sentence": "mia currently works at netflix"}
+{"head": "liam", "relation": "lives_in", "tail": "seoul", "confidence": 0.9999361038208008, "sentence": "liam often dwells in seoul now"}
+{"head": "zane", "relation": "works_at", "tail": "vienna", "confidence": 0.5230428576469421, "sentence": "zane currently dwells in vienna today"}
+{"head": "mia", "relation": "born_in", "tail": "prague", "confidence": 1.0, "sentence": "mia was born in prague"}
+{"head": "rachel", "relation": "uses", "tail": "linux", "confidence": 0.5601776242256165, "sentence": "rachel regularly operates the linux carefully"}
+{"head": "zane", "relation": "works_at", "tail": "microsoft", "confidence": 0.6205462217330933, "sentence": "zane actively serves at microsoft today"}
+{"head": "jack", "relation": "owns", "tail": "scooter", "confidence": 0.9999996423721313, "sentence": "jack securely holds the scooter today"}
+{"head": "henry", "relation": "owns", "tail": "car", "confidence": 0.9994217157363892, "sentence": "henry personally keeps the car today"}
+{"head": "module", "relation": "part_of", "tail": "network", "confidence": 0.9639227390289307, "sentence": "module is part of network currently"}
+{"head": "wendy", "relation": "works_at", "tail": "brown", "confidence": 0.6597432494163513, "sentence": "wendy seriously trains at brown"}
+{"head": "paul", "relation": "married_to", "tail": "emma", "confidence": 0.9964010715484619, "sentence": "paul is married to emma legally"}
+{"head": "liam", "relation": "studies_at", "tail": "stanford", "confidence": 0.5110242366790771, "sentence": "liam actively learns at stanford now"}
+{"head": "olivia", "relation": "parent_of", "tail": "carol", "confidence": 0.9579859972000122, "sentence": "olivia is parent of carol officially"}
+{"head": "olivia", "relation": "studies_at", "tail": "cambridge", "confidence": 0.5052934885025024, "sentence": "olivia diligently trains at cambridge daily"}
+{"head": "quinn", "relation": "works_at", "tail": "dubai", "confidence": 0.8410593867301941, "sentence": "quinn currently lives in dubai now"}
+{"head": "jack", "relation": "parent_of", "tail": "paul", "confidence": 0.9858318567276001, "sentence": "jack is parent of paul biologically"}
+{"head": "grace", "relation": "uses", "tail": "git", "confidence": 0.8278927803039551, "sentence": "grace daily operates git effectively"}
+{"head": "stadium", "relation": "located_in", "tail": "madrid", "confidence": 0.9997956156730652, "sentence": "stadium is located in madrid today"}
+{"head": "sam", "relation": "married_to", "tail": "henry", "confidence": 0.9999040365219116, "sentence": "sam is married to henry legally"}
+{"head": "tina", "relation": "studies_at", "tail": "harvard", "confidence": 0.7722495794296265, "sentence": "tina actively studies at harvard now"}
+{"head": "dave", "relation": "studies_at", "tail": "duke", "confidence": 0.5005429983139038, "sentence": "dave diligently trains at duke daily"}
+{"head": "irene", "relation": "born_in", "tail": "prague", "confidence": 1.0, "sentence": "irene was born in prague officially"}
+{"head": "frank", "relation": "owns", "tail": "bicycle", "confidence": 1.0, "sentence": "frank securely holds bicycle today"}
+{"head": "dave", "relation": "works_at", "tail": "lisbon", "confidence": 0.7114965915679932, "sentence": "dave currently resides in lisbon daily"}
+{"head": "zane", "relation": "owns", "tail": "bicycle", "confidence": 1.0, "sentence": "zane legally holds the bicycle currently"}
+{"head": "screen", "relation": "part_of", "tail": "system", "confidence": 0.5999623537063599, "sentence": "screen is part of system today"}
+{"head": "jack", "relation": "lives_in", "tail": "seoul", "confidence": 0.9999361038208008, "sentence": "jack often resides in seoul now"}
+{"head": "emma", "relation": "lives_in", "tail": "berlin", "confidence": 0.9999364614486694, "sentence": "emma usually dwells in berlin"}
+{"head": "library", "relation": "located_in", "tail": "dubai", "confidence": 0.9958048462867737, "sentence": "library is located in dubai"}
+{"head": "liam", "relation": "lives_in", "tail": "oslo", "confidence": 0.9999362230300903, "sentence": "liam often lives in oslo daily"}
+{"head": "paul", "relation": "parent_of", "tail": "rachel", "confidence": 0.9616298675537109, "sentence": "paul is parent of rachel legally"}
+{"head": "yasmin", "relation": "uses", "tail": "pytorch", "confidence": 0.9973022937774658, "sentence": "yasmin routinely handles pytorch today"}
+{"head": "zane", "relation": "uses", "tail": "figma", "confidence": 0.5213262438774109, "sentence": "zane regularly operates figma effectively"}
+{"head": "mia", "relation": "studies_at", "tail": "paypal", "confidence": 0.7908660769462585, "sentence": "mia actively leads at paypal now"}
+{"head": "umar", "relation": "works_at", "tail": "berlin", "confidence": 0.6919443607330322, "sentence": "umar currently dwells in berlin daily"}
+{"head": "jack", "relation": "works_at", "tail": "paypal", "confidence": 0.6167196035385132, "sentence": "jack currently works at paypal daily"}
+{"head": "paul", "relation": "parent_of", "tail": "irene", "confidence": 0.958362877368927, "sentence": "paul is married to irene officially"}
+{"head": "henry", "relation": "uses", "tail": "pytorch", "confidence": 0.5621122717857361, "sentence": "henry regularly operates the pytorch carefully"}
+{"head": "quinn", "relation": "works_at", "tail": "lisbon", "confidence": 0.8410599231719971, "sentence": "quinn currently lives in lisbon now"}
+{"head": "zane", "relation": "born_in", "tail": "denver", "confidence": 1.0, "sentence": "zane was born in denver"}
+{"head": "sam", "relation": "owns", "tail": "printer", "confidence": 0.9999990463256836, "sentence": "sam legally owns printer currently"}
+{"head": "grace", "relation": "studies_at", "tail": "nus", "confidence": 0.7626078724861145, "sentence": "grace actively trains at nus"}
+{"head": "screen", "relation": "part_of", "tail": "vehicle", "confidence": 0.9604844450950623, "sentence": "screen is part of vehicle"}
+{"head": "valve", "relation": "part_of", "tail": "machine", "confidence": 0.9674893617630005, "sentence": "valve is part of machine currently"}
+{"head": "tina", "relation": "married_to", "tail": "karen", "confidence": 0.9973704814910889, "sentence": "tina is married to karen"}
+{"head": "quinn", "relation": "parent_of", "tail": "dave", "confidence": 0.9219905138015747, "sentence": "quinn is parent of dave officially"}
+{"head": "bob", "relation": "parent_of", "tail": "liam", "confidence": 0.953734278678894, "sentence": "bob is married to liam officially"}
+{"head": "xavier", "relation": "born_in", "tail": "berlin", "confidence": 1.0, "sentence": "xavier was born in berlin historically"}
+{"head": "rachel", "relation": "born_in", "tail": "madrid", "confidence": 1.0, "sentence": "rachel was born in madrid officially"}
+{"head": "dave", "relation": "works_at", "tail": "madrid", "confidence": 0.6505002975463867, "sentence": "dave currently lives in madrid daily"}
+{"head": "emma", "relation": "married_to", "tail": "wendy", "confidence": 0.9918034076690674, "sentence": "emma is married to wendy"}
+{"head": "kernel", "relation": "part_of", "tail": "drone", "confidence": 0.6119622588157654, "sentence": "kernel is part of drone today"}
+{"head": "carol", "relation": "studies_at", "tail": "iisc", "confidence": 0.7604118585586548, "sentence": "carol diligently trains at iisc today"}
+{"head": "henry", "relation": "married_to", "tail": "xavier", "confidence": 0.9983181953430176, "sentence": "henry is married to xavier"}
+{"head": "jack", "relation": "married_to", "tail": "mia", "confidence": 0.9999513626098633, "sentence": "jack is married to mia legally"}
+{"head": "museum", "relation": "located_in", "tail": "rome", "confidence": 0.9989883303642273, "sentence": "museum is located in rome today"}
+{"head": "frank", "relation": "parent_of", "tail": "paul", "confidence": 0.9673449993133545, "sentence": "frank is parent of paul legally"}
+{"head": "dave", "relation": "parent_of", "tail": "liam", "confidence": 0.9581651091575623, "sentence": "dave is parent of liam officially"}
+{"head": "jack", "relation": "owns", "tail": "console", "confidence": 0.9999995231628418, "sentence": "jack legally owns the console today"}
+{"head": "motor", "relation": "part_of", "tail": "robot", "confidence": 0.5978261232376099, "sentence": "motor is part of robot today"}
+{"head": "noah", "relation": "parent_of", "tail": "carol", "confidence": 0.8718137741088867, "sentence": "noah is parent of carol biologically"}
+{"head": "bob", "relation": "married_to", "tail": "xavier", "confidence": 0.9741409420967102, "sentence": "bob is married to xavier legally"}
+{"head": "victor", "relation": "works_at", "tail": "prague", "confidence": 0.6919612884521484, "sentence": "victor currently dwells in prague daily"}
+{"head": "engine", "relation": "part_of", "tail": "robot", "confidence": 0.9702788591384888, "sentence": "engine is part of robot officially"}
+{"head": "valve", "relation": "part_of", "tail": "platform", "confidence": 0.967484712600708, "sentence": "valve is part of platform currently"}
+{"head": "stadium", "relation": "located_in", "tail": "phoenix", "confidence": 0.9997695088386536, "sentence": "stadium is located in phoenix currently"}
+{"head": "center", "relation": "located_in", "tail": "paris", "confidence": 0.9996821880340576, "sentence": "center is located in paris officially"}
+{"head": "karen", "relation": "married_to", "tail": "yasmin", "confidence": 0.999665379524231, "sentence": "karen is married to yasmin"}
+{"head": "umar", "relation": "uses", "tail": "jira", "confidence": 0.5546537637710571, "sentence": "umar regularly handles the jira carefully"}
+{"head": "sam", "relation": "married_to", "tail": "olivia", "confidence": 0.9999003410339355, "sentence": "sam is married to olivia officially"}
+{"head": "rachel", "relation": "born_in", "tail": "boston", "confidence": 1.0, "sentence": "rachel was born in boston"}
+{"head": "irene", "relation": "born_in", "tail": "zurich", "confidence": 1.0, "sentence": "irene was born in zurich recently"}
+{"head": "port", "relation": "located_in", "tail": "vienna", "confidence": 0.9994637370109558, "sentence": "port is located in vienna"}
+{"head": "paul", "relation": "owns", "tail": "house", "confidence": 1.0, "sentence": "paul securely owns house currently"}
+{"head": "alice", "relation": "works_at", "tail": "uber", "confidence": 0.5065569877624512, "sentence": "alice actively serves at uber"}
+{"head": "bob", "relation": "owns", "tail": "guitar", "confidence": 1.0, "sentence": "bob legally keeps the guitar today"}
+{"head": "emma", "relation": "lives_in", "tail": "seoul", "confidence": 0.9999364614486694, "sentence": "emma usually lives in seoul now"}
+{"head": "henry", "relation": "parent_of", "tail": "victor", "confidence": 0.9572212100028992, "sentence": "henry is parent of victor officially"}
+{"head": "sam", "relation": "owns", "tail": "car", "confidence": 0.9999994039535522, "sentence": "sam securely owns the car officially"}
+{"head": "embassy", "relation": "located_in", "tail": "delhi", "confidence": 0.9997180104255676, "sentence": "embassy is located in delhi officially"}
+{"head": "terminal", "relation": "located_in", "tail": "vienna", "confidence": 0.9997400641441345, "sentence": "terminal is located in vienna officially"}
+{"head": "screen", "relation": "part_of", "tail": "vehicle", "confidence": 0.9689551591873169, "sentence": "screen is part of vehicle currently"}
+{"head": "bob", "relation": "born_in", "tail": "rome", "confidence": 1.0, "sentence": "bob was born in rome"}
+{"head": "xavier", "relation": "parent_of", "tail": "mia", "confidence": 0.9485378861427307, "sentence": "xavier is parent of mia"}
+{"head": "hospital", "relation": "located_in", "tail": "prague", "confidence": 0.9993608593940735, "sentence": "hospital is located in prague currently"}
+{"head": "karen", "relation": "uses", "tail": "spark", "confidence": 0.9974145889282227, "sentence": "karen routinely handles spark effectively"}
+{"head": "umar", "relation": "studies_at", "tail": "harvard", "confidence": 0.7944925427436829, "sentence": "umar diligently learns at harvard today"}
+{"head": "liam", "relation": "owns", "tail": "camera", "confidence": 1.0, "sentence": "liam legally keeps camera officially"}
+{"head": "frank", "relation": "born_in", "tail": "rome", "confidence": 1.0, "sentence": "frank was born in rome officially"}
+{"head": "wendy", "relation": "owns", "tail": "house", "confidence": 0.9995927214622498, "sentence": "wendy personally keeps house today"}
+{"head": "liam", "relation": "studies_at", "tail": "google", "confidence": 0.6036904454231262, "sentence": "liam actively works at google daily"}
+{"head": "tina", "relation": "lives_in", "tail": "tokyo", "confidence": 0.9999346733093262, "sentence": "tina often dwells in tokyo daily"}
+{"head": "xavier", "relation": "born_in", "tail": "tokyo", "confidence": 1.0, "sentence": "xavier was born in tokyo historically"}
+{"head": "jack", "relation": "uses", "tail": "kafka", "confidence": 0.5251660943031311, "sentence": "jack regularly operates the kafka effectively"}
+{"head": "battery", "relation": "part_of", "tail": "drone", "confidence": 0.9660958051681519, "sentence": "battery is part of drone currently"}
+{"head": "alice", "relation": "lives_in", "tail": "seoul", "confidence": 0.9999347925186157, "sentence": "alice often resides in seoul"}
+{"head": "henry", "relation": "studies_at", "tail": "ucla", "confidence": 0.5016903877258301, "sentence": "henry diligently studies at ucla daily"}
+{"head": "museum", "relation": "located_in", "tail": "dallas", "confidence": 0.9988671541213989, "sentence": "museum is located in dallas currently"}
+{"head": "umar", "relation": "works_at", "tail": "yale", "confidence": 0.5573883652687073, "sentence": "umar actively trains at yale today"}
+{"head": "tina", "relation": "born_in", "tail": "dubai", "confidence": 1.0, "sentence": "tina was born in dubai"}
+{"head": "olivia", "relation": "uses", "tail": "tableau", "confidence": 0.9957536458969116, "sentence": "olivia daily uses tableau carefully"}
+{"head": "office", "relation": "located_in", "tail": "prague", "confidence": 0.9892264008522034, "sentence": "office is located in prague today"}
+{"head": "zane", "relation": "parent_of", "tail": "rachel", "confidence": 0.9491471648216248, "sentence": "zane is parent of rachel legally"}
+{"head": "circuit", "relation": "part_of", "tail": "system", "confidence": 0.9681670665740967, "sentence": "circuit is part of system currently"}
+{"head": "sam", "relation": "married_to", "tail": "rachel", "confidence": 0.9998984336853027, "sentence": "sam is married to rachel happily"}
+{"head": "engine", "relation": "part_of", "tail": "drone", "confidence": 0.5852140784263611, "sentence": "engine is part of drone today"}
+{"head": "quinn", "relation": "uses", "tail": "oracle", "confidence": 0.5517833828926086, "sentence": "quinn regularly leads at oracle daily"}
+{"head": "dave", "relation": "born_in", "tail": "phoenix", "confidence": 1.0, "sentence": "dave was born in phoenix recently"}
+{"head": "henry", "relation": "owns", "tail": "watch", "confidence": 1.0, "sentence": "henry securely holds the watch currently"}
+{"head": "irene", "relation": "uses", "tail": "git", "confidence": 0.8224907517433167, "sentence": "irene daily operates the git effectively"}
+{"head": "zane", "relation": "studies_at", "tail": "duke", "confidence": 0.5004475712776184, "sentence": "zane diligently learns at duke daily"}
+{"head": "tina", "relation": "lives_in", "tail": "delhi", "confidence": 0.5274903178215027, "sentence": "tina currently dwells in delhi daily"}
+{"head": "plugin", "relation": "part_of", "tail": "vehicle", "confidence": 0.9647343158721924, "sentence": "plugin is part of vehicle currently"}
+{"head": "engine", "relation": "part_of", "tail": "device", "confidence": 0.9654424786567688, "sentence": "engine is part of device currently"}
+{"head": "alice", "relation": "owns", "tail": "boat", "confidence": 0.9999997615814209, "sentence": "alice legally holds boat today"}
+{"head": "mia", "relation": "studies_at", "tail": "brown", "confidence": 0.9234832525253296, "sentence": "mia actively learns at brown"}
+{"head": "alice", "relation": "studies_at", "tail": "uber", "confidence": 0.7556668519973755, "sentence": "alice actively serves at uber now"}
+{"head": "xavier", "relation": "owns", "tail": "scooter", "confidence": 0.9999996423721313, "sentence": "xavier securely owns the scooter officially"}
+{"head": "center", "relation": "located_in", "tail": "delhi", "confidence": 0.9996873140335083, "sentence": "center is located in delhi"}
+{"head": "frank", "relation": "lives_in", "tail": "miami", "confidence": 0.9999347925186157, "sentence": "frank often resides in miami"}
+{"head": "grace", "relation": "owns", "tail": "laptop", "confidence": 0.9996612071990967, "sentence": "grace personally owns laptop officially"}
+{"head": "port", "relation": "located_in", "tail": "madrid", "confidence": 0.99951171875, "sentence": "port is located in madrid today"}
+{"head": "switch", "relation": "part_of", "tail": "server", "confidence": 0.9719109535217285, "sentence": "switch is part of server officially"}
+{"head": "irene", "relation": "works_at", "tail": "adobe", "confidence": 0.6335615515708923, "sentence": "irene actively works at adobe today"}
+{"head": "jack", "relation": "uses", "tail": "figma", "confidence": 0.9974014759063721, "sentence": "jack routinely operates figma effectively"}
+{"head": "karen", "relation": "lives_in", "tail": "phoenix", "confidence": 0.9999364614486694, "sentence": "karen usually resides in phoenix now"}
+{"head": "zane", "relation": "studies_at", "tail": "zoom", "confidence": 0.8959222435951233, "sentence": "zane actively works at zoom"}
+{"head": "wendy", "relation": "uses", "tail": "tensorflow", "confidence": 0.9616093635559082, "sentence": "wendy daily uses the tensorflow carefully"}
+{"head": "circuit", "relation": "part_of", "tail": "aircraft", "confidence": 0.9681744575500488, "sentence": "circuit is part of aircraft currently"}
+{"head": "gallery", "relation": "located_in", "tail": "lisbon", "confidence": 0.9987106323242188, "sentence": "gallery is located in lisbon today"}
+{"head": "factory", "relation": "located_in", "tail": "rome", "confidence": 0.9984323382377625, "sentence": "factory is located in rome currently"}
+{"head": "karen", "relation": "born_in", "tail": "zurich", "confidence": 1.0, "sentence": "karen was born in zurich historically"}
+{"head": "sam", "relation": "parent_of", "tail": "emma", "confidence": 0.9647076725959778, "sentence": "sam is parent of emma biologically"}
+{"head": "quinn", "relation": "studies_at", "tail": "cambridge", "confidence": 0.5085642337799072, "sentence": "quinn diligently learns at cambridge now"}
+{"head": "quinn", "relation": "married_to", "tail": "irene", "confidence": 0.9692239165306091, "sentence": "quinn is married to irene"}
+{"head": "router", "relation": "part_of", "tail": "system", "confidence": 0.9431636929512024, "sentence": "router is part of system"}
+{"head": "liam", "relation": "uses", "tail": "docker", "confidence": 0.9973481893539429, "sentence": "liam routinely handles docker effectively"}
+{"head": "sam", "relation": "married_to", "tail": "alice", "confidence": 0.9999022483825684, "sentence": "sam is married to alice legally"}
+{"head": "jack", "relation": "works_at", "tail": "zoom", "confidence": 0.840715229511261, "sentence": "jack currently works at zoom now"}
+{"head": "emma", "relation": "married_to", "tail": "noah", "confidence": 0.9916935563087463, "sentence": "emma is married to noah happily"}
+{"head": "quinn", "relation": "uses", "tail": "adobe", "confidence": 0.5578886866569519, "sentence": "quinn regularly works at adobe today"}
+{"head": "rachel", "relation": "uses", "tail": "tensorflow", "confidence": 0.9974749684333801, "sentence": "rachel routinely operates tensorflow carefully"}
+{"head": "rachel", "relation": "born_in", "tail": "boston", "confidence": 1.0, "sentence": "rachel was born in boston officially"}
+{"head": "port", "relation": "located_in", "tail": "berlin", "confidence": 0.9994551539421082, "sentence": "port is located in berlin officially"}
+{"head": "henry", "relation": "born_in", "tail": "phoenix", "confidence": 1.0, "sentence": "henry was born in phoenix"}
+{"head": "tina", "relation": "uses", "tail": "slack", "confidence": 0.8326958417892456, "sentence": "tina daily operates slack effectively"}
+{"head": "jack", "relation": "studies_at", "tail": "princeton", "confidence": 0.8259333968162537, "sentence": "jack seriously trains at princeton"}
+{"head": "olivia", "relation": "part_of", "tail": "linux", "confidence": 0.6241567730903625, "sentence": "olivia daily operates linux today"}
+{"head": "quinn", "relation": "lives_in", "tail": "dallas", "confidence": 0.9999362230300903, "sentence": "quinn often resides in dallas daily"}
+{"head": "olivia", "relation": "parent_of", "tail": "sam", "confidence": 0.9009535312652588, "sentence": "olivia is parent of sam legally"}
+{"head": "frank", "relation": "born_in", "tail": "paris", "confidence": 1.0, "sentence": "frank was born in paris"}
+{"head": "noah", "relation": "parent_of", "tail": "liam", "confidence": 0.8679504990577698, "sentence": "noah is parent of liam biologically"}
+{"head": "dave", "relation": "parent_of", "tail": "liam", "confidence": 0.9146149754524231, "sentence": "dave is parent of liam legally"}
+{"head": "victor", "relation": "parent_of", "tail": "sam", "confidence": 0.9117705225944519, "sentence": "victor is parent of sam legally"}
+{"head": "emma", "relation": "owns", "tail": "boat", "confidence": 0.9996557235717773, "sentence": "emma personally keeps boat currently"}
+{"head": "mia", "relation": "studies_at", "tail": "samsung", "confidence": 0.6442105770111084, "sentence": "mia actively serves at samsung daily"}
+{"head": "stadium", "relation": "located_in", "tail": "rome", "confidence": 0.9997711777687073, "sentence": "stadium is located in rome officially"}
+{"head": "xavier", "relation": "parent_of", "tail": "victor", "confidence": 0.8189871907234192, "sentence": "xavier is parent of victor legally"}
+{"head": "quinn", "relation": "lives_in", "tail": "boston", "confidence": 0.9999345541000366, "sentence": "quinn often dwells in boston daily"}
+{"head": "tina", "relation": "studies_at", "tail": "google", "confidence": 0.7740054130554199, "sentence": "tina actively serves at google now"}
+{"head": "grace", "relation": "lives_in", "tail": "oslo", "confidence": 0.9999364614486694, "sentence": "grace usually resides in oslo daily"}
+{"head": "zane", "relation": "uses", "tail": "spark", "confidence": 0.5292209386825562, "sentence": "zane regularly uses spark effectively"}
+{"head": "xavier", "relation": "parent_of", "tail": "olivia", "confidence": 0.9478071331977844, "sentence": "xavier is parent of olivia officially"}
+{"head": "dave", "relation": "lives_in", "tail": "miami", "confidence": 0.9999364614486694, "sentence": "dave usually resides in miami now"}
+{"head": "umar", "relation": "studies_at", "tail": "oxford", "confidence": 0.6267893314361572, "sentence": "umar actively learns at oxford"}
+{"head": "module", "relation": "part_of", "tail": "cluster", "confidence": 0.588188111782074, "sentence": "module is part of cluster today"}
+{"head": "alice", "relation": "parent_of", "tail": "henry", "confidence": 0.9612563252449036, "sentence": "alice is parent of henry officially"}
+{"head": "bob", "relation": "lives_in", "tail": "sydney", "confidence": 0.9999345541000366, "sentence": "bob often dwells in sydney daily"}
+{"head": "noah", "relation": "uses", "tail": "adobe", "confidence": 0.5573508739471436, "sentence": "noah regularly leads at adobe now"}
+{"head": "noah", "relation": "uses", "tail": "pytorch", "confidence": 0.9973502159118652, "sentence": "noah routinely operates the pytorch today"}
+{"head": "liam", "relation": "uses", "tail": "pytorch", "confidence": 0.5757842659950256, "sentence": "liam daily operates the pytorch carefully"}
+{"head": "carol", "relation": "studies_at", "tail": "netflix", "confidence": 0.8376844525337219, "sentence": "carol actively serves at netflix daily"}
+{"head": "mia", "relation": "married_to", "tail": "frank", "confidence": 0.9999496936798096, "sentence": "mia is married to frank happily"}
+{"head": "irene", "relation": "uses", "tail": "tesla", "confidence": 0.5351649522781372, "sentence": "irene regularly leads at tesla daily"}
+{"head": "wendy", "relation": "works_at", "tail": "samsung", "confidence": 0.5989851355552673, "sentence": "wendy actively leads at samsung today"}
+{"head": "emma", "relation": "married_to", "tail": "olivia", "confidence": 0.991747260093689, "sentence": "emma is married to olivia officially"}
+{"head": "wendy", "relation": "studies_at", "tail": "duke", "confidence": 0.966359555721283, "sentence": "wendy seriously learns at duke today"}
+{"head": "paul", "relation": "married_to", "tail": "tina", "confidence": 0.9964004755020142, "sentence": "paul is married to tina legally"}
+{"head": "olivia", "relation": "married_to", "tail": "xavier", "confidence": 0.9995261430740356, "sentence": "olivia is married to xavier legally"}
+{"head": "emma", "relation": "married_to", "tail": "henry", "confidence": 0.9918035268783569, "sentence": "emma is married to henry"}
+{"head": "emma", "relation": "born_in", "tail": "berlin", "confidence": 1.0, "sentence": "emma was born in berlin recently"}
+{"head": "rachel", "relation": "married_to", "tail": "bob", "confidence": 0.971418559551239, "sentence": "rachel is married to bob happily"}
+{"head": "victor", "relation": "works_at", "tail": "paris", "confidence": 0.5229949355125427, "sentence": "victor currently dwells in paris today"}
+{"head": "sam", "relation": "uses", "tail": "pytorch", "confidence": 0.993690013885498, "sentence": "sam daily handles the pytorch carefully"}
+{"head": "dave", "relation": "studies_at", "tail": "adobe", "confidence": 0.6380470395088196, "sentence": "dave actively leads at adobe daily"}
+{"head": "olivia", "relation": "works_at", "tail": "siemens", "confidence": 0.8090187907218933, "sentence": "olivia currently works at siemens daily"}
+{"head": "motor", "relation": "part_of", "tail": "cluster", "confidence": 0.9550072550773621, "sentence": "motor is part of cluster currently"}
+{"head": "liam", "relation": "owns", "tail": "guitar", "confidence": 0.9993890523910522, "sentence": "liam personally keeps the guitar today"}
+{"head": "karen", "relation": "parent_of", "tail": "victor", "confidence": 0.9569451808929443, "sentence": "karen is parent of victor officially"}
+{"head": "henry", "relation": "parent_of", "tail": "rachel", "confidence": 0.9541919827461243, "sentence": "henry is parent of rachel legally"}
+{"head": "frank", "relation": "uses", "tail": "nvidia", "confidence": 0.8738884329795837, "sentence": "frank regularly leads at nvidia now"}
+{"head": "circuit", "relation": "part_of", "tail": "platform", "confidence": 0.9681764245033264, "sentence": "circuit is part of platform currently"}
+{"head": "quinn", "relation": "studies_at", "tail": "duke", "confidence": 0.8460167646408081, "sentence": "quinn actively learns at duke"}
+{"head": "grace", "relation": "studies_at", "tail": "ucsd", "confidence": 0.8204560279846191, "sentence": "grace actively studies at ucsd daily"}
+{"head": "port", "relation": "located_in", "tail": "oslo", "confidence": 0.9994551539421082, "sentence": "port is located in oslo officially"}
+{"head": "plugin", "relation": "part_of", "tail": "system", "confidence": 0.9600823521614075, "sentence": "plugin is part of system"}
+{"head": "henry", "relation": "married_to", "tail": "irene", "confidence": 0.9983135461807251, "sentence": "henry is married to irene officially"}
+{"head": "frank", "relation": "part_of", "tail": "tina", "confidence": 0.7589311003684998, "sentence": "frank is parent of tina officially"}
+{"head": "tina", "relation": "parent_of", "tail": "henry", "confidence": 0.9480655193328857, "sentence": "tina is parent of henry legally"}
+{"head": "wendy", "relation": "parent_of", "tail": "sam", "confidence": 0.9473267793655396, "sentence": "wendy is parent of sam"}
+{"head": "jack", "relation": "born_in", "tail": "oslo", "confidence": 1.0, "sentence": "jack was born in oslo recently"}
+{"head": "quinn", "relation": "married_to", "tail": "bob", "confidence": 0.9690450429916382, "sentence": "quinn is married to bob officially"}
+{"head": "irene", "relation": "works_at", "tail": "sap", "confidence": 0.8407386541366577, "sentence": "irene currently leads at sap now"}
+{"head": "zane", "relation": "uses", "tail": "spark", "confidence": 0.9975472092628479, "sentence": "zane routinely uses spark carefully"}
+{"head": "wendy", "relation": "studies_at", "tail": "epfl", "confidence": 0.5130313038825989, "sentence": "wendy diligently studies at epfl now"}
+{"head": "henry", "relation": "part_of", "tail": "slack", "confidence": 0.6186705827713013, "sentence": "henry daily uses slack today"}
+{"head": "mia", "relation": "married_to", "tail": "emma", "confidence": 0.9999496936798096, "sentence": "mia is married to emma happily"}
+{"head": "olivia", "relation": "owns", "tail": "house", "confidence": 0.9999973773956299, "sentence": "olivia legally owns house currently"}
+{"head": "xavier", "relation": "born_in", "tail": "london", "confidence": 1.0, "sentence": "xavier was born in london historically"}
+{"head": "victor", "relation": "born_in", "tail": "prague", "confidence": 1.0, "sentence": "victor was born in prague"}
+{"head": "liam", "relation": "uses", "tail": "kafka", "confidence": 0.5737234354019165, "sentence": "liam daily uses the kafka effectively"}
+{"head": "liam", "relation": "owns", "tail": "camera", "confidence": 0.9999998807907104, "sentence": "liam securely owns camera officially"}
+{"head": "dave", "relation": "married_to", "tail": "paul", "confidence": 0.9805417060852051, "sentence": "dave is married to paul"}
+{"head": "gear", "relation": "part_of", "tail": "drone", "confidence": 0.5846220254898071, "sentence": "gear is part of drone today"}
+{"head": "umar", "relation": "uses", "tail": "spark", "confidence": 0.5495412349700928, "sentence": "umar regularly uses spark effectively"}
+{"head": "alice", "relation": "uses", "tail": "amazon", "confidence": 0.5605202317237854, "sentence": "alice regularly leads at amazon"}
+{"head": "router", "relation": "part_of", "tail": "drone", "confidence": 0.9587263464927673, "sentence": "router is part of drone currently"}
+{"head": "zane", "relation": "owns", "tail": "tablet", "confidence": 0.999567449092865, "sentence": "zane personally holds tablet today"}
+{"head": "jack", "relation": "part_of", "tail": "tensorflow", "confidence": 0.5821794271469116, "sentence": "jack daily operates tensorflow today"}
+{"head": "xavier", "relation": "works_at", "tail": "adobe", "confidence": 0.8087002635002136, "sentence": "xavier currently serves at adobe daily"}
+{"head": "paul", "relation": "married_to", "tail": "emma", "confidence": 0.99637371301651, "sentence": "paul is married to emma happily"}
+{"head": "yasmin", "relation": "born_in", "tail": "miami", "confidence": 1.0, "sentence": "yasmin was born in miami historically"}
+{"head": "battery", "relation": "part_of", "tail": "pipeline", "confidence": 0.5901317596435547, "sentence": "battery is part of pipeline today"}
+{"head": "studio", "relation": "located_in", "tail": "vienna", "confidence": 0.9996641874313354, "sentence": "studio is located in vienna officially"}
+{"head": "quinn", "relation": "owns", "tail": "scooter", "confidence": 1.0, "sentence": "quinn securely keeps the scooter officially"}
+{"head": "wendy", "relation": "works_at", "tail": "tokyo", "confidence": 0.650184690952301, "sentence": "wendy currently lives in tokyo daily"}
+{"head": "paul", "relation": "uses", "tail": "sql", "confidence": 0.5634291172027588, "sentence": "paul daily handles the sql effectively"}
+{"head": "kernel", "relation": "part_of", "tail": "cluster", "confidence": 0.9355752468109131, "sentence": "kernel is part of cluster officially"}
+{"head": "olivia", "relation": "studies_at", "tail": "epfl", "confidence": 0.8095040321350098, "sentence": "olivia actively trains at epfl"}
+{"head": "xavier", "relation": "married_to", "tail": "paul", "confidence": 0.9999523162841797, "sentence": "xavier is married to paul legally"}
+{"head": "jack", "relation": "married_to", "tail": "xavier", "confidence": 0.999950647354126, "sentence": "jack is married to xavier"}
+{"head": "rachel", "relation": "born_in", "tail": "rome", "confidence": 1.0, "sentence": "rachel was born in rome recently"}
+{"head": "stadium", "relation": "located_in", "tail": "lisbon", "confidence": 0.9997711777687073, "sentence": "stadium is located in lisbon officially"}
+{"head": "bob", "relation": "studies_at", "tail": "epfl", "confidence": 0.7912867665290833, "sentence": "bob actively studies at epfl daily"}
+{"head": "frank", "relation": "parent_of", "tail": "emma", "confidence": 0.9728881120681763, "sentence": "frank is parent of emma biologically"}
+{"head": "bob", "relation": "works_at", "tail": "spotify", "confidence": 0.6034945249557495, "sentence": "bob currently works at spotify today"}
+{"head": "emma", "relation": "lives_in", "tail": "tokyo", "confidence": 0.9999364614486694, "sentence": "emma usually lives in tokyo"}
+{"head": "tina", "relation": "works_at", "tail": "airbnb", "confidence": 0.55498868227005, "sentence": "tina currently serves at airbnb daily"}
+{"head": "henry", "relation": "owns", "tail": "car", "confidence": 0.999442994594574, "sentence": "henry personally keeps car officially"}
+{"head": "jack", "relation": "born_in", "tail": "boston", "confidence": 1.0, "sentence": "jack was born in boston recently"}
+{"head": "xavier", "relation": "parent_of", "tail": "bob", "confidence": 0.9488825798034668, "sentence": "xavier is parent of bob"}
+{"head": "valve", "relation": "part_of", "tail": "robot", "confidence": 0.9682018160820007, "sentence": "valve is part of robot"}
+{"head": "bob", "relation": "lives_in", "tail": "berlin", "confidence": 0.9999361038208008, "sentence": "bob often resides in berlin now"}
+{"head": "olivia", "relation": "born_in", "tail": "miami", "confidence": 1.0, "sentence": "olivia was born in miami officially"}
+{"head": "emma", "relation": "works_at", "tail": "tesla", "confidence": 0.8272827863693237, "sentence": "emma currently leads at tesla"}
+{"head": "liam", "relation": "lives_in", "tail": "miami", "confidence": 0.9999361038208008, "sentence": "liam often resides in miami now"}
+{"head": "emma", "relation": "married_to", "tail": "yasmin", "confidence": 0.9918035268783569, "sentence": "emma is married to yasmin"}
+{"head": "dave", "relation": "parent_of", "tail": "xavier", "confidence": 0.9101372957229614, "sentence": "dave is parent of xavier"}
+{"head": "alice", "relation": "works_at", "tail": "tokyo", "confidence": 0.5362746715545654, "sentence": "alice currently resides in tokyo today"}
+{"head": "xavier", "relation": "part_of", "tail": "git", "confidence": 0.6241081953048706, "sentence": "xavier daily operates git today"}
+{"head": "zane", "relation": "owns", "tail": "guitar", "confidence": 1.0, "sentence": "zane legally owns the guitar officially"}
+{"head": "mia", "relation": "owns", "tail": "boat", "confidence": 0.9999994039535522, "sentence": "mia legally keeps the boat today"}
+{"head": "emma", "relation": "uses", "tail": "spark", "confidence": 0.5626659393310547, "sentence": "emma regularly operates the spark carefully"}
+{"head": "zane", "relation": "owns", "tail": "car", "confidence": 0.9995842576026917, "sentence": "zane personally keeps the car today"}
+{"head": "yasmin", "relation": "lives_in", "tail": "sydney", "confidence": 0.9999361038208008, "sentence": "yasmin often dwells in sydney now"}
+{"head": "mia", "relation": "works_at", "tail": "spotify", "confidence": 0.8053743839263916, "sentence": "mia currently works at spotify daily"}
+{"head": "noah", "relation": "parent_of", "tail": "henry", "confidence": 0.8346256613731384, "sentence": "noah is parent of henry legally"}
+{"head": "quinn", "relation": "studies_at", "tail": "oxford", "confidence": 0.5644197463989258, "sentence": "quinn seriously studies at oxford"}
+{"head": "quinn", "relation": "owns", "tail": "studio", "confidence": 1.0, "sentence": "quinn legally owns the studio currently"}
+{"head": "umar", "relation": "works_at", "tail": "london", "confidence": 0.6502887606620789, "sentence": "umar currently lives in london daily"}
+{"head": "henry", "relation": "studies_at", "tail": "epfl", "confidence": 0.7531558275222778, "sentence": "henry actively trains at epfl"}
+{"head": "victor", "relation": "uses", "tail": "git", "confidence": 0.9973524808883667, "sentence": "victor routinely operates the git today"}
+{"head": "switch", "relation": "part_of", "tail": "vehicle", "confidence": 0.5699496269226074, "sentence": "switch is part of vehicle today"}
+{"head": "motor", "relation": "part_of", "tail": "drone", "confidence": 0.5985874533653259, "sentence": "motor is part of drone today"}
+{"head": "noah", "relation": "works_at", "tail": "paris", "confidence": 0.6506046652793884, "sentence": "noah currently lives in paris daily"}
+{"head": "umar", "relation": "studies_at", "tail": "cornell", "confidence": 0.5152608752250671, "sentence": "umar diligently trains at cornell now"}
+{"head": "liam", "relation": "studies_at", "tail": "intel", "confidence": 0.6043109893798828, "sentence": "liam actively leads at intel daily"}
+{"head": "valve", "relation": "part_of", "tail": "network", "confidence": 0.968183159828186, "sentence": "valve is part of network today"}
+{"head": "irene", "relation": "born_in", "tail": "boston", "confidence": 1.0, "sentence": "irene was born in boston"}
+{"head": "campus", "relation": "located_in", "tail": "paris", "confidence": 0.9996191263198853, "sentence": "campus is located in paris officially"}
+{"head": "module", "relation": "part_of", "tail": "device", "confidence": 0.5860438346862793, "sentence": "module is part of device today"}
+{"head": "grace", "relation": "born_in", "tail": "vienna", "confidence": 1.0, "sentence": "grace was born in vienna"}
+{"head": "carol", "relation": "studies_at", "tail": "ethz", "confidence": 0.5036084651947021, "sentence": "carol diligently studies at ethz daily"}
+{"head": "stadium", "relation": "located_in", "tail": "miami", "confidence": 0.9997748732566833, "sentence": "stadium is located in miami"}
+{"head": "alice", "relation": "married_to", "tail": "noah", "confidence": 0.9943273663520813, "sentence": "alice is married to noah officially"}
+{"head": "hospital", "relation": "located_in", "tail": "dallas", "confidence": 0.999365508556366, "sentence": "hospital is located in dallas officially"}
+{"head": "frank", "relation": "part_of", "tail": "paul", "confidence": 0.7587725520133972, "sentence": "frank is parent of paul officially"}
+{"head": "office", "relation": "located_in", "tail": "lisbon", "confidence": 0.9880786538124084, "sentence": "office is located in lisbon currently"}
+{"head": "kernel", "relation": "part_of", "tail": "aircraft", "confidence": 0.6121272444725037, "sentence": "kernel is part of aircraft today"}
+{"head": "wendy", "relation": "born_in", "tail": "paris", "confidence": 1.0, "sentence": "wendy was born in paris historically"}
+{"head": "emma", "relation": "born_in", "tail": "prague", "confidence": 1.0, "sentence": "emma was born in prague historically"}
+{"head": "irene", "relation": "born_in", "tail": "denver", "confidence": 1.0, "sentence": "irene was born in denver officially"}
+{"head": "warehouse", "relation": "located_in", "tail": "miami", "confidence": 0.999248206615448, "sentence": "warehouse is located in miami today"}
+{"head": "rachel", "relation": "lives_in", "tail": "paris", "confidence": 0.9999364614486694, "sentence": "rachel usually dwells in paris today"}
+{"head": "alice", "relation": "owns", "tail": "printer", "confidence": 0.996353268623352, "sentence": "alice personally holds the printer officially"}
+{"head": "library", "relation": "located_in", "tail": "rome", "confidence": 0.9961509704589844, "sentence": "library is located in rome today"}
+{"head": "liam", "relation": "born_in", "tail": "dallas", "confidence": 1.0, "sentence": "liam was born in dallas"}
+{"head": "xavier", "relation": "works_at", "tail": "cisco", "confidence": 0.8409232497215271, "sentence": "xavier currently serves at cisco now"}
+{"head": "rachel", "relation": "studies_at", "tail": "airbnb", "confidence": 0.7865279316902161, "sentence": "rachel actively leads at airbnb daily"}
+{"head": "henry", "relation": "lives_in", "tail": "denver", "confidence": 0.9999364614486694, "sentence": "henry usually resides in denver today"}
+{"head": "rachel", "relation": "married_to", "tail": "frank", "confidence": 0.9717554450035095, "sentence": "rachel is married to frank"}
+{"head": "zane", "relation": "owns", "tail": "scooter", "confidence": 0.9995738863945007, "sentence": "zane personally holds scooter today"}
+{"head": "victor", "relation": "uses", "tail": "jira", "confidence": 0.553164005279541, "sentence": "victor regularly operates jira today"}
+{"head": "paul", "relation": "studies_at", "tail": "ethz", "confidence": 0.9094668030738831, "sentence": "paul actively trains at ethz"}
+{"head": "grace", "relation": "parent_of", "tail": "zane", "confidence": 0.9576670527458191, "sentence": "grace is parent of zane officially"}
+{"head": "jack", "relation": "studies_at", "tail": "ibm", "confidence": 0.8355798721313477, "sentence": "jack actively works at ibm daily"}
+{"head": "olivia", "relation": "married_to", "tail": "zane", "confidence": 0.9995092153549194, "sentence": "olivia is married to zane officially"}
+{"head": "xavier", "relation": "parent_of", "tail": "alice", "confidence": 0.9488121867179871, "sentence": "xavier is parent of alice"}
+{"head": "jack", "relation": "born_in", "tail": "rome", "confidence": 1.0, "sentence": "jack was born in rome historically"}
+{"head": "bob", "relation": "parent_of", "tail": "xavier", "confidence": 0.9775304198265076, "sentence": "bob is parent of xavier biologically"}
+{"head": "battery", "relation": "part_of", "tail": "machine", "confidence": 0.9635121822357178, "sentence": "battery is part of machine"}
+{"head": "screen", "relation": "part_of", "tail": "robot", "confidence": 0.9603638052940369, "sentence": "screen is part of robot"}
+{"head": "wendy", "relation": "lives_in", "tail": "dubai", "confidence": 0.9999364614486694, "sentence": "wendy usually resides in dubai today"}
+{"head": "dave", "relation": "uses", "tail": "adobe", "confidence": 0.5560038089752197, "sentence": "dave regularly leads at adobe today"}
+{"head": "jack", "relation": "parent_of", "tail": "wendy", "confidence": 0.9431871175765991, "sentence": "jack is parent of wendy legally"}
+{"head": "alice", "relation": "married_to", "tail": "sam", "confidence": 0.9943276047706604, "sentence": "alice is married to sam officially"}
+{"head": "embassy", "relation": "located_in", "tail": "vienna", "confidence": 0.9997479319572449, "sentence": "embassy is located in vienna today"}
+{"head": "carol", "relation": "lives_in", "tail": "madrid", "confidence": 0.9999362230300903, "sentence": "carol often resides in madrid daily"}
+{"head": "campus", "relation": "located_in", "tail": "sydney", "confidence": 0.9996191263198853, "sentence": "campus is located in sydney officially"}
+{"head": "victor", "relation": "studies_at", "tail": "intel", "confidence": 0.8267472982406616, "sentence": "victor actively serves at intel daily"}
+{"head": "carol", "relation": "parent_of", "tail": "frank", "confidence": 0.9456835985183716, "sentence": "carol is parent of frank officially"}
+{"head": "bob", "relation": "parent_of", "tail": "rachel", "confidence": 0.854925274848938, "sentence": "bob is parent of rachel"}
+{"head": "kernel", "relation": "part_of", "tail": "vehicle", "confidence": 0.6121379137039185, "sentence": "kernel is part of vehicle today"}
+{"head": "grace", "relation": "owns", "tail": "console", "confidence": 1.0, "sentence": "grace securely holds the console today"}
+{"head": "library", "relation": "located_in", "tail": "denver", "confidence": 0.9957450032234192, "sentence": "library is located in denver officially"}
+{"head": "grace", "relation": "married_to", "tail": "paul", "confidence": 0.9977635145187378, "sentence": "grace is married to paul happily"}
+{"head": "bob", "relation": "born_in", "tail": "prague", "confidence": 1.0, "sentence": "bob was born in prague"}
+{"head": "panel", "relation": "part_of", "tail": "device", "confidence": 0.5741161704063416, "sentence": "panel is part of device today"}
+{"head": "paul", "relation": "parent_of", "tail": "victor", "confidence": 0.9549883604049683, "sentence": "paul is parent of victor legally"}
+{"head": "dave", "relation": "married_to", "tail": "alice", "confidence": 0.9805517196655273, "sentence": "dave is married to alice legally"}
+{"head": "paul", "relation": "born_in", "tail": "london", "confidence": 1.0, "sentence": "paul was born in london recently"}
+{"head": "engine", "relation": "part_of", "tail": "server", "confidence": 0.9630958437919617, "sentence": "engine is part of server"}
+{"head": "emma", "relation": "uses", "tail": "docker", "confidence": 0.990164577960968, "sentence": "emma daily operates the docker carefully"}
+{"head": "switch", "relation": "part_of", "tail": "system", "confidence": 0.5675194263458252, "sentence": "switch is part of system today"}
+{"head": "grace", "relation": "owns", "tail": "tablet", "confidence": 0.9999997615814209, "sentence": "grace legally owns tablet today"}
+{"head": "valve", "relation": "part_of", "tail": "platform", "confidence": 0.5761100053787231, "sentence": "valve is part of platform today"}
+{"head": "wendy", "relation": "owns", "tail": "laptop", "confidence": 0.9999996423721313, "sentence": "wendy securely owns laptop today"}
+{"head": "olivia", "relation": "uses", "tail": "excel", "confidence": 0.569881796836853, "sentence": "olivia regularly operates excel effectively"}
+{"head": "sensor", "relation": "part_of", "tail": "platform", "confidence": 0.8868097066879272, "sentence": "sensor is part of platform"}

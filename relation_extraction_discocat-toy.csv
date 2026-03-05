@@ -1,0 +1,501 @@
+simplified_sentence,head_entity,tail_entity,relation
+alice lives in rome,alice,rome,lives_in
+henry owns dog,henry,dog,has
+emma owns house,emma,house,has
+emma owns car,emma,car,has
+emma loves alice,emma,alice,loves
+bob lives at tokyo,bob,tokyo,lives_in
+alice owns bicycle,alice,bicycle,has
+bob becomes pilot,bob,pilot,is_a
+bob adores carol,bob,carol,loves
+bob performs with drums,bob,drums,plays
+frank performs with flute,frank,flute,plays
+dave plays with guitar,dave,guitar,plays
+emma lives in delhi,emma,delhi,lives_in
+carol has bag,carol,bag,has
+alice has cat,alice,cat,has
+henry performs with tennis,henry,tennis,plays
+alice lives in berlin,alice,berlin,lives_in
+emma is artist,emma,artist,is_a
+henry lives in rome,henry,rome,lives_in
+carol loves bob,carol,bob,loves
+emma adores dog,emma,dog,loves
+bob owns car,bob,car,has
+dave plays with drums,dave,drums,plays
+dave is pilot,dave,pilot,is_a
+alice resides in delhi,alice,delhi,lives_in
+emma adores carol,emma,carol,loves
+henry owns house,henry,house,has
+bob plays with tennis,bob,tennis,plays
+grace performs with chess,grace,chess,plays
+henry lives at madrid,henry,madrid,lives_in
+grace performs with piano,grace,piano,plays
+bob adores cat,bob,cat,loves
+carol plays with drums,carol,drums,plays
+henry owns cat,henry,cat,has
+carol is dancer,carol,dancer,is_a
+bob has phone,bob,phone,has
+dave becomes teacher,dave,teacher,is_a
+dave lives in oslo,dave,oslo,lives_in
+frank resides in london,frank,london,lives_in
+emma has book,emma,book,has
+emma adores dave,emma,dave,loves
+grace has cat,grace,cat,has
+dave owns house,dave,house,has
+grace becomes chef,grace,chef,is_a
+frank adores dave,frank,dave,loves
+alice plays with chess,alice,chess,plays
+emma loves cat,emma,cat,loves
+bob performs with piano,bob,piano,plays
+frank resides at oslo,frank,oslo,lives_in
+dave has dog,dave,dog,has
+bob is teacher,bob,teacher,is_a
+grace has bicycle,grace,bicycle,has
+alice lives at delhi,alice,delhi,lives_in
+grace adores bob,grace,bob,loves
+carol is pilot,carol,pilot,is_a
+bob performs with chess,bob,chess,plays
+grace is dancer,grace,dancer,is_a
+grace resides in rome,grace,rome,lives_in
+alice has bag,alice,bag,has
+bob becomes student,bob,student,is_a
+grace becomes dancer,grace,dancer,is_a
+henry owns car,henry,car,has
+dave becomes doctor,dave,doctor,is_a
+henry becomes chef,henry,chef,is_a
+dave lives at paris,dave,paris,lives_in
+henry resides at rome,henry,rome,lives_in
+frank lives at paris,frank,paris,lives_in
+bob owns bicycle,bob,bicycle,has
+grace adores frank,grace,frank,loves
+henry loves frank,henry,frank,loves
+alice lives in delhi,alice,delhi,lives_in
+carol lives at london,carol,london,lives_in
+frank plays with violin,frank,violin,plays
+bob is student,bob,student,is_a
+dave resides at berlin,dave,berlin,lives_in
+alice is teacher,alice,teacher,is_a
+emma performs with flute,emma,flute,plays
+alice loves frank,alice,frank,loves
+emma owns dog,emma,dog,has
+carol becomes dancer,carol,dancer,is_a
+emma has car,emma,car,has
+grace adores carol,grace,carol,loves
+bob is chef,bob,chef,is_a
+dave adores carol,dave,carol,loves
+henry is doctor,henry,doctor,is_a
+emma becomes student,emma,student,is_a
+emma owns phone,emma,phone,has
+bob has cat,bob,cat,has
+grace performs with tennis,grace,tennis,plays
+alice plays with tennis,alice,tennis,plays
+alice loves emma,alice,emma,loves
+bob adores dave,bob,dave,loves
+emma adores cat,emma,cat,loves
+frank has bicycle,frank,bicycle,has
+grace lives at tokyo,grace,tokyo,lives_in
+bob resides in tokyo,bob,tokyo,lives_in
+emma owns bag,emma,bag,has
+frank adores cat,frank,cat,loves
+frank lives at tokyo,frank,tokyo,lives_in
+emma plays with drums,emma,drums,plays
+emma becomes artist,emma,artist,is_a
+alice performs with chess,alice,chess,plays
+carol becomes teacher,carol,teacher,is_a
+frank lives at oslo,frank,oslo,lives_in
+emma plays with tennis,emma,tennis,plays
+carol becomes doctor,carol,doctor,is_a
+alice has phone,alice,phone,has
+emma lives in rome,emma,rome,lives_in
+alice loves dave,alice,dave,loves
+alice has dog,alice,dog,has
+dave owns bag,dave,bag,has
+frank plays with piano,frank,piano,plays
+frank adores dog,frank,dog,loves
+frank lives in london,frank,london,lives_in
+dave is doctor,dave,doctor,is_a
+dave resides at rome,dave,rome,lives_in
+alice lives at rome,alice,rome,lives_in
+frank performs with guitar,frank,guitar,plays
+grace becomes teacher,grace,teacher,is_a
+carol lives at paris,carol,paris,lives_in
+carol resides in delhi,carol,delhi,lives_in
+emma adores alice,emma,alice,loves
+bob lives at madrid,bob,madrid,lives_in
+carol loves frank,carol,frank,loves
+alice becomes dancer,alice,dancer,is_a
+emma adores bob,emma,bob,loves
+bob owns phone,bob,phone,has
+henry plays with piano,henry,piano,plays
+bob loves dog,bob,dog,loves
+alice adores bob,alice,bob,loves
+carol becomes chef,carol,chef,is_a
+emma resides at oslo,emma,oslo,lives_in
+dave loves alice,dave,alice,loves
+alice resides at tokyo,alice,tokyo,lives_in
+grace owns book,grace,book,has
+dave owns cat,dave,cat,has
+frank becomes chef,frank,chef,is_a
+alice has bicycle,alice,bicycle,has
+alice is artist,alice,artist,is_a
+bob is pilot,bob,pilot,is_a
+bob resides at tokyo,bob,tokyo,lives_in
+grace owns car,grace,car,has
+bob lives at oslo,bob,oslo,lives_in
+emma lives in paris,emma,paris,lives_in
+frank plays with tennis,frank,tennis,plays
+emma plays with soccer,emma,soccer,plays
+frank loves dog,frank,dog,loves
+carol owns cat,carol,cat,has
+dave loves frank,dave,frank,loves
+alice plays with violin,alice,violin,plays
+henry performs with violin,henry,violin,plays
+bob owns house,bob,house,has
+frank adores carol,frank,carol,loves
+carol performs with soccer,carol,soccer,plays
+frank becomes teacher,frank,teacher,is_a
+alice becomes artist,alice,artist,is_a
+frank has bag,frank,bag,has
+henry lives in london,henry,london,lives_in
+henry becomes student,henry,student,is_a
+alice resides at berlin,alice,berlin,lives_in
+frank has cat,frank,cat,has
+dave has cat,dave,cat,has
+carol plays with flute,carol,flute,plays
+dave has house,dave,house,has
+henry lives at rome,henry,rome,lives_in
+bob owns cat,bob,cat,has
+frank plays with drums,frank,drums,plays
+frank resides at paris,frank,paris,lives_in
+alice owns house,alice,house,has
+alice adores carol,alice,carol,loves
+frank plays with chess,frank,chess,plays
+carol lives at madrid,carol,madrid,lives_in
+carol has cat,carol,cat,has
+bob resides in berlin,bob,berlin,lives_in
+carol plays with violin,carol,violin,plays
+frank becomes dancer,frank,dancer,is_a
+carol performs with flute,carol,flute,plays
+dave loves carol,dave,carol,loves
+emma performs with drums,emma,drums,plays
+emma has bag,emma,bag,has
+frank becomes student,frank,student,is_a
+carol resides in london,carol,london,lives_in
+grace loves carol,grace,carol,loves
+dave plays with tennis,dave,tennis,plays
+frank is pilot,frank,pilot,is_a
+alice adores cat,alice,cat,loves
+henry has bicycle,henry,bicycle,has
+dave becomes chef,dave,chef,is_a
+henry resides in rome,henry,rome,lives_in
+henry adores emma,henry,emma,loves
+emma adores frank,emma,frank,loves
+grace has dog,grace,dog,has
+alice is student,alice,student,is_a
+emma is teacher,emma,teacher,is_a
+dave adores dog,dave,dog,loves
+dave resides in london,dave,london,lives_in
+dave resides at london,dave,london,lives_in
+carol plays with chess,carol,chess,plays
+carol owns dog,carol,dog,has
+dave has book,dave,book,has
+emma becomes singer,emma,singer,is_a
+alice has car,alice,car,has
+henry becomes teacher,henry,teacher,is_a
+alice owns book,alice,book,has
+frank owns car,frank,car,has
+dave adores emma,dave,emma,loves
+grace has bag,grace,bag,has
+grace adores alice,grace,alice,loves
+emma is singer,emma,singer,is_a
+emma plays with guitar,emma,guitar,plays
+emma performs with violin,emma,violin,plays
+carol adores frank,carol,frank,loves
+bob has bag,bob,bag,has
+henry loves cat,henry,cat,loves
+bob plays with chess,bob,chess,plays
+frank plays with guitar,frank,guitar,plays
+dave performs with soccer,dave,soccer,plays
+bob performs with flute,bob,flute,plays
+carol lives at delhi,carol,delhi,lives_in
+bob has bicycle,bob,bicycle,has
+henry plays with chess,henry,chess,plays
+emma lives in berlin,emma,berlin,lives_in
+grace is student,grace,student,is_a
+grace resides at tokyo,grace,tokyo,lives_in
+frank owns dog,frank,dog,has
+frank is teacher,frank,teacher,is_a
+grace performs with flute,grace,flute,plays
+bob owns book,bob,book,has
+grace resides in berlin,grace,berlin,lives_in
+bob becomes chef,bob,chef,is_a
+dave is teacher,dave,teacher,is_a
+grace loves dog,grace,dog,loves
+bob has house,bob,house,has
+grace owns cat,grace,cat,has
+emma lives in madrid,emma,madrid,lives_in
+grace is chef,grace,chef,is_a
+frank resides at madrid,frank,madrid,lives_in
+emma owns cat,emma,cat,has
+grace plays with violin,grace,violin,plays
+henry adores dog,henry,dog,loves
+emma is pilot,emma,pilot,is_a
+bob plays with guitar,bob,guitar,plays
+alice owns cat,alice,cat,has
+emma loves carol,emma,carol,loves
+carol resides in tokyo,carol,tokyo,lives_in
+grace resides at paris,grace,paris,lives_in
+dave lives at oslo,dave,oslo,lives_in
+emma loves dave,emma,dave,loves
+dave loves dog,dave,dog,loves
+alice resides at madrid,alice,madrid,lives_in
+emma loves bob,emma,bob,loves
+grace has car,grace,car,has
+bob has dog,bob,dog,has
+emma lives at tokyo,emma,tokyo,lives_in
+alice is doctor,alice,doctor,is_a
+henry performs with drums,henry,drums,plays
+dave performs with piano,dave,piano,plays
+carol has dog,carol,dog,has
+henry adores cat,henry,cat,loves
+grace is pilot,grace,pilot,is_a
+grace resides at oslo,grace,oslo,lives_in
+dave plays with soccer,dave,soccer,plays
+henry plays with soccer,henry,soccer,plays
+henry is teacher,henry,teacher,is_a
+emma performs with tennis,emma,tennis,plays
+dave lives in berlin,dave,berlin,lives_in
+alice plays with drums,alice,drums,plays
+grace plays with guitar,grace,guitar,plays
+dave adores cat,dave,cat,loves
+frank loves cat,frank,cat,loves
+alice lives at london,alice,london,lives_in
+frank has house,frank,house,has
+henry has dog,henry,dog,has
+frank resides in madrid,frank,madrid,lives_in
+dave is dancer,dave,dancer,is_a
+dave resides at tokyo,dave,tokyo,lives_in
+frank resides at london,frank,london,lives_in
+grace is teacher,grace,teacher,is_a
+grace performs with soccer,grace,soccer,plays
+bob is singer,bob,singer,is_a
+grace lives at berlin,grace,berlin,lives_in
+henry resides in tokyo,henry,tokyo,lives_in
+bob plays with violin,bob,violin,plays
+henry has bag,henry,bag,has
+alice is pilot,alice,pilot,is_a
+carol adores dave,carol,dave,loves
+alice owns dog,alice,dog,has
+grace owns bicycle,grace,bicycle,has
+emma owns book,emma,book,has
+henry is artist,henry,artist,is_a
+henry loves alice,henry,alice,loves
+carol adores alice,carol,alice,loves
+dave resides in berlin,dave,berlin,lives_in
+emma becomes dancer,emma,dancer,is_a
+dave plays with chess,dave,chess,plays
+alice becomes doctor,alice,doctor,is_a
+alice adores frank,alice,frank,loves
+dave resides in paris,dave,paris,lives_in
+emma resides at tokyo,emma,tokyo,lives_in
+carol plays with piano,carol,piano,plays
+grace loves dave,grace,dave,loves
+dave lives in tokyo,dave,tokyo,lives_in
+grace plays with drums,grace,drums,plays
+grace adores cat,grace,cat,loves
+bob resides at delhi,bob,delhi,lives_in
+dave has bicycle,dave,bicycle,has
+dave adores frank,dave,frank,loves
+alice becomes teacher,alice,teacher,is_a
+emma resides at delhi,emma,delhi,lives_in
+dave performs with tennis,dave,tennis,plays
+carol performs with violin,carol,violin,plays
+frank loves dave,frank,dave,loves
+frank loves carol,frank,carol,loves
+frank loves emma,frank,emma,loves
+bob becomes artist,bob,artist,is_a
+henry adores alice,henry,alice,loves
+frank has dog,frank,dog,has
+emma has dog,emma,dog,has
+dave owns phone,dave,phone,has
+alice has house,alice,house,has
+carol is singer,carol,singer,is_a
+henry plays with guitar,henry,guitar,plays
+dave resides in oslo,dave,oslo,lives_in
+carol resides at london,carol,london,lives_in
+emma becomes pilot,emma,pilot,is_a
+carol lives in london,carol,london,lives_in
+henry loves dog,henry,dog,loves
+henry lives in delhi,henry,delhi,lives_in
+emma has house,emma,house,has
+bob lives in london,bob,london,lives_in
+dave becomes pilot,dave,pilot,is_a
+carol becomes artist,carol,artist,is_a
+frank becomes artist,frank,artist,is_a
+frank lives in berlin,frank,berlin,lives_in
+emma resides in rome,emma,rome,lives_in
+dave becomes dancer,dave,dancer,is_a
+dave has car,dave,car,has
+dave loves cat,dave,cat,loves
+alice performs with drums,alice,drums,plays
+alice performs with flute,alice,flute,plays
+carol owns car,carol,car,has
+frank becomes doctor,frank,doctor,is_a
+grace performs with guitar,grace,guitar,plays
+henry resides in london,henry,london,lives_in
+alice loves carol,alice,carol,loves
+grace performs with violin,grace,violin,plays
+grace becomes artist,grace,artist,is_a
+dave lives at rome,dave,rome,lives_in
+carol owns house,carol,house,has
+bob is doctor,bob,doctor,is_a
+frank becomes singer,frank,singer,is_a
+dave performs with drums,dave,drums,plays
+dave has phone,dave,phone,has
+bob adores emma,bob,emma,loves
+frank is dancer,frank,dancer,is_a
+grace becomes doctor,grace,doctor,is_a
+bob loves dave,bob,dave,loves
+henry loves carol,henry,carol,loves
+carol is artist,carol,artist,is_a
+henry loves dave,henry,dave,loves
+alice loves bob,alice,bob,loves
+grace loves emma,grace,emma,loves
+frank owns book,frank,book,has
+dave loves bob,dave,bob,loves
+henry performs with flute,henry,flute,plays
+emma becomes chef,emma,chef,is_a
+henry has book,henry,book,has
+alice performs with violin,alice,violin,plays
+bob adores frank,bob,frank,loves
+emma is student,emma,student,is_a
+alice is chef,alice,chef,is_a
+dave lives at london,dave,london,lives_in
+bob lives at delhi,bob,delhi,lives_in
+henry loves bob,henry,bob,loves
+grace loves frank,grace,frank,loves
+dave performs with guitar,dave,guitar,plays
+henry performs with soccer,henry,soccer,plays
+alice adores emma,alice,emma,loves
+emma has bicycle,emma,bicycle,has
+carol owns bag,carol,bag,has
+carol plays with tennis,carol,tennis,plays
+frank owns bicycle,frank,bicycle,has
+grace loves cat,grace,cat,loves
+bob performs with violin,bob,violin,plays
+alice becomes singer,alice,singer,is_a
+grace resides in paris,grace,paris,lives_in
+bob lives in delhi,bob,delhi,lives_in
+henry adores dave,henry,dave,loves
+carol lives at oslo,carol,oslo,lives_in
+alice loves cat,alice,cat,loves
+frank is chef,frank,chef,is_a
+bob performs with tennis,bob,tennis,plays
+dave performs with flute,dave,flute,plays
+emma becomes doctor,emma,doctor,is_a
+grace owns phone,grace,phone,has
+grace becomes pilot,grace,pilot,is_a
+henry is student,henry,student,is_a
+henry is pilot,henry,pilot,is_a
+dave adores alice,dave,alice,loves
+alice lives in paris,alice,paris,lives_in
+frank is artist,frank,artist,is_a
+bob loves carol,bob,carol,loves
+frank lives at rome,frank,rome,lives_in
+emma is dancer,emma,dancer,is_a
+henry is chef,henry,chef,is_a
+bob plays with drums,bob,drums,plays
+bob plays with flute,bob,flute,plays
+emma loves dog,emma,dog,loves
+carol adores dog,carol,dog,loves
+carol performs with piano,carol,piano,plays
+henry has car,henry,car,has
+bob adores dog,bob,dog,loves
+carol becomes singer,carol,singer,is_a
+frank lives in tokyo,frank,tokyo,lives_in
+grace is doctor,grace,doctor,is_a
+emma is doctor,emma,doctor,is_a
+bob becomes doctor,bob,doctor,is_a
+frank has phone,frank,phone,has
+frank performs with piano,frank,piano,plays
+dave loves emma,dave,emma,loves
+bob has car,bob,car,has
+grace adores emma,grace,emma,loves
+alice performs with guitar,alice,guitar,plays
+frank loves bob,frank,bob,loves
+henry owns book,henry,book,has
+grace performs with drums,grace,drums,plays
+henry is dancer,henry,dancer,is_a
+bob performs with soccer,bob,soccer,plays
+bob loves frank,bob,frank,loves
+emma performs with guitar,emma,guitar,plays
+carol lives in paris,carol,paris,lives_in
+carol loves alice,carol,alice,loves
+carol resides at oslo,carol,oslo,lives_in
+carol performs with drums,carol,drums,plays
+henry adores bob,henry,bob,loves
+carol has book,carol,book,has
+alice plays with flute,alice,flute,plays
+dave becomes singer,dave,singer,is_a
+emma loves frank,emma,frank,loves
+carol lives in rome,carol,rome,lives_in
+frank adores bob,frank,bob,loves
+alice owns bag,alice,bag,has
+carol loves emma,carol,emma,loves
+emma owns bicycle,emma,bicycle,has
+henry lives at paris,henry,paris,lives_in
+carol is chef,carol,chef,is_a
+henry plays with tennis,henry,tennis,plays
+dave adores bob,dave,bob,loves
+alice lives at oslo,alice,oslo,lives_in
+alice becomes student,alice,student,is_a
+alice plays with piano,alice,piano,plays
+carol loves dave,carol,dave,loves
+alice adores dave,alice,dave,loves
+dave is artist,dave,artist,is_a
+grace resides in london,grace,london,lives_in
+carol owns bicycle,carol,bicycle,has
+alice loves dog,alice,dog,loves
+henry owns bicycle,henry,bicycle,has
+alice lives in tokyo,alice,tokyo,lives_in
+henry owns phone,henry,phone,has
+bob plays with piano,bob,piano,plays
+dave performs with chess,dave,chess,plays
+bob has book,bob,book,has
+emma becomes teacher,emma,teacher,is_a
+henry performs with piano,henry,piano,plays
+dave performs with violin,dave,violin,plays
+emma resides at london,emma,london,lives_in
+grace is artist,grace,artist,is_a
+emma plays with flute,emma,flute,plays
+henry has phone,henry,phone,has
+grace plays with soccer,grace,soccer,plays
+henry plays with drums,henry,drums,plays
+henry lives in madrid,henry,madrid,lives_in
+henry becomes singer,henry,singer,is_a
+frank performs with drums,frank,drums,plays
+carol adores cat,carol,cat,loves
+henry is singer,henry,singer,is_a
+dave has bag,dave,bag,has
+bob plays with soccer,bob,soccer,plays
+frank adores emma,frank,emma,loves
+frank owns cat,frank,cat,has
+alice has book,alice,book,has
+alice resides at delhi,alice,delhi,lives_in
+grace adores dog,grace,dog,loves
+bob lives at rome,bob,rome,lives_in
+carol is teacher,carol,teacher,is_a
+grace lives at rome,grace,rome,lives_in
+henry has house,henry,house,has
+carol performs with tennis,carol,tennis,plays
+frank lives at madrid,frank,madrid,lives_in
+grace plays with piano,grace,piano,plays
+carol plays with soccer,carol,soccer,plays
+frank owns phone,frank,phone,has
+henry plays with violin,henry,violin,plays
+bob lives in madrid,bob,madrid,lives_in
+bob becomes singer,bob,singer,is_a
+henry performs with guitar,henry,guitar,plays
+carol is doctor,carol,doctor,is_a
+dave plays with violin,dave,violin,plays
+bob adores alice,bob,alice,loves

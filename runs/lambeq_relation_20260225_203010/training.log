@@ -1,0 +1,170 @@
+2026-02-25 20:30:10,656 | INFO | Run directory: runs\lambeq_relation_20260225_203010
+2026-02-25 20:30:10,656 | INFO | Arguments: {'dataset_csv': WindowsPath('data/relation_extraction_discocat_v2.csv'), 'diagrams_pkl': WindowsPath('data/simplified_bobcat_diagrams_toy_v2.pkl'), 'output_root': WindowsPath('runs'), 'seed': 42, 'log_level': 'INFO', 'parse_log_every': 500, 'circuit_log_every': 500, 'rewrite_log_max_errors': 5, 'batch_size': 16, 'train_log_every_batches': 0, 'max_samples': 0, 'max_circuit_width': 0, 'model_init_split': 'all', 'epochs': 35, 'learning_rate': 0.05, 'weight_decay': 0.0, 'hidden_dim': 32, 'dropout': 0.1, 'val_size': 0.15, 'test_size': 0.15, 'early_stopping_patience': 8, 'n_layers': 1, 'n_single_qubit_params': 3, 'n_qubits_noun': 1, 'n_qubits_sentence': 3, 'n_qubits_preposition': 1, 'n_qubits_other': 1, 'pennylane_backend': 'default.qubit', 'shots': 0, 'kg_confidence_threshold': 0.5, 'epoch_sample_count': 3, 'relation_order': ['lives_in', 'works_at', 'studies_at', 'born_in', 'located_in', 'part_of', 'married_to', 'parent_of', 'owns', 'uses']}
+2026-02-25 20:30:10,664 | INFO | Stage: load_samples
+2026-02-25 20:30:10,664 | INFO | Loading pre-parsed diagrams from: data\simplified_bobcat_diagrams_toy_v2.pkl
+2026-02-25 20:30:11,860 | INFO | Loaded diagram pickle entries: total=3000 valid=3000 skipped=0
+2026-02-25 20:30:11,861 | INFO | Loaded sample relations | classes=10 | distribution={'studies_at': 300, 'born_in': 300, 'part_of': 300, 'married_to': 300, 'parent_of': 300, 'uses': 300, 'owns': 300, 'located_in': 300, 'works_at': 300, 'lives_in': 300}
+2026-02-25 20:30:11,862 | INFO | Stage complete: load_samples | elapsed=1.20s
+2026-02-25 20:30:11,863 | INFO | Stage: preprocess_samples
+2026-02-25 20:30:11,902 | INFO | Entity metadata filled from CSV: 0
+2026-02-25 20:30:11,903 | INFO | Using relations: ['lives_in', 'works_at', 'studies_at', 'born_in', 'located_in', 'part_of', 'married_to', 'parent_of', 'owns', 'uses']
+2026-02-25 20:30:11,904 | INFO | Total samples after filtering: 3000
+2026-02-25 20:30:17,568 | INFO | Diagrams simplified with RemoveCupsRewriter: success=3000 failed=0
+2026-02-25 20:30:17,568 | INFO | Stage complete: preprocess_samples | elapsed=5.71s
+2026-02-25 20:30:17,569 | INFO | Stage: build_circuits
+2026-02-25 20:30:20,982 | INFO | Circuit build progress: 500/3000 | kept=500 dropped_width=0 | dynamic_types=0
+2026-02-25 20:30:23,512 | INFO | Circuit build progress: 1000/3000 | kept=1000 dropped_width=0 | dynamic_types=0
+2026-02-25 20:30:26,030 | INFO | Circuit build progress: 1500/3000 | kept=1500 dropped_width=0 | dynamic_types=0
+2026-02-25 20:30:28,806 | INFO | Circuit build progress: 2000/3000 | kept=2000 dropped_width=0 | dynamic_types=0
+2026-02-25 20:30:31,644 | INFO | Circuit build progress: 2500/3000 | kept=2500 dropped_width=0 | dynamic_types=0
+2026-02-25 20:30:33,848 | INFO | Circuit build progress: 3000/3000 | kept=3000 dropped_width=0 | dynamic_types=0
+2026-02-25 20:30:33,859 | INFO | Circuit width stats | min=3 p50=3 p90=3 p95=3 max=3
+2026-02-25 20:30:33,860 | INFO | Circuit build summary | input=3000 kept=3000 dropped_width=0 dropped_errors=0
+2026-02-25 20:30:33,861 | INFO | Post circuit-filter relations | classes=10 | distribution={'studies_at': 300, 'born_in': 300, 'part_of': 300, 'married_to': 300, 'parent_of': 300, 'uses': 300, 'owns': 300, 'located_in': 300, 'works_at': 300, 'lives_in': 300}
+2026-02-25 20:30:33,861 | INFO | Stage complete: build_circuits | elapsed=16.29s | circuits=3000
+2026-02-25 20:30:33,862 | INFO | Stage: split_dataset
+2026-02-25 20:30:33,870 | INFO | Split sizes | train=2100 val=450 test=450
+2026-02-25 20:30:33,871 | INFO | Stage complete: split_dataset | elapsed=0.01s
+2026-02-25 20:30:33,871 | INFO | Stage: init_model
+2026-02-25 20:30:33,872 | INFO | Model init circuits source=all count=3000
+2026-02-25 20:32:32,107 | INFO | Stage complete: init_model | elapsed=118.24s
+2026-02-25 20:32:32,108 | INFO | Stage: train
+2026-02-25 20:42:28,732 | INFO | Epoch 1 | train_loss=1.3118 val_loss=0.8171 | train_acc=0.4848 val_acc=0.6489 | train_f1=0.4780 val_f1=0.6036
+2026-02-25 20:42:28,745 | INFO | Epoch 1 completed in 596.50s
+2026-02-25 20:42:29,173 | INFO | Epoch 1 | sample input/output:
+2026-02-25 20:42:29,178 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.5539
+2026-02-25 20:42:29,179 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9317
+2026-02-25 20:42:29,181 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.4632
+2026-02-25 20:51:02,126 | INFO | Epoch 2 | train_loss=0.7601 val_loss=0.8940 | train_acc=0.7005 val_acc=0.7022 | train_f1=0.6989 val_f1=0.6653
+2026-02-25 20:51:02,133 | INFO | Epoch 2 completed in 512.72s
+2026-02-25 20:51:02,247 | INFO | Epoch 2 | sample input/output:
+2026-02-25 20:51:02,249 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.6705
+2026-02-25 20:51:02,249 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9655
+2026-02-25 20:51:02,249 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.8248
+2026-02-25 20:57:51,989 | INFO | Epoch 3 | train_loss=0.7781 val_loss=0.5661 | train_acc=0.7143 val_acc=0.7600 | train_f1=0.7105 val_f1=0.7608
+2026-02-25 20:57:52,000 | INFO | Epoch 3 completed in 409.72s
+2026-02-25 20:57:52,154 | INFO | Epoch 3 | sample input/output:
+2026-02-25 20:57:52,155 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.7431
+2026-02-25 20:57:52,155 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9988
+2026-02-25 20:57:52,156 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=works_at | conf=0.4303
+2026-02-25 21:04:30,088 | INFO | Epoch 4 | train_loss=0.6393 val_loss=0.6948 | train_acc=0.7519 val_acc=0.7822 | train_f1=0.7535 val_f1=0.7586
+2026-02-25 21:04:30,094 | INFO | Epoch 4 completed in 397.90s
+2026-02-25 21:04:30,202 | INFO | Epoch 4 | sample input/output:
+2026-02-25 21:04:30,202 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=married_to | conf=0.9869
+2026-02-25 21:04:30,204 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9998
+2026-02-25 21:04:30,204 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.5775
+2026-02-25 21:11:01,571 | INFO | Epoch 5 | train_loss=0.7763 val_loss=0.5938 | train_acc=0.7086 val_acc=0.7489 | train_f1=0.7071 val_f1=0.7394
+2026-02-25 21:11:01,577 | INFO | Epoch 5 completed in 391.37s
+2026-02-25 21:11:01,715 | INFO | Epoch 5 | sample input/output:
+2026-02-25 21:11:01,717 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=uses | conf=0.5721
+2026-02-25 21:11:01,717 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9910
+2026-02-25 21:11:01,717 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.4674
+2026-02-25 21:17:34,392 | INFO | Epoch 6 | train_loss=0.7364 val_loss=0.5665 | train_acc=0.7143 val_acc=0.7733 | train_f1=0.7124 val_f1=0.7667
+2026-02-25 21:17:34,392 | INFO | Epoch 6 completed in 392.68s
+2026-02-25 21:17:34,506 | INFO | Epoch 6 | sample input/output:
+2026-02-25 21:17:34,507 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.8361
+2026-02-25 21:17:34,507 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9997
+2026-02-25 21:17:34,507 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=works_at | conf=0.4063
+2026-02-25 21:24:12,143 | INFO | Epoch 7 | train_loss=0.5453 val_loss=0.3460 | train_acc=0.7943 val_acc=0.8578 | train_f1=0.7950 val_f1=0.8488
+2026-02-25 21:24:12,146 | INFO | Epoch 7 completed in 397.60s
+2026-02-25 21:24:12,267 | INFO | Epoch 7 | sample input/output:
+2026-02-25 21:24:12,269 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9191
+2026-02-25 21:24:12,269 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9446
+2026-02-25 21:24:12,270 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.5113
+2026-02-25 21:30:58,443 | INFO | Epoch 8 | train_loss=0.5041 val_loss=0.4119 | train_acc=0.8043 val_acc=0.8533 | train_f1=0.8033 val_f1=0.8451
+2026-02-25 21:30:58,449 | INFO | Epoch 8 completed in 406.10s
+2026-02-25 21:30:58,567 | INFO | Epoch 8 | sample input/output:
+2026-02-25 21:30:58,568 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9727
+2026-02-25 21:30:58,568 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9310
+2026-02-25 21:30:58,568 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.5972
+2026-02-25 21:37:38,919 | INFO | Epoch 9 | train_loss=0.5002 val_loss=0.3357 | train_acc=0.8110 val_acc=0.8689 | train_f1=0.8120 val_f1=0.8738
+2026-02-25 21:37:38,920 | INFO | Epoch 9 completed in 400.35s
+2026-02-25 21:37:39,032 | INFO | Epoch 9 | sample input/output:
+2026-02-25 21:37:39,032 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9458
+2026-02-25 21:37:39,032 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 21:37:39,032 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=works_at | conf=0.5885
+2026-02-25 21:44:15,801 | INFO | Epoch 10 | train_loss=0.4915 val_loss=0.3562 | train_acc=0.8090 val_acc=0.8444 | train_f1=0.8109 val_f1=0.8406
+2026-02-25 21:44:15,805 | INFO | Epoch 10 completed in 396.73s
+2026-02-25 21:44:15,932 | INFO | Epoch 10 | sample input/output:
+2026-02-25 21:44:15,934 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9964
+2026-02-25 21:44:15,934 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9999
+2026-02-25 21:44:15,935 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=works_at | conf=0.4383
+2026-02-25 21:50:55,900 | INFO | Epoch 11 | train_loss=0.3878 val_loss=0.2976 | train_acc=0.8505 val_acc=0.8844 | train_f1=0.8517 val_f1=0.8851
+2026-02-25 21:50:55,907 | INFO | Epoch 11 completed in 399.97s
+2026-02-25 21:50:56,053 | INFO | Epoch 11 | sample input/output:
+2026-02-25 21:50:56,054 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9778
+2026-02-25 21:50:56,054 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 21:50:56,055 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.4749
+2026-02-25 21:57:32,679 | INFO | Epoch 12 | train_loss=0.3699 val_loss=0.2317 | train_acc=0.8500 val_acc=0.9067 | train_f1=0.8499 val_f1=0.8993
+2026-02-25 21:57:32,684 | INFO | Epoch 12 completed in 396.52s
+2026-02-25 21:57:32,790 | INFO | Epoch 12 | sample input/output:
+2026-02-25 21:57:32,793 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9695
+2026-02-25 21:57:32,793 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 21:57:32,794 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.5881
+2026-02-25 22:04:03,599 | INFO | Epoch 13 | train_loss=0.4339 val_loss=0.3287 | train_acc=0.8252 val_acc=0.8489 | train_f1=0.8281 val_f1=0.8534
+2026-02-25 22:04:03,599 | INFO | Epoch 13 completed in 390.71s
+2026-02-25 22:04:03,724 | INFO | Epoch 13 | sample input/output:
+2026-02-25 22:04:03,724 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9986
+2026-02-25 22:04:03,724 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:04:03,724 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=works_at | conf=0.5566
+2026-02-25 22:10:35,311 | INFO | Epoch 14 | train_loss=0.3561 val_loss=0.2385 | train_acc=0.8510 val_acc=0.9111 | train_f1=0.8513 val_f1=0.9089
+2026-02-25 22:10:35,312 | INFO | Epoch 14 completed in 391.59s
+2026-02-25 22:10:35,428 | INFO | Epoch 14 | sample input/output:
+2026-02-25 22:10:35,428 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.5091
+2026-02-25 22:10:35,428 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:10:35,429 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.5276
+2026-02-25 22:17:11,638 | INFO | Epoch 15 | train_loss=0.3354 val_loss=0.2437 | train_acc=0.8733 val_acc=0.8756 | train_f1=0.8748 val_f1=0.8723
+2026-02-25 22:17:11,639 | INFO | Epoch 15 completed in 396.13s
+2026-02-25 22:17:11,759 | INFO | Epoch 15 | sample input/output:
+2026-02-25 22:17:11,759 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9476
+2026-02-25 22:17:11,759 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:17:11,759 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.6186
+2026-02-25 22:26:18,331 | INFO | Epoch 16 | train_loss=0.4799 val_loss=0.5693 | train_acc=0.8052 val_acc=0.8022 | train_f1=0.8066 val_f1=0.7894
+2026-02-25 22:26:18,336 | INFO | Epoch 16 completed in 546.58s
+2026-02-25 22:26:18,507 | INFO | Epoch 16 | sample input/output:
+2026-02-25 22:26:18,508 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.8335
+2026-02-25 22:26:18,508 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:26:18,509 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.2682
+2026-02-25 22:32:58,985 | INFO | Epoch 17 | train_loss=0.6041 val_loss=0.3785 | train_acc=0.7681 val_acc=0.8444 | train_f1=0.7705 val_f1=0.8050
+2026-02-25 22:32:58,986 | INFO | Epoch 17 completed in 400.48s
+2026-02-25 22:32:59,142 | INFO | Epoch 17 | sample input/output:
+2026-02-25 22:32:59,142 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.9950
+2026-02-25 22:32:59,142 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=0.9997
+2026-02-25 22:32:59,143 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.7709
+2026-02-25 22:39:30,007 | INFO | Epoch 18 | train_loss=0.6379 val_loss=0.5044 | train_acc=0.7567 val_acc=0.8000 | train_f1=0.7592 val_f1=0.7929
+2026-02-25 22:39:30,007 | INFO | Epoch 18 completed in 390.86s
+2026-02-25 22:39:30,127 | INFO | Epoch 18 | sample input/output:
+2026-02-25 22:39:30,128 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.6195
+2026-02-25 22:39:30,128 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:39:30,128 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.5415
+2026-02-25 22:46:00,618 | INFO | Epoch 19 | train_loss=0.7220 val_loss=0.7585 | train_acc=0.7390 val_acc=0.7200 | train_f1=0.7389 val_f1=0.7198
+2026-02-25 22:46:00,619 | INFO | Epoch 19 completed in 390.49s
+2026-02-25 22:46:00,732 | INFO | Epoch 19 | sample input/output:
+2026-02-25 22:46:00,732 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.7314
+2026-02-25 22:46:00,732 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:46:00,732 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.3747
+2026-02-25 22:52:30,038 | INFO | Epoch 20 | train_loss=0.7059 val_loss=0.5735 | train_acc=0.7329 val_acc=0.7444 | train_f1=0.7340 val_f1=0.7245
+2026-02-25 22:52:30,039 | INFO | Epoch 20 completed in 389.31s
+2026-02-25 22:52:30,146 | INFO | Epoch 20 | sample input/output:
+2026-02-25 22:52:30,146 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.6348
+2026-02-25 22:52:30,147 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:52:30,147 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=studies_at | conf=0.6382
+2026-02-25 22:58:59,865 | INFO | Epoch 21 | train_loss=0.5633 val_loss=0.3766 | train_acc=0.7776 val_acc=0.8422 | train_f1=0.7789 val_f1=0.8327
+2026-02-25 22:58:59,866 | INFO | Epoch 21 completed in 389.72s
+2026-02-25 22:58:59,973 | INFO | Epoch 21 | sample input/output:
+2026-02-25 22:58:59,973 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=works_at | conf=0.4460
+2026-02-25 22:58:59,973 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 22:58:59,973 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.8150
+2026-02-25 23:05:53,231 | INFO | Epoch 22 | train_loss=0.5705 val_loss=0.3300 | train_acc=0.7938 val_acc=0.8689 | train_f1=0.7964 val_f1=0.8742
+2026-02-25 23:05:53,235 | INFO | Epoch 22 completed in 413.26s
+2026-02-25 23:05:53,781 | INFO | Epoch 22 | sample input/output:
+2026-02-25 23:05:53,782 | INFO | [1] input="rachel diligently learns at yale now" | true=studies_at | pred=studies_at | conf=0.7393
+2026-02-25 23:05:53,782 | INFO | [2] input="paul was born in lisbon officially" | true=born_in | pred=born_in | conf=1.0000
+2026-02-25 23:05:53,783 | INFO | [3] input="emma regularly handles jira effectively" | true=uses | pred=uses | conf=0.8981
+2026-02-25 23:05:53,784 | INFO | Early stopping at epoch 22 (best epoch=14, best val_f1=0.9089).
+2026-02-25 23:05:54,176 | INFO | Loaded best checkpoint from epoch 14.
+2026-02-25 23:05:54,210 | INFO | Stage complete: train | elapsed=9202.10s
+2026-02-25 23:05:54,213 | INFO | Stage: evaluate_and_export
+2026-02-25 23:13:28,421 | INFO | Final test metrics: {'loss': 0.26852041482925415, 'accuracy': 0.8777777777777778, 'precision_macro': 0.8826761507946177, 'recall_macro': 0.8777777777777779, 'f1_macro': 0.8763017173956553, 'precision_micro': 0.8777777777777778, 'recall_micro': 0.8777777777777778, 'f1_micro': 0.8777777777777778, 'num_classes': 10.0}
+2026-02-25 23:13:28,426 | INFO | Stage complete: evaluate_and_export | elapsed=454.21s
+2026-02-25 23:13:28,426 | INFO | Artifacts saved in: runs\lambeq_relation_20260225_203010

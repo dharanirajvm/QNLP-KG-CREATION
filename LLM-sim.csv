@@ -1,0 +1,990 @@
+simplified_sentence,head_entity,tail_entity,relation
+Hinge caused Kindle crack,hinge,crack,cause_effect
+Rains caused Hiroshima disaster,disaster,rains,cause_effect
+Crop failure led famine,famine,failure,cause_effect
+Selling licenses generates revenues,revenues,selling,cause_effect
+Viruses cause ordinary warts,warts,viruses,cause_effect
+Therapy prevents brain injury,injury,therapy,cause_effect
+Thought caused person anxiety,anxiety,thought,cause_effect
+Massacre resulted in onslaught,massacre,onslaught,cause_effect
+Proliferation caused various lymphomas,lymphomas,proliferation,cause_effect
+Cholesterol cause heart disease,cholesterol,disease,cause_effect
+Bankers caused public distress,distress,bankers,cause_effect
+Narrowing caused blood pressure,pressure,narrowing,cause_effect
+Ceasefire produced relative calm,calm,ceasefire,cause_effect
+Papillomavirus caused neck cancers,cancers,papillomavirus,cause_effect
+Fog caused race cancellation,fog,cancellation,cause_effect
+Execution starts binary infection,infection,execution,cause_effect
+Chemicals cause stress anxiety,chemicals,anxiety,cause_effect
+Consumption resulted behaviour,behaviour,consumption,cause_effect
+Treatment produced harm,harm,treatment,cause_effect
+Pain killers caused headaches,headaches,pain killers,cause_effect
+Protests turning into revolution,protests,revolution,cause_effect
+Drought caused brown areas,brown areas,drought,cause_effect
+Civil war caused damage,damage,war,cause_effect
+Current generated magnetic field,magnetic field,current,cause_effect
+Patriots radiated carefree confidence,patriots,confidence,cause_effect
+Physician caused many deaths,deaths,physician,cause_effect
+Burnt food set alarm,burnt food,alarm,cause_effect
+Change caused natural disasters,disasters,change,cause_effect
+Earthquake caused building fire,fire,earthquake,cause_effect
+Measuring starts continuous improvement,improvement,measuring,cause_effect
+Virus caused liver cancer,cancer,virus,cause_effect
+Bike-accident caused severe injuries,injuries,bike-accident,cause_effect
+Meltdown caused chain reaction,reaction,meltdown,cause_effect
+Generator derived rf signal,signal,generator,cause_effect
+Fog lead to disorientation,fog,disorientation,cause_effect
+Drinks cause heart diabetes,drinks,diabetes,cause_effect
+Dryness minimize skin wrinkles,wrinkles,dryness,cause_effect
+Selling explosives created fortune,fortune,selling,cause_effect
+Snow lead to spill,snow,spill,cause_effect
+Fungus caused scalp ringworm,ringworm,fungus,cause_effect
+Earthquake generated strong tsunami,tsunami,earthquake,cause_effect
+Murders result in execution,murders,execution,cause_effect
+Crisis caused Asia pain,pain,crisis,cause_effect
+Aftershocks caused panic injuries,panic,aftershocks,cause_effect
+Destruction triggered barbarian invasions,invasions,destruction,cause_effect
+Cigarettes cause nausea,cigarettes,nausea,cause_effect
+Rains caused acidity increase,increase,rains,cause_effect
+Dancing find heart happiness,happiness,dancing,cause_effect
+Pain killers caused tension,tension,headaches,cause_effect
+Hurricanes mitigate retroactive damage,damage,hurricanes,cause_effect
+Addiction lead to neglect,addiction,neglect,cause_effect
+Caffeine withdrawal caused headaches,headaches,caffeine withdrawal,cause_effect
+Faults caused cancellations,faults,cancellations,cause_effect
+War caused insecurity poverty,insecurity,war,cause_effect
+Stress causes headaches tension,tension,headaches,cause_effect
+Anxiety reaction caused cramps,cramps,anxiety reaction,cause_effect
+Jackpot hit made him joy,Jackpot,joy,cause_effect
+Bombing caused home destruction,destruction,bombing,cause_effect
+Spell caused minimal threat,threat,spell,cause_effect
+Charge source electric field,charge,field,cause_effect
+Corruption lead to outrage,outrage,corruption,cause_effect
+Earthquake caused seafloor buckling,buckling,earthquake,cause_effect
+Radiation induced ulceration recurrence,recurrence,radiation,cause_effect
+Injury caused discomfort,discomfort,injury,cause_effect
+Device instigates connection termination,device,termination,cause_effect
+Radiation exposures caused cancers,cancers,radiation exposures,cause_effect
+Crisis caused damage,damage,crisis,cause_effect
+Earthquake caused marsh drop,earthquake,marsh,cause_effect
+Operation resulted in arrest,operation,arrest,cause_effect
+Breakthroughs bring scientific progress,progress,breakthroughs,cause_effect
+Advertisements resulted in murders,advertisements,murders,cause_effect
+Wound came infection,infection,wound,cause_effect
+Ointment caused discomfort,discomfort,ointment,cause_effect
+Lavas lead violent eruption,lavas,eruption,cause_effect
+Accident poorly planned evacuation,evacuation,accident,cause_effect
+Incubation produces reduction,incubation,reduction,cause_effect
+Amphibolites developed soil properties,properties,amphibolites,cause_effect
+Bombing produced worst carnage,bombing,carnage,cause_effect
+Virus caused plantar warts,warts,virus,cause_effect
+Depression caused insomnia,insomnia,depression,cause_effect
+Soaps caused skin irritation,irritation,soaps,cause_effect
+Colds caused fevers aches,fevers,colds,cause_effect
+Purchase created greater satisfaction,satisfaction,purchase,cause_effect
+Insoles caused hot spot,insoles,spot,cause_effect
+Negligence caused ground accident,accident,negligence,cause_effect
+Shock waves produced afterglow,afterglow,shock waves,cause_effect
+Breeding consists of concealing,breeding,concealing,cause_effect
+Vaccine caused temperature elevation,vaccine,temperature elevation,cause_effect
+Experiences stemmed militancy,militancy,experiences,cause_effect
+Death caused abandonment,death,abandonment,cause_effect
+Developer crafted adventure,developer,adventure,cause_effect
+Germs lead to sickness,germs,sickness,cause_effect
+Inflation resulted banking profits,profits,inflation,cause_effect
+Cow makes sound,cow,sound,cause_effect
+Soya farming produces deforestation,soya farming,deforestation,cause_effect
+Development arose from conflicts,conflicts,development,cause_effect
+Recession caused hardship,hardship,recession,cause_effect
+Asteroid caused boom shaking,boom,asteroid,cause_effect
+Virus causes tonsillitis,virus,tonsillitis,cause_effect
+Eruption triggered earthquake,earthquake,eruption,cause_effect
+Bacteria caused food infection,infection,bacteria,cause_effect
+Stress corrosion available,stress,corrosion,cause_effect
+Crash caused seismic event,crash,seismic event,cause_effect
+Germs cause diarrhea,germs,diarrhea,cause_effect
+Fireplace radiating warmth,warmth,fireplace,cause_effect
+Heat produced steam,steam,heat,cause_effect
+Infections cause rash,infections,rash,cause_effect
+Media makes mistake,media,mistake,cause_effect
+Loss causes dehydration,dehydration,loss,cause_effect
+Acupuncture lasts relief,relief,acupuncture,cause_effect
+Cards in box,cards,box,in
+Suitcase full of oranges,suitcase,oranges,in
+Bowl contained apples,bowl,apples,in
+Bottle full of chemicals,bottle,chemicals,in
+Currency hidden in buckets,currency,buckets,in
+Insert inside machine,insert,machine,in
+Pizza dough in bin,pizza dough,bin,in
+Anthrax in suitcase,anthrax,suitcase,in
+Suitcase is full body parts,suitcase,body parts,in
+Suitcase full of props,suitcase,props,in
+Plastic container in cabinet,plastic container,cabinet,in
+Drawer contained phial,drawer,phial,in
+Disc enclosed in paper,disc,paper,in
+Money inside mattress,mattress,money,in
+Box in desk drawer,box,desk drawer,in
+Cheesecake inside container,cheesecake,container,in
+Fertilizer in package,fertilizer,package,in
+Group in refrigerator,group,refrigerator,in
+Bomb in suitcase,bomb,suitcase,in
+Apple in bottle,bottle,apple,in
+Ball in bin,ball,bin,in
+Mixes in box,mixes,box,in
+Key in pouch,key,pouch,in
+Water in bottle,bottle,water,in
+Brain inside skull,brain,skull,in
+Dress in trunk,dress,trunk,in
+Fetus in box,fetus,box,in
+Player inside silicone case,player,silicone case,in
+Cellophane bag dog treats,cellophane bag,dog treats,in
+Monitor enclosed in lid,monitor,lid,in
+Backflap in suitcase,backflap,suitcase,in
+Ball in basket,ball,basket,in
+Locker contained robe,locker,robe,in
+Teeth in wallet,teeth,wallet,in
+Cereal in bottle,bottle,cereal,in
+Suitcase included gym shoes,suitcase,gym shoes,in
+Gas in container,gas,container,in
+Slice in beaker,slice,beaker,in
+Blood in bottle,blood,bottle,in
+Assemblies stored in cask,assemblies,cask,in
+Loot in box,loot,box,in
+Stomach included apple mash,stomach,apple mash,in
+Suitcase with cash,suitcase,cash,in
+Toothpaste in jar,toothpaste,jar,in
+Ferrets in sack,ferrets,sack,in
+Garment in reliquary,garment,reliquary,in
+Water in jar,water,jar,in
+Bag in sack,bag,sack,in
+Contents included cell phone,contents,cell phone,in
+Bag with condoms,bag,condoms,in
+Letter inside pocket notebook,letter,pocket notebook,in
+Shelves contained books,shelves,books,in
+Boxes included phone cards,boxes,phone cards,in
+Clay in membrane tubing,clay,membrane tubing,in
+Kitchen contains salt,kitchen,salt,in
+Ballot box ballots,ballot box,ballots,in
+Data in database,data,database,in
+Body in mat,body,mat,in
+Slide in beaker,slide,beaker,in
+Painting in crate,painting,crate,in
+Database contents images,database,images,in
+Bottle full of juice,bottle,juice,in
+Memory in neurons,memory,neurons,in
+Cash in bag,cash,bag,in
+Products in hamper,products,hamper,in
+Flask contains broth,flask,broth,in
+Journal inside box,journal,box,in
+Sample in silver crucible,sample,silver crucible,in
+Stocks in retirement account,stocks,retirement account,in
+Soup in dish,soup,dish,in
+Bottle full of honey,bottle,honey,in
+Pack of cigarettes,pack,cigarettes,in
+Bottle full snake oil,bottle,snake oil,in
+Disk inside jewel case,disk,jewel case,in
+Bottle full of teeth,bottle,teeth,in
+Tumour inside bag,tumour,bag,in
+Pictures in box,pictures,box,in
+Trash bag with money,trash bag,money,in
+Sword in case,sword,case,in
+Tea in bag,tea,bag,in
+Kapok fiber in plastic packets,kapok fiber,plastic packets,in
+Body in cypress coffin,body,cypress coffin,in
+Bones in freezer,bones,freezer,in
+Suitcase full of cocaine,suitcase,cocaine,in
+Lawsonite in platinum crucible,lawsonite,platinum crucible,in
+Dress in trunk,dress,trunk,in
+Explosive in condom,explosive,condom,in
+Clothes in box,clothes,box,in
+Groceries in basket,groceries,basket,in
+Eggs in dish,eggs,dish,in
+Lithium in stainless steel tray,lithium,stainless steel tray,in
+Poem in certificate holder,poem,certificate holder,in
+List in safe,list,safe,in
+Grenade in tin,grenade,tin,in
+Suitcase full of bills,suitcase,bills,in
+Bottle full of air,bottle,air,in
+Suitcase with pajamas,suitcase,pajamas,in
+Bomb in handcart,bomb,handcart,in
+Bomb inside can,bomb,can,in
+Suitcase full of clothing,suitcase,clothing,in
+Mobile in belly,mobile,belly,in
+Game in bin,game,bin,in
+Tooth in cup,tooth,cup,in
+Box contains present,box,present,in
+Basket holds ears,basket,ears,in
+Sample in glass tube,sample,glass tube,in
+Bomb in can,bomb,can,in
+Tea bag in mug,tea bag,mug,in
+Mint julep in glass,mint julep,glass,in
+Rasher in book,rasher,book,in
+Pencil contains lines,pencil,lines,member_of
+Menu includes dishes,menu,dishes,member_of
+Woodcocks found in fall,fall,woodcocks,member_of
+Ambush of tigers noticed,ambush,tigers,member_of
+Council composed of advisors,council,advisors,member_of
+Array contains hedgehogs,array,hedgehogs,member_of
+Corps of executives failure,corps,executives,member_of
+Member of the panel,panel,member,member_of
+Grove of olive trees,grove,trees,member_of
+Rain of meteorites occurred,rain,meteorites,member_of
+Grove of oaks removed,grove,oaks,member_of
+Constituency of supporters,constituency,supporters,member_of
+Lawyer member of team,lawyer,team,member_of
+Student in university,student,university,member_of
+Troubling of goldfish purchase,troubling,goldfish,member_of
+Clew of slow worms,clew,worms,member_of
+Peep of chickens observations,peep,chickens,member_of
+Cooperative of associations,cooperative,associations,member_of
+Clan of berserkers,clan,berserkers,member_of
+Corporal in army,corporal,army,member_of
+Community of citizens,community,citizens,member_of
+Bench of bishops replaced,bench,bishops,member_of
+Flock of geese,flock,geese,member_of
+Regiment of musketeers,regiment,musketeers,member_of
+Cadge of peregrines,cadge,peregrines,member_of
+Pleiad of poets,pleiad,poets,member_of
+Army of caterpillars,army,caterpillars,member_of
+Boards of directors,boards,directors,member_of
+Regiment of hunters,regiment,hunters,member_of
+Melee of influences,melee,influences,member_of
+Kindle of kittens,kindle,kittens,member_of
+Community of teachers,community,teachers,member_of
+Mess of officers,mess,officers,member_of
+Surgeon in group,surgeon,group,member_of
+Sord of mallards,sord,mallards,member_of
+Kennel of dogs,kennel,dogs,member_of
+Cache of jewels,cache,jewels,member_of
+Team member research,team,member,member_of
+Confederation of aspects,confederation,aspects,member_of
+Cooperative of dairymen,cooperative,dairymen,member_of
+Leap of leopards,leap,leopards,member_of
+Brigade of chefs,brigade,chefs,member_of
+Municipality of corporation,municipality,corporation,member_of
+Faction of dragons,faction,dragons,member_of
+Organization of corporation,organization,corporation,member_of
+Sounder of boar,sounder,boar,member_of
+Deputy in party,deputy,party,member_of
+Legion of marksmen,legion,marksmen,member_of
+Wolf in pack,wolf,pack,member_of
+Sergeant major in army,sergeant major,army,member_of
+Universe of players,universe,players,member_of
+Skulk of thieves,skulk,thieves,member_of
+Congregation of hippos,congregation,hippos,member_of
+Ensemble of ladies,ensemble,ladies,member_of
+Creep of tortoises,creep,tortoises,member_of
+Cavvy of mounts,cavvy,mounts,member_of
+Pleiad of authors,pleiad,authors,member_of
+Hatch of mayflies,hatch,mayflies,member_of
+Crush of delegates,crush,delegates,member_of
+Member of organisation,member,organisation,member_of
+Draught of salmons,draught,salmons,member_of
+Parcel of birds,parcel,birds,member_of
+Herds with stallion,herds,stallion,member_of
+Rhumba of rattlesnakes,rhumba,rattlesnakes,member_of
+Swarm of locusts,swarm,locusts,member_of
+Alliance of partners,alliance,partners,member_of
+Nursery of raccoons,nursery,raccoons,member_of
+Gam of whales,gam,whales,member_of
+Clutter of spiders,clutter,spiders,member_of
+Division of grenadiers,division,grenadiers,member_of
+Psittacosis of parrots,psittacosis,parrots,member_of
+Battalion of grenadiers,battalion,grenadiers,member_of
+Cast of ferrets,cast,ferrets,member_of
+Committee member,committee,member,member_of
+Director in organizations,director,organizations,member_of
+Passengers in elite,passengers,elite,member_of
+Cluster of bees,cluster,bees,member_of
+Phalanx of umbrellas,phalanx,umbrellas,member_of
+Squadron of dragoons,squadron,dragoons,member_of
+Surfeit of skunks,surfeit,skunks,member_of
+Pile of books,pile,books,member_of
+League of tribes,league,tribes,member_of
+Raffle of turkeys,raffle,turkeys,member_of
+Remuda of geldings,remuda,geldings,member_of
+Head of team,head,team,member_of
+Armada of ships,armada,ships,member_of
+Wake of buzzards,wake,buzzards,member_of
+Siege of cranes,siege,cranes,member_of
+Fistful of coupons,fistful,coupons,member_of
+Parcel of deer,parcel,deer,member_of
+Smuck of jellyfish,smuck,jellyfish,member_of
+Clique of renegades,clique,renegades,member_of
+Array of luminaries,array,luminaries,member_of
+Wunch of bankers,wunch,bankers,member_of
+Throng of spectators,throng,spectators,member_of
+Gulp of cormorants,gulp,cormorants,member_of
+Alliance of elements,alliance,elements,member_of
+Smallholders in associations,smallholders,associations,member_of
+Club of residents,club,residents,member_of
+Eyrar of swans,eyrar,swans,member_of
+Crowd of protesters,crowd,protesters,member_of
+Harem of concubines,harem,concubines,member_of
+Confederation of cantons,confederation,cantons,member_of
+Ratpack of architects,ratpack,architects,member_of
+Coven of witches,coven,witches,member_of
+Pleiad of warriors,pleiad,warriors,member_of
+Bike of bees,bike,bees,member_of
+Drove of cattle,drove,cattle,member_of
+Visitors include waterbirds,visitors,waterbirds,member_of
+Quiver of cobras,quiver,cobras,member_of
+Message to mail application,message,mail application,moves_to
+Corpses in wrappings,corpses,wrappings,moves_to
+Spores into air,spores,air,moves_to
+Piece into trunk,piece,trunk,moves_to
+People into cities,people,cities,moves_to
+Flights to countries,flights,countries,moves_to
+Peacekeepers to region,peacekeepers,region,moves_to
+Mater into saline,mater,saline,moves_to
+Subtitles into files,subtitles,files,moves_to
+Needle into machine,needle,machine,moves_to
+Cells into tumor,cells,tumor,moves_to
+Caffeine into goods,caffeine,goods,moves_to
+Trillions into ventures,trillions,ventures,moves_to
+Garbage into bin,garbage,bin,moves_to
+Jars into cages,jars,cages,moves_to
+Victim into cliff,victim,cliff,moves_to
+Founders into tv,founders,tv,moves_to
+Watermarks into file,watermarks,file,moves_to
+Dough into pie pan,dough,pie pan,moves_to
+Animation into e-post card,animation,e-post card,moves_to
+Signal to process,signal,process,moves_to
+Boat to beach,boat,beach,moves_to
+Messages to outer space,text messages,outer space,moves_to
+Refuges into region,refuges,region,moves_to
+Signal into peroxisomes,signal,peroxisomes,moves_to
+Art to community,art,community,moves_to
+Letters to government,letters,government,moves_to
+Prisoner into family,prisoner,family,moves_to
+Plight to dwellers,plight,dwellers,moves_to
+Substance into capsule,substance,capsule,moves_to
+Sugar into coffee,sugar,coffee,moves_to
+Crew into haunted locations,crew,haunted locations,moves_to
+Billions into reforms,billions,reforms,moves_to
+Files to programs,files,programs,moves_to
+Alcohol to bar,alcohol,bar,moves_to
+Sample into vial,sample,vial,moves_to
+Sandwiches into knapsack,sandwiches,knapsack,moves_to
+Wax into can,wax,can,moves_to
+Millions into projects,millions,projects,moves_to
+Probe into area,probe,area,moves_to
+Champagne into glasses,champagne,glasses,moves_to
+Music into slideshows,music,slideshows,moves_to
+Train into truck,train,truck,moves_to
+Carrier into store,mold carrier,store,moves_to
+Pollution to air,pollution,air,moves_to
+Tourist into jungle,tourist,jungle,moves_to
+Baby bat into nest,baby bat,nest,moves_to
+Shot into bunker,shot,bunker,moves_to
+Boy into bathroom,boy,bathroom,moves_to
+Equipment into jockey box,equipment,jockey box,moves_to
+Wealth into communities,wealth,communities,moves_to
+Steroids into muscles,steroids,muscles,moves_to
+Questionnaires to countries,questionnaires,countries,moves_to
+Empathy into poetry,empathy,poetry,moves_to
+Book into store,book,store,moves_to
+Pasta into territory,pasta,territory,moves_to
+Horizons into basement blocks,paleogene horizons,basement blocks,moves_to
+Radionuclides into stainless steel,radionuclides,stainless steel,moves_to
+Citizenship to immigrant,citizenship,immigrant,moves_to
+Mail into account,mail,account,moves_to
+Shoe into mouth,shoe,mouth,moves_to
+Boxes to users,boxes,users,moves_to
+Line into article,line,article,moves_to
+Message to mailman,message,mailman,moves_to
+Card into camera,card,camera,moves_to
+Goods into states,goods,states,moves_to
+Money into education,money,education,moves_to
+Issue to printer,issue,printer,moves_to
+Sticker into inventory,homepage sticker,homepage inventory,moves_to
+Defendant in line,defendant,line,moves_to
+Effort into research,effort,research,moves_to
+Drug into capsule,drug,capsule,moves_to
+Spam into inbox folder,spam,inbox folder,moves_to
+Patients into hospital,patients,hospital,moves_to
+Luggage into vehicle,luggage,vehicle,moves_to
+Seeds into stratification unit,seeds,stratification unit,moves_to
+Wetlands into ditches,wetlands,ditches,moves_to
+Ax to staff,ax,staff,moves_to
+Wine to restaurant,wine,restaurant,moves_to
+Tube into furnace,tube,furnace,moves_to
+Payment into account,payment,account,moves_to
+Corgis into bag,inflatable corgis,bag,moves_to
+Book into software,book,software,moves_to
+Letter to group,letter,group,moves_to
+Soot into face,soot,face,moves_to
+Clodronate into dialysate,clodronate,dialysate,moves_to
+Water into eye,water,eye,moves_to
+Money into economy,money,economy,moves_to
+Mist into air,mist,air,moves_to
+Insights into industry,insights,industry,moves_to
+Tube into stomach,tube,stomach,moves_to
+Liquor amnii into phial,liquor amnii,phial,moves_to
+Virus to hard disk,virus,hard disk,moves_to
+Violation into memory,violation,memory,moves_to
+People into outer space,people,outer space,moves_to
+Results into logbook,test results,logbook,moves_to
+Heart into dog,heart,dog,moves_to
+Water into tank,water,tank,moves_to
+Saltpetre into sticks,saltpetre,sticks,moves_to
+Books to library,books,library,moves_to
+Goose into wild,goose,wild,moves_to
+Layer into beaker,layer,beaker,moves_to
+Gallon into cart,gallon,cart,moves_to
+Chocolate into market,chocolate,market,moves_to
+Invitation into bottle,invitation,bottle,moves_to
+Trip to next month,field trip,next month,moves_to
+Cores to labs,ice cores,labs,moves_to
+Doses to states,doses,states,moves_to
+People into orbit,people,orbit,moves_to
+Income to orphanage,income,orphanage,moves_to
+Corporal escaped POW train,corporal,train,originates_from
+Lomo pork guava sauce,guava,sauce,originates_from
+Cookies use peanut butter,peanut butter,cookies,originates_from
+Signal received from direction,signal,direction,originates_from
+Olive oil mediterranean diet,olive,oil,originates_from
+Moths emerged from cocoon,moths,cocoon,originates_from
+Basket from village manager,basket,village,originates_from
+Cane sugar engineering technology,cane,sugar,originates_from
+Water evaporated from paintings,water,paintings,originates_from
+Soybean oil exchange standards,soybean,oil,originates_from
+Name from arabic saying,name,saying,originates_from
+Cabin moved from site,cabin,site,originates_from
+Wings from trashed plane,wings,plane,originates_from
+Court started from assumption,court,assumption,originates_from
+Fountain removed from location,fountain,location,originates_from
+Team away from game,team,game,originates_from
+Beverage distilled from root,beverage,root,originates_from
+Lady ran from monks,lady,monks,originates_from
+Lather from soap friction,lather,soap,originates_from
+Smoke coming from bonfire,smoke,bonfire,originates_from
+Call from minnesota father,call,father,originates_from
+Pictures from weeks ago,pictures,weeks,originates_from
+Wife from wealthy family,wife,family,originates_from
+Letter arrived from agent,letter,agent,originates_from
+Writing from years ago,writing,years,originates_from
+Epogen made from plasma,epogen,plasma,originates_from
+Scream coming from chambers,scream,chambers,originates_from
+Drive grows from drum,drive,drum,originates_from
+Train from station station,train,station,originates_from
+Instruments made from glacier,instruments,glacier,originates_from
+Fruit wine rowan berries,fruit,wine,originates_from
+Chicken away from road,chicken,road,originates_from
+Vaccine manufactured in plant,vaccine,plant,originates_from
+Robbers ran from store,robbers,store,originates_from
+Pottery given by friend,pottery,friend,originates_from
+Content from encyclopedia encarta,content,encyclopedia,originates_from
+Employee departure from company,employee,company,originates_from
+Pain radiating from buttock,pain,buttock,originates_from
+Mushroom soup recipe helper,mushroom,soup,originates_from
+Computer stolen from office,computer,church office,originates_from
+Arm bit from veterinarian,arm,veterinarian,originates_from
+Grain beer brewing setup,grain,beer,originates_from
+Conjecture distilled from manuscript,conjecture,manuscript,originates_from
+Arsenic originated in coatings,arsenic,coatings,originates_from
+Guidelines from allens article,guidelines,article,originates_from
+Apricot marmalade on toast,apricot,marmalade,originates_from
+Tourists departure from hotel,tourists,hotel,originates_from
+Plane taxies from runway,plane,runway,originates_from
+Logs from previous months,logs,months,originates_from
+Train leaves the station,train,station,originates_from
+Dog broke from owner,dog,owner,originates_from
+Tie away from wardrobes,tie,wardrobes,originates_from
+Population from pacific region,population,region,originates_from
+Colours derived from stylesheet,colours,stylesheet,originates_from
+Answers out of computer,answers,computer,originates_from
+Elements originating from earth,elements,earth,originates_from
+Man ran from beach,man,beach,originates_from
+Food from farmed oceans,oceans,food,originates_from
+Defendant absconded from probation,defendant,probation,originates_from
+Chestnut flour italian alps,chestnut,flour,originates_from
+Adjective derived from noun,adjective,noun,originates_from
+Apple away from tree,apple,tree,originates_from
+Liquor made from fruit,liquor,fruit,originates_from
+Evidence comes from orbiter,evidence,orbiter,originates_from
+Boobs popped from outfit,boobs,outfit,originates_from
+Whisky distilled from molasses,whisky,molasses,originates_from
+Barchan runs from barchan,barchan,barchan,originates_from
+Committee formed in factory,committee,factory,originates_from
+Gin distilled from spirit,gin,spirit,originates_from
+Tickets from ticket machines,tickets,machines,originates_from
+Name comes from mythology,name,mythology,originates_from
+Demonstrators descended from vehicles,demonstrators,vehicles,originates_from
+Sun born in cluster,sun,cluster,originates_from
+Information arrives from neurons,information,neurons,originates_from
+Applicant exit from country,applicant,country,originates_from
+Drug release from microcapsules,drug,microcapsules,originates_from
+Sugar from fruit juice,fruit,sugar,originates_from
+Memorabilia from bygone times,memorabilia,times,originates_from
+Scientists from various universities,scientists,universities,originates_from
+Lemon marmalade fish marinade,lemon,marmalade,originates_from
+Marvels from galactic outback,marvels,outback,originates_from
+Toys from the future,toys,future,originates_from
+Term originates from article,term,article,originates_from
+Pomegranate juice high antioxidants,pomegranate,juice,originates_from
+Data derived from survey,data,survey,originates_from
+Water out from oven,water,oven,originates_from
+Avocado butter moisturizing treatment,avocado,butter,originates_from
+Castle from castlemania contest,castle,contest,originates_from
+Page from book life,page,book,originates_from
+Seed oils form extraction,seed,oils,originates_from
+Wine pressed from grapes,wine,grapes,originates_from
+Maize liquor makes drunk,maize,liquor,originates_from
+Driver ejected from car,driver,car,originates_from
+Hygrometer manufactured in spring,hygrometer,spring,originates_from
+Student released from jail,student,jail,originates_from
+Boy ran from orphanage,boy,orphanage,originates_from
+Tomato sauce lamb shank,tomato,sauce,originates_from
+Train from the terminal,train,terminal,originates_from
+Advice distilled from builders,advice,builders,originates_from
+Goats fibre export permitted,goats,fibre,originates_from
+Approximation derived from assumption,approximation,assumption,originates_from
+Packet arrived from gateway,packet,gateway,originates_from
+Water away from development,water,development,originates_from
+Mother-in-law released from hospital,mother-in-law,hospital,originates_from
+Recipe from book website,recipe,book,originates_from
+Boat from port ouchy,boat,port,originates_from
+Restaurant source of outbreak,restaurant,outbreak,originates_from
+Patriarch left native land,patriarch,land,originates_from
+Essay derived from study,essay,study,originates_from
+Pop heads from dome,dome,building,part_of
+Crane has section boom,crane,boom,part_of
+Windscreen using jet nozzles,windscreen,nozzles,part_of
+Mechanism composed of goniometer,mechanism,goniometer,part_of
+System consists of lines,system,lines,part_of
+Crank of fishing reel,crank,fishing reel,part_of
+Casing of the refrigerator,casing,refrigerator,part_of
+Birds caring for feathers,birds,feathers,part_of
+Cruisers have sophisticated fittings,cruisers,fittings,part_of
+Website gives detailed maps,website,maps,part_of
+Chamber contains a diaphragm,chamber,diaphragm,part_of
+Infrastructure comprises physical hardware,infrastructure,hardware,part_of
+Car had a camera,car,camera,part_of
+Padlock on security pane,padlock,pane,part_of
+Pages of the magazine,pages,magazine,part_of
+Servomotor driven-robot arm,servomotor,arm,part_of
+Rod in hand tool,rod,tool,part_of
+Machine contained shift register,machine,register,part_of
+Pants pocket new design,pants,pocket,part_of
+Broom side broom stick,broom,stick,part_of
+Shelf of the refrigerator,shelf,refrigerator,part_of
+Stern of the cruiser,stern,cruiser,part_of
+Television has a screen,television,screen,part_of
+Pants pocket with name,pants,pocket,part_of
+Document part of series,document,series,part_of
+Treatment consists of therapy,treatment,therapy,part_of
+Thumb of the hand,thumb,hand,part_of
+Kitchen contains noisy boiler,kitchen,boiler,part_of
+Building contained central space,building,open central space,part_of
+Rig combines trampoline system,rig,trampoline system,part_of
+Dish made with shanks,dish,shanks,part_of
+Device comprises expansion slots,device,slots,part_of
+Gathering part of event,gathering,event,part_of
+Necklace made with maireeners,necklace,maireeners,part_of
+Films in retrospective programmes,films,programmes,part_of
+Chapters later in book,chapters,book,part_of
+Back of a quilt,back,quilt,part_of
+Bathroom comprises wash basin,bathroom,wash basin,part_of
+Servo rotates its arm,servo,wallet,part_of
+Caverns located inside cave,caverns,cave,part_of
+Implant contains nanoparticles,implant,nanoparticles,part_of
+Conference part of kortdage,conference,kortdage,part_of
+Bed has a post,bed,post,part_of
+Bus connected to controller,bus,controller,part_of
+Sailor list going down,sailor,list,part_of
+House contains granny flat,house,granny flat,part_of
+Tag element of languages,tag,languages,part_of
+Eyes placed on head,eyes,head,part_of
+Scene part of movie,scene,movie,part_of
+Stern of the vessel,stern,vessel,part_of
+Jaw joints face side,jaw,joints,part_of
+Workshop accommodated invited talks,workshop,talks,part_of
+Clock inside ship wheel,clock,wheel,part_of
+Plan include weekly benefit,plan,weekly benefit,part_of
+Components of the building,components,building,part_of
+Heater has electric thermostats,heater,thermostats,part_of
+Valves of the veins,valves,veins,part_of
+Lid of portable computer,lid,portable computer,part_of
+Skirt waistband sewn on,skirt,waistband,part_of
+Cerebellum comprises brain volume,cerebellum,brain,part_of
+Aisles in the supermarket,aisles,supermarket,part_of
+Hall has a lift,hall,lift,part_of
+Machine has semiconductor switch,machine,semiconductor_switch,part_of
+Sail had important roach,sail,roach,part_of
+Carpet made of strips,carpet,strips,part_of
+Spring of the valve,spring,valve,part_of
+Inlet of the dryer,inlet,dryer,part_of
+Corbel carved with face,corbel,face,part_of
+Muscles parts of body,muscles,body,part_of
+Barn at a farm,barn,farm,part_of
+Kangaroos have chambered stomach,kangaroos,stomach,part_of
+Flapper of the valve,flapper,valve,part_of
+Building contained storage rooms,building,storage rooms,part_of
+Castle had two gatehouses,castle,gatehouses,part_of
+Bark of tree trunk,bark,trunk,part_of
+Sheets in a carton,sheets,carton,part_of
+Opener has a spiral,opener,spiral,part_of
+Skin of the fingers,skin,fingers,part_of
+Booby trap howitzer shell,booby trap,howitzer shell,part_of
+Fireplaces in the cottage,fireplaces,cottage,part_of
+Molecules site of synapse,molecules,synapse,part_of
+Turtle mouth controlling ball,turtle,mouth,part_of
+Microwave has turntable,microwave,turntable,part_of
+Scroll wheel of mouse,scroll wheel,mouse,part_of
+Layout comprises computer displays,layout,computer displays,part_of
+Roach on square sail,roach,sail,part_of
+Steps of the ladder,steps,ladder,part_of
+Breast composed of tissue,breast,tissue,part_of
+Car has casette player,car,casette player,part_of
+Brake cable released cable,brake,cable,part_of
+Fish has a gill,fish,gill,part_of
+Bedroom part of suite,bedroom,suite,part_of
+Manhole cover fastening bolts,manhole,cover,part_of
+Counter in the shop,counter,shop,part_of
+Knob of the slider,knob,slider,part_of
+Plates part of mechanism,plates,mechanism,part_of
+Church comprises six portals,church,portals,part_of
+Crank of the engine,crank,engine,part_of
+Pedometer uses spring arm,pedometer,arm,part_of
+Door knob felt loose,door,knob,part_of
+Brake cable anchor bolts,brake,cable,part_of
+Apartment has dining room,apartment,dining room,part_of
+Batteries in the flashlights,batteries,flashlights,part_of
+Facade of the building,facade,building,part_of
+Rivet of the truck,rivet,truck,part_of
+Pillars of a bridge,pillars,bridge,part_of
+Toe of the foot,toe,foot,part_of
+Figures summarise the results,figures,results,part_of
+Pig has a snout,pig,snout,part_of
+Lights in the shop,lights,shop,part_of
+Model produced by carpenter,model,carpenter,produced_by
+Author sixth book tragicomedy,author,book,produced_by
+Data produced by technician,data,technician,produced_by
+Brothers created glagolithic alphabet,brothers,alphabet,produced_by
+Spec by tyro scribe,spec,scribe,produced_by
+Walls built by sultan,walls,sultan,produced_by
+Program written by bio-scientist,program,bio-scientist,produced_by
+Output of human body,output,body,produced_by
+Release from the gallery,release,gallery,produced_by
+Attacker developed harm idea,attacker,idea,produced_by
+Artists created leather piece,artists,piece,produced_by
+Daughter made offensive comments,daughter,comments,produced_by
+Map maker drawn inspiration,map,maker,produced_by
+Church created by state,church,state,produced_by
+Godmother turned rat footmen,godmother,footmen,produced_by
+People produced maple sugar,people,sugar,produced_by
+Turbine manufacturing plant closure,turbine,plant,produced_by
+Comment made by critic,comment,critic,produced_by
+Prescriber makes out prescription,prescriber,prescription,produced_by
+Batteries developed by team,batteries,team,produced_by
+Researcher paper autism myth,researcher,paper,produced_by
+Panel report published today,panel,report,produced_by
+Panel makes a recommendation,panel,recommendation,produced_by
+Reporters constructed infrastructure explanations,reporters,explanations,produced_by
+Film directed by director,film,director,produced_by
+Landscape selected company steps,landscape,company,produced_by
+Company carved out benches,company,benches,produced_by
+Speaker opens poem question,speaker,question,produced_by
+Designer hotel armani designed,designer,hotel,produced_by
+Army built wall long,army,wall,produced_by
+Inventor of basic principle,inventor,principle,produced_by
+Factory produced military rifles,factory,rifles,produced_by
+Daughter sewed shirttail sack,daughter,sack,produced_by
+Beer produced by monasteries,beer,monasteries,produced_by
+Plan by a designer,plan,designer,produced_by
+Scientists wrote support letter,scientists,letter,produced_by
+Wren builds many nests,wren,nests,produced_by
+Engineers manually manufacture parts,engineers,parts,produced_by
+Banker hotel sudder street,banker,hotel,produced_by
+Draft by scientist-authors approved,draft,scientist-authors,produced_by
+People pottery picasso miro,people,pottery,produced_by
+Textile factory mill making,textile,mill,produced_by
+Compiler generates wrong code,compiler,code,produced_by
+Book author expanded points,book,author,produced_by
+Group established attack bases,group,bases,produced_by
+Design by blazer brothers,design,brothers,produced_by
+Manufacturer response viral flaw,manufacturer,response,produced_by
+Novel by experienced observer,novel,observer,produced_by
+Official description inner chamber,official,description,produced_by
+Company converts plastic oil,company,oil,produced_by
+Character created by comedian,character,comedian,produced_by
+Shadows produced by sun,shadows,sun,produced_by
+Settlers dug sevier ditch,settlers,ditch,produced_by
+Laboratory made magnets anchors,laboratory,magnets,produced_by
+Boy made the threat,boy,threat,produced_by
+Painter marks represent story,painter,marks,produced_by
+Manufacturer pledge leaders accept,manufacturer,pledge,produced_by
+Mites construct skin burrows,mites,burrows,produced_by
+Prisoners created tunnel trapdoors,prisoners,trapdoors,produced_by
+Home group constructed county,home,group,produced_by
+Artist cartoon prophet muhammad,artist,cartoon,produced_by
+Panels designed loved ones,panels,loved ones,produced_by
+Chimps make stem rods,chimps,rods,produced_by
+Demonstrators figure people held,demonstrators,figure,produced_by
+Factory cars sold brand,factory,cars,produced_by
+Wrestlers formed shield wedge,wrestlers,wedge,produced_by
+Speech narrator informing monster,speech,narrator,produced_by
+Star documentary succeed success,star,documentary,produced_by
+Questionnaire coordinators University designed,questionnaire,coordinators,produced_by
+Instructor makes chalkboard presentation,instructor,presentation,produced_by
+Galls caused by larvae,galls,larvae,produced_by
+Factory class manufactures objects,factory class,objects,produced_by
+Song composer interjected elements,song,composer,produced_by
+Photograph by utata member,photograph,member,produced_by
+Workgangs built union track,workgangs,track,produced_by
+Music industry unleashes crap,music industry,crap,produced_by
+Fiancee message threatening divorce,fiancee,message,produced_by
+Discoverer writes name citation,discoverer,citation,produced_by
+Coat artist imagination conjured,coat,artist,produced_by
+Oracle brought forth answers,oracle,answers,produced_by
+Fish eggs spawning pond,fish,eggs,produced_by
+Monitor provides quarterly report,monitor,report,produced_by
+Soldiers put up wall,soldiers,wall,produced_by
+Design office boss draughtsman,design,office,produced_by
+Wine produced by vintners,wine,vintners,produced_by
+Software uses comment marks,software,marks,produced_by
+Company made black collection,company,collection,produced_by
+Advertisement provider server not,advertisement,provider,produced_by
+Courts created algorithm test,courts,test,produced_by
+Defendant made statement injuries,defendant,statement,produced_by
+Media reports doom individual,media,reports,produced_by
+Plants bore grain weeds,plants,grain,produced_by
+Communities builder built visited,communities,builder,produced_by
+Scientist papers citations set,scientist,papers,produced_by
+Cigarettes production by producer,cigarettes,producer,produced_by
+Court instalment order instalment,court,order,produced_by
+Jumper daughter antoinette sewn,jumper,daughter,produced_by
+Vibrator developed by physician,vibrator,physician,produced_by
+Craftsman building sailing hat,craftsman,hat,produced_by
+Company made mug vienna,company,mug,produced_by
+Request company private law,request,company,produced_by
+Works quilters gee bend,works,quilters,produced_by
+Person makes technial will,person,will,produced_by
+Mason plazas shopping work,mason,plazas,produced_by
+Company decision license software,company,decision,produced_by
+Maker apps suit customer,maker,apps,produced_by
+Buildings villains constructed apartment,buildings,villains,produced_by
+Wool industry tregaron development,wool,industry,produced_by
+Legs made by company,legs,company,produced_by
+Sketches was produced by composer,sketches,composer,produced_by
+Book claims nature beautiful,claims,nature,talks_about
+Letter informing about study,letter,study,talks_about
+Movie depicts life hours,movie,hours,talks_about
+Book criticizing Chomsky writings,book,writings,talks_about
+File contains settings description,file,settings,talks_about
+Adventures form films subject,adventures,films,talks_about
+Comments regarding program adherence,comments,adherence,talks_about
+Sections dealing with markets,sections,markets,talks_about
+Paper present experimental results,paper,results,talks_about
+Speech devoted to affairs,speech,affairs,talks_about
+Book theme idea development,book,development,talks_about
+Glamour subject of exhibition,glamour,exhibition,talks_about
+List highlighted music talent,list,talent,talks_about
+Poster advertises 1898 exhibition,poster,exhibition,talks_about
+Magazine informs about science,magazine,science,talks_about
+Results of usage investigations,results,investigations,talks_about
+Article gives music details,article,music,talks_about
+Question concerns shocks extent,question,extent,talks_about
+Talk was need evolve,talk,need,talks_about
+Summary of important aspects,summary,aspects,talks_about
+Television series charts fortunes,television series,fortunes,talks_about
+Newsletter inform about work,newsletter,work,talks_about
+Messages outline blossoming romance,messages,romance,talks_about
+Film portrays four girls,film,girls,talks_about
+Manuscripts concerned psychological aspects,manuscripts,aspects,talks_about
+Disparity became dissertation topic,disparity,dissertation,talks_about
+Government ran into criticism,government,criticism,talks_about
+Legend about village moving,legend,village,talks_about
+Chapter giving algorithms introduction,chapter,algorithms,talks_about
+Newsletter informs about exhibitions,newsletter,exhibitions,talks_about
+Report present abscess case,report,case,talks_about
+Scenes subject of paintings,scenes,paintings,talks_about
+Health data developed animal,health,data,talks_about
+Special dedicated explaining term,special,term,talks_about
+Study report compares genetic structure,study report,genetic structure,talks_about
+Volume interested in religious,volume,religious,talks_about
+Flyers supply company information,flyers,company information,talks_about
+Papers chemistry mathematics published,papers,chemistry,talks_about
+Regulations govern available refunds,regulations,refunds,talks_about
+Request made phone call,request,phone call,talks_about
+Allegations made about behaviour,allegations,behaviour,talks_about
+Report investigates migration context,report,migration,talks_about
+Treatises assert medical obligation,treatises,obligation,talks_about
+Documents define training policies,documents,policies,talks_about
+Diagram illustrated apparatus principle,diagram,principle,talks_about
+Debate about relative value,debate,value,talks_about
+Songs are about sex,songs,sex,talks_about
+Book relates epic battles,book,battles,talks_about
+Plans take into needs,plans,needs,talks_about
+Programmes explored favourite games,programmes,games,talks_about
+Invoice indicating products quantities,invoice,products,talks_about
+Plot centers on goldfish,plot,goldfish,talks_about
+Convention says children rights,convention,rights,talks_about
+Films about man rambo,films,man,talks_about
+Questions answer interview salary,questions,salary,talks_about
+Film features contemporary philosophers,film,philosophers,talks_about
+Data structure introduced chapter,data structure,chapter,talks_about
+Presentation status claims-makers aspect,presentation,status,talks_about
+Course focus therapy theory,course,theory,talks_about
+Charts specific musical genre,charts,musical genre,talks_about
+Subject become discussion topic,subject,discussion,talks_about
+Cover analysed in article,cover,article,talks_about
+Theory supplies the answer,theory,answer,talks_about
+Letter described symptoms,letter,symptoms,talks_about
+Thesis supplied background information,thesis,background information,talks_about
+Negotiations on apprentice training,negotiations,apprentice training,talks_about
+Book has euthanasia backdrop,book,euthanasia,talks_about
+Book character woman Messua,book,character,talks_about
+Drama centered around girl,drama,girl,talks_about
+Article food part cny,article,food,talks_about
+Needs investigated web survey,needs,survey,talks_about
+Clause tells of pension,clause,pension,talks_about
+Guide offers documentary resources,guide,resources,talks_about
+Configurations illustrated in drawings,configurations,drawings,talks_about
+Report on implementation application,report,application,talks_about
+Notes survey law state,notes,state,talks_about
+Allegations of prisoner suffocation,allegations,prisoner suffocation,talks_about
+Speech criticising country north,speech,north,talks_about
+Information found in sentence,information,sentence,talks_about
+Conversation centers around privacy,conversation,privacy,talks_about
+Topic provokes arguments practice,arguments,practice,talks_about
+Projects having social justice,projects,social justice,talks_about
+Conclusion highlights environmental importance,conclusion,importance,talks_about
+Serial charted ruling dynasty,serial,dynasty,talks_about
+Clip describing bakery investment,clip,investment,talks_about
+Works investigate humanity relationship,works,relationship,talks_about
+Evening painted letter editor,evening,letter,talks_about
+Argumentation relating with speed,argumentation,speed,talks_about
+Novels contain common themes,novels,themes,talks_about
+Table indicates elected party,table,party,talks_about
+Book discusses natural history,book,history,talks_about
+Negotiations concerning fourth protocol,negotiations,protocol,talks_about
+Study insight flowering plants,study,flowering plants,talks_about
+Comments regard this decision,comments,decision,talks_about
+Local legend about mausoleum,local legend,mausoleum,talks_about
+Laws defining specifying crimes,laws,crimes,talks_about
+Study considered dairy farms,study,farms,talks_about
+Critics examined novel themes,themes,novel,talks_about
+Document investigating gender violence,document,violence,talks_about
+Introduction supplies historical background,introduction,background,talks_about
+Measures published disciplinary procedures,measures,procedures,talks_about
+Story depicting human ugliness,story,ugliness,talks_about
+Draft makes distinction records,draft,distinction,talks_about
+Chapter devoted entirely architecture,chapter,architecture,talks_about
+Conference discussing guidance motion,motion,conference,talks_about
+Portrait appears in paintings,portrait,paintings,talks_about
+Technique explained previous issue,technique,issue,talks_about
+Convention covered kidnapping murder,convention,kidnapping,talks_about
+Early years discussion topic,early years,discussion,talks_about
+Manuscript describes effective features,manuscript,features,talks_about
+Grandmother applied pain poultice,grandmother,poultice,used_by
+Surgeon manipulates operation robot,surgeon,robot,used_by
+Microwave oven great invention,microwave,oven,used_by
+Companies used by governments,companies,governments,used_by
+Group took restaurant taxi,group,taxi,used_by
+Apparatus using plurality panels,apparatus,panels,used_by
+Net enables fisherman catch,net,fisherman,used_by
+Engineer machining required scale,engineer,scale,used_by
+Department applied bias adjustment,department,adjustment,used_by
+Dentist forcibly pull drill,dentist,drill,used_by
+Photographer took pictures filter,photographer,filter,used_by
+Programmer uses level language,programmer,language,used_by
+Workers utilized assistance crane,workers,crane,used_by
+Man uses microphone speech,man,microphone,used_by
+Man took eighteenth elevator,man,elevator,used_by
+Electrician tool belt fits,electrician,belt,used_by
+Professional uses test lamp,professional,lamp,used_by
+Farmers began use plow,farmers,plow,used_by
+Students cultivate trees donations,students,donations,used_by
+Burglar used jimmy burglarizing,jimmy,burglar,used_by
+Drivers wheel clicking grinding,drivers,wheel,used_by
+Powers threaten iran sanctions,powers,sanctions,used_by
+Representative accessed vault key,representative,key,used_by
+Typewriter permits typist see,typewriter,typist,used_by
+Car battery powered laptop computer,car battery,laptop computer,used_by
+Tailor left scissors wall,tailor,scissors,used_by
+General reached city train,general,train,used_by
+Notebook for space astronomers,notebook,astronomers,used_by
+Goddess blindfolded with sword,goddess,sword,used_by
+Boy fighting peacock stick,boy,stick,used_by
+Terminal for geek programmer,terminal,programmer,used_by
+Boys sawed wood machine,boys,machine,used_by
+Researchers formed coating process,researchers,process,used_by
+Instrument players side bow,instrument,players,used_by
+Device joins fabric thread,device,thread,used_by
+Outfielder finger glove angle,outfielder,glove,used_by
+Virtuoso finds harmony instrument,virtuoso,instrument,used_by
+Driver stops torque brakes,driver,torque,used_by
+Workmen applied pipes blowlamp,workmen,blowlamp,used_by
+Historians use artifacts evidence,historians,evidence,used_by
+Dentist uses sandpaper drill,dentist,drill,used_by
+Thieves used wire blowtorch,thieves,blowtorch,used_by
+Website best tool artists,tool,artists,used_by
+Techniques used british interrogators,techniques,interrogators,used_by
+Woman applies abdomen patch,woman,patch,used_by
+Researchers applied probe vibration,researchers,probe,used_by
+Students mark maps pushpins,students,pushpins,used_by
+Angel lighting road lantern,angel,lantern,used_by
+Biologist combines distributed resources,biologist,resources,used_by
+Author uses raw disassembler,author,disassembler,used_by
+Thief broke ignition screwdriver,thief,screwdriver,used_by
+Researchers watered plant luciferin,researchers,luciferin,used_by
+Teacher writes blackboard number,teacher,blackboard,used_by
+Script uses dbi module,script,module,used_by
+Couple relaxes cup coffee,couple,coffee,used_by
+Carpenter wielding axe furniture,carpenter,axe,used_by
+Driver stopped car downtown,driver,car,used_by
+Artist wood hand-carves style,artist,style,used_by
+Players flew team plane,players,plane,used_by
+Doctor attending mask sars,doctor,mask,used_by
+Psychiatrist killed him drugs,psychiatrist,drugs,used_by
+Mechanic attaches wrench bolt,mechanic,wrench,used_by
+Painter tape removed removed,painter,tape,used_by
+Team used nanoparticle therapies,team,nanoparticle,used_by
+Engineers use computers solve,engineers,computers,used_by
+Students using online system,students,system,used_by
+Player attaches flashlight rifle,player,flashlight,used_by
+Electrician working gauge wire,wire,electrician,used_by
+Priest mixes oil spoon,priest,spoon,used_by
+Horse carrying rider death,horse,rider,used_by
+Method roman mathematicians used,method,mathematicians,used_by
+Mechanic fix lock screwdriver,mechanic,screwdriver,used_by
+Man delivers book cutter,man,cutter,used_by
+Students learn using computers,students,computers,used_by
+Painter able complete roller,painter,roller,used_by
+Army scaled cliffs maneuver,army,maneuver,used_by
+Parents killed maddie pills,parents,pills,used_by
+People rise language fame,people,language,used_by
+Photographer creates magic camera,photographer,camera,used_by
+Judge pounded gavel flinched,judge,gavel,used_by
+User machined wrenches broach,user,broach,used_by
+Plants obtain reduction analysis,plants,analysis,used_by
+Guy cleaned heads swab,guy,swab,used_by
+Convicts capture fish weirs,convicts,weirs,used_by
+Petrol starts engine lawnmower,petrol,lawnmower,used_by
+Puppeteer manipulates society puppet,puppeteer,puppet,used_by
+Loom featuring local weaver,loom,weaver,used_by
+Members scaled tree rope,members,rope,used_by
+Author uses repetition device,author,repetition,used_by
+Hermit demonstrates prowess bow,hermit,bow,used_by
+User regular road law,road,user,used_by
+President wields war power,president,power,used_by
+Travel agents turning telepresence,travel agents,telepresence,used_by
+Barber downed triangle scissors,barber,scissors,used_by
+Friend cooks cans cooker,friend,cooker,used_by
+Student creates compositional program,student,program,used_by
+Workman stirs ore hoe,workman,hoe,used_by
+Spotter sweeps countryside lamp,spotter,lamp,used_by
+Climber throws grappling hook,climber,grappling hook,used_by
+Stethoscope gives doctor clues,stethoscope,doctor,used_by
+Violinist produces sound bow,violinist,bow,used_by
+Potter wheel primitive formed,potter,wheel,used_by
+River once powered grist mill,river,grist mill,used_by
+Governments resolved crisis subsidization,governments,subsidization,used_by
+Driver seat car proposition,driver,seat,used_by
+Tarps for painters market,tarps,painters,used_by
+Accused killed victim kirpan,accused,kirpan,used_by
+Student edition textbooks typical,student,textbooks,used_by
+Outfielder needs large glove,outfielder,glove,used_by
+Man watched snow window,man,window,used_by

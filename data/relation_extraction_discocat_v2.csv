@@ -1,0 +1,3001 @@
+sentence,entity1,entity2,relation
+olivia actively trains at yale daily,olivia,yale,studies_at
+xavier was born in miami historically,xavier,miami,born_in
+plugin is part of network,plugin,network,part_of
+rachel diligently studies at nus,rachel,nus,studies_at
+henry is married to quinn legally,henry,quinn,married_to
+frank is parent of dave,frank,dave,parent_of
+carol is married to olivia,carol,olivia,married_to
+zane routinely handles docker carefully,zane,docker,uses
+karen actively studies at duke,karen,duke,studies_at
+jack is married to xavier officially,jack,xavier,married_to
+bob is married to wendy officially,bob,wendy,married_to
+umar actively learns at epfl,umar,epfl,studies_at
+jack securely owns guitar officially,jack,guitar,owns
+office is located in oslo currently,office,oslo,located_in
+jack is parent of victor,jack,victor,parent_of
+mia actively learns at harvard daily,mia,harvard,studies_at
+irene regularly leads at zoom now,irene,zoom,works_at
+mia is married to frank happily,mia,frank,married_to
+umar is married to jack happily,umar,jack,married_to
+yasmin currently serves at cisco now,yasmin,cisco,works_at
+frank is married to irene happily,frank,irene,married_to
+xavier regularly operates tableau effectively,xavier,tableau,uses
+victor seriously learns at stanford today,victor,stanford,studies_at
+paul daily handles the python effectively,paul,python,uses
+paul was born in paris officially,paul,paris,born_in
+gallery is located in dallas currently,gallery,dallas,located_in
+karen is parent of mia officially,karen,mia,parent_of
+zane seriously learns at iisc daily,zane,iisc,studies_at
+karen was born in sydney recently,karen,sydney,born_in
+karen actively learns at mit,karen,mit,studies_at
+sam currently lives in madrid now,sam,madrid,lives_in
+stadium is located in seoul today,stadium,seoul,located_in
+zane diligently studies at harvard today,zane,harvard,studies_at
+sam was born in london officially,sam,london,born_in
+frank currently dwells in sydney daily,frank,sydney,lives_in
+henry is married to carol legally,henry,carol,married_to
+xavier daily handles the pytorch effectively,xavier,pytorch,uses
+tina currently resides in denver daily,tina,denver,lives_in
+office is located in dubai officially,office,dubai,located_in
+paul is parent of wendy officially,paul,wendy,parent_of
+valve is part of system today,valve,system,part_of
+xavier was born in madrid officially,xavier,madrid,born_in
+sam is married to rachel happily,sam,rachel,married_to
+mia usually dwells in delhi now,mia,delhi,lives_in
+alice is married to sam officially,alice,sam,married_to
+umar actively studies at cornell daily,umar,cornell,studies_at
+jack actively works at ibm daily,jack,ibm,works_at
+rachel currently works at oracle today,rachel,oracle,works_at
+zane actively leads at adobe daily,zane,adobe,works_at
+xavier is married to henry,xavier,henry,married_to
+liam currently lives in lisbon today,liam,lisbon,lives_in
+dave diligently learns at iisc now,dave,iisc,studies_at
+jack legally owns the console today,jack,console,owns
+wendy diligently learns at harvard,wendy,harvard,studies_at
+xavier personally owns printer today,xavier,printer,owns
+zane is parent of rachel legally,zane,rachel,parent_of
+jack was born in vienna historically,jack,vienna,born_in
+yasmin was born in oslo recently,yasmin,oslo,born_in
+bob diligently learns at ethz daily,bob,ethz,studies_at
+airport is located in dubai currently,airport,dubai,located_in
+irene seriously learns at iisc daily,irene,iisc,studies_at
+rachel usually dwells in london,rachel,london,lives_in
+liam was born in lisbon historically,liam,lisbon,born_in
+switch is part of vehicle today,switch,vehicle,part_of
+module is part of device,module,device,part_of
+wendy securely holds the console today,wendy,console,owns
+umar is married to victor legally,umar,victor,married_to
+dave is parent of liam officially,dave,liam,parent_of
+yasmin regularly uses tensorflow carefully,yasmin,tensorflow,uses
+frank personally holds the console today,frank,console,owns
+sam regularly leads at paypal now,sam,paypal,works_at
+xavier is married to grace happily,xavier,grace,married_to
+olivia currently serves at google today,olivia,google,works_at
+jack regularly operates the git effectively,jack,git,uses
+frank securely owns guitar currently,frank,guitar,owns
+liam currently serves at google,liam,google,works_at
+quinn usually resides in oslo now,quinn,oslo,lives_in
+campus is located in oslo officially,campus,oslo,located_in
+henry is married to frank legally,henry,frank,married_to
+paul was born in london,paul,london,born_in
+mia is parent of rachel legally,mia,rachel,parent_of
+wendy regularly leads at spotify daily,wendy,spotify,works_at
+frank seriously learns at epfl today,frank,epfl,studies_at
+henry securely holds the watch currently,henry,watch,owns
+jack routinely operates figma effectively,jack,figma,uses
+screen is part of drone,screen,drone,part_of
+paul is married to jack happily,paul,jack,married_to
+frank is married to xavier legally,frank,xavier,married_to
+xavier is married to karen happily,xavier,karen,married_to
+xavier was born in lisbon officially,xavier,lisbon,born_in
+xavier daily operates git today,xavier,git,uses
+zane personally holds scooter today,zane,scooter,owns
+liam was born in tokyo recently,liam,tokyo,born_in
+circuit is part of system currently,circuit,system,part_of
+noah is parent of bob legally,noah,bob,parent_of
+rachel regularly serves at uber daily,rachel,uber,works_at
+center is located in vienna currently,center,vienna,located_in
+mia currently serves at nvidia daily,mia,nvidia,works_at
+zane is married to olivia happily,zane,olivia,married_to
+liam was born in sydney,liam,sydney,born_in
+henry personally keeps the car today,henry,car,owns
+module is part of platform today,module,platform,part_of
+wendy is married to liam,wendy,liam,married_to
+henry was born in rome historically,henry,rome,born_in
+karen was born in zurich historically,karen,zurich,born_in
+henry was born in london officially,henry,london,born_in
+office is located in vienna today,office,vienna,located_in
+alice is parent of henry officially,alice,henry,parent_of
+jack was born in dallas officially,jack,dallas,born_in
+zane actively works at ibm,zane,ibm,works_at
+victor routinely handles spark carefully,victor,spark,uses
+dave is parent of bob biologically,dave,bob,parent_of
+library is located in seoul currently,library,seoul,located_in
+olivia actively studies at mit now,olivia,mit,studies_at
+dave personally keeps the guitar currently,dave,guitar,owns
+olivia personally owns printer currently,olivia,printer,owns
+quinn actively studies at ucsd now,quinn,ucsd,studies_at
+frank daily handles the tableau effectively,frank,tableau,uses
+alice currently resides in tokyo today,alice,tokyo,lives_in
+bob securely keeps the printer officially,bob,printer,owns
+gear is part of platform currently,gear,platform,part_of
+tina daily uses the slack effectively,tina,slack,uses
+dave regularly uses the git carefully,dave,git,uses
+tina is parent of frank legally,tina,frank,parent_of
+factory is located in prague officially,factory,prague,located_in
+karen usually dwells in zurich daily,karen,zurich,lives_in
+emma often lives in boston now,emma,boston,lives_in
+module is part of platform currently,module,platform,part_of
+office is located in zurich officially,office,zurich,located_in
+gallery is located in phoenix currently,gallery,phoenix,located_in
+dave diligently learns at stanford daily,dave,stanford,studies_at
+sam seriously learns at ucsd daily,sam,ucsd,studies_at
+module is part of vehicle today,module,vehicle,part_of
+yasmin is parent of tina biologically,yasmin,tina,parent_of
+kernel is part of drone currently,kernel,drone,part_of
+hospital is located in dallas,hospital,dallas,located_in
+grace currently works at airbnb daily,grace,airbnb,works_at
+olivia is married to grace happily,olivia,grace,married_to
+irene currently leads at ibm today,irene,ibm,works_at
+frank usually resides in delhi today,frank,delhi,lives_in
+library is located in prague currently,library,prague,located_in
+henry is parent of victor officially,henry,victor,parent_of
+karen currently works at nvidia now,karen,nvidia,works_at
+zane currently leads at airbnb daily,zane,airbnb,works_at
+screen is part of robot,screen,robot,part_of
+battery is part of device officially,battery,device,part_of
+bob is parent of victor legally,bob,victor,parent_of
+emma often dwells in vienna,emma,vienna,lives_in
+engine is part of aircraft,engine,aircraft,part_of
+rachel was born in sydney,rachel,sydney,born_in
+dave is married to sam,dave,sam,married_to
+henry was born in dallas,henry,dallas,born_in
+office is located in dallas currently,office,dallas,located_in
+emma was born in dallas officially,emma,dallas,born_in
+emma usually lives in seoul now,emma,seoul,lives_in
+stadium is located in delhi officially,stadium,delhi,located_in
+grace personally owns house today,grace,house,owns
+kernel is part of device,kernel,device,part_of
+olivia daily operates linux today,olivia,linux,uses
+liam often resides in phoenix now,liam,phoenix,lives_in
+liam legally keeps camera officially,liam,camera,owns
+emma diligently trains at ucsd daily,emma,ucsd,studies_at
+henry currently lives in oslo daily,henry,oslo,lives_in
+dave is married to liam happily,dave,liam,married_to
+carol currently resides in dubai today,carol,dubai,lives_in
+xavier is married to wendy legally,xavier,wendy,married_to
+sam is married to bob legally,sam,bob,married_to
+embassy is located in phoenix,embassy,phoenix,located_in
+karen actively studies at epfl today,karen,epfl,studies_at
+hospital is located in zurich today,hospital,zurich,located_in
+sam usually lives in miami daily,sam,miami,lives_in
+carol currently leads at nvidia now,carol,nvidia,works_at
+emma currently works at nvidia daily,emma,nvidia,works_at
+karen legally keeps the scooter officially,karen,scooter,owns
+alice actively serves at uber now,alice,uber,works_at
+gallery is located in paris officially,gallery,paris,located_in
+umar seriously trains at duke daily,umar,duke,studies_at
+paul usually dwells in denver,paul,denver,lives_in
+frank often lives in dallas daily,frank,dallas,lives_in
+xavier legally keeps the house officially,xavier,house,owns
+zane was born in madrid historically,zane,madrid,born_in
+umar is parent of emma biologically,umar,emma,parent_of
+olivia is married to henry happily,olivia,henry,married_to
+alice currently serves at tesla now,alice,tesla,works_at
+bob often lives in miami daily,bob,miami,lives_in
+sensor is part of cluster currently,sensor,cluster,part_of
+yasmin was born in delhi officially,yasmin,delhi,born_in
+emma currently serves at uber today,emma,uber,works_at
+screen is part of platform currently,screen,platform,part_of
+liam is parent of bob biologically,liam,bob,parent_of
+quinn diligently learns at mit,quinn,mit,studies_at
+xavier is married to irene happily,xavier,irene,married_to
+rachel securely holds the laptop today,rachel,laptop,owns
+olivia often dwells in miami today,olivia,miami,lives_in
+port is located in vienna,port,vienna,located_in
+mia is parent of liam,mia,liam,parent_of
+carol usually resides in boston daily,carol,boston,lives_in
+mia was born in dallas recently,mia,dallas,born_in
+dave actively leads at netflix now,dave,netflix,works_at
+circuit is part of aircraft currently,circuit,aircraft,part_of
+yasmin routinely handles pytorch today,yasmin,pytorch,uses
+alice legally owns house officially,alice,house,owns
+mia regularly operates the figma effectively,mia,figma,uses
+grace regularly serves at microsoft now,grace,microsoft,works_at
+sam is married to wendy officially,sam,wendy,married_to
+alice actively works at ibm today,alice,ibm,works_at
+panel is part of machine today,panel,machine,part_of
+quinn usually resides in miami daily,quinn,miami,lives_in
+rachel was born in phoenix officially,rachel,phoenix,born_in
+jack legally owns printer officially,jack,printer,owns
+mia is married to grace happily,mia,grace,married_to
+victor is parent of jack,victor,jack,parent_of
+mia actively works at samsung now,mia,samsung,works_at
+henry routinely handles excel effectively,henry,excel,uses
+dave usually resides in london,dave,london,lives_in
+emma actively works at adobe now,emma,adobe,works_at
+dave is married to rachel happily,dave,rachel,married_to
+zane actively leads at siemens now,zane,siemens,works_at
+umar was born in zurich,umar,zurich,born_in
+plugin is part of network officially,plugin,network,part_of
+zane currently dwells in london today,zane,london,lives_in
+sam currently lives in zurich now,sam,zurich,lives_in
+dave is married to karen happily,dave,karen,married_to
+rachel regularly handles the pytorch effectively,rachel,pytorch,uses
+alice personally holds the printer officially,alice,printer,owns
+irene regularly serves at samsung daily,irene,samsung,works_at
+jack seriously learns at harvard daily,jack,harvard,studies_at
+quinn actively trains at mit,quinn,mit,studies_at
+frank currently leads at zoom,frank,zoom,works_at
+motor is part of system officially,motor,system,part_of
+noah daily handles the docker today,noah,docker,uses
+noah was born in zurich officially,noah,zurich,born_in
+wendy was born in dallas recently,wendy,dallas,born_in
+stadium is located in berlin currently,stadium,berlin,located_in
+wendy personally keeps the laptop officially,wendy,laptop,owns
+carol was born in sydney,carol,sydney,born_in
+yasmin was born in london recently,yasmin,london,born_in
+frank legally holds boat today,frank,boat,owns
+zane is parent of paul legally,zane,paul,parent_of
+liam legally owns the guitar officially,liam,guitar,owns
+quinn regularly operates pytorch carefully,quinn,pytorch,uses
+tina diligently learns at nus,tina,nus,studies_at
+jack diligently learns at nus today,jack,nus,studies_at
+jack daily uses figma carefully,jack,figma,uses
+alice often resides in sydney daily,alice,sydney,lives_in
+library is located in zurich officially,library,zurich,located_in
+embassy is located in lisbon officially,embassy,lisbon,located_in
+irene currently leads at sap now,irene,sap,works_at
+xavier actively learns at princeton now,xavier,princeton,studies_at
+museum is located in phoenix currently,museum,phoenix,located_in
+henry was born in sydney,henry,sydney,born_in
+rachel routinely operates linux effectively,rachel,linux,uses
+office is located in paris currently,office,paris,located_in
+mia is married to irene happily,mia,irene,married_to
+sam is parent of umar officially,sam,umar,parent_of
+dave seriously trains at epfl daily,dave,epfl,studies_at
+liam securely owns camera officially,liam,camera,owns
+sensor is part of platform,sensor,platform,part_of
+wendy seriously trains at nus,wendy,nus,studies_at
+dave actively studies at nus,dave,nus,studies_at
+library is located in denver currently,library,denver,located_in
+quinn is parent of irene biologically,quinn,irene,parent_of
+wendy was born in boston historically,wendy,boston,born_in
+victor is parent of noah officially,victor,noah,parent_of
+gallery is located in denver,gallery,denver,located_in
+gear is part of pipeline currently,gear,pipeline,part_of
+carol is parent of wendy,carol,wendy,parent_of
+museum is located in zurich today,museum,zurich,located_in
+museum is located in tokyo officially,museum,tokyo,located_in
+yasmin seriously learns at yale,yasmin,yale,studies_at
+yasmin actively leads at samsung today,yasmin,samsung,works_at
+frank is married to jack officially,frank,jack,married_to
+yasmin regularly operates the slack carefully,yasmin,slack,uses
+irene usually lives in berlin now,irene,berlin,lives_in
+sam often dwells in vienna today,sam,vienna,lives_in
+umar is parent of grace,umar,grace,parent_of
+switch is part of vehicle officially,switch,vehicle,part_of
+module is part of network currently,module,network,part_of
+plugin is part of aircraft officially,plugin,aircraft,part_of
+henry is married to paul happily,henry,paul,married_to
+irene currently works at microsoft daily,irene,microsoft,works_at
+dave currently dwells in miami now,dave,miami,lives_in
+carol was born in miami historically,carol,miami,born_in
+irene routinely operates tensorflow today,irene,tensorflow,uses
+liam was born in boston recently,liam,boston,born_in
+alice actively works at tesla now,alice,tesla,works_at
+motor is part of aircraft today,motor,aircraft,part_of
+bob usually dwells in phoenix today,bob,phoenix,lives_in
+henry often resides in dubai,henry,dubai,lives_in
+liam currently resides in zurich daily,liam,zurich,lives_in
+grace was born in seoul,grace,seoul,born_in
+umar is parent of olivia officially,umar,olivia,parent_of
+noah regularly uses the slack carefully,noah,slack,uses
+factory is located in delhi today,factory,delhi,located_in
+irene was born in sydney historically,irene,sydney,born_in
+switch is part of cluster officially,switch,cluster,part_of
+sam currently dwells in phoenix daily,sam,phoenix,lives_in
+karen currently lives in boston today,karen,boston,lives_in
+karen securely owns phone currently,karen,phone,owns
+circuit is part of aircraft officially,circuit,aircraft,part_of
+emma is parent of paul biologically,emma,paul,parent_of
+rachel is married to liam,rachel,liam,married_to
+embassy is located in paris,embassy,paris,located_in
+grace legally keeps the farm today,grace,farm,owns
+henry currently lives in madrid today,henry,madrid,lives_in
+kernel is part of network today,kernel,network,part_of
+xavier routinely uses the sql today,xavier,sql,uses
+alice regularly uses excel today,alice,excel,uses
+studio is located in delhi officially,studio,delhi,located_in
+grace regularly uses kafka carefully,grace,kafka,uses
+rachel routinely operates tensorflow carefully,rachel,tensorflow,uses
+rachel currently resides in tokyo,rachel,tokyo,lives_in
+karen daily handles the python carefully,karen,python,uses
+paul securely owns the watch currently,paul,watch,owns
+dave was born in seoul,dave,seoul,born_in
+museum is located in tokyo today,museum,tokyo,located_in
+irene regularly operates jira effectively,irene,jira,uses
+switch is part of server currently,switch,server,part_of
+emma is married to jack legally,emma,jack,married_to
+zane actively works at airbnb,zane,airbnb,works_at
+alice legally holds the phone today,alice,phone,owns
+panel is part of platform,panel,platform,part_of
+paul routinely uses slack carefully,paul,slack,uses
+quinn daily handles figma today,quinn,figma,uses
+paul routinely uses kafka carefully,paul,kafka,uses
+embassy is located in dubai officially,embassy,dubai,located_in
+gallery is located in oslo,gallery,oslo,located_in
+jack currently resides in boston daily,jack,boston,lives_in
+dave seriously studies at stanford daily,dave,stanford,studies_at
+battery is part of platform today,battery,platform,part_of
+yasmin regularly handles the python effectively,yasmin,python,uses
+jack was born in lisbon historically,jack,lisbon,born_in
+henry personally owns the house today,henry,house,owns
+victor personally keeps tablet currently,victor,tablet,owns
+liam often dwells in seoul now,liam,seoul,lives_in
+carol currently resides in tokyo,carol,tokyo,lives_in
+rachel often resides in rome now,rachel,rome,lives_in
+sam is married to wendy happily,sam,wendy,married_to
+karen personally holds the bicycle currently,karen,bicycle,owns
+tina securely owns car today,tina,car,owns
+xavier seriously learns at ucla,xavier,ucla,studies_at
+tina securely holds printer currently,tina,printer,owns
+karen securely owns guitar today,karen,guitar,owns
+liam was born in phoenix officially,liam,phoenix,born_in
+emma is parent of tina,emma,tina,parent_of
+wendy daily uses spark effectively,wendy,spark,uses
+frank is parent of wendy officially,frank,wendy,parent_of
+xavier is parent of victor legally,xavier,victor,parent_of
+bob was born in rome recently,bob,rome,born_in
+dave regularly operates the linux today,dave,linux,uses
+olivia personally holds car currently,olivia,car,owns
+liam is parent of yasmin officially,liam,yasmin,parent_of
+emma seriously learns at princeton daily,emma,princeton,studies_at
+yasmin is married to rachel officially,yasmin,rachel,married_to
+irene regularly leads at tesla daily,irene,tesla,works_at
+henry is married to mia,henry,mia,married_to
+olivia personally keeps the house today,olivia,house,owns
+xavier diligently studies at harvard,xavier,harvard,studies_at
+plugin is part of cluster today,plugin,cluster,part_of
+jack was born in rome officially,jack,rome,born_in
+jack was born in boston recently,jack,boston,born_in
+valve is part of platform today,valve,platform,part_of
+henry currently lives in phoenix,henry,phoenix,lives_in
+umar actively studies at nus now,umar,nus,studies_at
+mia currently dwells in vienna now,mia,vienna,lives_in
+dave regularly uses the sql carefully,dave,sql,uses
+quinn personally holds scooter currently,quinn,scooter,owns
+henry seriously studies at harvard today,henry,harvard,studies_at
+frank legally holds studio today,frank,studio,owns
+frank usually lives in london,frank,london,lives_in
+bob is married to karen happily,bob,karen,married_to
+plugin is part of cluster currently,plugin,cluster,part_of
+dave daily uses the kafka today,dave,kafka,uses
+circuit is part of network,circuit,network,part_of
+mia usually dwells in rome daily,mia,rome,lives_in
+tina was born in london officially,tina,london,born_in
+plugin is part of vehicle,plugin,vehicle,part_of
+noah is parent of henry officially,noah,henry,parent_of
+olivia actively serves at airbnb now,olivia,airbnb,works_at
+yasmin seriously trains at cornell today,yasmin,cornell,studies_at
+karen is parent of rachel,karen,rachel,parent_of
+campus is located in seoul officially,campus,seoul,located_in
+gear is part of drone officially,gear,drone,part_of
+quinn is parent of carol legally,quinn,carol,parent_of
+frank personally holds the tablet officially,frank,tablet,owns
+liam personally keeps farm today,liam,farm,owns
+plugin is part of server,plugin,server,part_of
+paul regularly serves at tesla now,paul,tesla,works_at
+zane was born in paris recently,zane,paris,born_in
+henry diligently learns at stanford daily,henry,stanford,studies_at
+mia is married to emma happily,mia,emma,married_to
+paul currently resides in vienna daily,paul,vienna,lives_in
+noah personally keeps bicycle currently,noah,bicycle,owns
+valve is part of machine currently,valve,machine,part_of
+olivia is married to liam happily,olivia,liam,married_to
+center is located in seoul currently,center,seoul,located_in
+engine is part of robot today,engine,robot,part_of
+grace legally owns tablet today,grace,tablet,owns
+carol legally keeps the bicycle officially,carol,bicycle,owns
+victor is parent of jack legally,victor,jack,parent_of
+valve is part of network officially,valve,network,part_of
+circuit is part of robot officially,circuit,robot,part_of
+jack is parent of sam,jack,sam,parent_of
+jack actively studies at cornell today,jack,cornell,studies_at
+router is part of pipeline,router,pipeline,part_of
+karen securely holds house officially,karen,house,owns
+bob is parent of umar,bob,umar,parent_of
+campus is located in dubai today,campus,dubai,located_in
+olivia is married to zane happily,olivia,zane,married_to
+carol currently lives in zurich today,carol,zurich,lives_in
+umar actively learns at princeton now,umar,princeton,studies_at
+karen is parent of alice biologically,karen,alice,parent_of
+carol usually resides in miami today,carol,miami,lives_in
+dave currently lives in zurich,dave,zurich,lives_in
+noah actively learns at duke now,noah,duke,studies_at
+xavier regularly uses pytorch effectively,xavier,pytorch,uses
+rachel is parent of yasmin,rachel,yasmin,parent_of
+frank was born in prague historically,frank,prague,born_in
+xavier personally keeps watch today,xavier,watch,owns
+yasmin actively trains at ethz,yasmin,ethz,studies_at
+yasmin was born in miami historically,yasmin,miami,born_in
+carol was born in paris officially,carol,paris,born_in
+victor was born in dallas historically,victor,dallas,born_in
+zane currently dwells in vienna today,zane,vienna,lives_in
+port is located in berlin officially,port,berlin,located_in
+sam regularly leads at spotify today,sam,spotify,works_at
+liam actively serves at ibm today,liam,ibm,works_at
+emma legally keeps the house today,emma,house,owns
+gear is part of cluster currently,gear,cluster,part_of
+tina currently dwells in delhi daily,tina,delhi,lives_in
+bob securely keeps the tablet today,bob,tablet,owns
+irene is parent of karen,irene,karen,parent_of
+xavier seriously studies at nus daily,xavier,nus,studies_at
+wendy usually lives in denver,wendy,denver,lives_in
+gallery is located in vienna currently,gallery,vienna,located_in
+liam was born in miami officially,liam,miami,born_in
+sam was born in dallas recently,sam,dallas,born_in
+filter is part of device,filter,device,part_of
+rachel is parent of sam biologically,rachel,sam,parent_of
+henry seriously trains at mit today,henry,mit,studies_at
+sam is married to mia officially,sam,mia,married_to
+irene is married to dave legally,irene,dave,married_to
+zane legally owns the farm officially,zane,farm,owns
+liam is parent of dave,liam,dave,parent_of
+dave is married to alice,dave,alice,married_to
+liam was born in dallas,liam,dallas,born_in
+zane currently resides in lisbon now,zane,lisbon,lives_in
+zane currently leads at siemens now,zane,siemens,works_at
+karen usually lives in rome today,karen,rome,lives_in
+dave is parent of umar legally,dave,umar,parent_of
+karen currently lives in oslo now,karen,oslo,lives_in
+irene was born in denver officially,irene,denver,born_in
+jack is married to wendy legally,jack,wendy,married_to
+stadium is located in madrid today,stadium,madrid,located_in
+warehouse is located in denver officially,warehouse,denver,located_in
+xavier currently lives in seoul,xavier,seoul,lives_in
+liam is parent of victor legally,liam,victor,parent_of
+liam securely owns the scooter officially,liam,scooter,owns
+emma was born in berlin recently,emma,berlin,born_in
+bob is married to rachel happily,bob,rachel,married_to
+campus is located in lisbon officially,campus,lisbon,located_in
+victor actively trains at duke today,victor,duke,studies_at
+valve is part of vehicle currently,valve,vehicle,part_of
+wendy currently works at siemens daily,wendy,siemens,works_at
+paul personally owns tablet officially,paul,tablet,owns
+wendy seriously learns at ethz daily,wendy,ethz,studies_at
+alice actively studies at ucla now,alice,ucla,studies_at
+quinn seriously studies at oxford,quinn,oxford,studies_at
+bob actively studies at epfl daily,bob,epfl,studies_at
+valve is part of robot,valve,robot,part_of
+stadium is located in dubai today,stadium,dubai,located_in
+liam is parent of xavier officially,liam,xavier,parent_of
+xavier was born in vienna officially,xavier,vienna,born_in
+bob currently leads at microsoft now,bob,microsoft,works_at
+henry is married to grace legally,henry,grace,married_to
+tina is married to karen,tina,karen,married_to
+liam is parent of karen officially,liam,karen,parent_of
+frank is parent of alice legally,frank,alice,parent_of
+carol diligently studies at ethz daily,carol,ethz,studies_at
+airport is located in boston today,airport,boston,located_in
+karen personally holds the laptop officially,karen,laptop,owns
+quinn currently serves at oracle daily,quinn,oracle,works_at
+karen seriously learns at duke now,karen,duke,studies_at
+quinn currently lives in dubai now,quinn,dubai,lives_in
+carol diligently trains at cornell,carol,cornell,studies_at
+emma was born in paris officially,emma,paris,born_in
+switch is part of device officially,switch,device,part_of
+zane currently works at google,zane,google,works_at
+yasmin is married to mia officially,yasmin,mia,married_to
+embassy is located in vienna today,embassy,vienna,located_in
+carol is married to bob legally,carol,bob,married_to
+grace is parent of alice officially,grace,alice,parent_of
+tina was born in dubai,tina,dubai,born_in
+tina is parent of quinn officially,tina,quinn,parent_of
+umar actively trains at cornell daily,umar,cornell,studies_at
+hospital is located in prague currently,hospital,prague,located_in
+hospital is located in sydney officially,hospital,sydney,located_in
+xavier regularly serves at cisco now,xavier,cisco,works_at
+bob usually dwells in oslo now,bob,oslo,lives_in
+karen is married to emma happily,karen,emma,married_to
+alice personally owns the console officially,alice,console,owns
+noah regularly operates git carefully,noah,git,uses
+frank securely holds bicycle today,frank,bicycle,owns
+emma personally holds the laptop today,emma,laptop,owns
+henry daily uses the git today,henry,git,uses
+olivia daily operates the python effectively,olivia,python,uses
+henry personally keeps car officially,henry,car,owns
+factory is located in dallas today,factory,dallas,located_in
+xavier securely owns laptop today,xavier,laptop,owns
+yasmin legally holds bicycle officially,yasmin,bicycle,owns
+alice is married to paul legally,alice,paul,married_to
+dave regularly handles the tensorflow effectively,dave,tensorflow,uses
+tina daily operates git today,tina,git,uses
+xavier was born in tokyo historically,xavier,tokyo,born_in
+noah is parent of tina legally,noah,tina,parent_of
+wendy legally keeps car officially,wendy,car,owns
+irene actively studies at duke,irene,duke,studies_at
+carol often resides in prague daily,carol,prague,lives_in
+alice actively trains at harvard today,alice,harvard,studies_at
+sam is parent of umar legally,sam,umar,parent_of
+xavier is parent of bob legally,xavier,bob,parent_of
+carol is parent of umar biologically,carol,umar,parent_of
+museum is located in paris currently,museum,paris,located_in
+studio is located in miami currently,studio,miami,located_in
+carol is married to grace,carol,grace,married_to
+tina is married to victor,tina,victor,married_to
+mia actively serves at samsung daily,mia,samsung,works_at
+rachel daily handles spark carefully,rachel,spark,uses
+frank often resides in miami,frank,miami,lives_in
+umar actively trains at mit now,umar,mit,studies_at
+irene was born in lisbon recently,irene,lisbon,born_in
+sam actively studies at brown,sam,brown,studies_at
+frank is married to sam officially,frank,sam,married_to
+emma routinely uses tensorflow effectively,emma,tensorflow,uses
+panel is part of robot currently,panel,robot,part_of
+zane actively works at microsoft,zane,microsoft,works_at
+liam is married to grace happily,liam,grace,married_to
+motor is part of pipeline,motor,pipeline,part_of
+dave is parent of irene biologically,dave,irene,parent_of
+valve is part of device today,valve,device,part_of
+tina actively studies at harvard now,tina,harvard,studies_at
+grace is parent of henry legally,grace,henry,parent_of
+liam regularly works at oracle,liam,oracle,works_at
+grace routinely operates pytorch effectively,grace,pytorch,uses
+studio is located in rome,studio,rome,located_in
+embassy is located in vienna,embassy,vienna,located_in
+alice often resides in tokyo today,alice,tokyo,lives_in
+umar currently lives in phoenix daily,umar,phoenix,lives_in
+irene was born in berlin recently,irene,berlin,born_in
+sam is parent of dave officially,sam,dave,parent_of
+museum is located in delhi today,museum,delhi,located_in
+liam routinely operates spark effectively,liam,spark,uses
+bob often resides in berlin now,bob,berlin,lives_in
+quinn regularly leads at oracle daily,quinn,oracle,works_at
+emma was born in london officially,emma,london,born_in
+frank legally owns the studio currently,frank,studio,owns
+gear is part of server,gear,server,part_of
+frank personally owns the console currently,frank,console,owns
+alice is married to dave legally,alice,dave,married_to
+battery is part of server officially,battery,server,part_of
+irene daily uses jira carefully,irene,jira,uses
+irene securely keeps studio currently,irene,studio,owns
+frank was born in paris,frank,paris,born_in
+grace actively learns at nus today,grace,nus,studies_at
+victor usually resides in berlin daily,victor,berlin,lives_in
+quinn routinely uses the excel carefully,quinn,excel,uses
+noah is married to yasmin happily,noah,yasmin,married_to
+henry is married to xavier,henry,xavier,married_to
+alice actively trains at iisc now,alice,iisc,studies_at
+mia was born in miami,mia,miami,born_in
+henry regularly operates python today,henry,python,uses
+port is located in sydney currently,port,sydney,located_in
+xavier legally keeps the guitar currently,xavier,guitar,owns
+jack currently works at zoom now,jack,zoom,works_at
+bob securely keeps phone today,bob,phone,owns
+rachel is married to karen happily,rachel,karen,married_to
+victor was born in delhi officially,victor,delhi,born_in
+irene routinely handles python effectively,irene,python,uses
+engine is part of server today,engine,server,part_of
+rachel is married to dave officially,rachel,dave,married_to
+rachel actively learns at brown daily,rachel,brown,studies_at
+liam diligently trains at harvard today,liam,harvard,studies_at
+mia was born in madrid historically,mia,madrid,born_in
+emma actively studies at brown daily,emma,brown,studies_at
+plugin is part of robot currently,plugin,robot,part_of
+dave currently resides in lisbon daily,dave,lisbon,lives_in
+terminal is located in zurich currently,terminal,zurich,located_in
+tina routinely uses the spark today,tina,spark,uses
+noah is parent of henry legally,noah,henry,parent_of
+sam is parent of yasmin officially,sam,yasmin,parent_of
+henry actively serves at microsoft,henry,microsoft,works_at
+henry is married to irene officially,henry,irene,married_to
+alice regularly works at zoom now,alice,zoom,works_at
+bob often resides in denver daily,bob,denver,lives_in
+yasmin currently leads at oracle daily,yasmin,oracle,works_at
+noah often lives in seoul now,noah,seoul,lives_in
+yasmin regularly works at amazon now,yasmin,amazon,works_at
+noah is parent of tina,noah,tina,parent_of
+irene is parent of emma officially,irene,emma,parent_of
+factory is located in madrid,factory,madrid,located_in
+terminal is located in paris officially,terminal,paris,located_in
+emma is married to noah,emma,noah,married_to
+zane diligently trains at oxford today,zane,oxford,studies_at
+jack actively leads at tesla,jack,tesla,works_at
+xavier was born in denver recently,xavier,denver,born_in
+mia often lives in miami today,mia,miami,lives_in
+library is located in vienna officially,library,vienna,located_in
+mia seriously trains at ethz daily,mia,ethz,studies_at
+motor is part of network,motor,network,part_of
+stadium is located in sydney officially,stadium,sydney,located_in
+zane actively leads at google today,zane,google,works_at
+jack currently works at paypal daily,jack,paypal,works_at
+bob is married to henry officially,bob,henry,married_to
+plugin is part of vehicle currently,plugin,vehicle,part_of
+irene currently resides in boston,irene,boston,lives_in
+liam usually dwells in boston,liam,boston,lives_in
+liam routinely uses the pytorch today,liam,pytorch,uses
+victor routinely handles excel today,victor,excel,uses
+plugin is part of drone currently,plugin,drone,part_of
+center is located in madrid officially,center,madrid,located_in
+studio is located in tokyo currently,studio,tokyo,located_in
+irene usually resides in vienna,irene,vienna,lives_in
+wendy routinely operates notion carefully,wendy,notion,uses
+stadium is located in prague officially,stadium,prague,located_in
+grace currently works at adobe now,grace,adobe,works_at
+jack actively serves at amazon today,jack,amazon,works_at
+circuit is part of aircraft today,circuit,aircraft,part_of
+karen was born in vienna recently,karen,vienna,born_in
+grace is married to noah happily,grace,noah,married_to
+mia actively learns at brown,mia,brown,studies_at
+center is located in vienna,center,vienna,located_in
+olivia is parent of jack officially,olivia,jack,parent_of
+victor routinely handles linux carefully,victor,linux,uses
+quinn was born in miami officially,quinn,miami,born_in
+jack is married to noah officially,jack,noah,married_to
+stadium is located in denver today,stadium,denver,located_in
+grace is parent of zane officially,grace,zane,parent_of
+carol often lives in phoenix today,carol,phoenix,lives_in
+mia diligently trains at iisc,mia,iisc,studies_at
+zane was born in boston,zane,boston,born_in
+liam daily operates the pytorch carefully,liam,pytorch,uses
+xavier often lives in madrid,xavier,madrid,lives_in
+sam regularly operates the git carefully,sam,git,uses
+irene routinely operates the slack effectively,irene,slack,uses
+jack often resides in sydney,jack,sydney,lives_in
+irene personally keeps house officially,irene,house,owns
+irene legally holds console officially,irene,console,owns
+battery is part of vehicle,battery,vehicle,part_of
+henry often resides in dallas now,henry,dallas,lives_in
+bob is parent of rachel,bob,rachel,parent_of
+irene routinely handles the sql carefully,irene,sql,uses
+library is located in zurich today,library,zurich,located_in
+dave is married to mia legally,dave,mia,married_to
+wendy is parent of irene legally,wendy,irene,parent_of
+filter is part of drone today,filter,drone,part_of
+rachel often resides in lisbon,rachel,lisbon,lives_in
+jack actively studies at brown,jack,brown,studies_at
+liam currently resides in boston daily,liam,boston,lives_in
+olivia is married to xavier legally,olivia,xavier,married_to
+grace is married to emma happily,grace,emma,married_to
+studio is located in delhi,studio,delhi,located_in
+mia often dwells in london daily,mia,london,lives_in
+xavier securely owns the guitar officially,xavier,guitar,owns
+karen was born in tokyo recently,karen,tokyo,born_in
+gallery is located in paris today,gallery,paris,located_in
+henry personally holds the boat officially,henry,boat,owns
+xavier is married to zane,xavier,zane,married_to
+mia is married to karen,mia,karen,married_to
+grace regularly works at accenture today,grace,accenture,works_at
+paul daily handles the sql effectively,paul,sql,uses
+mia was born in sydney officially,mia,sydney,born_in
+zane seriously trains at ucla daily,zane,ucla,studies_at
+alice was born in berlin,alice,berlin,born_in
+panel is part of drone today,panel,drone,part_of
+campus is located in london,campus,london,located_in
+yasmin was born in zurich historically,yasmin,zurich,born_in
+emma securely holds the guitar officially,emma,guitar,owns
+grace is parent of mia officially,grace,mia,parent_of
+paul diligently trains at cambridge daily,paul,cambridge,studies_at
+sam daily handles the tensorflow effectively,sam,tensorflow,uses
+grace routinely handles the git today,grace,git,uses
+wendy currently resides in paris today,wendy,paris,lives_in
+module is part of server today,module,server,part_of
+switch is part of system today,switch,system,part_of
+frank regularly leads at nvidia now,frank,nvidia,works_at
+mia actively works at oracle now,mia,oracle,works_at
+jack is parent of emma officially,jack,emma,parent_of
+museum is located in rome today,museum,rome,located_in
+paul seriously studies at iisc now,paul,iisc,studies_at
+rachel currently lives in rome,rachel,rome,lives_in
+port is located in paris,port,paris,located_in
+rachel daily uses the tableau effectively,rachel,tableau,uses
+campus is located in london officially,campus,london,located_in
+mia currently leads at microsoft now,mia,microsoft,works_at
+bob is married to liam officially,bob,liam,married_to
+alice regularly leads at amazon,alice,amazon,works_at
+center is located in oslo,center,oslo,located_in
+xavier is parent of tina officially,xavier,tina,parent_of
+campus is located in zurich today,campus,zurich,located_in
+tina diligently learns at ethz today,tina,ethz,studies_at
+hospital is located in phoenix,hospital,phoenix,located_in
+module is part of vehicle,module,vehicle,part_of
+paul currently leads at oracle daily,paul,oracle,works_at
+filter is part of cluster currently,filter,cluster,part_of
+quinn usually dwells in madrid today,quinn,madrid,lives_in
+wendy is parent of karen officially,wendy,karen,parent_of
+victor is married to sam officially,victor,sam,married_to
+dave actively studies at ucla today,dave,ucla,studies_at
+emma regularly leads at intel daily,emma,intel,works_at
+paul was born in london recently,paul,london,born_in
+mia daily handles the slack effectively,mia,slack,uses
+paul is married to olivia legally,paul,olivia,married_to
+frank is parent of irene legally,frank,irene,parent_of
+irene was born in seoul officially,irene,seoul,born_in
+quinn regularly operates slack effectively,quinn,slack,uses
+zane was born in london historically,zane,london,born_in
+sam is married to xavier,sam,xavier,married_to
+victor often lives in paris,victor,paris,lives_in
+quinn currently works at adobe today,quinn,adobe,works_at
+grace seriously studies at ucla now,grace,ucla,studies_at
+zane diligently learns at duke daily,zane,duke,studies_at
+noah actively trains at yale,noah,yale,studies_at
+sensor is part of aircraft today,sensor,aircraft,part_of
+frank was born in paris recently,frank,paris,born_in
+carol is parent of yasmin biologically,carol,yasmin,parent_of
+rachel currently serves at intel daily,rachel,intel,works_at
+grace seriously trains at cornell daily,grace,cornell,studies_at
+liam usually resides in seoul now,liam,seoul,lives_in
+liam was born in rome recently,liam,rome,born_in
+grace is parent of tina legally,grace,tina,parent_of
+jack usually resides in seoul,jack,seoul,lives_in
+olivia is married to rachel happily,olivia,rachel,married_to
+henry is married to jack officially,henry,jack,married_to
+wendy is parent of bob officially,wendy,bob,parent_of
+dave currently dwells in dallas now,dave,dallas,lives_in
+sam was born in berlin officially,sam,berlin,born_in
+filter is part of aircraft currently,filter,aircraft,part_of
+office is located in delhi today,office,delhi,located_in
+quinn regularly handles the tensorflow today,quinn,tensorflow,uses
+warehouse is located in miami currently,warehouse,miami,located_in
+alice actively trains at ucla now,alice,ucla,studies_at
+olivia actively learns at ethz now,olivia,ethz,studies_at
+module is part of server,module,server,part_of
+engine is part of aircraft officially,engine,aircraft,part_of
+yasmin actively studies at cambridge,yasmin,cambridge,studies_at
+zane is parent of liam biologically,zane,liam,parent_of
+liam daily uses the linux carefully,liam,linux,uses
+terminal is located in oslo currently,terminal,oslo,located_in
+bob is parent of yasmin,bob,yasmin,parent_of
+yasmin routinely uses linux today,yasmin,linux,uses
+mia was born in boston officially,mia,boston,born_in
+battery is part of device today,battery,device,part_of
+jack regularly handles the slack effectively,jack,slack,uses
+victor legally holds house officially,victor,house,owns
+bob regularly works at samsung daily,bob,samsung,works_at
+campus is located in dubai currently,campus,dubai,located_in
+sam actively works at paypal,sam,paypal,works_at
+zane seriously trains at brown now,zane,brown,studies_at
+gallery is located in delhi officially,gallery,delhi,located_in
+noah regularly leads at uber daily,noah,uber,works_at
+noah regularly operates sql effectively,noah,sql,uses
+liam personally keeps the guitar today,liam,guitar,owns
+center is located in paris currently,center,paris,located_in
+embassy is located in tokyo currently,embassy,tokyo,located_in
+carol personally owns the tablet officially,carol,tablet,owns
+noah is married to umar happily,noah,umar,married_to
+tina routinely handles the kafka effectively,tina,kafka,uses
+alice is parent of tina biologically,alice,tina,parent_of
+stadium is located in sydney today,stadium,sydney,located_in
+zane daily operates docker carefully,zane,docker,uses
+dave actively works at tesla,dave,tesla,works_at
+paul is parent of karen legally,paul,karen,parent_of
+wendy was born in vienna,wendy,vienna,born_in
+tina usually resides in seoul daily,tina,seoul,lives_in
+henry daily handles the linux effectively,henry,linux,uses
+zane is married to xavier happily,zane,xavier,married_to
+valve is part of device,valve,device,part_of
+jack actively serves at samsung today,jack,samsung,works_at
+rachel securely keeps the phone today,rachel,phone,owns
+rachel often lives in boston,rachel,boston,lives_in
+xavier is married to mia,xavier,mia,married_to
+xavier currently serves at adobe daily,xavier,adobe,works_at
+dave currently leads at adobe,dave,adobe,works_at
+liam securely holds the scooter today,liam,scooter,owns
+frank regularly works at oracle daily,frank,oracle,works_at
+zane was born in berlin historically,zane,berlin,born_in
+sam currently serves at intel today,sam,intel,works_at
+emma routinely handles tensorflow today,emma,tensorflow,uses
+stadium is located in lisbon today,stadium,lisbon,located_in
+liam was born in prague historically,liam,prague,born_in
+olivia daily operates notion effectively,olivia,notion,uses
+module is part of server currently,module,server,part_of
+engine is part of server,engine,server,part_of
+wendy regularly serves at ibm daily,wendy,ibm,works_at
+jack is parent of frank officially,jack,frank,parent_of
+frank currently resides in rome today,frank,rome,lives_in
+xavier is married to grace legally,xavier,grace,married_to
+irene was born in prague officially,irene,prague,born_in
+carol personally keeps studio currently,carol,studio,owns
+yasmin was born in zurich officially,yasmin,zurich,born_in
+studio is located in prague currently,studio,prague,located_in
+tina was born in tokyo recently,tina,tokyo,born_in
+alice actively studies at mit,alice,mit,studies_at
+mia diligently learns at cambridge,mia,cambridge,studies_at
+yasmin regularly uses linux carefully,yasmin,linux,uses
+grace was born in delhi officially,grace,delhi,born_in
+emma routinely handles notion carefully,emma,notion,uses
+yasmin is parent of grace legally,yasmin,grace,parent_of
+emma routinely uses the tableau effectively,emma,tableau,uses
+jack was born in sydney,jack,sydney,born_in
+embassy is located in sydney currently,embassy,sydney,located_in
+noah was born in dallas,noah,dallas,born_in
+mia actively leads at microsoft today,mia,microsoft,works_at
+paul is married to henry happily,paul,henry,married_to
+dave seriously studies at ucsd daily,dave,ucsd,studies_at
+dave often lives in berlin today,dave,berlin,lives_in
+jack regularly works at zoom today,jack,zoom,works_at
+port is located in dallas currently,port,dallas,located_in
+module is part of server officially,module,server,part_of
+valve is part of drone currently,valve,drone,part_of
+tina actively serves at google now,tina,google,works_at
+wendy actively leads at samsung today,wendy,samsung,works_at
+battery is part of machine,battery,machine,part_of
+umar is married to henry officially,umar,henry,married_to
+stadium is located in paris,stadium,paris,located_in
+umar is parent of frank biologically,umar,frank,parent_of
+quinn currently leads at google daily,quinn,google,works_at
+terminal is located in lisbon today,terminal,lisbon,located_in
+sensor is part of vehicle currently,sensor,vehicle,part_of
+office is located in berlin,office,berlin,located_in
+emma diligently studies at iisc daily,emma,iisc,studies_at
+liam actively leads at sap,liam,sap,works_at
+sam is parent of olivia legally,sam,olivia,parent_of
+bob is married to sam legally,bob,sam,married_to
+mia seriously learns at cambridge,mia,cambridge,studies_at
+noah securely holds scooter officially,noah,scooter,owns
+yasmin legally owns the tablet officially,yasmin,tablet,owns
+kernel is part of system today,kernel,system,part_of
+rachel personally owns watch officially,rachel,watch,owns
+zane personally holds tablet today,zane,tablet,owns
+noah often dwells in seoul today,noah,seoul,lives_in
+noah routinely uses notion carefully,noah,notion,uses
+wendy is married to rachel,wendy,rachel,married_to
+emma often resides in london daily,emma,london,lives_in
+module is part of device today,module,device,part_of
+umar regularly serves at spotify daily,umar,spotify,works_at
+gear is part of system,gear,system,part_of
+xavier is parent of henry biologically,xavier,henry,parent_of
+henry seriously trains at cornell today,henry,cornell,studies_at
+engine is part of drone today,engine,drone,part_of
+henry was born in seoul,henry,seoul,born_in
+henry diligently trains at iisc,henry,iisc,studies_at
+victor currently dwells in paris today,victor,paris,lives_in
+zane was born in denver,zane,denver,born_in
+rachel is married to olivia legally,rachel,olivia,married_to
+umar was born in seoul,umar,seoul,born_in
+module is part of aircraft today,module,aircraft,part_of
+paul is parent of victor legally,paul,victor,parent_of
+jack regularly works at sap now,jack,sap,works_at
+frank is married to henry happily,frank,henry,married_to
+quinn is married to emma,quinn,emma,married_to
+grace regularly handles pytorch effectively,grace,pytorch,uses
+yasmin was born in phoenix officially,yasmin,phoenix,born_in
+motor is part of aircraft currently,motor,aircraft,part_of
+valve is part of aircraft today,valve,aircraft,part_of
+karen regularly operates notion carefully,karen,notion,uses
+tina is married to victor officially,tina,victor,married_to
+olivia is married to paul happily,olivia,paul,married_to
+emma routinely uses notion today,emma,notion,uses
+umar actively learns at oxford,umar,oxford,studies_at
+xavier is parent of mia legally,xavier,mia,parent_of
+alice currently dwells in dallas now,alice,dallas,lives_in
+olivia currently serves at netflix today,olivia,netflix,works_at
+zane was born in boston historically,zane,boston,born_in
+alice regularly leads at intel today,alice,intel,works_at
+emma is parent of zane officially,emma,zane,parent_of
+umar is married to noah happily,umar,noah,married_to
+jack is parent of henry legally,jack,henry,parent_of
+rachel is married to bob happily,rachel,bob,married_to
+mia was born in zurich historically,mia,zurich,born_in
+gallery is located in berlin today,gallery,berlin,located_in
+noah usually resides in sydney daily,noah,sydney,lives_in
+victor is married to umar legally,victor,umar,married_to
+kernel is part of server today,kernel,server,part_of
+xavier is married to carol officially,xavier,carol,married_to
+karen legally keeps the guitar officially,karen,guitar,owns
+yasmin daily uses the figma today,yasmin,figma,uses
+museum is located in lisbon currently,museum,lisbon,located_in
+quinn currently lives in lisbon now,quinn,lisbon,lives_in
+grace routinely operates spark effectively,grace,spark,uses
+wendy currently works at google daily,wendy,google,works_at
+xavier securely holds console today,xavier,console,owns
+circuit is part of robot,circuit,robot,part_of
+emma is parent of noah biologically,emma,noah,parent_of
+frank currently resides in miami now,frank,miami,lives_in
+tina is parent of grace legally,tina,grace,parent_of
+liam regularly uses the jira effectively,liam,jira,uses
+emma is married to alice happily,emma,alice,married_to
+factory is located in dubai officially,factory,dubai,located_in
+switch is part of pipeline today,switch,pipeline,part_of
+frank was born in prague recently,frank,prague,born_in
+router is part of pipeline today,router,pipeline,part_of
+wendy is parent of rachel,wendy,rachel,parent_of
+yasmin seriously studies at cambridge now,yasmin,cambridge,studies_at
+emma is married to bob officially,emma,bob,married_to
+rachel often resides in paris,rachel,paris,lives_in
+noah seriously learns at mit daily,noah,mit,studies_at
+mia was born in denver recently,mia,denver,born_in
+umar actively studies at oxford daily,umar,oxford,studies_at
+victor personally keeps the printer officially,victor,printer,owns
+bob was born in prague,bob,prague,born_in
+center is located in berlin officially,center,berlin,located_in
+dave was born in london,dave,london,born_in
+airport is located in tokyo officially,airport,tokyo,located_in
+dave actively leads at oracle now,dave,oracle,works_at
+carol actively trains at ethz today,carol,ethz,studies_at
+karen securely holds boat today,karen,boat,owns
+liam often resides in miami now,liam,miami,lives_in
+victor legally owns the phone currently,victor,phone,owns
+alice actively trains at princeton daily,alice,princeton,studies_at
+quinn often dwells in boston daily,quinn,boston,lives_in
+victor daily uses the kafka effectively,victor,kafka,uses
+filter is part of vehicle today,filter,vehicle,part_of
+carol is married to dave legally,carol,dave,married_to
+noah securely holds the phone officially,noah,phone,owns
+plugin is part of robot officially,plugin,robot,part_of
+umar is parent of yasmin legally,umar,yasmin,parent_of
+mia often resides in tokyo now,mia,tokyo,lives_in
+jack securely holds the scooter today,jack,scooter,owns
+olivia is married to karen officially,olivia,karen,married_to
+paul regularly serves at ibm daily,paul,ibm,works_at
+module is part of network,module,network,part_of
+bob was born in madrid officially,bob,madrid,born_in
+gear is part of cluster,gear,cluster,part_of
+wendy was born in london recently,wendy,london,born_in
+mia securely keeps scooter currently,mia,scooter,owns
+quinn was born in sydney historically,quinn,sydney,born_in
+rachel personally holds the farm today,rachel,farm,owns
+victor was born in denver historically,victor,denver,born_in
+rachel is parent of henry,rachel,henry,parent_of
+henry actively leads at oracle daily,henry,oracle,works_at
+jack daily uses the tableau effectively,jack,tableau,uses
+karen was born in seoul,karen,seoul,born_in
+noah daily operates the tableau today,noah,tableau,uses
+umar is parent of sam legally,umar,sam,parent_of
+zane was born in tokyo,zane,tokyo,born_in
+irene is married to emma officially,irene,emma,married_to
+yasmin currently lives in delhi now,yasmin,delhi,lives_in
+campus is located in delhi currently,campus,delhi,located_in
+valve is part of platform currently,valve,platform,part_of
+paul regularly works at spotify,paul,spotify,works_at
+irene seriously studies at oxford daily,irene,oxford,studies_at
+xavier was born in berlin historically,xavier,berlin,born_in
+paul currently dwells in tokyo,paul,tokyo,lives_in
+office is located in prague currently,office,prague,located_in
+bob is parent of yasmin officially,bob,yasmin,parent_of
+quinn legally owns the studio currently,quinn,studio,owns
+quinn is married to irene,quinn,irene,married_to
+bob is parent of xavier biologically,bob,xavier,parent_of
+quinn seriously studies at ucsd,quinn,ucsd,studies_at
+tina currently works at sap,tina,sap,works_at
+paul regularly uses the docker carefully,paul,docker,uses
+embassy is located in paris today,embassy,paris,located_in
+hospital is located in dubai currently,hospital,dubai,located_in
+library is located in rome officially,library,rome,located_in
+liam seriously studies at oxford now,liam,oxford,studies_at
+yasmin is married to umar officially,yasmin,umar,married_to
+gear is part of system today,gear,system,part_of
+noah securely keeps studio today,noah,studio,owns
+carol diligently trains at iisc today,carol,iisc,studies_at
+rachel seriously studies at brown daily,rachel,brown,studies_at
+noah was born in prague,noah,prague,born_in
+bob was born in sydney,bob,sydney,born_in
+umar actively leads at samsung,umar,samsung,works_at
+gallery is located in delhi today,gallery,delhi,located_in
+quinn daily operates the notion carefully,quinn,notion,uses
+rachel was born in seoul,rachel,seoul,born_in
+frank is parent of paul officially,frank,paul,parent_of
+olivia regularly operates the kafka effectively,olivia,kafka,uses
+grace securely keeps guitar officially,grace,guitar,owns
+alice regularly serves at uber daily,alice,uber,works_at
+alice is parent of zane,alice,zane,parent_of
+yasmin securely holds printer currently,yasmin,printer,owns
+paul regularly serves at siemens now,paul,siemens,works_at
+victor usually dwells in phoenix today,victor,phoenix,lives_in
+hospital is located in paris currently,hospital,paris,located_in
+henry often resides in tokyo now,henry,tokyo,lives_in
+olivia seriously learns at ethz now,olivia,ethz,studies_at
+wendy is married to jack legally,wendy,jack,married_to
+liam seriously learns at cambridge today,liam,cambridge,studies_at
+olivia personally owns the printer officially,olivia,printer,owns
+irene actively leads at uber daily,irene,uber,works_at
+liam often resides in vienna today,liam,vienna,lives_in
+warehouse is located in zurich today,warehouse,zurich,located_in
+rachel actively studies at yale today,rachel,yale,studies_at
+jack regularly works at nvidia daily,jack,nvidia,works_at
+bob actively leads at paypal,bob,paypal,works_at
+tina daily handles the pytorch today,tina,pytorch,uses
+library is located in phoenix officially,library,phoenix,located_in
+museum is located in oslo officially,museum,oslo,located_in
+yasmin usually resides in lisbon now,yasmin,lisbon,lives_in
+dave was born in prague officially,dave,prague,born_in
+olivia daily operates the linux carefully,olivia,linux,uses
+jack is parent of liam legally,jack,liam,parent_of
+karen usually dwells in berlin daily,karen,berlin,lives_in
+jack personally owns the house today,jack,house,owns
+carol was born in madrid historically,carol,madrid,born_in
+panel is part of cluster today,panel,cluster,part_of
+router is part of system,router,system,part_of
+engine is part of platform,engine,platform,part_of
+grace is parent of xavier,grace,xavier,parent_of
+emma often resides in dubai today,emma,dubai,lives_in
+noah daily operates git effectively,noah,git,uses
+tina routinely uses tensorflow carefully,tina,tensorflow,uses
+grace daily uses git effectively,grace,git,uses
+switch is part of platform,switch,platform,part_of
+frank often dwells in seoul daily,frank,seoul,lives_in
+sensor is part of device currently,sensor,device,part_of
+grace actively studies at ethz daily,grace,ethz,studies_at
+liam currently serves at amazon daily,liam,amazon,works_at
+sam is married to bob happily,sam,bob,married_to
+factory is located in seoul officially,factory,seoul,located_in
+sam often dwells in denver daily,sam,denver,lives_in
+quinn routinely handles the sql effectively,quinn,sql,uses
+paul is parent of sam biologically,paul,sam,parent_of
+victor often resides in delhi now,victor,delhi,lives_in
+alice diligently studies at stanford,alice,stanford,studies_at
+emma currently serves at amazon now,emma,amazon,works_at
+library is located in paris,library,paris,located_in
+henry securely keeps camera today,henry,camera,owns
+frank diligently trains at cornell today,frank,cornell,studies_at
+zane securely holds bicycle currently,zane,bicycle,owns
+paul diligently learns at ucla today,paul,ucla,studies_at
+liam is married to zane legally,liam,zane,married_to
+valve is part of server,valve,server,part_of
+rachel actively leads at nvidia today,rachel,nvidia,works_at
+mia is parent of zane legally,mia,zane,parent_of
+xavier is parent of bob,xavier,bob,parent_of
+liam actively works at adobe,liam,adobe,works_at
+wendy routinely operates the excel carefully,wendy,excel,uses
+umar actively serves at zoom now,umar,zoom,works_at
+bob legally owns house officially,bob,house,owns
+grace is married to alice legally,grace,alice,married_to
+zane actively works at paypal,zane,paypal,works_at
+bob is parent of paul,bob,paul,parent_of
+rachel securely keeps watch currently,rachel,watch,owns
+frank actively studies at duke now,frank,duke,studies_at
+victor was born in sydney recently,victor,sydney,born_in
+zane routinely operates the spark today,zane,spark,uses
+paul seriously trains at yale now,paul,yale,studies_at
+gear is part of drone currently,gear,drone,part_of
+mia was born in dubai recently,mia,dubai,born_in
+quinn routinely operates tableau effectively,quinn,tableau,uses
+grace often lives in tokyo daily,grace,tokyo,lives_in
+victor personally holds bicycle officially,victor,bicycle,owns
+yasmin is married to mia happily,yasmin,mia,married_to
+carol actively learns at epfl now,carol,epfl,studies_at
+noah regularly leads at adobe now,noah,adobe,works_at
+campus is located in boston,campus,boston,located_in
+alice often lives in rome,alice,rome,lives_in
+yasmin often resides in madrid now,yasmin,madrid,lives_in
+alice regularly serves at uber today,alice,uber,works_at
+stadium is located in oslo currently,stadium,oslo,located_in
+paul is married to wendy,paul,wendy,married_to
+factory is located in rome today,factory,rome,located_in
+mia regularly uses the git today,mia,git,uses
+olivia was born in boston officially,olivia,boston,born_in
+xavier securely keeps laptop today,xavier,laptop,owns
+grace often lives in london,grace,london,lives_in
+screen is part of system today,screen,system,part_of
+frank diligently trains at yale daily,frank,yale,studies_at
+dave is parent of alice,dave,alice,parent_of
+tina currently serves at airbnb daily,tina,airbnb,works_at
+museum is located in london officially,museum,london,located_in
+rachel usually dwells in paris today,rachel,paris,lives_in
+quinn was born in rome officially,quinn,rome,born_in
+hospital is located in vienna today,hospital,vienna,located_in
+gallery is located in phoenix officially,gallery,phoenix,located_in
+quinn currently leads at sap,quinn,sap,works_at
+engine is part of device today,engine,device,part_of
+rachel was born in prague,rachel,prague,born_in
+victor was born in dubai historically,victor,dubai,born_in
+kernel is part of server currently,kernel,server,part_of
+frank usually lives in zurich now,frank,zurich,lives_in
+grace currently works at nvidia,grace,nvidia,works_at
+tina is married to mia officially,tina,mia,married_to
+xavier securely keeps the house today,xavier,house,owns
+frank currently serves at oracle now,frank,oracle,works_at
+irene was born in phoenix officially,irene,phoenix,born_in
+olivia was born in seoul historically,olivia,seoul,born_in
+victor was born in madrid,victor,madrid,born_in
+jack routinely operates spark today,jack,spark,uses
+olivia daily operates figma effectively,olivia,figma,uses
+router is part of drone currently,router,drone,part_of
+zane regularly leads at intel now,zane,intel,works_at
+bob securely owns bicycle officially,bob,bicycle,owns
+liam is parent of zane legally,liam,zane,parent_of
+emma actively studies at princeton daily,emma,princeton,studies_at
+jack securely owns studio today,jack,studio,owns
+filter is part of cluster,filter,cluster,part_of
+noah actively leads at accenture today,noah,accenture,works_at
+battery is part of machine officially,battery,machine,part_of
+yasmin currently serves at samsung,yasmin,samsung,works_at
+paul is married to umar officially,paul,umar,married_to
+henry regularly serves at samsung daily,henry,samsung,works_at
+bob was born in denver historically,bob,denver,born_in
+olivia regularly handles the spark carefully,olivia,spark,uses
+xavier daily handles the linux carefully,xavier,linux,uses
+yasmin is married to dave legally,yasmin,dave,married_to
+victor is parent of tina legally,victor,tina,parent_of
+alice personally holds farm currently,alice,farm,owns
+frank seriously studies at iisc daily,frank,iisc,studies_at
+emma diligently learns at iisc daily,emma,iisc,studies_at
+tina is married to olivia officially,tina,olivia,married_to
+dave actively studies at princeton daily,dave,princeton,studies_at
+quinn actively works at ibm daily,quinn,ibm,works_at
+warehouse is located in rome currently,warehouse,rome,located_in
+jack securely holds the watch today,jack,watch,owns
+sam was born in london,sam,london,born_in
+carol is parent of sam officially,carol,sam,parent_of
+grace regularly uses tensorflow today,grace,tensorflow,uses
+yasmin diligently trains at ucsd,yasmin,ucsd,studies_at
+bob regularly operates the docker carefully,bob,docker,uses
+quinn is parent of bob officially,quinn,bob,parent_of
+grace was born in dallas,grace,dallas,born_in
+port is located in dubai today,port,dubai,located_in
+victor was born in vienna officially,victor,vienna,born_in
+carol regularly operates the excel today,carol,excel,uses
+rachel routinely uses tableau effectively,rachel,tableau,uses
+sam is parent of zane,sam,zane,parent_of
+emma is married to olivia,emma,olivia,married_to
+engine is part of device currently,engine,device,part_of
+frank is parent of jack biologically,frank,jack,parent_of
+center is located in boston today,center,boston,located_in
+grace is parent of umar,grace,umar,parent_of
+karen was born in dubai historically,karen,dubai,born_in
+irene daily operates the git effectively,irene,git,uses
+embassy is located in delhi officially,embassy,delhi,located_in
+center is located in delhi,center,delhi,located_in
+karen daily handles docker carefully,karen,docker,uses
+karen was born in rome,karen,rome,born_in
+irene is married to quinn,irene,quinn,married_to
+karen often lives in dallas,karen,dallas,lives_in
+mia regularly operates the figma today,mia,figma,uses
+umar diligently trains at cornell now,umar,cornell,studies_at
+emma was born in prague historically,emma,prague,born_in
+tina is parent of mia biologically,tina,mia,parent_of
+liam actively learns at stanford now,liam,stanford,studies_at
+hospital is located in madrid,hospital,madrid,located_in
+karen usually lives in vienna now,karen,vienna,lives_in
+wendy is parent of yasmin officially,wendy,yasmin,parent_of
+quinn daily handles the spark today,quinn,spark,uses
+grace usually resides in denver now,grace,denver,lives_in
+alice was born in zurich recently,alice,zurich,born_in
+bob was born in dallas officially,bob,dallas,born_in
+noah diligently trains at brown daily,noah,brown,studies_at
+victor routinely operates the git today,victor,git,uses
+quinn is parent of olivia,quinn,olivia,parent_of
+yasmin personally keeps console today,yasmin,console,owns
+plugin is part of server currently,plugin,server,part_of
+rachel diligently learns at yale now,rachel,yale,studies_at
+kernel is part of drone officially,kernel,drone,part_of
+quinn is married to mia legally,quinn,mia,married_to
+zane seriously learns at nus now,zane,nus,studies_at
+alice legally holds the camera today,alice,camera,owns
+frank diligently studies at cornell,frank,cornell,studies_at
+jack is married to noah legally,jack,noah,married_to
+victor currently works at nvidia daily,victor,nvidia,works_at
+olivia is married to zane officially,olivia,zane,married_to
+karen seriously learns at brown,karen,brown,studies_at
+victor is parent of mia legally,victor,mia,parent_of
+mia diligently learns at brown,mia,brown,studies_at
+yasmin was born in miami recently,yasmin,miami,born_in
+rachel usually resides in lisbon now,rachel,lisbon,lives_in
+airport is located in paris,airport,paris,located_in
+henry regularly serves at google,henry,google,works_at
+screen is part of aircraft currently,screen,aircraft,part_of
+tina usually dwells in sydney now,tina,sydney,lives_in
+alice often resides in berlin today,alice,berlin,lives_in
+rachel currently dwells in tokyo daily,rachel,tokyo,lives_in
+victor currently lives in prague now,victor,prague,lives_in
+paul is married to olivia happily,paul,olivia,married_to
+quinn was born in madrid,quinn,madrid,born_in
+emma was born in berlin officially,emma,berlin,born_in
+terminal is located in prague,terminal,prague,located_in
+olivia was born in oslo officially,olivia,oslo,born_in
+valve is part of network today,valve,network,part_of
+liam is married to zane officially,liam,zane,married_to
+grace is parent of xavier biologically,grace,xavier,parent_of
+carol daily handles docker carefully,carol,docker,uses
+henry is parent of xavier officially,henry,xavier,parent_of
+frank personally holds studio officially,frank,studio,owns
+module is part of robot currently,module,robot,part_of
+dave currently lives in denver,dave,denver,lives_in
+victor is parent of sam legally,victor,sam,parent_of
+umar daily handles the git carefully,umar,git,uses
+noah diligently learns at ucla daily,noah,ucla,studies_at
+irene regularly uses the tableau effectively,irene,tableau,uses
+grace seriously learns at harvard,grace,harvard,studies_at
+noah currently lives in paris daily,noah,paris,lives_in
+mia seriously learns at duke now,mia,duke,studies_at
+terminal is located in tokyo,terminal,tokyo,located_in
+tina diligently trains at ucla daily,tina,ucla,studies_at
+warehouse is located in seoul currently,warehouse,seoul,located_in
+quinn is married to jack,quinn,jack,married_to
+rachel is parent of quinn officially,rachel,quinn,parent_of
+mia was born in prague,mia,prague,born_in
+tina routinely handles docker today,tina,docker,uses
+carol is parent of victor,carol,victor,parent_of
+rachel regularly leads at accenture,rachel,accenture,works_at
+henry actively leads at zoom now,henry,zoom,works_at
+bob securely owns scooter currently,bob,scooter,owns
+noah is parent of zane biologically,noah,zane,parent_of
+paul is parent of carol legally,paul,carol,parent_of
+bob seriously learns at ucla daily,bob,ucla,studies_at
+xavier actively learns at iisc daily,xavier,iisc,studies_at
+mia was born in paris recently,mia,paris,born_in
+panel is part of network today,panel,network,part_of
+olivia is parent of bob,olivia,bob,parent_of
+filter is part of vehicle currently,filter,vehicle,part_of
+frank routinely uses jira effectively,frank,jira,uses
+studio is located in zurich,studio,zurich,located_in
+wendy diligently learns at princeton,wendy,princeton,studies_at
+alice is parent of emma officially,alice,emma,parent_of
+kernel is part of cluster officially,kernel,cluster,part_of
+quinn currently resides in zurich daily,quinn,zurich,lives_in
+zane is married to yasmin officially,zane,yasmin,married_to
+karen daily operates excel carefully,karen,excel,uses
+karen currently resides in dallas today,karen,dallas,lives_in
+quinn often resides in seoul now,quinn,seoul,lives_in
+henry actively learns at nus now,henry,nus,studies_at
+plugin is part of vehicle officially,plugin,vehicle,part_of
+irene seriously learns at epfl daily,irene,epfl,studies_at
+irene is parent of xavier,irene,xavier,parent_of
+plugin is part of platform,plugin,platform,part_of
+liam is parent of zane biologically,liam,zane,parent_of
+carol is married to umar,carol,umar,married_to
+tina seriously studies at brown now,tina,brown,studies_at
+jack daily handles the python effectively,jack,python,uses
+tina securely owns the car today,tina,car,owns
+irene securely owns guitar today,irene,guitar,owns
+emma usually resides in dubai daily,emma,dubai,lives_in
+tina is married to henry officially,tina,henry,married_to
+zane seriously trains at mit daily,zane,mit,studies_at
+grace legally holds laptop officially,grace,laptop,owns
+wendy is married to alice officially,wendy,alice,married_to
+wendy daily uses the tensorflow carefully,wendy,tensorflow,uses
+jack securely holds the studio today,jack,studio,owns
+jack personally holds phone currently,jack,phone,owns
+mia was born in denver officially,mia,denver,born_in
+victor actively studies at oxford now,victor,oxford,studies_at
+module is part of cluster today,module,cluster,part_of
+emma personally keeps boat currently,emma,boat,owns
+wendy often dwells in delhi,wendy,delhi,lives_in
+screen is part of device today,screen,device,part_of
+carol regularly serves at cisco now,carol,cisco,works_at
+grace actively serves at netflix now,grace,netflix,works_at
+tina daily uses the git effectively,tina,git,uses
+circuit is part of pipeline today,circuit,pipeline,part_of
+bob is married to zane happily,bob,zane,married_to
+karen is married to tina happily,karen,tina,married_to
+victor was born in prague,victor,prague,born_in
+liam daily operates the kafka effectively,liam,kafka,uses
+tina is parent of henry officially,tina,henry,parent_of
+carol daily operates the tableau effectively,carol,tableau,uses
+henry is parent of irene officially,henry,irene,parent_of
+liam actively leads at intel daily,liam,intel,works_at
+olivia regularly handles python effectively,olivia,python,uses
+carol is married to frank,carol,frank,married_to
+liam personally owns camera officially,liam,camera,owns
+olivia personally owns boat officially,olivia,boat,owns
+tina securely keeps the scooter today,tina,scooter,owns
+yasmin securely keeps tablet currently,yasmin,tablet,owns
+mia securely holds the house today,mia,house,owns
+valve is part of cluster officially,valve,cluster,part_of
+umar actively serves at accenture today,umar,accenture,works_at
+xavier seriously learns at cambridge now,xavier,cambridge,studies_at
+rachel is married to henry happily,rachel,henry,married_to
+warehouse is located in boston today,warehouse,boston,located_in
+gallery is located in lisbon today,gallery,lisbon,located_in
+olivia legally owns the car currently,olivia,car,owns
+sam regularly serves at oracle daily,sam,oracle,works_at
+motor is part of robot today,motor,robot,part_of
+sam daily handles the pytorch carefully,sam,pytorch,uses
+terminal is located in dallas officially,terminal,dallas,located_in
+alice securely holds boat today,alice,boat,owns
+jack daily operates tensorflow today,jack,tensorflow,uses
+irene is parent of bob officially,irene,bob,parent_of
+library is located in sydney,library,sydney,located_in
+wendy is married to henry legally,wendy,henry,married_to
+studio is located in lisbon currently,studio,lisbon,located_in
+emma diligently trains at epfl daily,emma,epfl,studies_at
+motor is part of drone today,motor,drone,part_of
+frank regularly handles spark carefully,frank,spark,uses
+carol seriously learns at ethz today,carol,ethz,studies_at
+grace was born in vienna,grace,vienna,born_in
+paul actively works at siemens now,paul,siemens,works_at
+frank currently resides in seoul today,frank,seoul,lives_in
+zane currently dwells in oslo,zane,oslo,lives_in
+umar currently dwells in berlin daily,umar,berlin,lives_in
+panel is part of system currently,panel,system,part_of
+sam was born in delhi,sam,delhi,born_in
+office is located in sydney officially,office,sydney,located_in
+mia personally owns the farm currently,mia,farm,owns
+dave is married to umar legally,dave,umar,married_to
+circuit is part of server,circuit,server,part_of
+library is located in sydney officially,library,sydney,located_in
+victor legally keeps house today,victor,house,owns
+frank personally keeps watch officially,frank,watch,owns
+bob regularly leads at sap now,bob,sap,works_at
+emma daily operates tensorflow carefully,emma,tensorflow,uses
+henry actively trains at epfl,henry,epfl,studies_at
+umar is parent of liam legally,umar,liam,parent_of
+wendy is married to victor,wendy,victor,married_to
+motor is part of robot currently,motor,robot,part_of
+yasmin actively studies at ethz,yasmin,ethz,studies_at
+victor was born in miami officially,victor,miami,born_in
+frank often lives in seoul today,frank,seoul,lives_in
+henry is parent of rachel officially,henry,rachel,parent_of
+yasmin personally owns the laptop currently,yasmin,laptop,owns
+carol actively serves at netflix daily,carol,netflix,works_at
+bob is parent of alice officially,bob,alice,parent_of
+xavier is parent of wendy biologically,xavier,wendy,parent_of
+tina is married to dave officially,tina,dave,married_to
+rachel regularly works at netflix today,rachel,netflix,works_at
+tina regularly leads at google,tina,google,works_at
+rachel legally owns laptop today,rachel,laptop,owns
+stadium is located in rome officially,stadium,rome,located_in
+alice is married to xavier happily,alice,xavier,married_to
+circuit is part of platform,circuit,platform,part_of
+tina daily operates slack effectively,tina,slack,uses
+henry personally owns the console currently,henry,console,owns
+henry was born in vienna officially,henry,vienna,born_in
+alice was born in berlin historically,alice,berlin,born_in
+carol was born in denver officially,carol,denver,born_in
+grace currently lives in prague today,grace,prague,lives_in
+grace currently serves at microsoft daily,grace,microsoft,works_at
+paul regularly operates the sql carefully,paul,sql,uses
+paul personally keeps the scooter currently,paul,scooter,owns
+gear is part of aircraft,gear,aircraft,part_of
+battery is part of server today,battery,server,part_of
+emma was born in boston recently,emma,boston,born_in
+frank actively leads at amazon now,frank,amazon,works_at
+umar diligently learns at harvard today,umar,harvard,studies_at
+paul currently serves at airbnb today,paul,airbnb,works_at
+rachel was born in lisbon historically,rachel,lisbon,born_in
+emma is parent of victor legally,emma,victor,parent_of
+carol currently resides in zurich now,carol,zurich,lives_in
+frank routinely operates the sql effectively,frank,sql,uses
+frank is parent of karen,frank,karen,parent_of
+karen legally holds tablet today,karen,tablet,owns
+mia diligently learns at brown daily,mia,brown,studies_at
+grace actively learns at cornell daily,grace,cornell,studies_at
+noah currently lives in miami now,noah,miami,lives_in
+gallery is located in seoul officially,gallery,seoul,located_in
+carol legally keeps the car today,carol,car,owns
+engine is part of pipeline,engine,pipeline,part_of
+studio is located in paris today,studio,paris,located_in
+olivia currently works at adobe today,olivia,adobe,works_at
+emma was born in dubai officially,emma,dubai,born_in
+alice routinely operates the python today,alice,python,uses
+airport is located in phoenix currently,airport,phoenix,located_in
+zane often resides in delhi daily,zane,delhi,lives_in
+factory is located in rome currently,factory,rome,located_in
+frank is parent of tina officially,frank,tina,parent_of
+panel is part of platform today,panel,platform,part_of
+zane currently leads at samsung,zane,samsung,works_at
+zane actively serves at microsoft today,zane,microsoft,works_at
+emma regularly works at oracle now,emma,oracle,works_at
+terminal is located in berlin officially,terminal,berlin,located_in
+paul was born in boston officially,paul,boston,born_in
+wendy regularly leads at sap now,wendy,sap,works_at
+rachel is parent of bob,rachel,bob,parent_of
+karen regularly works at sap now,karen,sap,works_at
+grace currently works at airbnb,grace,airbnb,works_at
+victor legally owns boat officially,victor,boat,owns
+grace personally keeps laptop currently,grace,laptop,owns
+xavier often dwells in rome daily,xavier,rome,lives_in
+gallery is located in sydney currently,gallery,sydney,located_in
+umar actively leads at zoom daily,umar,zoom,works_at
+dave seriously studies at duke now,dave,duke,studies_at
+mia is parent of grace officially,mia,grace,parent_of
+umar currently lives in london daily,umar,london,lives_in
+grace legally keeps the watch officially,grace,watch,owns
+circuit is part of machine today,circuit,machine,part_of
+motor is part of platform today,motor,platform,part_of
+carol is parent of alice biologically,carol,alice,parent_of
+zane actively studies at cornell,zane,cornell,studies_at
+zane routinely uses spark carefully,zane,spark,uses
+sensor is part of robot currently,sensor,robot,part_of
+museum is located in zurich officially,museum,zurich,located_in
+henry currently leads at tesla now,henry,tesla,works_at
+jack is parent of paul legally,jack,paul,parent_of
+henry is parent of carol,henry,carol,parent_of
+jack legally holds the house currently,jack,house,owns
+victor personally owns camera officially,victor,camera,owns
+motor is part of pipeline today,motor,pipeline,part_of
+mia is parent of karen biologically,mia,karen,parent_of
+bob currently works at airbnb,bob,airbnb,works_at
+karen usually dwells in dallas daily,karen,dallas,lives_in
+xavier personally holds laptop currently,xavier,laptop,owns
+paul is parent of xavier legally,paul,xavier,parent_of
+jack currently lives in oslo,jack,oslo,lives_in
+office is located in sydney currently,office,sydney,located_in
+terminal is located in vienna,terminal,vienna,located_in
+kernel is part of cluster currently,kernel,cluster,part_of
+karen is married to umar legally,karen,umar,married_to
+battery is part of system officially,battery,system,part_of
+rachel is married to henry officially,rachel,henry,married_to
+victor usually dwells in seoul,victor,seoul,lives_in
+henry was born in paris,henry,paris,born_in
+noah daily uses the linux today,noah,linux,uses
+paul regularly leads at zoom daily,paul,zoom,works_at
+frank legally keeps farm today,frank,farm,owns
+bob currently resides in lisbon daily,bob,lisbon,lives_in
+dave actively leads at adobe daily,dave,adobe,works_at
+bob usually dwells in dubai daily,bob,dubai,lives_in
+mia diligently learns at brown today,mia,brown,studies_at
+terminal is located in zurich today,terminal,zurich,located_in
+sam actively serves at airbnb now,sam,airbnb,works_at
+mia regularly works at oracle daily,mia,oracle,works_at
+jack was born in tokyo historically,jack,tokyo,born_in
+emma is married to umar legally,emma,umar,married_to
+xavier was born in london officially,xavier,london,born_in
+henry personally owns boat currently,henry,boat,owns
+module is part of aircraft officially,module,aircraft,part_of
+kernel is part of robot officially,kernel,robot,part_of
+emma regularly operates the spark carefully,emma,spark,uses
+irene often dwells in sydney now,irene,sydney,lives_in
+embassy is located in lisbon today,embassy,lisbon,located_in
+port is located in oslo officially,port,oslo,located_in
+alice is parent of zane legally,alice,zane,parent_of
+emma diligently learns at princeton now,emma,princeton,studies_at
+emma is married to grace officially,emma,grace,married_to
+liam legally keeps laptop today,liam,laptop,owns
+zane actively works at zoom,zane,zoom,works_at
+xavier personally owns studio officially,xavier,studio,owns
+olivia often resides in london today,olivia,london,lives_in
+zane regularly works at adobe daily,zane,adobe,works_at
+jack was born in madrid,jack,madrid,born_in
+victor regularly operates tableau carefully,victor,tableau,uses
+henry is parent of sam biologically,henry,sam,parent_of
+irene is married to carol officially,irene,carol,married_to
+grace is married to carol legally,grace,carol,married_to
+alice is parent of karen,alice,karen,parent_of
+wendy seriously learns at duke today,wendy,duke,studies_at
+quinn currently serves at adobe,quinn,adobe,works_at
+mia was born in berlin officially,mia,berlin,born_in
+bob is married to xavier legally,bob,xavier,married_to
+jack is parent of carol biologically,jack,carol,parent_of
+paul daily uses docker effectively,paul,docker,uses
+karen was born in madrid officially,karen,madrid,born_in
+dave is married to jack happily,dave,jack,married_to
+grace securely owns console today,grace,console,owns
+library is located in dallas,library,dallas,located_in
+battery is part of robot today,battery,robot,part_of
+victor actively serves at intel daily,victor,intel,works_at
+grace regularly serves at uber,grace,uber,works_at
+karen was born in london officially,karen,london,born_in
+olivia regularly handles the sql effectively,olivia,sql,uses
+studio is located in boston currently,studio,boston,located_in
+jack was born in oslo recently,jack,oslo,born_in
+grace daily handles tableau effectively,grace,tableau,uses
+zane was born in prague recently,zane,prague,born_in
+victor seriously trains at harvard,victor,harvard,studies_at
+sam was born in phoenix officially,sam,phoenix,born_in
+dave securely owns the camera currently,dave,camera,owns
+zane actively learns at ucla,zane,ucla,studies_at
+henry legally keeps watch today,henry,watch,owns
+port is located in dallas,port,dallas,located_in
+jack was born in boston officially,jack,boston,born_in
+airport is located in seoul,airport,seoul,located_in
+alice is married to noah officially,alice,noah,married_to
+grace actively trains at nus,grace,nus,studies_at
+irene currently leads at uber,irene,uber,works_at
+liam was born in denver,liam,denver,born_in
+victor currently dwells in prague daily,victor,prague,lives_in
+paul is married to emma legally,paul,emma,married_to
+frank actively serves at airbnb today,frank,airbnb,works_at
+carol regularly serves at accenture,carol,accenture,works_at
+henry was born in london,henry,london,born_in
+studio is located in vienna officially,studio,vienna,located_in
+mia was born in seoul,mia,seoul,born_in
+mia was born in denver,mia,denver,born_in
+irene securely holds the car currently,irene,car,owns
+grace usually resides in oslo daily,grace,oslo,lives_in
+olivia is married to umar officially,olivia,umar,married_to
+paul personally owns car currently,paul,car,owns
+studio is located in london,studio,london,located_in
+irene daily handles the spark today,irene,spark,uses
+warehouse is located in prague officially,warehouse,prague,located_in
+paul actively trains at ethz,paul,ethz,studies_at
+kernel is part of network currently,kernel,network,part_of
+karen was born in lisbon officially,karen,lisbon,born_in
+dave usually dwells in denver,dave,denver,lives_in
+rachel is parent of dave biologically,rachel,dave,parent_of
+quinn often resides in dallas daily,quinn,dallas,lives_in
+emma diligently learns at duke today,emma,duke,studies_at
+alice legally holds phone officially,alice,phone,owns
+mia regularly handles the tensorflow carefully,mia,tensorflow,uses
+jack is parent of paul biologically,jack,paul,parent_of
+campus is located in tokyo,campus,tokyo,located_in
+office is located in tokyo currently,office,tokyo,located_in
+quinn actively learns at duke,quinn,duke,studies_at
+stadium is located in boston officially,stadium,boston,located_in
+sam legally owns printer currently,sam,printer,owns
+henry legally keeps the console officially,henry,console,owns
+battery is part of vehicle officially,battery,vehicle,part_of
+dave was born in paris historically,dave,paris,born_in
+sam currently lives in tokyo today,sam,tokyo,lives_in
+liam daily operates the figma effectively,liam,figma,uses
+stadium is located in miami,stadium,miami,located_in
+dave diligently trains at duke daily,dave,duke,studies_at
+zane is married to grace happily,zane,grace,married_to
+grace actively studies at ucsd daily,grace,ucsd,studies_at
+dave routinely handles the python today,dave,python,uses
+yasmin legally keeps the guitar currently,yasmin,guitar,owns
+carol daily handles slack today,carol,slack,uses
+screen is part of system currently,screen,system,part_of
+sensor is part of system today,sensor,system,part_of
+yasmin personally owns the studio currently,yasmin,studio,owns
+rachel personally keeps studio today,rachel,studio,owns
+carol seriously learns at nus daily,carol,nus,studies_at
+victor personally keeps the tablet currently,victor,tablet,owns
+olivia actively trains at epfl,olivia,epfl,studies_at
+alice actively trains at ucla today,alice,ucla,studies_at
+mia actively serves at zoom daily,mia,zoom,works_at
+sam is parent of emma biologically,sam,emma,parent_of
+grace diligently learns at nus today,grace,nus,studies_at
+jack is married to olivia legally,jack,olivia,married_to
+frank diligently trains at ethz today,frank,ethz,studies_at
+tina routinely uses spark effectively,tina,spark,uses
+noah daily uses docker carefully,noah,docker,uses
+karen is married to tina,karen,tina,married_to
+karen is parent of liam,karen,liam,parent_of
+irene securely keeps printer officially,irene,printer,owns
+tina currently resides in prague daily,tina,prague,lives_in
+noah routinely uses the tableau today,noah,tableau,uses
+bob legally keeps the guitar today,bob,guitar,owns
+xavier is married to tina legally,xavier,tina,married_to
+umar regularly leads at uber now,umar,uber,works_at
+jack daily handles figma effectively,jack,figma,uses
+carol securely owns the car today,carol,car,owns
+rachel is married to emma,rachel,emma,married_to
+sam is married to frank,sam,frank,married_to
+frank is parent of umar biologically,frank,umar,parent_of
+bob is parent of grace officially,bob,grace,parent_of
+alice routinely uses notion effectively,alice,notion,uses
+grace personally owns the guitar currently,grace,guitar,owns
+stadium is located in zurich today,stadium,zurich,located_in
+sam is parent of liam biologically,sam,liam,parent_of
+paul is parent of umar,paul,umar,parent_of
+valve is part of robot officially,valve,robot,part_of
+paul usually resides in delhi today,paul,delhi,lives_in
+emma usually dwells in denver today,emma,denver,lives_in
+henry usually resides in denver today,henry,denver,lives_in
+mia often dwells in miami daily,mia,miami,lives_in
+dave is married to paul,dave,paul,married_to
+factory is located in lisbon currently,factory,lisbon,located_in
+wendy usually dwells in zurich,wendy,zurich,lives_in
+karen legally owns the phone officially,karen,phone,owns
+grace regularly handles the python effectively,grace,python,uses
+grace daily operates git effectively,grace,git,uses
+sam daily handles spark effectively,sam,spark,uses
+yasmin is parent of alice biologically,yasmin,alice,parent_of
+paul usually resides in dubai now,paul,dubai,lives_in
+rachel is married to frank,rachel,frank,married_to
+emma currently works at amazon now,emma,amazon,works_at
+dave often resides in dubai,dave,dubai,lives_in
+quinn is parent of dave biologically,quinn,dave,parent_of
+port is located in boston,port,boston,located_in
+gear is part of pipeline today,gear,pipeline,part_of
+wendy actively learns at mit daily,wendy,mit,studies_at
+quinn was born in london historically,quinn,london,born_in
+liam currently resides in lisbon,liam,lisbon,lives_in
+filter is part of aircraft,filter,aircraft,part_of
+factory is located in zurich,factory,zurich,located_in
+carol is married to yasmin,carol,yasmin,married_to
+carol is parent of yasmin legally,carol,yasmin,parent_of
+olivia regularly handles kafka carefully,olivia,kafka,uses
+terminal is located in vienna officially,terminal,vienna,located_in
+mia diligently studies at cambridge today,mia,cambridge,studies_at
+paul is parent of liam officially,paul,liam,parent_of
+zane regularly leads at amazon daily,zane,amazon,works_at
+xavier routinely handles the docker effectively,xavier,docker,uses
+liam is parent of noah biologically,liam,noah,parent_of
+quinn actively learns at duke today,quinn,duke,studies_at
+studio is located in berlin currently,studio,berlin,located_in
+paul is married to wendy officially,paul,wendy,married_to
+noah regularly operates the tensorflow carefully,noah,tensorflow,uses
+umar routinely operates linux today,umar,linux,uses
+rachel is parent of grace,rachel,grace,parent_of
+zane is parent of karen legally,zane,karen,parent_of
+rachel currently serves at airbnb now,rachel,airbnb,works_at
+engine is part of platform currently,engine,platform,part_of
+liam seriously learns at cornell now,liam,cornell,studies_at
+panel is part of cluster,panel,cluster,part_of
+xavier is parent of alice,xavier,alice,parent_of
+factory is located in vienna,factory,vienna,located_in
+library is located in tokyo today,library,tokyo,located_in
+stadium is located in lisbon officially,stadium,lisbon,located_in
+gear is part of device,gear,device,part_of
+rachel actively trains at cornell today,rachel,cornell,studies_at
+liam seriously trains at stanford,liam,stanford,studies_at
+quinn regularly works at adobe today,quinn,adobe,works_at
+router is part of server currently,router,server,part_of
+karen is married to bob happily,karen,bob,married_to
+xavier is married to zane legally,xavier,zane,married_to
+irene was born in madrid historically,irene,madrid,born_in
+tina is married to sam legally,tina,sam,married_to
+quinn seriously studies at epfl today,quinn,epfl,studies_at
+jack legally holds boat today,jack,boat,owns
+grace actively serves at google,grace,google,works_at
+wendy is married to emma legally,wendy,emma,married_to
+quinn is parent of umar legally,quinn,umar,parent_of
+yasmin personally owns console officially,yasmin,console,owns
+bob currently dwells in madrid,bob,madrid,lives_in
+paul routinely handles figma today,paul,figma,uses
+irene was born in rome,irene,rome,born_in
+karen routinely operates sql today,karen,sql,uses
+noah was born in vienna,noah,vienna,born_in
+karen actively learns at princeton daily,karen,princeton,studies_at
+xavier is married to mia legally,xavier,mia,married_to
+office is located in dallas officially,office,dallas,located_in
+sensor is part of platform currently,sensor,platform,part_of
+grace often dwells in phoenix,grace,phoenix,lives_in
+olivia is parent of mia,olivia,mia,parent_of
+dave is parent of victor,dave,victor,parent_of
+henry is parent of karen officially,henry,karen,parent_of
+irene actively leads at microsoft,irene,microsoft,works_at
+quinn legally holds the phone currently,quinn,phone,owns
+irene currently works at airbnb today,irene,airbnb,works_at
+karen personally keeps printer currently,karen,printer,owns
+alice personally owns the bicycle currently,alice,bicycle,owns
+rachel regularly handles the jira carefully,rachel,jira,uses
+olivia usually lives in lisbon today,olivia,lisbon,lives_in
+liam personally holds the laptop currently,liam,laptop,owns
+sam is parent of olivia,sam,olivia,parent_of
+alice was born in phoenix historically,alice,phoenix,born_in
+umar currently lives in boston,umar,boston,lives_in
+yasmin actively serves at airbnb daily,yasmin,airbnb,works_at
+sam regularly uses pytorch effectively,sam,pytorch,uses
+karen regularly leads at samsung daily,karen,samsung,works_at
+campus is located in vienna officially,campus,vienna,located_in
+alice regularly leads at google daily,alice,google,works_at
+noah regularly serves at zoom daily,noah,zoom,works_at
+alice is married to karen,alice,karen,married_to
+tina securely holds farm officially,tina,farm,owns
+olivia routinely uses figma effectively,olivia,figma,uses
+filter is part of platform,filter,platform,part_of
+alice is parent of yasmin biologically,alice,yasmin,parent_of
+wendy seriously trains at brown,wendy,brown,studies_at
+rachel was born in boston officially,rachel,boston,born_in
+switch is part of network today,switch,network,part_of
+campus is located in paris officially,campus,paris,located_in
+quinn currently dwells in rome today,quinn,rome,lives_in
+grace is parent of bob biologically,grace,bob,parent_of
+noah routinely operates the pytorch today,noah,pytorch,uses
+olivia daily uses sql effectively,olivia,sql,uses
+frank was born in berlin recently,frank,berlin,born_in
+carol currently works at google now,carol,google,works_at
+frank currently serves at airbnb now,frank,airbnb,works_at
+sam seriously learns at duke daily,sam,duke,studies_at
+irene daily uses the python effectively,irene,python,uses
+kernel is part of vehicle today,kernel,vehicle,part_of
+tina is parent of henry legally,tina,henry,parent_of
+emma usually resides in delhi today,emma,delhi,lives_in
+yasmin often resides in madrid today,yasmin,madrid,lives_in
+umar is parent of victor legally,umar,victor,parent_of
+paul currently lives in delhi now,paul,delhi,lives_in
+victor was born in vienna,victor,vienna,born_in
+terminal is located in prague officially,terminal,prague,located_in
+liam currently resides in seoul today,liam,seoul,lives_in
+emma usually dwells in berlin,emma,berlin,lives_in
+liam routinely handles docker effectively,liam,docker,uses
+museum is located in tokyo currently,museum,tokyo,located_in
+bob currently lives in delhi today,bob,delhi,lives_in
+wendy legally owns the boat currently,wendy,boat,owns
+victor is married to carol happily,victor,carol,married_to
+sensor is part of network currently,sensor,network,part_of
+dave usually resides in miami today,dave,miami,lives_in
+jack was born in rome historically,jack,rome,born_in
+campus is located in prague today,campus,prague,located_in
+quinn often resides in madrid,quinn,madrid,lives_in
+emma was born in madrid recently,emma,madrid,born_in
+dave is parent of xavier,dave,xavier,parent_of
+frank was born in london historically,frank,london,born_in
+noah is parent of rachel,noah,rachel,parent_of
+factory is located in miami,factory,miami,located_in
+karen is parent of zane biologically,karen,zane,parent_of
+karen was born in seoul historically,karen,seoul,born_in
+liam regularly leads at samsung,liam,samsung,works_at
+xavier is married to grace officially,xavier,grace,married_to
+emma seriously learns at oxford,emma,oxford,studies_at
+battery is part of cluster,battery,cluster,part_of
+dave regularly leads at adobe today,dave,adobe,works_at
+valve is part of pipeline currently,valve,pipeline,part_of
+frank is married to henry officially,frank,henry,married_to
+bob daily operates git carefully,bob,git,uses
+bob usually lives in boston daily,bob,boston,lives_in
+alice diligently studies at ucsd now,alice,ucsd,studies_at
+port is located in delhi currently,port,delhi,located_in
+irene was born in delhi officially,irene,delhi,born_in
+paul actively studies at princeton now,paul,princeton,studies_at
+liam is married to carol legally,liam,carol,married_to
+karen routinely handles python today,karen,python,uses
+gear is part of cluster officially,gear,cluster,part_of
+library is located in dubai,library,dubai,located_in
+quinn diligently trains at duke now,quinn,duke,studies_at
+umar is parent of xavier officially,umar,xavier,parent_of
+henry is parent of umar biologically,henry,umar,parent_of
+router is part of aircraft,router,aircraft,part_of
+warehouse is located in lisbon officially,warehouse,lisbon,located_in
+dave was born in phoenix recently,dave,phoenix,born_in
+quinn currently dwells in denver today,quinn,denver,lives_in
+carol is married to victor,carol,victor,married_to
+tina regularly works at paypal now,tina,paypal,works_at
+alice is married to yasmin legally,alice,yasmin,married_to
+tina diligently studies at ucla today,tina,ucla,studies_at
+rachel personally holds the house officially,rachel,house,owns
+umar securely keeps studio today,umar,studio,owns
+grace securely keeps studio today,grace,studio,owns
+henry is parent of noah biologically,henry,noah,parent_of
+gear is part of device officially,gear,device,part_of
+bob actively learns at nus now,bob,nus,studies_at
+filter is part of server,filter,server,part_of
+paul actively studies at harvard today,paul,harvard,studies_at
+motor is part of vehicle today,motor,vehicle,part_of
+noah currently works at airbnb,noah,airbnb,works_at
+emma is parent of bob,emma,bob,parent_of
+screen is part of robot officially,screen,robot,part_of
+sam was born in seoul historically,sam,seoul,born_in
+carol personally keeps the console officially,carol,console,owns
+dave was born in sydney officially,dave,sydney,born_in
+dave currently lives in vienna today,dave,vienna,lives_in
+tina personally owns the phone currently,tina,phone,owns
+bob regularly leads at zoom today,bob,zoom,works_at
+sam legally keeps boat today,sam,boat,owns
+module is part of vehicle currently,module,vehicle,part_of
+zane legally holds the bicycle currently,zane,bicycle,owns
+motor is part of cluster currently,motor,cluster,part_of
+sensor is part of drone officially,sensor,drone,part_of
+victor legally holds the laptop today,victor,laptop,owns
+dave was born in dallas,dave,dallas,born_in
+mia was born in miami officially,mia,miami,born_in
+quinn is parent of dave officially,quinn,dave,parent_of
+library is located in rome currently,library,rome,located_in
+karen is married to irene happily,karen,irene,married_to
+panel is part of device officially,panel,device,part_of
+umar was born in vienna historically,umar,vienna,born_in
+port is located in paris today,port,paris,located_in
+port is located in dallas officially,port,dallas,located_in
+paul is married to tina legally,paul,tina,married_to
+mia is married to grace officially,mia,grace,married_to
+paul actively leads at uber now,paul,uber,works_at
+frank is parent of emma biologically,frank,emma,parent_of
+jack is married to henry officially,jack,henry,married_to
+umar is parent of bob biologically,umar,bob,parent_of
+liam is parent of victor,liam,victor,parent_of
+stadium is located in denver currently,stadium,denver,located_in
+tina seriously studies at mit,tina,mit,studies_at
+victor personally holds studio officially,victor,studio,owns
+jack is parent of zane,jack,zane,parent_of
+henry is parent of tina,henry,tina,parent_of
+yasmin was born in phoenix,yasmin,phoenix,born_in
+embassy is located in denver currently,embassy,denver,located_in
+quinn is parent of frank,quinn,frank,parent_of
+gear is part of drone today,gear,drone,part_of
+library is located in vienna,library,vienna,located_in
+sam is married to henry happily,sam,henry,married_to
+quinn is parent of tina legally,quinn,tina,parent_of
+carol was born in dallas officially,carol,dallas,born_in
+switch is part of robot today,switch,robot,part_of
+router is part of server today,router,server,part_of
+module is part of platform,module,platform,part_of
+quinn personally keeps watch officially,quinn,watch,owns
+plugin is part of robot today,plugin,robot,part_of
+bob currently lives in phoenix now,bob,phoenix,lives_in
+bob currently lives in madrid today,bob,madrid,lives_in
+irene is married to umar happily,irene,umar,married_to
+emma is married to rachel officially,emma,rachel,married_to
+irene routinely uses spark carefully,irene,spark,uses
+plugin is part of system,plugin,system,part_of
+zane personally owns the laptop officially,zane,laptop,owns
+frank often dwells in rome,frank,rome,lives_in
+noah was born in madrid,noah,madrid,born_in
+paul securely keeps farm today,paul,farm,owns
+karen was born in tokyo historically,karen,tokyo,born_in
+yasmin legally holds the laptop officially,yasmin,laptop,owns
+dave often lives in sydney today,dave,sydney,lives_in
+grace usually lives in rome,grace,rome,lives_in
+tina is married to rachel officially,tina,rachel,married_to
+liam is married to victor,liam,victor,married_to
+irene is parent of emma,irene,emma,parent_of
+alice often lives in oslo now,alice,oslo,lives_in
+olivia currently works at paypal now,olivia,paypal,works_at
+zane is parent of quinn biologically,zane,quinn,parent_of
+module is part of platform officially,module,platform,part_of
+grace was born in prague recently,grace,prague,born_in
+screen is part of drone currently,screen,drone,part_of
+studio is located in delhi currently,studio,delhi,located_in
+hospital is located in dubai,hospital,dubai,located_in
+zane is parent of quinn,zane,quinn,parent_of
+motor is part of platform officially,motor,platform,part_of
+xavier actively studies at iisc daily,xavier,iisc,studies_at
+henry is parent of paul,henry,paul,parent_of
+yasmin legally keeps the camera officially,yasmin,camera,owns
+rachel securely keeps scooter currently,rachel,scooter,owns
+noah daily uses sql today,noah,sql,uses
+umar actively trains at yale today,umar,yale,studies_at
+emma often lives in dubai daily,emma,dubai,lives_in
+mia daily operates the docker carefully,mia,docker,uses
+tina is married to carol legally,tina,carol,married_to
+engine is part of server officially,engine,server,part_of
+tina currently lives in madrid,tina,madrid,lives_in
+dave daily uses python carefully,dave,python,uses
+umar routinely operates the figma today,umar,figma,uses
+alice often resides in seoul,alice,seoul,lives_in
+irene regularly uses figma carefully,irene,figma,uses
+zane personally holds boat currently,zane,boat,owns
+xavier is married to paul officially,xavier,paul,married_to
+wendy usually resides in tokyo now,wendy,tokyo,lives_in
+kernel is part of platform officially,kernel,platform,part_of
+emma is parent of liam,emma,liam,parent_of
+zane regularly uses spark effectively,zane,spark,uses
+olivia routinely uses the git carefully,olivia,git,uses
+zane is parent of mia officially,zane,mia,parent_of
+xavier was born in lisbon recently,xavier,lisbon,born_in
+grace securely holds the console today,grace,console,owns
+karen is parent of dave officially,karen,dave,parent_of
+xavier regularly serves at paypal today,xavier,paypal,works_at
+factory is located in dallas,factory,dallas,located_in
+engine is part of drone officially,engine,drone,part_of
+campus is located in madrid today,campus,madrid,located_in
+karen usually resides in phoenix now,karen,phoenix,lives_in
+tina regularly leads at sap now,tina,sap,works_at
+tina was born in phoenix,tina,phoenix,born_in
+frank seriously studies at nus now,frank,nus,studies_at
+henry daily uses slack today,henry,slack,uses
+karen securely holds the guitar officially,karen,guitar,owns
+hospital is located in dallas officially,hospital,dallas,located_in
+museum is located in denver,museum,denver,located_in
+zane actively leads at uber now,zane,uber,works_at
+valve is part of server currently,valve,server,part_of
+emma usually lives in tokyo,emma,tokyo,lives_in
+yasmin is parent of dave,yasmin,dave,parent_of
+circuit is part of platform currently,circuit,platform,part_of
+mia seriously trains at yale,mia,yale,studies_at
+jack often resides in seoul now,jack,seoul,lives_in
+umar seriously learns at duke today,umar,duke,studies_at
+olivia often resides in london now,olivia,london,lives_in
+engine is part of machine,engine,machine,part_of
+carol was born in sydney officially,carol,sydney,born_in
+quinn was born in sydney officially,quinn,sydney,born_in
+liam actively works at google daily,liam,google,works_at
+dave currently leads at uber today,dave,uber,works_at
+grace regularly leads at zoom today,grace,zoom,works_at
+gear is part of device currently,gear,device,part_of
+campus is located in london today,campus,london,located_in
+wendy seriously trains at harvard daily,wendy,harvard,studies_at
+switch is part of server officially,switch,server,part_of
+dave often resides in dubai daily,dave,dubai,lives_in
+emma daily operates the docker carefully,emma,docker,uses
+victor seriously learns at cornell today,victor,cornell,studies_at
+irene diligently trains at yale,irene,yale,studies_at
+office is located in tokyo,office,tokyo,located_in
+panel is part of platform officially,panel,platform,part_of
+router is part of drone today,router,drone,part_of
+jack is married to xavier,jack,xavier,married_to
+embassy is located in boston currently,embassy,boston,located_in
+umar diligently trains at mit,umar,mit,studies_at
+liam legally owns car today,liam,car,owns
+museum is located in paris today,museum,paris,located_in
+filter is part of drone currently,filter,drone,part_of
+frank actively serves at accenture now,frank,accenture,works_at
+carol personally owns the laptop officially,carol,laptop,owns
+quinn seriously studies at ethz,quinn,ethz,studies_at
+victor regularly works at samsung daily,victor,samsung,works_at
+paul was born in lisbon officially,paul,lisbon,born_in
+wendy diligently learns at iisc daily,wendy,iisc,studies_at
+switch is part of machine officially,switch,machine,part_of
+noah legally keeps guitar today,noah,guitar,owns
+sam is parent of dave,sam,dave,parent_of
+yasmin was born in london,yasmin,london,born_in
+noah is married to sam,noah,sam,married_to
+port is located in london today,port,london,located_in
+henry is parent of olivia biologically,henry,olivia,parent_of
+carol is married to wendy legally,carol,wendy,married_to
+emma legally keeps the phone officially,emma,phone,owns
+liam actively leads at google now,liam,google,works_at
+noah is married to zane legally,noah,zane,married_to
+dave was born in phoenix historically,dave,phoenix,born_in
+sam is married to alice officially,sam,alice,married_to
+emma was born in rome historically,emma,rome,born_in
+noah is married to umar officially,noah,umar,married_to
+stadium is located in tokyo officially,stadium,tokyo,located_in
+paul is parent of rachel legally,paul,rachel,parent_of
+module is part of machine today,module,machine,part_of
+karen diligently studies at ucsd,karen,ucsd,studies_at
+engine is part of cluster,engine,cluster,part_of
+mia actively leads at paypal now,mia,paypal,works_at
+yasmin was born in zurich recently,yasmin,zurich,born_in
+dave is married to frank happily,dave,frank,married_to
+tina daily operates the tableau carefully,tina,tableau,uses
+grace routinely handles figma today,grace,figma,uses
+tina is parent of karen biologically,tina,karen,parent_of
+wendy is parent of olivia,wendy,olivia,parent_of
+carol actively studies at duke,carol,duke,studies_at
+alice regularly uses docker effectively,alice,docker,uses
+sam usually resides in seoul today,sam,seoul,lives_in
+rachel was born in seoul historically,rachel,seoul,born_in
+plugin is part of cluster,plugin,cluster,part_of
+quinn is parent of alice,quinn,alice,parent_of
+library is located in phoenix,library,phoenix,located_in
+emma seriously learns at oxford today,emma,oxford,studies_at
+rachel legally owns studio today,rachel,studio,owns
+emma was born in rome recently,emma,rome,born_in
+rachel routinely uses the spark carefully,rachel,spark,uses
+rachel usually lives in delhi daily,rachel,delhi,lives_in
+yasmin is married to henry happily,yasmin,henry,married_to
+rachel securely owns the printer currently,rachel,printer,owns
+henry personally owns boat today,henry,boat,owns
+irene daily uses pytorch today,irene,pytorch,uses
+frank currently dwells in rome today,frank,rome,lives_in
+zane actively studies at brown,zane,brown,studies_at
+carol often resides in dallas,carol,dallas,lives_in
+paul regularly works at cisco now,paul,cisco,works_at
+yasmin daily uses the jira effectively,yasmin,jira,uses
+mia was born in madrid,mia,madrid,born_in
+yasmin was born in london officially,yasmin,london,born_in
+emma daily uses the slack carefully,emma,slack,uses
+emma seriously trains at duke,emma,duke,studies_at
+hospital is located in vienna currently,hospital,vienna,located_in
+bob routinely operates the sql effectively,bob,sql,uses
+filter is part of drone,filter,drone,part_of
+quinn actively works at cisco daily,quinn,cisco,works_at
+umar daily operates the git carefully,umar,git,uses
+jack was born in seoul historically,jack,seoul,born_in
+karen often lives in oslo now,karen,oslo,lives_in
+frank is married to irene legally,frank,irene,married_to
+grace currently works at oracle daily,grace,oracle,works_at
+xavier currently dwells in madrid today,xavier,madrid,lives_in
+olivia currently works at siemens daily,olivia,siemens,works_at
+karen daily handles linux carefully,karen,linux,uses
+wendy was born in paris historically,wendy,paris,born_in
+olivia actively serves at paypal,olivia,paypal,works_at
+victor actively leads at siemens,victor,siemens,works_at
+irene was born in oslo officially,irene,oslo,born_in
+xavier was born in seoul historically,xavier,seoul,born_in
+paul regularly handles spark carefully,paul,spark,uses
+paul is parent of irene,paul,irene,parent_of
+umar is married to emma,umar,emma,married_to
+factory is located in lisbon today,factory,lisbon,located_in
+yasmin regularly handles the spark effectively,yasmin,spark,uses
+terminal is located in rome officially,terminal,rome,located_in
+emma regularly serves at intel daily,emma,intel,works_at
+rachel actively leads at tesla today,rachel,tesla,works_at
+airport is located in oslo today,airport,oslo,located_in
+carol seriously learns at ucsd now,carol,ucsd,studies_at
+olivia currently lives in dubai,olivia,dubai,lives_in
+router is part of system officially,router,system,part_of
+karen diligently learns at ethz,karen,ethz,studies_at
+center is located in dubai currently,center,dubai,located_in
+zane regularly leads at uber today,zane,uber,works_at
+grace is married to paul happily,grace,paul,married_to
+henry currently dwells in lisbon now,henry,lisbon,lives_in
+office is located in boston today,office,boston,located_in
+henry personally owns the printer officially,henry,printer,owns
+rachel regularly works at oracle today,rachel,oracle,works_at
+frank regularly uses tableau effectively,frank,tableau,uses
+bob is parent of rachel biologically,bob,rachel,parent_of
+grace actively learns at brown,grace,brown,studies_at
+screen is part of pipeline officially,screen,pipeline,part_of
+carol was born in oslo historically,carol,oslo,born_in
+frank currently resides in tokyo today,frank,tokyo,lives_in
+xavier currently works at airbnb now,xavier,airbnb,works_at
+liam seriously learns at yale today,liam,yale,studies_at
+filter is part of aircraft today,filter,aircraft,part_of
+carol personally keeps the bicycle today,carol,bicycle,owns
+dave actively works at amazon,dave,amazon,works_at
+plugin is part of device today,plugin,device,part_of
+yasmin is parent of noah biologically,yasmin,noah,parent_of
+alice was born in prague,alice,prague,born_in
+mia regularly leads at paypal now,mia,paypal,works_at
+sam is parent of jack legally,sam,jack,parent_of
+motor is part of device currently,motor,device,part_of
+olivia personally owns laptop officially,olivia,laptop,owns
+center is located in paris officially,center,paris,located_in
+rachel is married to wendy officially,rachel,wendy,married_to
+emma was born in delhi historically,emma,delhi,born_in
+wendy securely owns laptop today,wendy,laptop,owns
+rachel legally owns scooter currently,rachel,scooter,owns
+bob often dwells in vienna today,bob,vienna,lives_in
+jack was born in lisbon recently,jack,lisbon,born_in
+irene regularly uses the slack today,irene,slack,uses
+umar usually lives in dallas today,umar,dallas,lives_in
+noah is parent of karen,noah,karen,parent_of
+karen is married to sam,karen,sam,married_to
+sam is married to noah,sam,noah,married_to
+emma is parent of frank officially,emma,frank,parent_of
+sam regularly serves at adobe now,sam,adobe,works_at
+grace often lives in boston today,grace,boston,lives_in
+jack seriously trains at princeton,jack,princeton,studies_at
+umar regularly uses spark effectively,umar,spark,uses
+alice often dwells in prague daily,alice,prague,lives_in
+frank was born in rome,frank,rome,born_in
+wendy is married to yasmin officially,wendy,yasmin,married_to
+hospital is located in paris today,hospital,paris,located_in
+henry regularly works at uber,henry,uber,works_at
+motor is part of platform,motor,platform,part_of
+karen is married to olivia officially,karen,olivia,married_to
+router is part of machine,router,machine,part_of
+yasmin often resides in london now,yasmin,london,lives_in
+grace is married to sam,grace,sam,married_to
+valve is part of system,valve,system,part_of
+jack daily uses the pytorch carefully,jack,pytorch,uses
+olivia often dwells in lisbon,olivia,lisbon,lives_in
+noah was born in zurich,noah,zurich,born_in
+frank routinely uses the pytorch carefully,frank,pytorch,uses
+rachel was born in rome,rachel,rome,born_in
+rachel actively serves at adobe,rachel,adobe,works_at
+olivia actively works at accenture today,olivia,accenture,works_at
+olivia usually lives in rome,olivia,rome,lives_in
+jack is parent of mia biologically,jack,mia,parent_of
+karen is parent of sam biologically,karen,sam,parent_of
+umar was born in prague recently,umar,prague,born_in
+henry is married to rachel officially,henry,rachel,married_to
+rachel is married to frank legally,rachel,frank,married_to
+emma daily handles the notion carefully,emma,notion,uses
+emma was born in denver officially,emma,denver,born_in
+airport is located in paris officially,airport,paris,located_in
+alice seriously trains at harvard daily,alice,harvard,studies_at
+yasmin securely owns watch currently,yasmin,watch,owns
+warehouse is located in berlin currently,warehouse,berlin,located_in
+noah is married to tina legally,noah,tina,married_to
+bob routinely operates spark carefully,bob,spark,uses
+umar currently leads at adobe,umar,adobe,works_at
+jack is parent of bob,jack,bob,parent_of
+zane legally owns the guitar officially,zane,guitar,owns
+alice often dwells in berlin,alice,berlin,lives_in
+bob regularly uses figma today,bob,figma,uses
+emma daily uses spark today,emma,spark,uses
+jack was born in lisbon officially,jack,lisbon,born_in
+xavier was born in london historically,xavier,london,born_in
+embassy is located in vienna currently,embassy,vienna,located_in
+dave was born in sydney,dave,sydney,born_in
+bob is parent of zane officially,bob,zane,parent_of
+kernel is part of drone,kernel,drone,part_of
+liam actively leads at uber today,liam,uber,works_at
+irene diligently studies at mit daily,irene,mit,studies_at
+yasmin legally owns the guitar officially,yasmin,guitar,owns
+carol securely holds console officially,carol,console,owns
+umar actively learns at harvard,umar,harvard,studies_at
+jack is married to karen happily,jack,karen,married_to
+router is part of device today,router,device,part_of
+grace securely holds guitar today,grace,guitar,owns
+paul actively works at sap,paul,sap,works_at
+jack seriously studies at ucla now,jack,ucla,studies_at
+jack is parent of sam biologically,jack,sam,parent_of
+xavier often lives in lisbon now,xavier,lisbon,lives_in
+henry actively learns at brown,henry,brown,studies_at
+tina regularly serves at zoom today,tina,zoom,works_at
+irene was born in zurich recently,irene,zurich,born_in
+noah is married to alice happily,noah,alice,married_to
+bob is married to yasmin,bob,yasmin,married_to
+olivia daily uses tableau carefully,olivia,tableau,uses
+henry is married to dave,henry,dave,married_to
+terminal is located in seoul officially,terminal,seoul,located_in
+umar is parent of rachel biologically,umar,rachel,parent_of
+yasmin personally keeps tablet officially,yasmin,tablet,owns
+yasmin often dwells in miami daily,yasmin,miami,lives_in
+sam was born in prague,sam,prague,born_in
+sensor is part of aircraft,sensor,aircraft,part_of
+quinn is parent of henry,quinn,henry,parent_of
+xavier is married to sam legally,xavier,sam,married_to
+victor daily handles the tensorflow today,victor,tensorflow,uses
+circuit is part of machine currently,circuit,machine,part_of
+valve is part of aircraft currently,valve,aircraft,part_of
+henry legally owns house today,henry,house,owns
+rachel was born in rome recently,rachel,rome,born_in
+jack usually resides in lisbon today,jack,lisbon,lives_in
+screen is part of vehicle,screen,vehicle,part_of
+office is located in oslo,office,oslo,located_in
+alice is parent of wendy legally,alice,wendy,parent_of
+port is located in denver,port,denver,located_in
+gear is part of machine,gear,machine,part_of
+warehouse is located in paris officially,warehouse,paris,located_in
+zane is parent of victor officially,zane,victor,parent_of
+museum is located in dubai officially,museum,dubai,located_in
+rachel routinely uses figma carefully,rachel,figma,uses
+olivia diligently trains at cambridge daily,olivia,cambridge,studies_at
+sam is married to olivia officially,sam,olivia,married_to
+irene regularly operates tensorflow today,irene,tensorflow,uses
+switch is part of system officially,switch,system,part_of
+karen regularly uses python today,karen,python,uses
+embassy is located in seoul,embassy,seoul,located_in
+karen actively leads at sap,karen,sap,works_at
+tina was born in rome,tina,rome,born_in
+bob currently works at spotify today,bob,spotify,works_at
+tina routinely operates docker effectively,tina,docker,uses
+dave was born in denver historically,dave,denver,born_in
+wendy routinely operates linux effectively,wendy,linux,uses
+quinn seriously learns at brown today,quinn,brown,studies_at
+rachel is parent of jack officially,rachel,jack,parent_of
+umar is parent of wendy legally,umar,wendy,parent_of
+museum is located in sydney currently,museum,sydney,located_in
+screen is part of network,screen,network,part_of
+liam often lives in oslo daily,liam,oslo,lives_in
+paul regularly uses kafka carefully,paul,kafka,uses
+grace regularly leads at uber now,grace,uber,works_at
+bob currently works at intel today,bob,intel,works_at
+battery is part of vehicle currently,battery,vehicle,part_of
+library is located in dubai officially,library,dubai,located_in
+irene regularly serves at samsung,irene,samsung,works_at
+carol diligently studies at iisc now,carol,iisc,studies_at
+warehouse is located in miami today,warehouse,miami,located_in
+irene seriously studies at oxford,irene,oxford,studies_at
+henry diligently trains at cornell now,henry,cornell,studies_at
+zane is parent of emma,zane,emma,parent_of
+henry was born in lisbon,henry,lisbon,born_in
+irene diligently trains at ethz daily,irene,ethz,studies_at
+sam securely keeps the boat currently,sam,boat,owns
+henry was born in prague historically,henry,prague,born_in
+grace was born in prague,grace,prague,born_in
+warehouse is located in london today,warehouse,london,located_in
+circuit is part of pipeline officially,circuit,pipeline,part_of
+alice regularly leads at netflix daily,alice,netflix,works_at
+battery is part of machine today,battery,machine,part_of
+studio is located in lisbon today,studio,lisbon,located_in
+henry diligently studies at ucla daily,henry,ucla,studies_at
+tina is married to jack legally,tina,jack,married_to
+irene routinely handles the python today,irene,python,uses
+gallery is located in london today,gallery,london,located_in
+karen personally holds phone officially,karen,phone,owns
+router is part of aircraft currently,router,aircraft,part_of
+irene legally holds tablet today,irene,tablet,owns
+alice currently works at oracle now,alice,oracle,works_at
+embassy is located in oslo currently,embassy,oslo,located_in
+sam seriously trains at nus,sam,nus,studies_at
+bob is married to frank,bob,frank,married_to
+tina diligently trains at epfl,tina,epfl,studies_at
+quinn is married to henry officially,quinn,henry,married_to
+gear is part of robot currently,gear,robot,part_of
+grace is parent of tina,grace,tina,parent_of
+liam is married to dave,liam,dave,married_to
+hospital is located in zurich currently,hospital,zurich,located_in
+liam regularly works at microsoft now,liam,microsoft,works_at
+xavier is parent of mia,xavier,mia,parent_of
+rachel is married to victor officially,rachel,victor,married_to
+frank securely owns the house officially,frank,house,owns
+port is located in lisbon,port,lisbon,located_in
+sam routinely operates excel today,sam,excel,uses
+victor diligently studies at iisc now,victor,iisc,studies_at
+quinn was born in vienna officially,quinn,vienna,born_in
+olivia securely keeps the laptop today,olivia,laptop,owns
+port is located in miami,port,miami,located_in
+grace currently lives in rome,grace,rome,lives_in
+rachel personally owns scooter today,rachel,scooter,owns
+emma is married to jack happily,emma,jack,married_to
+rachel is married to yasmin officially,rachel,yasmin,married_to
+victor diligently studies at princeton now,victor,princeton,studies_at
+quinn daily handles the tableau effectively,quinn,tableau,uses
+panel is part of device today,panel,device,part_of
+bob seriously studies at epfl today,bob,epfl,studies_at
+frank is married to noah happily,frank,noah,married_to
+xavier is married to karen legally,xavier,karen,married_to
+olivia legally owns house currently,olivia,house,owns
+mia routinely operates git effectively,mia,git,uses
+wendy actively learns at ethz,wendy,ethz,studies_at
+karen daily handles kafka effectively,karen,kafka,uses
+paul often dwells in phoenix today,paul,phoenix,lives_in
+yasmin personally owns the tablet currently,yasmin,tablet,owns
+grace was born in phoenix historically,grace,phoenix,born_in
+henry currently lives in denver today,henry,denver,lives_in
+sensor is part of vehicle,sensor,vehicle,part_of
+xavier regularly leads at spotify now,xavier,spotify,works_at
+xavier actively trains at epfl now,xavier,epfl,studies_at
+terminal is located in phoenix,terminal,phoenix,located_in
+xavier was born in vienna historically,xavier,vienna,born_in
+rachel is parent of carol,rachel,carol,parent_of
+jack seriously learns at ethz,jack,ethz,studies_at
+henry legally keeps car officially,henry,car,owns
+jack was born in dallas recently,jack,dallas,born_in
+sam regularly works at nvidia daily,sam,nvidia,works_at
+karen currently dwells in seoul now,karen,seoul,lives_in
+wendy is married to karen happily,wendy,karen,married_to
+carol legally owns the studio today,carol,studio,owns
+tina securely owns bicycle today,tina,bicycle,owns
+alice actively learns at ucsd,alice,ucsd,studies_at
+bob is married to mia happily,bob,mia,married_to
+gallery is located in zurich today,gallery,zurich,located_in
+zane seriously learns at ucsd now,zane,ucsd,studies_at
+plugin is part of robot,plugin,robot,part_of
+emma securely holds the phone today,emma,phone,owns
+carol often resides in madrid daily,carol,madrid,lives_in
+wendy seriously learns at ethz now,wendy,ethz,studies_at
+alice legally owns printer today,alice,printer,owns
+filter is part of machine today,filter,machine,part_of
+alice actively serves at uber,alice,uber,works_at
+rachel daily operates the spark today,rachel,spark,uses
+quinn is parent of sam officially,quinn,sam,parent_of
+paul is parent of victor officially,paul,victor,parent_of
+grace routinely handles notion effectively,grace,notion,uses
+airport is located in vienna officially,airport,vienna,located_in
+yasmin routinely operates the python today,yasmin,python,uses
+mia often dwells in dubai,mia,dubai,lives_in
+rachel actively learns at iisc daily,rachel,iisc,studies_at
+irene regularly handles tensorflow carefully,irene,tensorflow,uses
+olivia was born in london,olivia,london,born_in
+umar actively trains at ucla,umar,ucla,studies_at
+umar regularly handles figma carefully,umar,figma,uses
+alice legally holds the watch today,alice,watch,owns
+noah usually dwells in rome,noah,rome,lives_in
+yasmin often dwells in sydney now,yasmin,sydney,lives_in
+quinn securely keeps the tablet currently,quinn,tablet,owns
+victor regularly operates jira today,victor,jira,uses
+filter is part of platform currently,filter,platform,part_of
+library is located in vienna today,library,vienna,located_in
+rachel securely keeps boat today,rachel,boat,owns
+motor is part of machine today,motor,machine,part_of
+liam diligently studies at harvard today,liam,harvard,studies_at
+switch is part of drone currently,switch,drone,part_of
+motor is part of server,motor,server,part_of
+stadium is located in dallas today,stadium,dallas,located_in
+paul actively works at airbnb now,paul,airbnb,works_at
+noah regularly operates tableau effectively,noah,tableau,uses
+motor is part of pipeline currently,motor,pipeline,part_of
+umar currently dwells in prague today,umar,prague,lives_in
+gallery is located in sydney,gallery,sydney,located_in
+alice currently lives in denver,alice,denver,lives_in
+tina often dwells in tokyo daily,tina,tokyo,lives_in
+quinn currently resides in dubai now,quinn,dubai,lives_in
+carol is parent of zane officially,carol,zane,parent_of
+bob is married to victor legally,bob,victor,married_to
+factory is located in oslo currently,factory,oslo,located_in
+quinn was born in oslo officially,quinn,oslo,born_in
+emma is parent of tina biologically,emma,tina,parent_of
+olivia diligently studies at epfl today,olivia,epfl,studies_at
+grace diligently learns at stanford daily,grace,stanford,studies_at
+yasmin diligently trains at mit,yasmin,mit,studies_at
+frank regularly serves at google today,frank,google,works_at
+liam actively trains at ethz today,liam,ethz,studies_at
+noah currently leads at oracle now,noah,oracle,works_at
+xavier daily handles the spark today,xavier,spark,uses
+henry currently works at tesla today,henry,tesla,works_at
+tina regularly operates python carefully,tina,python,uses
+valve is part of system currently,valve,system,part_of
+umar is married to mia,umar,mia,married_to
+sensor is part of network today,sensor,network,part_of
+wendy is married to yasmin,wendy,yasmin,married_to
+circuit is part of system today,circuit,system,part_of
+rachel was born in denver historically,rachel,denver,born_in
+sam was born in dallas officially,sam,dallas,born_in
+xavier is parent of olivia officially,xavier,olivia,parent_of
+olivia is married to frank legally,olivia,frank,married_to
+grace personally holds the camera currently,grace,camera,owns
+irene legally keeps the camera today,irene,camera,owns
+alice is married to paul,alice,paul,married_to
+xavier is parent of carol legally,xavier,carol,parent_of
+alice was born in london recently,alice,london,born_in
+olivia currently works at microsoft today,olivia,microsoft,works_at
+paul is married to emma happily,paul,emma,married_to
+victor currently dwells in miami,victor,miami,lives_in
+router is part of vehicle today,router,vehicle,part_of
+alice seriously trains at princeton today,alice,princeton,studies_at
+umar usually dwells in dallas now,umar,dallas,lives_in
+frank regularly handles the docker today,frank,docker,uses
+henry was born in prague,henry,prague,born_in
+quinn daily operates notion effectively,quinn,notion,uses
+xavier is married to yasmin officially,xavier,yasmin,married_to
+frank actively leads at airbnb daily,frank,airbnb,works_at
+port is located in paris officially,port,paris,located_in
+kernel is part of machine,kernel,machine,part_of
+dave currently dwells in denver now,dave,denver,lives_in
+campus is located in miami currently,campus,miami,located_in
+olivia is parent of sam legally,olivia,sam,parent_of
+jack regularly serves at airbnb now,jack,airbnb,works_at
+umar is married to mia legally,umar,mia,married_to
+rachel regularly operates the linux carefully,rachel,linux,uses
+grace regularly operates the slack effectively,grace,slack,uses
+xavier is married to paul legally,xavier,paul,married_to
+campus is located in vienna,campus,vienna,located_in
+yasmin seriously studies at iisc,yasmin,iisc,studies_at
+yasmin is parent of henry biologically,yasmin,henry,parent_of
+paul was born in prague historically,paul,prague,born_in
+zane currently leads at uber today,zane,uber,works_at
+sam is married to zane,sam,zane,married_to
+karen actively works at oracle daily,karen,oracle,works_at
+hospital is located in london currently,hospital,london,located_in
+irene legally keeps the car officially,irene,car,owns
+sam was born in lisbon recently,sam,lisbon,born_in
+dave diligently trains at ethz daily,dave,ethz,studies_at
+umar seriously trains at brown now,umar,brown,studies_at
+hospital is located in delhi officially,hospital,delhi,located_in
+zane regularly leads at siemens today,zane,siemens,works_at
+frank regularly uses slack carefully,frank,slack,uses
+tina usually lives in boston,tina,boston,lives_in
+zane is parent of yasmin,zane,yasmin,parent_of
+mia legally keeps the boat today,mia,boat,owns
+bob is parent of carol,bob,carol,parent_of
+paul seriously learns at oxford,paul,oxford,studies_at
+emma seriously trains at mit now,emma,mit,studies_at
+frank securely owns guitar today,frank,guitar,owns
+dave was born in zurich officially,dave,zurich,born_in
+emma is parent of irene biologically,emma,irene,parent_of
+victor currently resides in prague now,victor,prague,lives_in
+emma was born in lisbon,emma,lisbon,born_in
+karen is married to yasmin,karen,yasmin,married_to
+henry is married to carol happily,henry,carol,married_to
+jack currently resides in vienna,jack,vienna,lives_in
+dave is married to olivia,dave,olivia,married_to
+wendy usually resides in dubai today,wendy,dubai,lives_in
+frank is parent of paul legally,frank,paul,parent_of
+umar is parent of jack legally,umar,jack,parent_of
+dave is married to emma legally,dave,emma,married_to
+zane regularly operates figma effectively,zane,figma,uses
+yasmin is parent of liam,yasmin,liam,parent_of
+alice is parent of noah officially,alice,noah,parent_of
+alice personally holds scooter currently,alice,scooter,owns
+zane securely keeps laptop today,zane,laptop,owns
+paul was born in paris,paul,paris,born_in
+wendy regularly works at oracle today,wendy,oracle,works_at
+quinn currently leads at google,quinn,google,works_at
+paul currently serves at paypal now,paul,paypal,works_at
+paul routinely uses tensorflow carefully,paul,tensorflow,uses
+frank actively serves at spotify today,frank,spotify,works_at
+emma currently leads at zoom,emma,zoom,works_at
+grace seriously learns at yale today,grace,yale,studies_at
+library is located in denver officially,library,denver,located_in
+studio is located in paris officially,studio,paris,located_in
+switch is part of system,switch,system,part_of
+wendy regularly uses notion effectively,wendy,notion,uses
+alice personally keeps car currently,alice,car,owns
+center is located in berlin today,center,berlin,located_in
+sam actively works at sap,sam,sap,works_at
+emma currently serves at airbnb,emma,airbnb,works_at
+tina was born in rome recently,tina,rome,born_in
+rachel often lives in seoul daily,rachel,seoul,lives_in
+jack is married to mia legally,jack,mia,married_to
+bob is parent of umar legally,bob,umar,parent_of
+olivia routinely uses kafka carefully,olivia,kafka,uses
+factory is located in delhi officially,factory,delhi,located_in
+grace currently leads at microsoft daily,grace,microsoft,works_at
+mia seriously learns at ucsd today,mia,ucsd,studies_at
+screen is part of network currently,screen,network,part_of
+alice is parent of sam,alice,sam,parent_of
+panel is part of server officially,panel,server,part_of
+quinn routinely uses git today,quinn,git,uses
+bob daily uses the sql effectively,bob,sql,uses
+emma was born in delhi,emma,delhi,born_in
+olivia routinely handles the docker carefully,olivia,docker,uses
+carol seriously learns at cornell today,carol,cornell,studies_at
+olivia was born in dubai,olivia,dubai,born_in
+zane is parent of henry legally,zane,henry,parent_of
+zane daily operates jira today,zane,jira,uses
+olivia currently lives in madrid,olivia,madrid,lives_in
+center is located in berlin currently,center,berlin,located_in
+liam personally holds farm officially,liam,farm,owns
+umar regularly operates the kafka today,umar,kafka,uses
+noah often resides in oslo today,noah,oslo,lives_in
+grace routinely operates sql carefully,grace,sql,uses
+emma usually resides in denver now,emma,denver,lives_in
+grace is parent of umar officially,grace,umar,parent_of
+karen is parent of victor officially,karen,victor,parent_of
+olivia regularly works at zoom now,olivia,zoom,works_at
+emma regularly uses the tableau effectively,emma,tableau,uses
+motor is part of vehicle currently,motor,vehicle,part_of
+quinn is married to yasmin legally,quinn,yasmin,married_to
+irene was born in phoenix,irene,phoenix,born_in
+yasmin often dwells in miami now,yasmin,miami,lives_in
+alice actively learns at duke daily,alice,duke,studies_at
+tina is married to sam happily,tina,sam,married_to
+henry often lives in phoenix now,henry,phoenix,lives_in
+rachel was born in boston,rachel,boston,born_in
+yasmin routinely uses figma carefully,yasmin,figma,uses
+emma is married to victor,emma,victor,married_to
+rachel actively leads at airbnb daily,rachel,airbnb,works_at
+hospital is located in vienna,hospital,vienna,located_in
+henry personally keeps tablet officially,henry,tablet,owns
+xavier usually resides in london,xavier,london,lives_in
+carol seriously studies at princeton now,carol,princeton,studies_at
+alice is married to yasmin officially,alice,yasmin,married_to
+yasmin regularly operates linux today,yasmin,linux,uses
+emma regularly leads at uber,emma,uber,works_at
+irene actively serves at netflix,irene,netflix,works_at
+irene is married to paul,irene,paul,married_to
+paul regularly handles the figma carefully,paul,figma,uses
+sam diligently studies at ethz now,sam,ethz,studies_at
+jack regularly handles the spark today,jack,spark,uses
+frank is parent of umar officially,frank,umar,parent_of
+paul is married to henry legally,paul,henry,married_to
+wendy is parent of sam,wendy,sam,parent_of
+tina diligently trains at oxford now,tina,oxford,studies_at
+bob legally holds the watch currently,bob,watch,owns
+frank is married to quinn legally,frank,quinn,married_to
+rachel is parent of olivia legally,rachel,olivia,parent_of
+carol seriously learns at brown now,carol,brown,studies_at
+alice often dwells in lisbon,alice,lisbon,lives_in
+yasmin is parent of bob officially,yasmin,bob,parent_of
+jack currently works at netflix today,jack,netflix,works_at
+battery is part of server,battery,server,part_of
+tina was born in seoul recently,tina,seoul,born_in
+emma is married to noah happily,emma,noah,married_to
+umar was born in seoul historically,umar,seoul,born_in
+wendy currently resides in madrid now,wendy,madrid,lives_in
+tina actively trains at brown,tina,brown,studies_at
+gear is part of platform today,gear,platform,part_of
+terminal is located in dallas today,terminal,dallas,located_in
+module is part of pipeline officially,module,pipeline,part_of
+irene actively studies at ucsd now,irene,ucsd,studies_at
+xavier actively studies at harvard,xavier,harvard,studies_at
+henry currently lives in sydney now,henry,sydney,lives_in
+noah regularly handles python carefully,noah,python,uses
+zane personally owns scooter currently,zane,scooter,owns
+dave securely keeps the farm currently,dave,farm,owns
+valve is part of pipeline,valve,pipeline,part_of
+olivia diligently trains at yale today,olivia,yale,studies_at
+mia is married to henry legally,mia,henry,married_to
+mia is married to quinn,mia,quinn,married_to
+circuit is part of drone currently,circuit,drone,part_of
+karen personally owns watch currently,karen,watch,owns
+jack personally owns farm today,jack,farm,owns
+kernel is part of aircraft today,kernel,aircraft,part_of
+rachel was born in sydney recently,rachel,sydney,born_in
+karen seriously studies at oxford,karen,oxford,studies_at
+sam regularly handles slack today,sam,slack,uses
+karen usually resides in prague now,karen,prague,lives_in
+hospital is located in delhi,hospital,delhi,located_in
+dave was born in madrid officially,dave,madrid,born_in
+rachel is married to grace,rachel,grace,married_to
+henry is parent of grace biologically,henry,grace,parent_of
+quinn securely keeps the scooter officially,quinn,scooter,owns
+campus is located in vienna today,campus,vienna,located_in
+office is located in prague today,office,prague,located_in
+quinn personally keeps the bicycle today,quinn,bicycle,owns
+yasmin legally owns boat officially,yasmin,boat,owns
+dave currently lives in madrid daily,dave,madrid,lives_in
+dave usually resides in miami now,dave,miami,lives_in
+jack is parent of grace biologically,jack,grace,parent_of
+xavier currently works at tesla today,xavier,tesla,works_at
+tina diligently studies at harvard daily,tina,harvard,studies_at
+victor currently lives in rome now,victor,rome,lives_in
+battery is part of network currently,battery,network,part_of
+rachel was born in oslo officially,rachel,oslo,born_in
+henry actively works at microsoft now,henry,microsoft,works_at
+umar is married to yasmin legally,umar,yasmin,married_to
+liam actively leads at samsung,liam,samsung,works_at
+yasmin was born in dallas,yasmin,dallas,born_in
+karen currently serves at amazon now,karen,amazon,works_at
+sam legally keeps the tablet officially,sam,tablet,owns
+rachel currently works at sap today,rachel,sap,works_at
+liam is married to karen officially,liam,karen,married_to
+paul is parent of olivia,paul,olivia,parent_of
+olivia actively works at zoom daily,olivia,zoom,works_at
+quinn regularly works at adobe daily,quinn,adobe,works_at
+carol is married to bob officially,carol,bob,married_to
+frank actively serves at cisco today,frank,cisco,works_at
+victor is married to paul officially,victor,paul,married_to
+bob actively works at microsoft today,bob,microsoft,works_at
+yasmin securely keeps the phone currently,yasmin,phone,owns
+emma securely keeps console officially,emma,console,owns
+campus is located in dallas officially,campus,dallas,located_in
+rachel is parent of paul,rachel,paul,parent_of
+router is part of device currently,router,device,part_of
+quinn usually lives in lisbon today,quinn,lisbon,lives_in
+terminal is located in boston officially,terminal,boston,located_in
+umar was born in berlin officially,umar,berlin,born_in
+zane daily handles the pytorch today,zane,pytorch,uses
+emma routinely operates slack today,emma,slack,uses
+noah actively learns at yale today,noah,yale,studies_at
+airport is located in phoenix officially,airport,phoenix,located_in
+emma is parent of dave officially,emma,dave,parent_of
+zane is married to frank happily,zane,frank,married_to
+xavier routinely handles kafka today,xavier,kafka,uses
+victor diligently learns at ucla now,victor,ucla,studies_at
+bob usually lives in dallas daily,bob,dallas,lives_in
+grace regularly uses the git carefully,grace,git,uses
+zane currently dwells in madrid now,zane,madrid,lives_in
+karen routinely operates figma today,karen,figma,uses
+alice regularly leads at airbnb,alice,airbnb,works_at
+henry regularly operates the pytorch carefully,henry,pytorch,uses
+rachel often dwells in paris daily,rachel,paris,lives_in
+mia is married to tina happily,mia,tina,married_to
+olivia personally owns the bicycle today,olivia,bicycle,owns
+wendy personally keeps house today,wendy,house,owns
+engine is part of platform officially,engine,platform,part_of
+paul legally keeps studio officially,paul,studio,owns
+henry was born in berlin officially,henry,berlin,born_in
+yasmin regularly works at cisco daily,yasmin,cisco,works_at
+module is part of vehicle officially,module,vehicle,part_of
+jack regularly operates the kafka effectively,jack,kafka,uses
+yasmin is parent of rachel legally,yasmin,rachel,parent_of
+rachel actively serves at sap,rachel,sap,works_at
+mia is married to carol happily,mia,carol,married_to
+sam legally keeps guitar today,sam,guitar,owns
+port is located in sydney officially,port,sydney,located_in
+zane personally keeps the car today,zane,car,owns
+mia daily uses pytorch today,mia,pytorch,uses
+stadium is located in lisbon,stadium,lisbon,located_in
+valve is part of drone today,valve,drone,part_of
+kernel is part of device currently,kernel,device,part_of
+router is part of platform,router,platform,part_of
+liam was born in delhi recently,liam,delhi,born_in
+liam routinely uses spark carefully,liam,spark,uses
+olivia is parent of mia biologically,olivia,mia,parent_of
+zane is married to dave happily,zane,dave,married_to
+bob often lives in london,bob,london,lives_in
+quinn diligently learns at cambridge now,quinn,cambridge,studies_at
+olivia was born in miami officially,olivia,miami,born_in
+henry personally owns guitar officially,henry,guitar,owns
+olivia securely owns scooter officially,olivia,scooter,owns
+carol was born in london recently,carol,london,born_in
+umar is parent of zane officially,umar,zane,parent_of
+terminal is located in madrid officially,terminal,madrid,located_in
+studio is located in rome currently,studio,rome,located_in
+noah diligently trains at cornell today,noah,cornell,studies_at
+noah securely holds the printer officially,noah,printer,owns
+liam daily uses the kafka effectively,liam,kafka,uses
+henry actively learns at princeton daily,henry,princeton,studies_at
+kernel is part of drone today,kernel,drone,part_of
+campus is located in rome,campus,rome,located_in
+grace currently works at paypal,grace,paypal,works_at
+paul is married to bob happily,paul,bob,married_to
+hospital is located in lisbon currently,hospital,lisbon,located_in
+circuit is part of device,circuit,device,part_of
+quinn seriously learns at nus daily,quinn,nus,studies_at
+dave regularly serves at netflix today,dave,netflix,works_at
+frank was born in paris officially,frank,paris,born_in
+irene regularly handles the tableau effectively,irene,tableau,uses
+mia often dwells in lisbon daily,mia,lisbon,lives_in
+umar regularly uses the git effectively,umar,git,uses
+henry securely holds laptop officially,henry,laptop,owns
+liam daily uses the sql effectively,liam,sql,uses
+zane regularly works at spotify today,zane,spotify,works_at
+quinn is married to rachel,quinn,rachel,married_to
+quinn is parent of frank legally,quinn,frank,parent_of
+quinn daily handles linux carefully,quinn,linux,uses
+carol is parent of karen,carol,karen,parent_of
+grace personally owns laptop officially,grace,laptop,owns
+warehouse is located in miami officially,warehouse,miami,located_in
+wendy is parent of noah officially,wendy,noah,parent_of
+tina is married to irene officially,tina,irene,married_to
+henry currently lives in lisbon now,henry,lisbon,lives_in
+irene is married to rachel,irene,rachel,married_to
+liam regularly leads at airbnb today,liam,airbnb,works_at
+kernel is part of device today,kernel,device,part_of
+karen is parent of grace legally,karen,grace,parent_of
+stadium is located in seoul,stadium,seoul,located_in
+tina is parent of henry,tina,henry,parent_of
+alice is parent of noah biologically,alice,noah,parent_of
+alice currently leads at adobe today,alice,adobe,works_at
+museum is located in vienna officially,museum,vienna,located_in
+sam regularly works at tesla today,sam,tesla,works_at
+yasmin actively trains at iisc now,yasmin,iisc,studies_at
+wendy actively learns at oxford now,wendy,oxford,studies_at
+liam legally holds studio currently,liam,studio,owns
+battery is part of system today,battery,system,part_of
+karen daily operates the slack today,karen,slack,uses
+henry actively serves at accenture now,henry,accenture,works_at
+henry is married to paul legally,henry,paul,married_to
+studio is located in zurich officially,studio,zurich,located_in
+zane personally holds the scooter officially,zane,scooter,owns
+noah routinely handles the linux today,noah,linux,uses
+zane personally keeps camera officially,zane,camera,owns
+router is part of robot,router,robot,part_of
+jack usually lives in denver daily,jack,denver,lives_in
+panel is part of aircraft today,panel,aircraft,part_of
+umar seriously learns at ucla today,umar,ucla,studies_at
+victor diligently studies at harvard today,victor,harvard,studies_at
+mia seriously studies at harvard,mia,harvard,studies_at
+zane actively trains at epfl,zane,epfl,studies_at
+olivia was born in paris historically,olivia,paris,born_in
+port is located in phoenix officially,port,phoenix,located_in
+liam was born in miami,liam,miami,born_in
+studio is located in tokyo officially,studio,tokyo,located_in
+victor is married to noah,victor,noah,married_to
+henry regularly uses the pytorch today,henry,pytorch,uses
+module is part of machine,module,machine,part_of
+liam regularly operates git effectively,liam,git,uses
+stadium is located in oslo today,stadium,oslo,located_in
+panel is part of system today,panel,system,part_of
+frank seriously learns at brown now,frank,brown,studies_at
+quinn routinely operates sql effectively,quinn,sql,uses
+xavier legally holds the scooter currently,xavier,scooter,owns
+dave often dwells in miami,dave,miami,lives_in
+xavier often resides in seoul,xavier,seoul,lives_in
+xavier often resides in dubai,xavier,dubai,lives_in
+studio is located in denver,studio,denver,located_in
+rachel often resides in phoenix now,rachel,phoenix,lives_in
+irene regularly works at accenture now,irene,accenture,works_at
+carol diligently learns at harvard now,carol,harvard,studies_at
+noah was born in dubai historically,noah,dubai,born_in
+victor securely holds boat officially,victor,boat,owns
+jack daily uses excel carefully,jack,excel,uses
+zane is parent of paul biologically,zane,paul,parent_of
+museum is located in delhi,museum,delhi,located_in
+sam is married to alice legally,sam,alice,married_to
+wendy actively studies at yale now,wendy,yale,studies_at
+wendy often dwells in oslo now,wendy,oslo,lives_in
+alice legally holds boat today,alice,boat,owns
+jack is married to dave legally,jack,dave,married_to
+irene often lives in phoenix daily,irene,phoenix,lives_in
+screen is part of robot currently,screen,robot,part_of
+wendy regularly leads at tesla now,wendy,tesla,works_at
+noah is parent of liam biologically,noah,liam,parent_of
+jack was born in prague,jack,prague,born_in
+bob was born in berlin officially,bob,berlin,born_in
+mia usually dwells in dubai,mia,dubai,lives_in
+dave is married to wendy,dave,wendy,married_to
+emma is parent of rachel officially,emma,rachel,parent_of
+yasmin is parent of zane legally,yasmin,zane,parent_of
+karen currently resides in oslo today,karen,oslo,lives_in
+jack is married to dave,jack,dave,married_to
+hospital is located in lisbon officially,hospital,lisbon,located_in
+quinn regularly uses slack carefully,quinn,slack,uses
+yasmin often dwells in miami today,yasmin,miami,lives_in
+liam was born in rome historically,liam,rome,born_in
+xavier securely owns the scooter officially,xavier,scooter,owns
+karen regularly uses the notion effectively,karen,notion,uses
+mia currently works at netflix,mia,netflix,works_at
+noah is married to dave officially,noah,dave,married_to
+carol is parent of wendy biologically,carol,wendy,parent_of
+zane diligently learns at ethz daily,zane,ethz,studies_at
+karen is parent of wendy,karen,wendy,parent_of
+wendy currently lives in tokyo daily,wendy,tokyo,lives_in
+library is located in tokyo,library,tokyo,located_in
+wendy seriously trains at ethz now,wendy,ethz,studies_at
+quinn personally holds the scooter officially,quinn,scooter,owns
+jack is parent of rachel officially,jack,rachel,parent_of
+umar diligently studies at cornell today,umar,cornell,studies_at
+carol regularly serves at amazon now,carol,amazon,works_at
+module is part of drone,module,drone,part_of
+circuit is part of robot today,circuit,robot,part_of
+airport is located in sydney,airport,sydney,located_in
+campus is located in sydney officially,campus,sydney,located_in
+carol regularly works at accenture daily,carol,accenture,works_at
+jack is parent of grace officially,jack,grace,parent_of
+jack is parent of frank,jack,frank,parent_of
+victor is married to karen,victor,karen,married_to
+yasmin was born in madrid recently,yasmin,madrid,born_in
+paul often dwells in dubai today,paul,dubai,lives_in
+terminal is located in phoenix today,terminal,phoenix,located_in
+henry daily handles tensorflow effectively,henry,tensorflow,uses
+victor is parent of liam biologically,victor,liam,parent_of
+jack actively leads at samsung,jack,samsung,works_at
+rachel was born in madrid officially,rachel,madrid,born_in
+victor is married to irene officially,victor,irene,married_to
+emma often lives in delhi now,emma,delhi,lives_in
+router is part of pipeline officially,router,pipeline,part_of
+karen actively leads at zoom today,karen,zoom,works_at
+noah was born in berlin historically,noah,berlin,born_in
+olivia is married to mia,olivia,mia,married_to
+switch is part of cluster currently,switch,cluster,part_of
+irene is parent of zane,irene,zane,parent_of
+carol diligently trains at cornell daily,carol,cornell,studies_at
+bob often lives in madrid daily,bob,madrid,lives_in
+mia currently dwells in prague now,mia,prague,lives_in
+factory is located in lisbon officially,factory,lisbon,located_in
+victor legally keeps the laptop officially,victor,laptop,owns
+filter is part of device officially,filter,device,part_of
+tina is married to paul,tina,paul,married_to
+irene legally holds the car currently,irene,car,owns
+sam is parent of victor officially,sam,victor,parent_of
+gallery is located in london currently,gallery,london,located_in
+xavier currently serves at cisco now,xavier,cisco,works_at
+airport is located in denver,airport,denver,located_in
+olivia securely keeps laptop today,olivia,laptop,owns
+mia often lives in boston now,mia,boston,lives_in
+olivia is married to irene,olivia,irene,married_to
+dave securely holds bicycle today,dave,bicycle,owns
+bob was born in oslo officially,bob,oslo,born_in
+factory is located in berlin currently,factory,berlin,located_in
+quinn legally keeps farm today,quinn,farm,owns
+noah seriously trains at mit,noah,mit,studies_at
+emma regularly serves at cisco,emma,cisco,works_at
+emma was born in phoenix,emma,phoenix,born_in
+irene is married to henry legally,irene,henry,married_to
+wendy was born in berlin officially,wendy,berlin,born_in
+victor is parent of bob officially,victor,bob,parent_of
+grace diligently learns at brown now,grace,brown,studies_at
+victor currently lives in dallas,victor,dallas,lives_in
+jack is married to alice legally,jack,alice,married_to
+dave personally holds bicycle currently,dave,bicycle,owns
+irene is parent of victor officially,irene,victor,parent_of
+paul securely owns house currently,paul,house,owns
+liam currently resides in prague,liam,prague,lives_in
+karen is married to olivia happily,karen,olivia,married_to
+wendy securely keeps printer today,wendy,printer,owns
+battery is part of drone today,battery,drone,part_of
+grace legally holds guitar today,grace,guitar,owns
+battery is part of vehicle today,battery,vehicle,part_of
+engine is part of pipeline currently,engine,pipeline,part_of
+screen is part of aircraft today,screen,aircraft,part_of
+victor actively works at paypal today,victor,paypal,works_at
+liam regularly uses the notion today,liam,notion,uses
+zane diligently learns at ucla daily,zane,ucla,studies_at
+olivia is married to noah legally,olivia,noah,married_to
+mia seriously trains at oxford now,mia,oxford,studies_at
+frank regularly serves at zoom now,frank,zoom,works_at
+xavier is married to emma happily,xavier,emma,married_to
+gallery is located in oslo today,gallery,oslo,located_in
+grace personally owns the scooter currently,grace,scooter,owns
+studio is located in dallas officially,studio,dallas,located_in
+mia usually resides in london today,mia,london,lives_in
+noah is parent of olivia officially,noah,olivia,parent_of
+screen is part of vehicle officially,screen,vehicle,part_of
+grace diligently learns at stanford now,grace,stanford,studies_at
+mia personally keeps guitar today,mia,guitar,owns
+irene is married to victor officially,irene,victor,married_to
+henry is parent of rachel legally,henry,rachel,parent_of
+xavier personally owns the house today,xavier,house,owns
+karen is parent of olivia officially,karen,olivia,parent_of
+tina usually dwells in berlin today,tina,berlin,lives_in
+irene actively works at adobe today,irene,adobe,works_at
+tina usually dwells in zurich now,tina,zurich,lives_in
+liam currently leads at nvidia now,liam,nvidia,works_at
+quinn was born in berlin,quinn,berlin,born_in
+emma usually resides in berlin now,emma,berlin,lives_in
+tina regularly uses the excel today,tina,excel,uses
+xavier regularly operates the linux today,xavier,linux,uses
+zane securely holds farm officially,zane,farm,owns
+sam securely holds the car officially,sam,car,owns
+victor was born in delhi,victor,delhi,born_in
+zane usually lives in rome,zane,rome,lives_in
+victor securely holds the car officially,victor,car,owns
+mia is parent of xavier officially,mia,xavier,parent_of
+xavier was born in prague recently,xavier,prague,born_in
+wendy personally owns the laptop officially,wendy,laptop,owns
+liam securely owns car today,liam,car,owns
+terminal is located in dubai officially,terminal,dubai,located_in
+noah is married to olivia legally,noah,olivia,married_to
+emma seriously trains at ucla,emma,ucla,studies_at
+emma regularly handles jira effectively,emma,jira,uses
+umar currently lives in seoul daily,umar,seoul,lives_in
+alice securely owns the tablet today,alice,tablet,owns
+mia routinely operates the spark carefully,mia,spark,uses
+irene securely keeps the boat officially,irene,boat,owns
+port is located in madrid today,port,madrid,located_in
+alice daily handles git effectively,alice,git,uses
+gallery is located in zurich,gallery,zurich,located_in
+yasmin diligently trains at ucla now,yasmin,ucla,studies_at
+engine is part of pipeline officially,engine,pipeline,part_of
+dave diligently learns at oxford daily,dave,oxford,studies_at
+carol is parent of quinn,carol,quinn,parent_of
+paul is parent of irene officially,paul,irene,parent_of
+hospital is located in boston today,hospital,boston,located_in
+noah legally holds the camera today,noah,camera,owns
+grace was born in phoenix recently,grace,phoenix,born_in
+paul is parent of tina officially,paul,tina,parent_of
+filter is part of aircraft officially,filter,aircraft,part_of
+emma actively leads at google,emma,google,works_at
+noah securely owns car officially,noah,car,owns
+yasmin actively leads at oracle today,yasmin,oracle,works_at
+frank is married to bob happily,frank,bob,married_to
+wendy actively serves at accenture,wendy,accenture,works_at
+wendy currently leads at zoom,wendy,zoom,works_at
+port is located in vienna currently,port,vienna,located_in
+embassy is located in phoenix today,embassy,phoenix,located_in
+xavier regularly serves at netflix today,xavier,netflix,works_at
+library is located in rome today,library,rome,located_in
+henry is married to irene happily,henry,irene,married_to
+emma securely owns boat today,emma,boat,owns
+wendy is married to karen legally,wendy,karen,married_to
+liam daily operates the tensorflow effectively,liam,tensorflow,uses
+dave daily uses the docker today,dave,docker,uses
+rachel routinely handles pytorch effectively,rachel,pytorch,uses
+grace was born in tokyo historically,grace,tokyo,born_in
+motor is part of drone,motor,drone,part_of
+carol diligently learns at harvard daily,carol,harvard,studies_at
+wendy routinely operates the python effectively,wendy,python,uses
+center is located in delhi currently,center,delhi,located_in
+emma is married to henry,emma,henry,married_to
+olivia is parent of carol officially,olivia,carol,parent_of
+plugin is part of drone today,plugin,drone,part_of
+emma is married to yasmin,emma,yasmin,married_to
+stadium is located in phoenix currently,stadium,phoenix,located_in
+alice actively serves at cisco now,alice,cisco,works_at
+office is located in tokyo officially,office,tokyo,located_in
+dave is married to carol happily,dave,carol,married_to
+sam securely owns the car officially,sam,car,owns
+noah is married to frank officially,noah,frank,married_to
+zane is married to mia,zane,mia,married_to
+olivia actively studies at epfl today,olivia,epfl,studies_at
+dave was born in paris officially,dave,paris,born_in
+yasmin is parent of wendy officially,yasmin,wendy,parent_of
+dave often lives in zurich today,dave,zurich,lives_in
+module is part of system currently,module,system,part_of
+victor diligently learns at duke,victor,duke,studies_at
+dave currently lives in dallas,dave,dallas,lives_in
+xavier is married to dave happily,xavier,dave,married_to
+mia is married to wendy officially,mia,wendy,married_to
+umar diligently studies at cambridge today,umar,cambridge,studies_at
+liam was born in phoenix historically,liam,phoenix,born_in
+panel is part of vehicle officially,panel,vehicle,part_of
+terminal is located in phoenix currently,terminal,phoenix,located_in
+wendy diligently studies at epfl now,wendy,epfl,studies_at
+rachel is parent of bob officially,rachel,bob,parent_of
+tina personally holds printer currently,tina,printer,owns
+umar was born in tokyo historically,umar,tokyo,born_in
+frank usually lives in oslo daily,frank,oslo,lives_in
+liam is married to paul legally,liam,paul,married_to
+irene daily handles the jira carefully,irene,jira,uses
+henry legally holds console officially,henry,console,owns
+liam was born in prague,liam,prague,born_in
+bob seriously trains at harvard today,bob,harvard,studies_at
+yasmin is parent of karen biologically,yasmin,karen,parent_of
+mia diligently learns at stanford today,mia,stanford,studies_at
+victor is married to dave officially,victor,dave,married_to
+circuit is part of vehicle currently,circuit,vehicle,part_of
+mia currently serves at intel now,mia,intel,works_at
+paul is parent of bob biologically,paul,bob,parent_of
+studio is located in paris currently,studio,paris,located_in
+library is located in madrid today,library,madrid,located_in
+bob actively leads at paypal now,bob,paypal,works_at
+paul securely owns the printer today,paul,printer,owns
+dave currently dwells in madrid,dave,madrid,lives_in
+bob was born in rome,bob,rome,born_in
+mia currently works at spotify daily,mia,spotify,works_at
+liam actively serves at sap,liam,sap,works_at
+olivia seriously learns at brown,olivia,brown,studies_at
+olivia daily operates figma carefully,olivia,figma,uses
+olivia legally holds the car currently,olivia,car,owns
+wendy actively works at nvidia today,wendy,nvidia,works_at
+liam personally owns the watch officially,liam,watch,owns
+liam regularly operates the sql today,liam,sql,uses
+studio is located in lisbon,studio,lisbon,located_in
+museum is located in dallas currently,museum,dallas,located_in
+frank was born in rome officially,frank,rome,born_in
+jack is parent of noah,jack,noah,parent_of
+battery is part of network officially,battery,network,part_of
+battery is part of drone currently,battery,drone,part_of
+henry routinely uses excel carefully,henry,excel,uses
+sam is married to tina legally,sam,tina,married_to
+irene actively works at oracle now,irene,oracle,works_at
+alice legally owns the watch officially,alice,watch,owns
+karen daily operates the jira carefully,karen,jira,uses
+dave currently resides in zurich today,dave,zurich,lives_in
+quinn is parent of karen officially,quinn,karen,parent_of
+rachel usually resides in dallas daily,rachel,dallas,lives_in
+tina was born in zurich historically,tina,zurich,born_in
+circuit is part of robot currently,circuit,robot,part_of
+xavier often lives in london today,xavier,london,lives_in
+xavier actively studies at harvard now,xavier,harvard,studies_at
+museum is located in denver today,museum,denver,located_in
+frank usually lives in oslo now,frank,oslo,lives_in
+liam diligently trains at oxford now,liam,oxford,studies_at
+quinn actively leads at paypal,quinn,paypal,works_at
+victor is married to zane,victor,zane,married_to
+office is located in lisbon currently,office,lisbon,located_in
+dave currently leads at intel,dave,intel,works_at
+rachel currently works at siemens daily,rachel,siemens,works_at
+engine is part of robot officially,engine,robot,part_of
+sam currently works at google daily,sam,google,works_at
+yasmin actively studies at mit now,yasmin,mit,studies_at
+umar routinely uses excel today,umar,excel,uses
+factory is located in miami today,factory,miami,located_in
+quinn daily handles linux today,quinn,linux,uses
+noah usually lives in boston now,noah,boston,lives_in
+engine is part of cluster today,engine,cluster,part_of
+router is part of device officially,router,device,part_of
+gear is part of network currently,gear,network,part_of
+noah was born in prague recently,noah,prague,born_in
+rachel often resides in miami,rachel,miami,lives_in
+alice usually lives in vienna now,alice,vienna,lives_in
+emma is married to olivia officially,emma,olivia,married_to
+liam currently dwells in phoenix daily,liam,phoenix,lives_in
+yasmin seriously studies at cornell daily,yasmin,cornell,studies_at
+henry securely keeps bicycle today,henry,bicycle,owns
+henry daily handles the figma today,henry,figma,uses
+henry is married to xavier happily,henry,xavier,married_to
+zane routinely operates the jira today,zane,jira,uses
+karen is parent of emma biologically,karen,emma,parent_of
+paul is married to dave officially,paul,dave,married_to
+noah legally owns the console officially,noah,console,owns
+carol diligently learns at yale,carol,yale,studies_at
+alice was born in vienna recently,alice,vienna,born_in
+screen is part of network officially,screen,network,part_of
+olivia was born in denver officially,olivia,denver,born_in
+jack regularly handles the figma today,jack,figma,uses
+engine is part of network,engine,network,part_of
+module is part of network today,module,network,part_of
+gallery is located in tokyo today,gallery,tokyo,located_in
+bob personally holds the tablet currently,bob,tablet,owns
+dave is parent of liam legally,dave,liam,parent_of
+henry was born in dubai historically,henry,dubai,born_in
+emma currently leads at tesla,emma,tesla,works_at
+jack is married to quinn happily,jack,quinn,married_to
+factory is located in denver officially,factory,denver,located_in
+noah currently dwells in berlin today,noah,berlin,lives_in
+carol currently serves at ibm daily,carol,ibm,works_at
+gallery is located in miami officially,gallery,miami,located_in
+valve is part of server today,valve,server,part_of
+olivia was born in zurich recently,olivia,zurich,born_in
+module is part of robot officially,module,robot,part_of
+karen is parent of noah,karen,noah,parent_of
+gallery is located in miami,gallery,miami,located_in
+quinn is married to bob officially,quinn,bob,married_to
+valve is part of drone officially,valve,drone,part_of
+victor usually resides in oslo today,victor,oslo,lives_in
+karen routinely handles spark effectively,karen,spark,uses
+carol was born in denver historically,carol,denver,born_in
+paul is married to irene officially,paul,irene,married_to
+emma was born in tokyo,emma,tokyo,born_in
+circuit is part of cluster,circuit,cluster,part_of
+alice actively learns at ethz daily,alice,ethz,studies_at
+olivia is parent of zane,olivia,zane,parent_of
+gear is part of robot,gear,robot,part_of
+henry is married to frank,henry,frank,married_to
+sam usually lives in dallas now,sam,dallas,lives_in
+umar daily operates tensorflow today,umar,tensorflow,uses
+switch is part of machine,switch,machine,part_of
+bob was born in vienna historically,bob,vienna,born_in
+victor regularly serves at intel,victor,intel,works_at
+screen is part of vehicle currently,screen,vehicle,part_of
+xavier daily operates jira today,xavier,jira,uses
+paul was born in paris recently,paul,paris,born_in
+gear is part of server today,gear,server,part_of
+zane often lives in lisbon,zane,lisbon,lives_in
+hospital is located in tokyo officially,hospital,tokyo,located_in
+irene is parent of olivia legally,irene,olivia,parent_of
+zane was born in london recently,zane,london,born_in
+bob is parent of quinn legally,bob,quinn,parent_of
+emma is married to wendy,emma,wendy,married_to
+emma was born in lisbon officially,emma,lisbon,born_in
+port is located in sydney,port,sydney,located_in
+bob regularly works at accenture,bob,accenture,works_at
+zane is married to bob officially,zane,bob,married_to
+carol actively works at google,carol,google,works_at
+yasmin daily operates figma effectively,yasmin,figma,uses
+paul usually resides in lisbon now,paul,lisbon,lives_in
+yasmin personally owns the laptop officially,yasmin,laptop,owns
+irene is married to henry officially,irene,henry,married_to
+motor is part of system today,motor,system,part_of
+emma actively works at adobe daily,emma,adobe,works_at
+office is located in phoenix today,office,phoenix,located_in
+noah was born in vienna recently,noah,vienna,born_in
+liam securely keeps the car officially,liam,car,owns
+mia usually dwells in lisbon daily,mia,lisbon,lives_in
+dave regularly operates git effectively,dave,git,uses
+jack was born in zurich recently,jack,zurich,born_in
+noah legally holds console today,noah,console,owns
+henry actively works at paypal daily,henry,paypal,works_at
+bob often dwells in sydney daily,bob,sydney,lives_in
+jack is parent of wendy legally,jack,wendy,parent_of
+karen diligently trains at ucsd now,karen,ucsd,studies_at
+irene was born in boston,irene,boston,born_in
+karen was born in boston recently,karen,boston,born_in
+embassy is located in oslo today,embassy,oslo,located_in
+dave was born in dubai,dave,dubai,born_in
+noah personally owns the phone currently,noah,phone,owns
+olivia is married to rachel,olivia,rachel,married_to
+sam personally owns the tablet officially,sam,tablet,owns
+kernel is part of platform,kernel,platform,part_of
+paul is parent of alice officially,paul,alice,parent_of
+stadium is located in dallas currently,stadium,dallas,located_in
+dave is married to alice legally,dave,alice,married_to
+wendy was born in madrid recently,wendy,madrid,born_in
+zane personally keeps house today,zane,house,owns
+paul was born in madrid,paul,madrid,born_in
+carol daily uses excel today,carol,excel,uses
+carol is parent of liam legally,carol,liam,parent_of
+bob personally keeps bicycle officially,bob,bicycle,owns
+olivia usually resides in oslo daily,olivia,oslo,lives_in
+router is part of aircraft officially,router,aircraft,part_of
+xavier legally keeps the console currently,xavier,console,owns
+olivia securely keeps bicycle officially,olivia,bicycle,owns
+karen is parent of yasmin biologically,karen,yasmin,parent_of
+noah is parent of carol biologically,noah,carol,parent_of
+hospital is located in phoenix currently,hospital,phoenix,located_in
+sam diligently trains at cambridge today,sam,cambridge,studies_at
+irene diligently trains at epfl today,irene,epfl,studies_at
+dave is married to jack,dave,jack,married_to
+umar regularly handles the jira carefully,umar,jira,uses
+victor is parent of alice legally,victor,alice,parent_of
+olivia regularly operates excel effectively,olivia,excel,uses
+karen is married to carol officially,karen,carol,married_to
+carol is parent of frank officially,carol,frank,parent_of
+battery is part of pipeline today,battery,pipeline,part_of
+irene is parent of jack legally,irene,jack,parent_of
+mia regularly handles the pytorch today,mia,pytorch,uses
+bob seriously studies at oxford today,bob,oxford,studies_at
+rachel personally keeps the phone officially,rachel,phone,owns
+quinn was born in seoul recently,quinn,seoul,born_in
+victor currently leads at microsoft now,victor,microsoft,works_at
+zane diligently trains at stanford now,zane,stanford,studies_at
+mia diligently learns at brown now,mia,brown,studies_at
+umar routinely operates the sql carefully,umar,sql,uses
+rachel was born in dallas,rachel,dallas,born_in
+henry was born in phoenix,henry,phoenix,born_in
+gallery is located in prague officially,gallery,prague,located_in
+paul routinely uses the tableau today,paul,tableau,uses
+alice was born in miami recently,alice,miami,born_in
+victor seriously learns at yale daily,victor,yale,studies_at
+liam currently leads at accenture now,liam,accenture,works_at
+filter is part of pipeline officially,filter,pipeline,part_of
+sam is married to henry legally,sam,henry,married_to
+emma is parent of frank legally,emma,frank,parent_of
+panel is part of cluster officially,panel,cluster,part_of
+alice securely keeps the console today,alice,console,owns
+victor usually resides in sydney today,victor,sydney,lives_in
