@@ -1,0 +1,963 @@
+Variational Quantum Circuit Model for Knowledge Graphs Embedding
+Yunpu Ma ∗ 1, 2 , Volker Tresp1, 2 , Liming Zhao 3, and Yuyi Wang 4
+1Ludwig Maximilian University of Munich
+2Siemens AG, Otto-Hahn-Ring 6, 81739 Munich
+3Singapore University of Technology and Design
+4ETH Zurich
+March 5, 2019
+Abstract
+In this work, we propose the ﬁrst quantum Ans¨ atze for the statistical relational learning on knowl-
+edge graphs using parametric quantum circuits. We introduce two types of variational quantum circuits
+for knowledge graph embedding. Inspired by the classical representation learning, we ﬁrst consider
+latent features for entities as coeﬃcients of quantum states, while predicates are characterized by para-
+metric gates acting on the quantum states. For the ﬁrst model, the quantum advantages disappear
+when it comes to the optimization of this model. Therefore, we introduce a second quantum circuit
+model where embeddings of entities are generated from parameterized quantum gates acting on the
+pure quantum state. The beneﬁt of the second method is that the quantum embeddings can be trained
+eﬃciently meanwhile preserving the quantum advantages. We show the proposed methods can achieve
+comparable results to the state-of-the-art classical models, e.g., RESCAL, DistMult. Furthermore,
+after optimizing the models, the complexity of inductive inference on the knowledge graphs might be
+reduced with respect to the number of entities.
+1 Introduction
+Over the last few years, some large-scale triple-oriented knowledge databases have been generated. These
+databases are principled approaches to knowledge representation and reasoning. They are widely used
+in large-scale artiﬁcial intelligence systems, such as question answering engines, human-computer inter-
+action platforms, and decision-making support systems. One well-known example is the IBM’s cognitive
+computing platform, the IBM Watson, where knowledge graphs are at the core of it. The other example
+is the largest universally accessible knowledge graph (KG) maintained by Google.
+Nowadays, knowledge graphs proliferate with increasing numbers of semantic triples and distinct
+entities. The reason is that knowledge graphs collect and merge information from various unstructured
+data, such as publications and internet. The increasing number of semantic triples and distinct entities
+leads to a slow training of knowledge graphs, as well as a sluggish response to the inductive inference
+tasks on knowledge graphs after training. Therefore, in order to accelerate the learning and inference on
+knowledge graphs, we propose statistical relational learning using quantum Ans¨ atze.
+In this work, we propose the ﬁrst quantum Ans¨ atze for modeling and learning large-scale relational
+databases using parametric quantum circuits. We simulate our quantum learning algorithms on graphics
+processing units (GPUs) and demonstrate the model performance on multiple state-of-the-art relational
+databases. We will also discuss how these quantum Ans¨ atze could speed up the inference.
+∗Corresponding Author: yunpu.ma@siemens.com
+1
+arXiv:1903.00556v1  [quant-ph]  19 Feb 2019
+2 Representation learnings on Knowledge Graphs
+Various statistical relational models for large-scale KGs have been proposed in the literature, such as
+the bilinear model ( RESCAL [1]), the bilinear diagonal model ( DistMult [2]), the complex embedding
+model ( ComplEx [3]). In this section we ﬁrst introduce knowledge graphs, and provide a succinct
+introduction to representation learning in KGs. We adapt the notation of [4] for convenience.
+2.1 Knowledge Graphs
+Knowledge graphs are triple-oriented knowledge representations. The core components of KGs are se-
+mantic triples (subject, predicate, object) where subject and object are entities represented as nodes in
+the graph and where predicate indicates the labeled link from the subject to the object. One example of
+a semantic triple in Fig. 1 could be (Angela Merkel, Chancellor of, Germany). Observed semantic triples
+(marked as solid lines in Fig. 1) are elements of the training dataset, while unobserved triples (marked
+as dashed lines) will be inferred during the test.
+Hamburg
+Angela Merkel Germany
+Berlin
+wasBornIn
+livesIn
+ChancellorOf
+CityOf
+CapitalOf ?
+Figure 1: A knowledge graph fragment: observed semantic triples are marked with solid arrows, while
+unobserved semantic triples are marked with dashed arrows.
+2.2 Representation Learning
+LetE denote the set of entities, and P the set of predicates. Let Ne be the number of entities in E, and
+Np the number of predicates in P. Given a predicate p∈P , the indicator function φp :E×E→{ 1, 0}
+indicates whether a triple (·,p,·) is true or false. Furthermore, Rp indicates the set of all subject-object
+pairs, such thatφp = 1. The entire KG can be written asχ ={(i,j,k )}, withi = 1,··· ,Ne,j = 1,··· ,Np,
+andk = 1,··· ,Ne. A knowledge graph can be equivalently treated as aNe×Np×Ne-dimensional 3-order
+tensor, and an entry indicates whether a semantic triple is true, false or unobserved.
+We assume that each entity and predicate has a unique latent representation. Let aei, i = 1,··· ,Ne,
+be the representations of entities, and api, i = 1,··· ,Np, be the representations of predicates. Note
+that aei and api could be real- or complex-valued vectors/matrices. Moreover, when consider a concrete
+example, say (s, p, o), we use as, ap, and ao to represent the latent representation of the subject s, the
+predicate p, and the object o, respectively.
+A probabilistic model for the knowledge graph χ is deﬁned as Pr( φp(s,o ) = 1|A) = σ(ηspo) for all
+(s,p,o )-triples in χ, whereA ={aei}Ne
+i=1∪{ api}Np
+i=1 denotes the collection of all embeddings; σ(·) denotes
+the sigmoid function; ηspo is the value function of latent representations as, ap, and ao. Given a labeled
+dataset containing both false and true triples D ={(xi,yi)}m
+i=1, with xi∈ χ, and yi∈{− 1, 1}, latent
+representations can be learned from a loss function. Commonly, one minimizes the regularized logistic
+loss function
+min
+A
+m∑
+i=1
+log(1 + exp(−yiηxi)) +λ||A||2
+2, (1)
+wherem is the number of training samples,ηxi is the value function for the semantic triplexi, andλ is the
+regularization hyperparameter. Another commonly used loss function is the regularized mean squared
+2
+error (MSE) loss
+1
+m
+m∑
+i=1
+(yi−ηxi)2 +λ||A||2
+2. (2)
+Note that the value function ηspo can be deﬁned diﬀerently in diﬀerent models. For instance, for
+the RESCAL [1] model, entities are represented as unique R-dimensional real-valued vectors, aei∈ RR,
+with i = 1,··· ,Ne, and predicates are represented as R×R matrices, api∈ RR×R, i = 1,with··· ,Np.
+Moreover, the value function is deﬁned as
+ηspo = a⊺
+sapao. (3)
+For DistMult [2], aei, apj∈ RR, with i = 1,··· ,Ne,j = 1,··· ,Np. The value function is deﬁned as
+ηspo =⟨as, ap, ao⟩, (4)
+where⟨·,·,·⟩ denotes the tri-linear dot product.
+For ComplEx [3], entities and predicates are complex-valued vectors aei, apj ∈ CR, with i =
+1,··· ,Ne, j = 1,··· ,Np. The value function for the ComplEx model reads
+ηspo =ℜ(⟨as, ap, ¯ao⟩), (5)
+where the bar denotes complex conjugate, and ℜ denotes the real part of a complex number.
+For the Tucker [5] tensor decomposition model, entities and predicates are real-valued vectors,
+aei ∈ RR, with i = 1,··· ,Ne, and apj ∈ RR, with j = 1,··· ,Np. Additionally, a global core tensor
+W∈ RR×R×R is introduced. The value function for the Tucker model reads
+ηspo = W×1 as×2 ap×3 ao. (6)
+Tensor models and compositional models are principled approaches for modeling large-scale relational
+data. The global relational patterns are encoded in the latent features of entities and predicates after
+optimizing the models. Thus, it is beneﬁcial to analyze how the dimensionality of latent features inﬂuences
+the expressiveness and the generalization ability of the models. These questions have been studied in [6].
+In order to interpret the results in [6] we ﬁrst introduce the following notations.
+Deﬁnition 1. Let X∈ R
+∏m
+i=1ni be anm-order tensor with dimensions n = (n1,··· ,nm). Suppose that it
+can be written as a (Tucker) tensor product X = W×1U (1)×2···× mU (m) with n-rank R = (R1,··· ,Rm),
+where W∈ R
+∏m
+i=1Ri is the core tensor, and U (i)∈ Rni×Ri are the latent factor matrices. Each entry of
+the tensor X can be written as a polynomial
+xi1,···,im =
+R1∑
+j1=1
+···
+Rm∑
+jm=1
+wj1,···,jm
+m∏
+k=1
+u(k)
+ik,jk.
+The set of diﬀerent sign patterns which can be expressed by the tensor X is deﬁned as
+Sn,R :={sgn(X)∈{− 1, 0, +1}
+∏ n|n-rank(X)≤ R} (7)
+Note the cardinality |Sn,R| indicates how expressive and ﬂexible the Tucker tensor decomposition
+could be. For the KGs modeling with tensor decomposition, we focus on the case of 3-order tensors. The
+upper bound of |Sn,R| is given in the following Lemma.
+Lemma 1. (Upper Bound for Sign Patterns) [6] Consider a 3-order tensor X∈ Rn1×n2×n3 which
+can be written as a tensor product X = W×1U (1)×2U (2)×3U (3) with rank R = (R1,R 2,R 3). The
+number of diﬀerent sign patterns of the tensor X is upper bounded by the following number
+|Sn,R|≤
+(16e n1n2n3
+var(X)
+)var(X)
+, (8)
+where var(X) is deﬁned as var(X) :=
+3∏
+i=1
+Ri +
+3∑
+i=1
+niRi.
+3
+Given observed entries of a KG, the above Lemma indicates that the ranks should be large enough
+to ﬁt the observed entries via the tensor decomposition. Therefore, in order to model an ever-increasing
+KG with increasingly complex relational structures, the dimension of latent features also needs to grow
+with the KG. As a reminder, the complexity of value functions grows at least linearly with the dimension
+of the latent features for entities. For example, the computational complexity of the value function for
+the DistMult model isO(R) (see Eq. 4), while for the Tucker model it becomes O(R3) (see Eq. 6).
+One goal of this work is to learn a probabilistic model for relational databases by making a quantum
+Ansatz for the value function. We will discuss how the evaluation of value functions can be accelerated
+via low-depth quantum circuits.
+3 Quantum Circuit models
+In this section, we focus on variational unitary circuits. Algorithms of quantum classiﬁers using variational
+unitary circuits with parameterized and trainable gates have been proposed in [7]. A quantum circuit U
+composed of L unitary operations can be decomposed into a product of unitary matrices
+U =UL··· Ul··· U1,
+where eachUl indicates either a unitary operation on one qubit or a controlled gate acting on two qubits.
+Since a single qubit gate is a 2 × 2 unitary matrix in SU (2), we apply the following parameterization
+G(α,β,γ ) =
+( eiβ cosα eiγ sinα
+−e−iγ sinα e−iβ cosα
+)
+, (9)
+where{α,β,γ} are the tunable parameters of the single qubit gate. Note that a global phase factor is
+neglected.
+In the following, we introduce the parameterization of controlled gates. The controlled gate Ci(Gj)
+which acts on the j-th qubit conditioned on the state of the i-th qubit can be deﬁned as
+Ci(Gj)|x⟩i⊗|y⟩j =|x⟩i⊗Gx
+j|y⟩j ,
+where|x⟩i,|y⟩j denotes the state of the i-th and the j-th qubit, respectively.
+Using the parametric gatesG andC(G), we are capable to describe the quantum circuit modelUθ with
+parameterization θ in more details. Let us consider a quantum state with n entangled qubits. Suppose
+that the l-th unitary operation Ul is a single qubit gate acting on the k-th qubit, then it can be written
+as
+Ul = 1 1⊗···⊗ Gk⊗···⊗ 1 n.
+If the l-th unitary operation acts on the j-th qubit and conditioned on the state of the i-th qubit, Ul will
+have the following matrix representation
+Ul = 1 1⊗···⊗ P 0
+i-th
+⊗···⊗ 1 j
+j-th
+⊗···⊗ 1 n
++ 1 1⊗···⊗ P 1
+i-th
+⊗···⊗ Gj
+j-th
+⊗···⊗ 1 n,
+where P 0 = ( 1 0
+0 0 ) and P 1 = ( 0 0
+0 1 ).
+4 Circuit Models for Knowledge Graphs
+In this section, we introduce two quantum Ans¨ atze for the value function and compare their computational
+complexities.
+4
+4.1 Quantum Circuit Embedding
+We ﬁrst introduce the Quantum Circuit Embedding (QCE) model, which can be considered as a gener-
+alization of the classical RESCAL model to the quantum regime. Similar to the RESCAL model, in
+QCE entities are represented by R-dimensional latent features. Without loss of generality we assume
+that R = 2r. In this way, an R-dimensional latent vector corresponds to a state of an r-qubit system.
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+U1 =
+|s⟩
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+(a)
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+U2 =
+|o⟩
+(b)
+Figure 2: Building blocks of the QCE model. (a) displays the U1 module in the QCE model. U1 encodes
+the latent feature of the subject s as the state |s⟩. The quantum circuit associated to the predicate
+p maps the ket state |s⟩ to another ket state Up(θp)|s⟩. For all the following experiments, we set the
+dimension of entity latent features as R = 64, which corresponds to a 6-qubit system. In addition, the
+circuit architecture for all predicates is ﬁxed, and it can be decomposed in four blocks: single qubit gates,
+two-qubit controlled gates with control range 1, 2, and 3 (dashed blocks). (b) displays the U2 module in
+the QCE model, which prepares the quantum state|o⟩. In both (a) and (b), the tree structure represents
+the quantum access to the classical data structure T .
+One signiﬁcant barrier to quantum learning algorithms is an eﬃcient preparation of quantum states
+from classical data. In this work, we only consider real-valued representations for entities stored in a
+classical data structureT . Then, a technique developed in [8] can be utilized now, which can eﬃciently
+prepare the quantum states corresponding to latent features by accessing the classical data structure T .
+In this way, the complexity of quantum state preparation can be reduced to the logarithm of R. Details
+related to the classical data structure T and the preparation of quantum states via T are relegated to
+the appendix. In summary, in the QCE model, entities are deﬁned as aei∈ RR, with normalizedl2-norm
+||aei||2 = 1, for i = 1,··· ,Ne.
+Furthermore, in QCE each predicate p is associated with a speciﬁc quantum circuit composed of
+sequential implementations of variational gates. Therefore, each predicate has an R×R unitary matrix
+representation Up(θp), where θp are the predicate-speciﬁc trainable parameters stemming from the vari-
+ational quantum gates. Moreover, we ﬁx the circuit architecture of implementing predicates such that
+each predicate is uniquely determined by the circuit parameterizations θp.
+Given a semantic triple (s, p, o), how the value function ηspo is deﬁned in the quantum model? As a
+reminder, in The RESCAL model, the value function ηspo can be seen as the dot product of two vectors
+asp and ao, where asp := a⊺
+sap. The loss function encourages the two vectors asp and ao to point in the
+same direction if the given semantic triple is genuine, otherwise in opposite directions.
+5
+Inspired by the classical model ComplEx, we deﬁne the quantity ηQCE
+spo :=ℜ⟨ o|Up(θp)|s⟩. This
+quantity is the real part of the inner product of two quantum states |o⟩ and|sp⟩ :=Up(θp)|s⟩ generated
+by separate unitary circuits. The model parameters can be optimized by maximizing the inner product
+given genuine triples and minimizing the inner product given false or unobserved semantic triples. A
+relation between ηQCE
+spo and the label of the triple (s , p, o) will be speciﬁed later.
+We explain the circuit architecture in more details. Latent features as for the subject and ao for the
+object are ﬁrst encoded in quantum states|s⟩ and|o⟩ through a quantum access to the memory structure
+T . The dimension of features is set to R = 64 in the following experiments, which corresponds to a
+6-qubit system. Next, a unitary circuit Up(θp) corresponding to the predicate p evolves |s⟩ to the state
+Up(θp)|s⟩. Note that both the latent features of entities and the parametric circuits of predicates need
+to be optimized during the training.
+We develop the circuit for predicates out of four building blocks, and each block consists of variational
+gates or controlled gates operating on each of the 6 qubits. To be more speciﬁc, the ﬁrst block consists
+of single qubit rotations, and the rest of the blocks consist of two-qubit controlled gates with control
+range 1, 2, 3, respectively. So, the unitary circuit associated with the predicates can be written as
+Upi(θpi) =U4 U3 U2 U1, with i = 1,··· ,Np, where
+U1 =G6 G5 G4 G3 G2 G1
+U2 =C6(G1) C1(G2) C2(G3) C3(G4) C4(G5) C5(G6)
+U3 =C5(G1) C6(G2) C1(G3) C2(G4) C3(G5) C4(G6)
+U4 =C4(G1) C5(G2) C6(G3) C1(G4) C2(G5) C3(G6) (10)
+Note that the index for the predicate was neglected since we assume that the circuit architecture is ﬁxed
+for all the predicates. Fig. 2 illustrates the circuits for preparing the states |o⟩ and|sp⟩. In the following,
+we show that the value ηQCE
+spo can be measured physically. We adopt a similar idea to SWAP test for
+discriminating two quantum states. The SWAP test was initially proposed for quantum ﬁngerprinting [9],
+and it was further developed within [10, 11] for discriminating quantum evolution operators.
+|0⟩
+|0··· 0⟩
+H
+U 1 U 2
+H
+Figure 3: Quantum circuit for estimating the value ℜ⟨ o|Up(θp)|s⟩. The detailed architectures of unitary
+evolutionsU1 and U2 can be found in Fig. 2 for the QCE model and Fig. 4 for the fQCE model.
+The basic idea is illustrated in Fig. 3. This architecture is inspired by [11] and Observation 3 in [7].
+Consider two unitary operations U1 and U2 which operate on a pure state |0⟩ :=|0··· 0⟩ conditioned on
+the state of the ancilla qubit. Particularly, the quantum state becomes U1|0⟩ if the ancilla qubit is |1⟩A
+and U2|0⟩ if it is in the state |0⟩A. Before measuring the ancilla qubit, the underlying quantum state of
+the entire system reads
+1√
+2 (|0⟩AU2|0⟩ +|1⟩AU1|0⟩).
+The second Hadamard gate acting on the ancilla qubit brings the state to
+1
+2 [|0⟩A (U2|0⟩ +U1|0⟩) +|1⟩A (U2|0⟩− U1|0⟩)].
+For the QCE model, the unitary modules U1 andU2 are illustrated in Fig. 2. Given the semantic triplet
+(s, p, o) and the access to the parameters, we can prepare the following quantum state according to Eq. 4.1:
+1
+2 [|0⟩A (|o⟩ +|sp⟩) +|1⟩A (|o⟩−| sp⟩)].
+6
+Therefore, the probability of sampling the ancilla qubit in the state |0⟩A is
+Pr(|0⟩A) = 1
+2 + 1
+2ℜ⟨ o|sp⟩ = 1
+2 + 1
+2ηspo, (11)
+while the probability of measuring it in the state |1⟩A is
+Pr(|1⟩A) = 1
+2− 1
+2ℜ⟨ o|sp⟩ = 1
+2− 1
+2ηspo. (12)
+In the upper equation, we temporarily neglect the superscript of the value function. As we can see, the
+valueηspo is related to the statistics of sampled quantum states of the ancillary qubit via
+ηspo = 2 Pr(|0⟩A)− 1 = 1− 2 Pr(|1⟩A). (13)
+Similar to the classical models, this quantity deﬁnes the loss function jointly with the labels of the triplets.
+4.2 Loss Function and Training
+Details of the loss function and the optimization method are provided in this section. We focus on the
+QCE model. Given a training dataset D ={(xi,yi)}m
+i=1 with xi∈ χ, the loss function of the quantum
+circuit model is deﬁned as the following mean error
+L = 1
+m
+m∑
+i=1
+(yi−ηQCE
+xi )2κ, (14)
+where yi∈{− 1, 1} are labels, and κ∈ Z+ is a hyperparameter. The reason for this choice of the labels
+will be clariﬁed later. One can also notice that for the quantum model the loss function is not regularized
+by the norm of parameters. Because of the unitary constraint on the evolution of quantum circuits,
+hidden quantum states are automatically normalized. Therefore, the l2 norm can not either eﬀect the
+norms of embedding vectors or improve the generalization ability of the quantum circuit model.
+With the loss function, the model is optimized by updating the parameters via gradient descent.
+Parameters of the variational gates can be eﬃciently estimated using a hybrid gradient descent scheme
+introduced in [7]. The partial derivative of Eq. 14 with respect to the gate parameters reads
+∂L
+∂θ = 2κ
+m
+m∑
+i=1
+(ηQCE
+xi −yi)2κ−1 ∂
+∂θηQCE
+xi , (15)
+where θ∈{αpi,βpi,γpi}, with i = 1,··· ,Np.
+The techniques developed within [12, 7] allow the above partial derivate to be estimated from the
+states’ statistics of the ancilla qubit since the partial derivate can be written as a linear combination of
+gates with shifted parameters. To be speciﬁc, we have the following derivatives for a single qubit gate
+∂
+∂αG(α,β,γ ) =G(α + π
+2,β,γ )
+∂
+∂βG(α,β,γ ) = 1
+2G(α,β + π
+2, 0) + 1
+2G(α,β + π
+2,π )
+∂
+∂γG(α,β,γ ) = 1
+2G(α, 0,γ + π
+2 ) + 1
+2G(α,π,γ + π
+2 ).
+Moreover, partial derivatives of two-qubit gates can be written as a combination of control gates with
+shifted gates’ parameters. More details of the hybrid gradient descent approach can be found in Section
+4 of [7].
+However, this technique cannot be applied to the estimation of the gradients with respect to the
+latent features of entities. Another problem is that even if we could eﬃciently estimate the gradients
+with respect to the latent features, the entire classical data structure T needs to be updated after each
+step of optimization due to the normalization constraints. It leads to a computational overhead of O(R2)
+for just one update of aei, with i = 1,··· ,Ne.
+7
+4.3 Fully Parameterized Quantum Circuit Embedding
+To overcome the disadvantages of the QCE, at this place, we introduce another fully parameterized
+Quantum Circuit Embedding (fQCE) model. The idea behind fQCE is reasonably simple. Instead of
+storing and reading entity features as normalized R-dimensional vectors, they are obtained by applying
+parameterized quantum circuit to initial quantum states which can be easily prepared. In this way, each
+entity is uniquely identiﬁed by the circuit architecture and the gates parameters similar to the circuits
+deﬁnition of predicates in the QCE model.
+Compared to the QCE model, the advantages of this approach are two folds. First, latent features
+do not need to be loaded from the classical data structure T and encoded as the coeﬃcients of quantum
+states. Alternatively, they are generated from the quantum evolution of initial quantum states. Second,
+fQCE can be optimized eﬃciently since the only trainable parameters are in the variational quantum
+gates. Therefore, techniques explained in the last subsection can be applied to accelerate the optimization.
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+|0⟩
+|0⟩ |s⟩ or|o⟩
+=⇒
+H
+H
+H
+H
+H
+H
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+G
+Figure 4: In the fQCE model, the classical data structure T is replaced by variational unitary circuits.
+Therefore, the quantum states |s⟩ or|o⟩ can be prepared by applying unitary circuits to the initial
+quantum states |00··· 0⟩, instead of loading data from the classical data structure T . Note that the
+circuit architecture is ﬁxed for all entities (subjects and objects). The unitary circuit contains ﬁve blocks.
+The ﬁrst block consists of Hadamard gates which can develop superposition from the initial quantum
+state|0··· 0⟩. The rest of the blocks consist of single qubit gates and two-qubit controlled gates with
+control range 1, 2, and 3 (dashed blocks).
+For concreteness, the circuit architecture for generation quantum representations of entities is dis-
+played in Fig. 4, which is assumed to be ﬁxed for all entities. The 6-qubit quantum system is ini-
+tialized as a pure quantum state |0⟩. Hadamard gates act on each qubit to create a superposition
+H6,···,1|0⟩ := H6H5··· H1|0⟩. Subsequently, an entity-speciﬁc unitary circuit develops the quantum
+representation from the superposition,
+|ei⟩ =UeiH6,···,1|0⟩, with i = 1,··· ,Ne, (16)
+where Uei have the same circuit architecture design as Upi in Eq. 10.
+To harvest the quantum advantages, the circuit depth should be low and in the order of log( R). In
+this way, we only need to replicate the experiments O(log2R/ϵ2) times to update the model parameters
+given one training example, where ϵ is the accuracy required. Moreover, the overall model architecture
+for estimating the value function ηfQCE
+spo using ancilla qubit remains the same as in Fig. 3.
+Before simulating the proposed quantum Ans¨ atze, we compare computational complexities of them.
+We ﬁrst consider the time complexity of evaluating the value function. In the QCE model, loading the
+entity features from the classical data structureT costs timeO(logR). Since we use shallow circuits with
+depthO(logR) to specify the predicates, the unitary evolution of quantum states for entities requires
+O(log2R) unitary operations. The value function is estimated from the Bernoulli distribution of the
+ancilla qubit. Therefore, one has to perform O( 1
+ϵ2 ) repetitions of the experiment in Fig. 3 to resolve the
+statistics of the ancilla qubit up to a predeﬁned error ϵ. To summarize, the entire procedure of evaluating
+8
+ηQCE
+spo can be completed in runtime O(poly(logR, 1
+ϵ )). Similarly, the evaluation of ηfQCE
+spo requires a
+runtimeO(poly(logR, 1
+ϵ )).
+A notable complexity diﬀerence between two quantum circuit models appears when it comes to
+the training. Let us ﬁrst consider the fQCE model. Given one training sample (s , p, o), it requires
+O(log2R/ϵ2) repetitions of the experiments to estimate the gradients and update the parameters in Us,
+Up, andUo. Let D indicate the total number of semantic triples in the training dataset, then the runtime
+of one epoch is O(D poly(logR, 1
+ϵ )). However, for QCE, the runtime of one training epoch becomes
+O(D poly(R, logR, 1
+ϵ )) since after each step of optimization, re-normalizing the entity latent features
+and updating the classical memory structure T require additionalO(R) operations. As one can see, the
+quantum advantages disappear when we optimize the QCE model.
+5 Experiments
+5.1 Datasets and Evaluation
+To evaluate proposed quantum models for knowledge graph embedding, we use four link prediction
+datasets of diﬀerent sizes: Kinship [13], FB15k-237 [14], WN18RR [15], and GDELT [16].
+Kinship contains relations between family members. An example of the triple is (Max, husband of,
+Mary)
+FB15k-237 is a subset of Freebase with only 237 predicates. Most of the semantic triples in the
+FB15k-237 are related to the facts of cities, movies, sports, and musics, e.g., (California, located in,
+U.S.).
+GDELT The Global Database of Events, Language and Tone ( GDELT) monitors evens between
+diﬀerent countries and organizations. An example could be (ESA, collaborates with, NASA).
+WN18RR This hierarchical knowledge base is a subset of WordNet which consists of hyponym
+and hypernym relations between words, e.g., (pigeon, hyponym of, bird)
+The exact statistics of datasets are listed in Table 1, including the total number of triplets in the
+dataset #D, the number of entities Ne, the number of predicates Np, and the average number of labeled
+links connecting to a node Na.
+#D Ne Np Na
+Kinship 10, 790 104 26 ≈ 104
+WN18RR 79, 043 39 , 462 18 ≈ 2
+FB15k-237 310, 079 14 , 505 237 ≈ 21
+GDELT 497, 603 6785 230 ≈ 73
+Table 1: Statistics of diﬀerent knowledge graphs
+Since the above-mentioned datasets only consist of positive (genuine) semantic triples, we generate
+negative (false) instances according to the method of corrupting semantic triples proposed in [17]. Given
+a genuine semantic triple (s , p, o), negative triples are drawn by corrupting the object o to a diﬀerent
+entity o′, and similarly corrupting subject s to s′. This corruption method makes a local-closed world
+assumption, meaning that the knowledge graph is assumed to be only locally connected. Therefore,
+corrupted and unobserved semantic triples are treated as negative examples during the training.
+The model performance is evaluated using the following metrics on the test dataset. Let us consider
+a semantic triple (s, p, o) in the test dataset. To evaluate the retrieval of the object o given the subject
+s and the predicate p, we ﬁrst replace the object o with every object o′ and compute the values of ηspo′.
+Following that, we sort these values in a decreasing order and locate the target object o. This position
+is referred to as the rank of the target object. We provide the ﬁltered ranking scores as suggested in [17]
+9
+by removing all semantic triples (s, p,o′) with yspo′ = 1 and o′̸= o. Filtered ranking scores eliminate the
+ambiguity of retrieved information and provide a clearer performance evaluation of diﬀerent models. In
+the same way, we also evaluated the retrieval of the subject s by ranking ηs′po for all possible subjects s′.
+To quantify the performance of the classical and quantum models on missing links predication, we
+report three metrics: ﬁltered mean rank (MR), ﬁltered Hits@3, and ﬁltered Hits@10 evaluated on the
+test dataset. Filtered mean rank is the average ﬁltered ranking scores, and ﬁltered Hits@n indicates the
+probability of ﬁnding the correct retrieval within the top- n ﬁltered ranking.
+The dimension of latent representations for all classical baselines is chosen asR = 64. For comparison,
+circuits algorithms for knowledge graph embedding are evaluated via 6-qubit Ans¨ atze. Overall, we ﬁx the
+quantum circuit architecture depicted in Fig. 2 for QCE and Fig. 4 for fQCE model. Experiments show
+the recall scores on the test dataset are not sensitive to the order of implementing diﬀerent blocks. Thus,
+for a simple implementation, we only consider four diﬀerent blocks without repetitions. Exploration of
+various quantum circuit architectures to achieve better results could be an interesting research direction,
+and we leave it for future work.
+During the training, the datasets are randomly split into training, validation, and test datasets. Early
+stopping on the validation set is used to avoid overﬁtting by monitoring the ﬁltered His@3 entity recall
+scores every 20 epochs. Before training, all model parameters, including the entity embeddings and the
+gates parameters, are randomly initialized. In particular, we found that for the quantum Ans¨ atze the
+model performance is relatively sensitive to the initialization of the gates parameters. After hyperparam-
+eter search, the gates parameters are initialized uniformly in the interval [ − π
+10, π
+10].
+Here, we give more details on how quantum Ans¨ atze are simulated. As discussed in Section 3,
+unitary evolution of a quantum state is equivalent to the unitary matrix-vector product. Therefore,
+we can simulate the quantum Ans¨ atze on a single Tesla K80 GPU without exploiting real quantum
+devices 1. For the QCE model, each entity embedding is randomly initialized from a multivariate normal
+distribution and normalized after initialization. Embeddings for entities are stored as NumPy arrays
+instead of in the classical data structure T . All the parameters, including entity embeddings and gate
+parameters, are updated via stochastic gradient descent. Moreover, after each step of the update, entity
+embeddings will be normalized again. Diﬀerently, for the fQCE model, each entity is initialized as
+1
+8|00··· 0⟩≡ 1
+8(0, 0,··· , 0)⊺ since all the trainable parameters are in the variational circuit. The codes
+are based on Tensorﬂow [18], and they will be available online.
+Kinship WN18RR FB15k-237 GDELT
+Methods MR @3 @10 MR @3 @10 MR @3 @10 MR @3 @10
+RESCAL 3.2 88.8 95.5 12036 21.3 25.0 291.3 20.7 35.1 185.0 10.4 22.2
+DistMult 4.5 61.0 87.7 10903 21.0 24.8 305.4 23.4 39.1 130.4 12.1 24.5
+Tucker 2.9 89.8 95.0 11997 19.1 23.9 276.1 20.9 35.7 144.0 14.5 27.3
+ComplEx 2.2 90 .0 97 .7 11895 24.6 26.1 242.7 25.2 39.7 137.6 12.9 26.4
+Best Known - - - 4187 [15] 44.0 52 .0 244.0 [15] 35.6 50 .1 102.0 [19] 31.5 47 .1
+QCE 3.6 73.8 93.8 3655 19.5 32.3 258.7 22.5 35.0 128.8 12.5 23.8
+fQCE 3.6 73.1 94.0 2160 27.4 37.8 236.0 19.8 33.7 131.0 10.8 24.1
+Table 2: Filtered recall scores evaluated on four diﬀerent datasets. Four metrics are compared: ﬁltered
+Mean Rank (MR), ﬁltered Hits@3 (@3), and ﬁltered Hits@10 (@10).
+Table 2 reports the performance of classical models and quantum Ans¨ atze evaluated on diﬀerent
+datasets. In addition, the row best known in Table 2 shows the best results reported in the literatures
+1By the time of ﬁnishing this project, none of the quantum computing cloud platforms provide fully tunable entangled
+qubits.
+10
+2. From the table, we can read that both quantum circuit models can achieve comparable results to the
+classical models using the dimension R = 64. In some cases, e.g., the ﬁltered Mean Rank recall scores
+on the WN18RR, FB15k-237, and GDELT datasets, the quantum models can outperform all classical
+models.
+Another interesting observation is that the Mean Rank score on the WN18RR dataset returned
+by the fQCE model is even better than the best-known models. We have to emphasize that among
+the four datasets WN18RR contains the largest number of distinct entities (see Table 1). Therefore,
+fQCE is the desired quantum Ansatz of relational learning which shows both quantum advantages and
+superior performance on a vast database. However, one has to note that WN18RR possesses the smallest
+number of average links per node. Thus, questions are: Whether the quantum circuit models are only
+practical for modeling large and sparse datasets due to the intrinsic linearity of the circuit models; and
+whether applying nonlinearity activation functions on the circuit models [20, 21] can further improve the
+performance on other dense datasets? We leave these questions for future research.
+5.2 Regularizations
+As mentioned before, the quantum circuit models cannot be regularized using the l2-norm due to the
+unitarity constraints. Hence, what regularization methods can be applied to improve the generalization
+ability of the circuit models? We examine two techniques that are widely used in classical learning:
+dropout and Gaussian noise of model parameters. Generally speaking, dropout reduces the overﬁtting
+on the training dataset and noise encourages the model to land on ﬂat minima of the loss surface. These
+two methods can be eﬃciently applied without destroying the unitarity restrictions.
+We ﬁrst apply the dropout technique. During the training, each quantum gate has a nonzero proba-
+bility to be switched oﬀ. From the perspective of a classical neural network, this dropout is equivalent to
+randomly removing some weight matrices and replacing them with identity matrices. Similar regulariza-
+tion methods have been used to train very deep neural networks with vanishing gradients [22]. However,
+all the gates will be implemented during the test phase. Because of the imperfections of quantum gates,
+quantum circuit models inherently possess this regularization property.
+(a) (b)
+Figure 5: Comparison of the ﬁltered Hits@3 recall scores on the Kinship dataset for (a) QCE and (b)
+fQCE. Blue line: without employing the dropout; orange line: 2% probability of dropping out a quantum
+gate randomly.
+2Note that best known models might employ arbitrarily complex structures, e.g., convolutional or recurrent neural net-
+works. For comparison, we provide the number of trainable parameters in diﬀerent models. Note that the number of
+trainable parameters depends not only on the model structure but also the number of diﬀerent entities and predicates in
+the dataset. In the case of the FB15k-237 dataset, the state-of-the-art model described in [15] contains 5 .05M parameters,
+and the RESCAL model contains 1.89M parameters, while the fQCE model contains 1.06M parameters.
+11
+Simulations are performed for both circuit models using the Kinship dataset, and the dropout prob-
+ability is chosen from {0.02, 0.05, 0.1, 0.2}. However, we could not observe any improvement in the
+performance, even using the smallest dropout probability. Recall scores for no dropout and 2% dropout
+probability are compared in Fig. 5. Even though the dropout regularization cannot augment the per-
+formance of both models, we still learn that the fQCE model is more robust and resistant to imperfect
+quantum circuits, making it a potential candidate for the future test on real quantum devices.
+(a) (b)
+Figure 6: Filtered Hits@3 scores on the Kinship dataset for (a) QCE and (b) fQCE. Blue line: without
+introducing random noise; orange line: adding 2% noise to the model parameters both during the training
+and test.
+(a) (b)
+Figure 7: Filtered Mean Rank recall scores on the Kinship dataset for (a) QCE and (b) fQCE. Blue
+line: without introducing random noise; orange line: adding 2% noise to the model parameters both
+during the training and test.
+Now we turn to study another regularization method which adds Gaussian noise to the model pa-
+rameters. System noises are quite common in quantum computational devices, for example, they can
+stem from the disentanglement, ﬂips of the qubits, or random phase rotations. However, in this work,
+we focus on noises stemming from inaccuracies. For example, the inevitably inaccurate loading of the
+classical data into quantum devices, the inaccurate parametric gates, or the statistical uncertainty about
+the state of ancilla qubit. To simulate quantum system imprecision, we add Gaussian perturbations to
+the model parameters as follows
+θ′ =θ +µN (0,|θ|), (17)
+where θ could be a gate parameter or an element of an entity latent feature deﬁned in the QCE model,
+and µ indicates the noise level. We further assume the amplitude of perturbation added to a model
+parameter is proportional to this parameter’s absolute value.
+12
+To be more realistic, perturbations are introduced not only during the training but also in the test
+phase. Fig. 6 and Fig. 7 compare the recall scores, the ﬁltered Mean Rank and ﬁltered Hits@3, on the
+Kinship dataset. Performance improvement can be observed in both quantum models which indicates
+that system imprecision brings the models to ﬂat minima of the loss functions. As ﬁrst pointed out in [23],
+the ﬂatness of the minimum on the loss surface found by an optimization algorithm is a good indicator of
+the generalization ability. Improved performance by adding noise also suggests that the computational
+complexity can be reduced by controlling the accuracy ϵ.
+5.3 T-SNE
+We perform a qualitative analysis to visualize and understand the learned representations from the
+quantum Ans¨ atze. Particularly, we focus on the latent features of entities. It has been reported that
+classical embeddings of entities show clustering eﬀects. Entities with similar semantic meaning tend to
+group in the vector space. Here, we use t-SNE to analyze whether entity representations in the quantum
+models render this property. T-SNE [24] is a powerful method for visualizing high-dimensional data on
+a two-dimensional plane.
+In oder to visualize the semantic clustering eﬀect, we focus on the FB15k-237 dataset, since it
+contains categorical information about the entities. We extract the top-15 most frequent categories, e.g.,
+Movie, Administrative Area, Organization, etc., and display them using diﬀerent colors on the t-SNE
+plot. We still need to clarify how the quantum features are deﬁned. In QCE, entity representations are
+normalized vectors aei∈ RR, with i = 1,··· ,Ne. Besides, in the fQCE model, we deﬁne the hidden
+quantum states|ei⟩ =UeiH6,···,1|0⟩, with i = 1,··· ,Ne (see Eq. 16), as entity representations.
+The t-SNE visualizations of learned quantum representations are displayed in Fig. 8. One can clearly
+recognize the clustering eﬀect based on the categories of entities. It is intriguing to point out that in
+Fig. 8 the pink nodes representing the category Educational Organization overlap with the blue nodes
+which represent the category College Or University.
+(a) (b)
+Figure 8: T-SNE visualizations of entity representations learned by (a) QCE and (b) fQCE.
+Quantum circuit models reveal better semantic clustering eﬀects of the learned latent features than
+classical models. Fig. 9 displays the t-SNE visualization of entity latent representations learned by
+DistMult. Particularly, one can notice that the learned latent features of the semantic categories City,
+Administrative Area, and Place strongly overlap without revealing more detailed structures. The better
+semantic clustering eﬀect might explain why fQCE performs consistently well when comparing with the
+Mean Rank metric.
+13
+Figure 9: T-SNE visualization of entity representations learned by DistMult.
+6 Accelerated Inference
+In previous sections, we have shown that the value functions can be evaluated with reduced complexity
+using the quantum Ans¨ atze. However, there is another quantum advantage we have not mentioned yet,
+namely the acceleration on the inference task. To be more speciﬁc, given an incomplete semantic triple
+(s, p,·), we attempt to ﬁnd a quantum algorithm which can accelerate the search for the best (or the
+most possible) candidates for the unknown object.
+What makes this task very challenging? As mentioned before, we are dealing with ever-increasing
+knowledge graphs with the consistently increasing number of distinct entities. Inference using classical
+models, e.g., RESCAL and Tucker requires many computation resources. The reason is we need to
+calculate all the value functions ηspei, with i = 1,··· ,Ne. Then, the entity ei that corresponds to the
+maximumηspei will be located, and the algorithm returnsei as the best candidate for the unknown object.
+It could be extremely time and resource consuming since the same algorithm has to be repeated at least
+Ne times and each time of evaluation requires O(polyR) classical operations.
+We are motivated to ﬁnd a quantum algorithm showing quantum acceleration on the inference task.
+Here we describe an idealistic and heuristic quantum algorithm for the inference. First, we prepare the
+following quantum state
+1√2Ne
+Ne∑
+i=1
+(|0⟩A|i⟩I|0⟩L +|1⟩A|i⟩I|0⟩L). (18)
+The ﬁrst qubit with the subscript A is an ancilla qubit. The second index register with the subscript I
+consists of ne :=⌈log2Ne⌉ qubits, and the state |i⟩I is the binary representation for the index i of the
+entityei. Furthermore, the third register with r = log2R qubits is prepared in the pure state |0⟩R which
+will be used to generate the quantum representations of the entities.
+Afterwards, we use unitary circuit evolutions to prepare the states |sp⟩ and|ei⟩. To be more speciﬁc,
+the U1 circuit brings |0⟩L to the state |sp⟩ conditioned on the ancilla qubit being |1⟩A. Moreover, an
+entity-dependent circuit U2(ei) brings|0⟩L into the quantum state |ei⟩ conditioned on the ancilla being
+|0⟩A and the index register being|i⟩I. Recall that the circuits U1 andU2 are deﬁned in Fig. 2 and Fig. 4.
+To summarize, the unitary circuits will generate the following quantum state
+1√2Ne
+Ne∑
+i=1
+(|0⟩A|i⟩IU2(ei)|0⟩L +|1⟩A|i⟩IU1|0⟩L)
+= 1√2Ne
+Ne∑
+i=1
+(|0⟩A|i⟩I|ei⟩L +|1⟩A|i⟩I|sp⟩L). (19)
+14
+Performing the Hadamard gate on the ancilla qubit gives
+1
+2√Ne
+Ne∑
+i=1
+(|0⟩A|i⟩I (|ei⟩L +|sp⟩L) +|1⟩A|i⟩I (|ei⟩L−| sp⟩L)). (20)
+Note that the values ηspei are encoded in the probability amplitudes of the above quantum state
+Eq. 20. For example, the probability of measuring the ancilla qubit and index register being in the
+quantum state|0⟩A|i⟩I is given by
+Pr(|0⟩A|i⟩I) = 1
+2Ne
+(1 +ℜ⟨ei|sp⟩L) = 1
+2Ne
+(1 +ηspei). (21)
+Let us consider an idealistic case for the inference: The negative semantic triples have value functions
+−1, while the positive triples have value functions +1. In this case, the probability in Eq. 21 takes value
+Pr(|0⟩A|i⟩I) = 0 if the entity ei is not a correct return to the query (s , p, ?), while Pr(|0⟩A|i⟩I) = 1
+Ne if
+the entity ei is correct.
+Since the index register is sampled conditioned on the ancilla qubit, we need to discuss the probability
+of post-selection on the ancilla qubit. The marginalized probabilities of measuring the ancilla qubit being
+|0⟩A and|1⟩A read
+Pr(|0⟩A) = 1
+2 + 1
+2Ne
+Ne∑
+i=1
+ηspei
+Pr(|1⟩A) = 1
+2− 1
+2Ne
+Ne∑
+i=1
+ηspei. (22)
+Assume that the cardinality of the solution set to the query (s, p, ?) isH∈O (1). In the idealistic situation,
+we have the marginalized probability Pr(|0⟩A) = H
+2Ne , and Pr(|1⟩A) = 1− H
+2Ne . To read out the indices that
+correspond to the entities in the solution set, we can perform amplitude ampliﬁcation [25] on the subspace
+|0⟩A of the ancilla qubit. The number of required iterations is approximately ⌊π
+4
+√
+2Ne
+H ⌋ =O(√Ne). The
+resulting quantum state after the amplitude ampliﬁcation reads
+1√
+H
+∑
+i∈{i|φp(s,ei)=1}
+|0⟩A|i⟩I. (23)
+It is unnecessary to perform quantum state tomography and read out all the probability amplitudes.
+We can sample the states of the index register conditioned on|0⟩A and determine the most frequent states
+that are related to the indices of the entities giving the highest scores. Since the cardinality of the solution
+set is assumed to be H∈O (1), the same experiment needs to be replicated at least O(H√Ne) times.
+Hence, this heuristic quantum algorithm realizes a quadratic acceleration with respect to the number of
+entitiesNe.
+Our idealistic quantum algorithm provides a quadratic acceleration during the inductive inference
+on the database. Even a quadratic speedup is desirable when the number of entities Ne is large. Note
+that another well-known quantum algorithm, Grover’s algorithm [26], which was designed for searching
+in a database, also provides a quadratic speedup. More speciﬁcally, Grover’s algorithm can identify the
+input to an unknown function in O(
+√
+N) steps from a N-item database. At the same time as Grover’s
+publication, it is proved in [27] that Grover’s algorithm is an almost optimal solution. Diﬀerent from
+this quantum algorithm for the database search, our algorithm is learning-based, adaptive, and inference-
+oriented.
+15
+(a) (b)
+Figure 10: Empirical distributions of the value functions (a) ηQCE
+spo and (b) ηfQCE
+spo evaluated on the test
+dataset of Kinship. The targets are set as yi∈{− 1, 1} during the training. Note that for each triple
+in the test dataset, say (s, p, o), the value functions ηspei and ηeisp, with i = 1,··· ,Ne are evaluated and
+accumulated for the plotting.
+Note that the above described quantum algorithm is merely idealistic and heuristic, since the scores
+of semantic triples in the test dataset take values from the interval [ −1, 1] instead of the discrete set
+{−1, 1}. Fig. 10 shows the empirical distribution of value functions on the Kinship test dataset 3.
+As one can observe that the empirical value functions concentrate around−0.5 and 0.5. The quantum
+advantage on inference might disappear in these cases since Pr(|0⟩A|i⟩I)≈ Pr(|0⟩A|j⟩I),∀i∈{i|φp(s,ei) =
+1} andj /∈{i|φp(s,ei) = 1}. In other words, the probability of sampling correct solutions is approximately
+equal to the probability of sampling incorrect solutions. Thus, one promising future research direction is
+to study whether performing nonlinear functions on quantum representations can separate the positive
+and negative triples in an inference task.
+7 Conclusion and outlook
+In this work, we study the quantum Ans¨ atze for the statistical relational learning on knowledge graphs as
+well as latent quantum representations. Two diﬀerent quantum modelsQCE and fQCE are proposed and
+compared by their complexity and performance. To be speciﬁc, QCE assumes that entity representations
+are stored in a classical data structure, while in the fQCE model quantum entity representations are
+generated from pure quantum states through unitary circuit evolution. The experiments show that
+both quantum Ans¨ atze can achieve comparable results to the state-of-the-art classical models on several
+benchmark datasets.
+This work can be further explored in several directions. The quantum circuit architecture could be
+ﬁne-tuned using reinforcement learning or evolutionary algorithms. It is necessary to understand why
+quantum circuit models show superior performance on the WN18RR dataset which contains the most
+entities and the smallest average number of links. Whether this observation indicates that quantum circuit
+models are only suitable for modeling large but simple relational dataset due to the inherent linearity?
+Thus, a reasonable question is whether acting nonlinear operations on the quantum representations can
+improve the inductive inference on complex relational datasets and make the idealistic and heuristic
+quantum algorithm for the accelerated inference more realizable?
+Acknowledgments This research was supported by the BMBF funded project Machine Learning
+with Knowledge Graphs, and Siemens Corporate Technology.
+3The empirical distributions are obtained in the following way: Given a semantic triple (s , p, o) in the test dataset, we
+calculate the value functions ηspei and ηeipo, with i = 1, · · ·,N e.
+16
+References
+[1] Maximilian Nickel, Volker Tresp, and Hans-Peter Kriegel. A three-way model for collective learning
+on multi-relational data. 2011.
+[2] Bishan Yang, Wen-tau Yih, Xiaodong He, Jianfeng Gao, and Li Deng. Embedding entities and
+relations for learning and inference in knowledge bases. arXiv preprint arXiv:1412.6575 , 2014.
+[3] Th´ eo Trouillon, Johannes Welbl, Sebastian Riedel,´Eric Gaussier, and Guillaume Bouchard. Complex
+embeddings for simple link prediction. In International Conference on Machine Learning , pages
+2071–2080, 2016.
+[4] Maximilian Nickel, Lorenzo Rosasco, Tomaso A Poggio, et al. Holographic embeddings of knowledge
+graphs. In AAAI, volume 2, pages 3–2, 2016.
+[5] Ledyard R Tucker. Some mathematical notes on three-mode factor analysis. Psychometrika,
+31(3):279–311, 1966.
+[6] Maximilian Nickel and Volker Tresp. An analysis of tensor models for learning on structured data.
+In Joint European Conference on Machine Learning and Knowledge Discovery in Databases , pages
+272–287. Springer, 2013.
+[7] Maria Schuld, Alex Bocharov, Krysta Svore, and Nathan Wiebe. Circuit-centric quantum classiﬁers.
+arXiv preprint arXiv:1804.00633 , 2018.
+[8] Iordanis Kerenidis and Anupam Prakash. Quantum recommendation systems. arXiv preprint
+arXiv:1603.08675, 2016.
+[9] Harry Buhrman, Richard Cleve, John Watrous, and Ronald De Wolf. Quantum ﬁngerprinting.
+Physical Review Letters, 87(16):167902, 2001.
+[10] Juan Carlos Garcia-Escartin and Pedro Chamorro-Posada. Swap test and hong-ou-mandel eﬀect are
+equivalent. Physical Review A, 87(5):052330, 2013.
+[11] Pedro Chamorro-Posada and Juan Carlos Garcia-Escartin. The switch test for discriminating quan-
+tum evolutions. arXiv preprint arXiv:1706.06564 , 2017.
+[12] Andrew M Childs and Nathan Wiebe. Hamiltonian simulation using linear combinations of unitary
+operations. arXiv preprint arXiv:1202.5822 , 2012.
+[13] Arthur Asuncion and David Newman. Uci machine learning repository, 2007.
+[14] Kristina Toutanova and Danqi Chen. Observed versus latent features for knowledge base and text
+inference. In Proceedings of the 3rd Workshop on Continuous Vector Space Models and their Com-
+positionality, pages 57–66, 2015.
+[15] Tim Dettmers, Pasquale Minervini, Pontus Stenetorp, and Sebastian Riedel. Convolutional 2d
+knowledge graph embeddings. arXiv preprint arXiv:1707.01476 , 2017.
+[16] Kalev Leetaru and Philip A. Schrodt. Gdelt: Global data on events, location, and tone. ISA Annual
+Convention, 2013.
+[17] Antoine Bordes, Nicolas Usunier, Alberto Garcia-Duran, Jason Weston, and Oksana Yakhnenko.
+Translating embeddings for modeling multi-relational data. In Advances in neural information pro-
+cessing systems, pages 2787–2795, 2013.
+17
+[18] Mart´ ın Abadi, Paul Barham, Jianmin Chen, Zhifeng Chen, Andy Davis, Jeﬀrey Dean, Matthieu
+Devin, Sanjay Ghemawat, Geoﬀrey Irving, Michael Isard, et al. Tensorﬂow: a system for large-scale
+machine learning. In OSDI, volume 16, pages 265–283, 2016.
+[19] Yunpu Ma, Marcel Hildebrandt, Stephan Baier, and Volker Tresp. Holistic representations for
+memorization and inference.
+[20] Maria Schuld, Ilya Sinayskiy, and Francesco Petruccione. The quest for a quantum neural network.
+Quantum Information Processing, 13(11):2567–2586, 2014.
+[21] Eric Torrontegui and Juan Jos´ e Garcia-Ripoll. Universal quantum perceptron as eﬃcient unitary
+approximators. arXiv preprint arXiv:1801.00934 , 2018.
+[22] Gao Huang, Yu Sun, Zhuang Liu, Daniel Sedra, and Kilian Q Weinberger. Deep networks with
+stochastic depth. In European Conference on Computer Vision , pages 646–661. Springer, 2016.
+[23] Sepp Hochreiter and J¨ urgen Schmidhuber. Flat minima. Neural Computation, 9:1–43, 1997.
+[24] Laurens van der Maaten and Geoﬀrey Hinton. Visualizing data using t-sne. Journal of machine
+learning research, 9(Nov):2579–2605, 2008.
+[25] Gilles Brassard, Peter Hoyer, Michele Mosca, and Alain Tapp. Quantum amplitude ampliﬁcation
+and estimation. Contemporary Mathematics, 305:53–74, 2002.
+[26] Lov K Grover. A fast quantum mechanical algorithm for database search. In Proceedings of the
+twenty-eighth annual ACM symposium on Theory of computing , pages 212–219. ACM, 1996.
+[27] Charles H Bennett, Ethan Bernstein, Gilles Brassard, and Umesh Vazirani. Strengths and weaknesses
+of quantum computing. SIAM journal on Computing , 26(5):1510–1523, 1997.
+[28] Anupam Prakash. Quantum algorithms for linear algebra and machine learning. PhD thesis, UC
+Berkeley, 2014.
+A Preparation of Quantum States
+Theorem A 1. [28] Let x∈ RR be a real-valued vector. The quantum state |x⟩ = 1
+||x||2
+R∑
+i=1
+xi|i⟩ can be
+prepared using⌈log2R⌉ qubits in time O(log2R).
+Theorem A 1 claims that there exist a classical memory structure and a quantum algorithm which
+can load classical data into a quantum state with exponential acceleration. Figure 11 illustrates a simple
+example. Given an R = 4 dimensional real-valued vector, the quantum state |x⟩ = x1|00⟩ +x2|01⟩ +
+x3|10⟩ +x4|11⟩ can be prepared by querying the classical memory structure and applying 3 controlled
+rotations.
+Let us assume that x is normalized, namely ||x||2 = 1. The quantum state |x⟩ is created from the
+initial state |0⟩| 0⟩ by querying the memory structure from the root to the leaf. The ﬁrst rotation is
+applied on the ﬁrst qubit, giving
+(cosθ1|0⟩ + sinθ1|1⟩)|0⟩ =
+(
+√
+x2
+1 +x2
+2|0⟩ +
+√
+x2
+3 +x2
+4|1⟩)|0⟩,
+18
+where θ1 := tan−1
+√
+x2
+3+x2
+4
+x2
+1+x2
+2
+. The second rotation is applied on the second qubit conditioned on the state
+of qubit 1. It gives
+√
+x2
+1 +x2
+2|0⟩ 1√
+x2
+1 +x2
+2
+(|x1|| 0⟩ +|x2|| 1⟩)+
+√
+x2
+3 +x2
+4|1⟩ 1√
+x2
+3 +x2
+4
+(|x3|| 0⟩ +|x4|| 1⟩).
+The last rotation loads the signs of coeﬃcients conditioned on qubits 1 and 2. In general, anR-dimensional
+real-valued vector needs to be stored in a classical memory structure with ⌈log2R⌉ + 1 layers. The data
+vector can be loaded into a quantum state using O(log2R) non-trivial controlled rotations.
+||x||2
+x2
+1 +x2
+2
+x2
+1
+sgn(x1)
+x2
+2
+sgn(x2)
+x2
+3 +x2
+4
+x2
+3
+sgn(x3)
+x2
+4
+sgn(x4)
+Figure 11: Classical memory structure with quantum access for creating the quantum state|x⟩ =x1|00⟩+
+x2|01⟩ +x3|10⟩ +x4|11⟩.
+19

@@ -1,0 +1,24 @@
+{
+  "args": {
+    "dataset_csv": "..\\data\\relation_extraction_discocat_v2.csv",
+    "num_qubits": 3,
+    "epochs": 20,
+    "batch_size": 1,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "margin": 1.0,
+    "grad_clip": 1.0,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "seed": 42,
+    "early_stop_patience": 5,
+    "eval_rank_samples": 150,
+    "output_dir": "runs_fqce",
+    "use_toy": false,
+    "toy_entities": 20,
+    "toy_relations": 5,
+    "toy_triples": 300
+  },
+  "num_entities": 153,
+  "num_relations": 10
+}
