@@ -18,3 +18,12 @@
 {"timestamp": "2026-03-09T16:24:46.200568", "epoch": 8.0, "train_loss": 0.4361089347297317, "train_pair_acc": 0.94352, "epoch_seconds": 6973.974398136139, "train_samples": 50000.0}
 {"timestamp": "2026-03-09T18:24:23.364000", "epoch": 9.0, "train_loss": 0.4322520063699426, "train_pair_acc": 0.94464, "epoch_seconds": 7177.162425994873, "train_samples": 50000.0}
 {"timestamp": "2026-03-10T00:54:11.883252", "epoch": 10.0, "train_loss": 0.4313821747918788, "train_pair_acc": 0.94192, "epoch_seconds": 7198.696504116058, "train_samples": 50000.0, "val_mr": 248.53, "val_mrr": 0.21358201407937466, "val_hits@1": 0.14666666666666667, "val_hits@3": 0.235, "val_hits@10": 0.33, "val_n": 600.0}
+{"timestamp": "2026-03-10T02:53:40.458906", "epoch": 11.0, "train_loss": 0.4289068140131591, "train_pair_acc": 0.94308, "epoch_seconds": 7168.575654745102, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T04:43:57.095051", "epoch": 12.0, "train_loss": 0.42953514994763775, "train_pair_acc": 0.94342, "epoch_seconds": 6616.635244369507, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T06:34:10.717885", "epoch": 13.0, "train_loss": 0.43061343118084267, "train_pair_acc": 0.943, "epoch_seconds": 6613.622833490372, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T08:24:34.484642", "epoch": 14.0, "train_loss": 0.4267629035116949, "train_pair_acc": 0.9454, "epoch_seconds": 6623.766757249832, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T13:50:29.956726", "epoch": 15.0, "train_loss": 0.4244452086227925, "train_pair_acc": 0.94756, "epoch_seconds": 6851.456961631775, "train_samples": 50000.0, "val_mr": 259.67333333333335, "val_mrr": 0.20352319525280851, "val_hits@1": 0.13833333333333334, "val_hits@3": 0.235, "val_hits@10": 0.31166666666666665, "val_n": 600.0}
+{"timestamp": "2026-03-10T15:50:57.312010", "epoch": 16.0, "train_loss": 0.42528464747744726, "train_pair_acc": 0.9441, "epoch_seconds": 7227.355284452438, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T17:52:09.062191", "epoch": 17.0, "train_loss": 0.42246248793764424, "train_pair_acc": 0.94628, "epoch_seconds": 7271.74916434288, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T20:02:07.216807", "epoch": 18.0, "train_loss": 0.4223424142822322, "train_pair_acc": 0.94704, "epoch_seconds": 7798.154616117477, "train_samples": 50000.0}
+{"timestamp": "2026-03-10T22:12:42.075560", "epoch": 19.0, "train_loss": 0.42198463923750723, "train_pair_acc": 0.94362, "epoch_seconds": 7834.857753276825, "train_samples": 50000.0}

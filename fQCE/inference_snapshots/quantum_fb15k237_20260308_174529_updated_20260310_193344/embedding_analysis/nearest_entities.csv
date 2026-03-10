@@ -1,0 +1,2001 @@
+anchor_id,anchor_raw,anchor_text,rank,neighbor_id,neighbor_raw,neighbor_text,cosine_similarity
+10476,/m/023zl,City University of New York,1,7381,/m/02f8zw,University of Buenos Aires,0.9423579573631287
+10476,/m/023zl,City University of New York,2,12586,/m/08htt0,Parsons The New School for Design,0.9357272386550903
+10476,/m/023zl,City University of New York,3,353,/m/052nd,McGill University,0.9295646548271179
+10476,/m/023zl,City University of New York,4,5762,/m/01y9qr,University of Guelph,0.9290741682052612
+10476,/m/023zl,City University of New York,5,9545,/m/05bnq8,Harvard Graduate School of Design,0.9281358122825623
+10476,/m/023zl,City University of New York,6,13516,/m/0ch280,University of Texas School of Law,0.9239854216575623
+10476,/m/023zl,City University of New York,7,10777,/m/019_6d,Fisk University,0.9237640500068665
+10476,/m/023zl,City University of New York,8,1563,/m/09kvv,Johns Hopkins University,0.9233739972114563
+10476,/m/023zl,City University of New York,9,415,/m/01j_9c,University of Iowa,0.9218476414680481
+10476,/m/023zl,City University of New York,10,4783,/m/029d_,Drexel University,0.9215978980064392
+1824,/m/031n8c,New England Conservatory of Music,1,14295,/m/04f1glf,Villarreal CF B,0.963280200958252
+1824,/m/031n8c,New England Conservatory of Music,2,5153,/m/01jzyx,St. John's University,0.9625070095062256
+1824,/m/031n8c,New England Conservatory of Music,3,7710,/m/0lwyk,Boise State University,0.9605304598808289
+1824,/m/031n8c,New England Conservatory of Music,4,3329,/m/0ntpv,Allen County,0.9594854116439819
+1824,/m/031n8c,New England Conservatory of Music,5,11617,/m/013dy7,Midland,0.9542281627655029
+1824,/m/031n8c,New England Conservatory of Music,6,8738,/m/0425_d,Sangju Sangmu FC,0.9541320204734802
+1824,/m/031n8c,New England Conservatory of Music,7,13680,/m/01wrwf,Cornell Law School,0.9511304497718811
+1824,/m/031n8c,New England Conservatory of Music,8,6139,/m/01t0dy,"Queens College, City University of New York",0.9509599804878235
+1824,/m/031n8c,New England Conservatory of Music,9,12902,/m/0hhjk,Museum of Modern Art,0.9509559869766235
+1824,/m/031n8c,New England Conservatory of Music,10,4143,/m/017j69,Northwestern University,0.9489782452583313
+409,/m/06jzh,Robin Wright,1,115,/m/06j0md,James Burrows,0.9565036296844482
+409,/m/06jzh,Robin Wright,2,3178,/m/02bfxb,Fran Walsh,0.9493097066879272
+409,/m/06jzh,Robin Wright,3,10357,/m/027ht3n,Michelle Dockery,0.941062867641449
+409,/m/06jzh,Robin Wright,4,6418,/m/01vb6z,Cameron Crowe,0.939172625541687
+409,/m/06jzh,Robin Wright,5,3902,/m/0dh73w,Henry Bumstead,0.9378342032432556
+409,/m/06jzh,Robin Wright,6,2788,/m/0993r,Denise Richards,0.9370797872543335
+409,/m/06jzh,Robin Wright,7,1887,/m/018grr,Will Ferrell,0.9358940124511719
+409,/m/06jzh,Robin Wright,8,4053,/m/022wxh,Todd Haynes,0.9343335628509521
+409,/m/06jzh,Robin Wright,9,6333,/m/0dgskx,Jim Carter,0.933750569820404
+409,/m/06jzh,Robin Wright,10,1710,/m/03mg35,Frank Langella,0.9333279132843018
+12149,/m/032s66,Gunshot,1,11100,/m/05hcy,Nassau,0.9529883861541748
+12149,/m/032s66,Gunshot,2,12304,/m/020qjg,Copley Medal,0.9461879730224609
+12149,/m/032s66,Gunshot,3,8392,/m/0284gc,Coventry City F.C.,0.9406105279922485
+12149,/m/032s66,Gunshot,4,13646,/m/02b1xy,Arbroath F.C.,0.9405807256698608
+12149,/m/032s66,Gunshot,5,6305,/m/027ydt,Eastern Kentucky University,0.9338358044624329
+12149,/m/032s66,Gunshot,6,4447,/m/01yxbw,Exeter City F.C.,0.9324972033500671
+12149,/m/032s66,Gunshot,7,3101,/m/0494n,Kabul,0.9299784898757935
+12149,/m/032s66,Gunshot,8,7067,/m/06jwys,SpVgg Unterhaching,0.9299691319465637
+12149,/m/032s66,Gunshot,9,2402,/m/0dy04,University of Vienna,0.9298041462898254
+12149,/m/032s66,Gunshot,10,13726,/m/090q4n,SV Darmstadt 98,0.929472029209137
+4506,/m/01pcdn,Kristin Davis,1,4815,/m/018fq,Bruce Sterling,0.9574897289276123
+4506,/m/01pcdn,Kristin Davis,2,2987,/m/03jjzf,Jennifer Tilly,0.9527014493942261
+4506,/m/01pcdn,Kristin Davis,3,6678,/m/04r7p,Liv Ullmann,0.9510790109634399
+4506,/m/01pcdn,Kristin Davis,4,10626,/m/029k55,Cheech Marin,0.9506486058235168
+4506,/m/01pcdn,Kristin Davis,5,3017,/m/01nn6c,Nick Mason,0.9505317807197571
+4506,/m/01pcdn,Kristin Davis,6,1334,/m/049g_xj,Ellen Page,0.9494507312774658
+4506,/m/01pcdn,Kristin Davis,7,6422,/m/01skmp,Diane Lane,0.9490089416503906
+4506,/m/01pcdn,Kristin Davis,8,9791,/m/05ggt_,Eileen Brennan,0.9473214149475098
+4506,/m/01pcdn,Kristin Davis,9,4010,/m/046qq,Jon Voight,0.9463546872138977
+4506,/m/01pcdn,Kristin Davis,10,8345,/m/03lvyj,Barbara Hershey,0.9457026720046997
+4012,/m/01y8cr,Karl Malden,1,11119,/m/05mxw33,Jeff Bhasker,0.9607316851615906
+4012,/m/01y8cr,Karl Malden,2,9608,/m/022411,Marcia Gay Harden,0.9527143836021423
+4012,/m/01y8cr,Karl Malden,3,10360,/m/07myb2,Kerry Washington,0.9506833553314209
+4012,/m/01y8cr,Karl Malden,4,3710,/m/02v0ff,Al Roker,0.9487558603286743
+4012,/m/01y8cr,Karl Malden,5,4365,/m/04g3p5,Edward Zwick,0.9484772086143494
+4012,/m/01y8cr,Karl Malden,6,11081,/m/016ggh,John Gielgud,0.9482049942016602
+4012,/m/01y8cr,Karl Malden,7,3325,/m/01k5zk,Debra Winger,0.9466093182563782
+4012,/m/01y8cr,Karl Malden,8,10277,/m/01xwv7,Dave Chappelle,0.9449714422225952
+4012,/m/01y8cr,Karl Malden,9,9256,/m/03v0vd,Adam Arkin,0.9437974691390991
+4012,/m/01y8cr,Karl Malden,10,2293,/m/0bmh4,Elizabeth Taylor,0.9435310363769531
+3657,/m/023znp,Emerson College,1,7631,/m/06b19,Queen's University,0.948531985282898
+3657,/m/023znp,Emerson College,2,14054,/m/07sqhm,Torku Konyaspor,0.9455953240394592
+3657,/m/023znp,Emerson College,3,10748,/m/04kjvt,Sparrow Records,0.9427052140235901
+3657,/m/023znp,Emerson College,4,7939,/m/0c5x_,"University of California, Irvine",0.9426221251487732
+3657,/m/023znp,Emerson College,5,974,/m/0ym8f,"The Queen's College, Oxford",0.942113995552063
+3657,/m/023znp,Emerson College,6,11925,/m/0gmf0nj,Bounce TV,0.9419693946838379
+3657,/m/023znp,Emerson College,7,8844,/m/07b2yw,University of Ibadan,0.9409059286117554
+3657,/m/023znp,Emerson College,8,3513,/m/012vwb,Clemson University,0.9402523636817932
+3657,/m/023znp,Emerson College,9,8226,/m/04zwc,Macquarie University,0.9398397207260132
+3657,/m/023znp,Emerson College,10,13444,/m/01qgv7,Florida Keys,0.9389819502830505
+2286,/m/03pn9,Second Polish Republic,1,13240,/m/018d5b,Saskatoon,0.8870856165885925
+2286,/m/03pn9,Second Polish Republic,2,10945,/m/0mpzm,Travis County,0.8644885420799255
+2286,/m/03pn9,Second Polish Republic,3,6904,/m/06pr6,Saint Petersburg,0.8634815812110901
+2286,/m/03pn9,Second Polish Republic,4,11447,/m/0hz35,Waltham,0.8633386492729187
+2286,/m/03pn9,Second Polish Republic,5,6217,/m/0rsjf,Daytona Beach,0.8632300496101379
+2286,/m/03pn9,Second Polish Republic,6,11270,/m/0168t,British Virgin Islands,0.8628818988800049
+2286,/m/03pn9,Second Polish Republic,7,12991,/m/03t1s,Isle of Man,0.8628148436546326
+2286,/m/03pn9,Second Polish Republic,8,6088,/m/01w2v,Cairo,0.8615927696228027
+2286,/m/03pn9,Second Polish Republic,9,10272,/m/06xkst,Eureka Seven,0.8609432578086853
+2286,/m/03pn9,Second Polish Republic,10,11992,/m/0dn8b,Anne Arundel County,0.8589352965354919
+12066,/m/0cv2m,Chhattisgarh,1,10684,/m/0mnk7,Lynchburg,0.9560163617134094
+12066,/m/0cv2m,Chhattisgarh,2,12892,/m/02t1dv,Kotono Mitsuishi,0.9557872414588928
+12066,/m/0cv2m,Chhattisgarh,3,12795,/m/0133k0,Electroclash,0.9547874331474304
+12066,/m/0cv2m,Chhattisgarh,4,14485,/m/03nh9,Heterosexuality,0.954749345779419
+12066,/m/0cv2m,Chhattisgarh,5,13003,/m/01l3s0,Qingdao,0.9541281461715698
+12066,/m/0cv2m,Chhattisgarh,6,14055,/m/0nppc,Johnson County,0.9535263776779175
+12066,/m/0cv2m,Chhattisgarh,7,14343,/m/075qbd2,Independent,0.9513471126556396
+12066,/m/0cv2m,Chhattisgarh,8,11619,/m/071h5c,Ben Foster,0.9506407380104065
+12066,/m/0cv2m,Chhattisgarh,9,14383,/m/0f4r5,United States Bureau of Land Management,0.9496809244155884
+12066,/m/0cv2m,Chhattisgarh,10,12755,/m/01b85,Bordeaux,0.9489433765411377
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,1,3019,/m/02x6dqb,Annie,0.9784395098686218
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,2,1262,/m/0cz8mkh,Final Destination 5,0.9728986620903015
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,3,9203,/m/0291ck,Young Frankenstein,0.9680643081665039
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,4,6238,/m/04cppj,Road Trip,0.9669410586357117
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,5,2158,/m/02stbw,Best in Show,0.9657867550849915
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,6,4233,/m/0272_vz,Mamma Mia!,0.9648066163063049
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,7,3714,/m/01vw8k,Troy,0.9642038941383362
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,8,11065,/m/05sbv3,Gigi,0.9639453291893005
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,9,7583,/m/0cbn7c,The Maltese Falcon,0.9637964963912964
+1679,/m/028cg00,The Mummy - Tomb of the Dragon Emperor,10,4948,/m/0kbf1,The Song of Bernadette,0.9637932777404785
+11087,/m/0bm9xk,Hans J. Salter,1,6115,/m/0kh3,Motor neuron disease,0.9604049921035767
+11087,/m/0bm9xk,Hans J. Salter,2,9200,/m/09tlc8,Rogue,0.9579576253890991
+11087,/m/0bm9xk,Hans J. Salter,3,13928,/m/0dd2f,Kill Rock Stars,0.9576048254966736
+11087,/m/0bm9xk,Hans J. Salter,4,8374,/m/023p18,Iowa Writers' Workshop,0.9569841623306274
+11087,/m/0bm9xk,Hans J. Salter,5,7619,/m/02nvg1,Kellogg School of Management,0.9569474458694458
+11087,/m/0bm9xk,Hans J. Salter,6,11276,/m/02bpy_,Liberty University,0.956055760383606
+11087,/m/0bm9xk,Hans J. Salter,7,8665,/m/019l3m,Anne Baxter,0.9558231830596924
+11087,/m/0bm9xk,Hans J. Salter,8,12186,/m/09xzd,Chevrolet,0.9552301168441772
+11087,/m/0bm9xk,Hans J. Salter,9,10318,/m/0cc1v,Prince George's County,0.9539316892623901
+11087,/m/0bm9xk,Hans J. Salter,10,354,/m/015pdg,Southern rock,0.9528588056564331
+12135,/m/045xh,"James Tiptree, Jr. Award",1,10989,/m/0cjcbg,Primetime Emmy Award for Outstanding Animated Program  (for Programming Less Than One Hour),0.8718246817588806
+12135,/m/045xh,"James Tiptree, Jr. Award",2,7508,/m/09lvl1,Tony Award for Best Featured Actor in a Musical,0.8610401749610901
+12135,/m/045xh,"James Tiptree, Jr. Award",3,12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,0.8379939198493958
+12135,/m/045xh,"James Tiptree, Jr. Award",4,2509,/m/02vm9nd,Daytime Emmy Award for Outstanding Game/Audience Participation Show,0.8324077725410461
+12135,/m/045xh,"James Tiptree, Jr. Award",5,759,/m/0ddd9,Nobel Prize in Literature,0.82756108045578
+12135,/m/045xh,"James Tiptree, Jr. Award",6,11296,/m/058bzgm,Locus Award for Best First Novel,0.8259714245796204
+12135,/m/045xh,"James Tiptree, Jr. Award",7,2996,/m/07h0cl,AACTA Award for Best Lead Actress,0.8178197145462036
+12135,/m/045xh,"James Tiptree, Jr. Award",8,7364,/m/04fgkf_,Daytime Emmy Award for Outstanding Talk Show Host,0.8177904486656189
+12135,/m/045xh,"James Tiptree, Jr. Award",9,4459,/m/04ldyx1,Primetime Emmy Award for Outstanding Music Composition - Series,0.8162719011306763
+12135,/m/045xh,"James Tiptree, Jr. Award",10,8890,/m/05h5nb8,Golden Bear,0.811787486076355
+8935,/m/08j7lh,Election,1,6924,/m/0280061,This Is England,0.9608517289161682
+8935,/m/08j7lh,Election,2,5013,/m/02gs6r,Kiki's Delivery Service,0.956778347492218
+8935,/m/08j7lh,Election,3,8605,/m/076xkps,Priest,0.9546855092048645
+8935,/m/08j7lh,Election,4,5551,/m/0ggbfwf,Salmon Fishing in the Yemen,0.9538866281509399
+8935,/m/08j7lh,Election,5,6137,/m/02z44tp,"Rich Man, Poor Man",0.953384280204773
+8935,/m/08j7lh,Election,6,2067,/m/02725hs,Captain Corelli's Mandolin,0.9528708457946777
+8935,/m/08j7lh,Election,7,12112,/m/0d8w2n,Shortbus,0.9512659907341003
+8935,/m/08j7lh,Election,8,5456,/m/0992d9,15 Minutes,0.951202929019928
+8935,/m/08j7lh,Election,9,5849,/m/03mnn0,Standing in the Shadows of Motown,0.9505806565284729
+8935,/m/08j7lh,Election,10,5952,/m/02q8ms8,The Brothers Bloom,0.9500155448913574
+1424,/m/051kv,Methodism,1,2528,/m/019cr,Baptists,0.955623984336853
+1424,/m/051kv,Methodism,2,8332,/m/04pk9,Lutheranism,0.9268853664398193
+1424,/m/051kv,Methodism,3,4372,/m/0n2g,Anglicanism,0.8801568746566772
+1424,/m/051kv,Methodism,4,7142,/m/092bf5,Buddhism,0.8801319599151611
+1424,/m/051kv,Methodism,5,44,/m/01lp8,Christianity,0.8729917407035828
+1424,/m/051kv,Methodism,6,6851,/m/03_gx,Judaism-GB,0.8619082570075989
+1424,/m/051kv,Methodism,7,2357,/m/0631_,Presbyterianism,0.8288383483886719
+1424,/m/051kv,Methodism,8,2456,/m/0kpl,Atheism,0.8269671201705933
+1424,/m/051kv,Methodism,9,7968,/m/021_0p,Churches of Christ,0.8124939799308777
+1424,/m/051kv,Methodism,10,363,/m/0flw86,Islam,0.8115771412849426
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,1,3832,/m/03zw80,Dallas Theological Seminary,0.9578281044960022
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,2,1593,/m/0f1vrl,Haim Saban,0.9511162042617798
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,3,13191,/m/01qdcv,Socialist Party,0.9504368305206299
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,4,8361,/m/05dbyt,Bob Gunton,0.9464089274406433
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,5,14430,/m/018l5l,Mezzo-soprano,0.9451952576637268
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,6,14164,/m/014wxc,Hawaiian Islands,0.9433947205543518
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,7,12477,/m/0mzj_,Military,0.9433277249336243
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,8,6232,/m/027gy0k,Speed Racer,0.9431910514831543
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,9,11370,/m/0mmty,Clallam County,0.9430701732635498
+9674,/m/0bzrsh,1986 NCAA Men's Division I Basketball Tournament,10,1134,/m/0xy28,Auburn,0.9430193901062012
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,1,711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,0.9499406814575195
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,2,2630,/m/04mqgr,Tony Award for Best Book of a Musical,0.9459717869758606
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,3,739,/m/02x1dht,Satellite Award for Best Original Screenplay,0.9452614784240723
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,4,677,/m/027986c,Los Angeles Film Critics Association Award for Best Actor,0.9416863322257996
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,5,2153,/m/02qvyrt,BAFTA Award for Best Film Music,0.9371700286865234
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,6,2984,/m/02qt02v,Japan Academy Prize for Outstanding Foreign Language Film,0.9353814125061035
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,7,6725,/m/01ck6v,Grammy Award for Best Solo Rock Vocal Performance,0.9348466396331787
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,8,2820,/m/0gqy2,Academy Award for Best Actor in a Supporting Role,0.9344419836997986
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,9,2003,/m/0gs96,Academy Award for Best Costume Design,0.9312954545021057
+6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,10,502,/m/02hsq3m,BAFTA Award for Best Special Visual Effects,0.9308531284332275
+520,/m/03lpp_,Washington Nationals,1,14322,/m/0lxg6,Varna,0.9571703672409058
+520,/m/03lpp_,Washington Nationals,2,8249,/m/02wmbg,Rajnikanth,0.9569668173789978
+520,/m/03lpp_,Washington Nationals,3,12868,/m/07s5fz,Shandong Luneng Taishan F.C.,0.9566711187362671
+520,/m/03lpp_,Washington Nationals,4,8234,/m/096cw_,FC Barcelona B,0.955115020275116
+520,/m/03lpp_,Washington Nationals,5,14281,/m/0mk_3,Fond du Lac County,0.9542884826660156
+520,/m/03lpp_,Washington Nationals,6,11473,/m/07mfk,Theravada,0.9533495903015137
+520,/m/03lpp_,Washington Nationals,7,13354,/m/0c663,Apulia,0.9516666531562805
+520,/m/03lpp_,Washington Nationals,8,1226,/m/03fghg,Toshiyuki Morikawa,0.9512303471565247
+520,/m/03lpp_,Washington Nationals,9,11052,/m/0bqch,Marcel Duchamp,0.9507985711097717
+520,/m/03lpp_,Washington Nationals,10,12499,/m/036kmk,Grays Athletic F.C.,0.950667679309845
+488,/m/01gvr1,Cicely Tyson,1,4133,/m/02mjf2,Matthew McConaughey,0.9731326103210449
+488,/m/01gvr1,Cicely Tyson,2,1976,/m/0pyg6,Vanessa L. Williams,0.9707799553871155
+488,/m/01gvr1,Cicely Tyson,3,1000,/m/0b68vs,Corinne Bailey Rae,0.9678602814674377
+488,/m/01gvr1,Cicely Tyson,4,3018,/m/011_3s,Lily Tomlin,0.9666770696640015
+488,/m/01gvr1,Cicely Tyson,5,2147,/m/016z2j,Robert Downey Jr.,0.9640358090400696
+488,/m/01gvr1,Cicely Tyson,6,2541,/m/014q2g,Keith Richards,0.963770866394043
+488,/m/01gvr1,Cicely Tyson,7,11514,/m/0dn44,Terry Jones,0.9631706476211548
+488,/m/01gvr1,Cicely Tyson,8,4079,/m/0jmj,Alan Alda,0.9630623459815979
+488,/m/01gvr1,Cicely Tyson,9,8880,/m/01nfys,Steve Coogan,0.9617579579353333
+488,/m/01gvr1,Cicely Tyson,10,3092,/m/05np4c,Ellen Pompeo,0.961324155330658
+1535,/m/0170pk,Geoffrey Rush,1,2934,/m/0fb1q,Whoopi Goldberg,0.9730439782142639
+1535,/m/0170pk,Geoffrey Rush,2,1819,/m/01ycbq,Christopher Plummer,0.9715762734413147
+1535,/m/0170pk,Geoffrey Rush,3,4100,/m/02kxwk,Kathy Bates,0.9704163074493408
+1535,/m/0170pk,Geoffrey Rush,4,2347,/m/0227tr,Brendan Fraser,0.9698616862297058
+1535,/m/0170pk,Geoffrey Rush,5,600,/m/07lt7b,Marion Cotillard,0.9686486721038818
+1535,/m/0170pk,Geoffrey Rush,6,1342,/m/02wcx8c,Peter Jacobson,0.9666256904602051
+1535,/m/0170pk,Geoffrey Rush,7,4769,/m/048q6x,Robert Morse,0.9648359417915344
+1535,/m/0170pk,Geoffrey Rush,8,9263,/m/01hcj2,Christina Applegate,0.963981568813324
+1535,/m/0170pk,Geoffrey Rush,9,2496,/m/034g2b,Rory Cochrane,0.9638067483901978
+1535,/m/0170pk,Geoffrey Rush,10,949,/m/0h1mt,Jane Fonda,0.9617891907691956
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,1,3291,/m/017kct,Oh! What a Lovely War,0.9758860468864441
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,2,4421,/m/0gkz3nz,Moonrise Kingdom,0.975174069404602
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,3,3019,/m/02x6dqb,Annie,0.9725038409233093
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,4,4691,/m/0194zl,Iris,0.9722415804862976
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,5,2890,/m/0htww,The Caine Mutiny,0.9721107482910156
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,6,1540,/m/035yn8,The Exorcist,0.9693053364753723
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,7,8998,/m/05y0cr,Cyrano de Bergerac,0.9691741466522217
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,8,4541,/m/026qnh6,Australia,0.9691357612609863
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,9,1867,/m/01j8wk,Don't Say a Word,0.9689451456069946
+3582,/m/0d_wms,Superman II: The Richard Donner Cut,10,4338,/m/0h03fhx,Argo,0.9683399200439453
+3811,/m/031q3w,Horace Mann School,1,8326,/m/0226cw,John Dingell,0.9560512900352478
+3811,/m/031q3w,Horace Mann School,2,14191,/m/0mkc3,Wood County,0.9539669156074524
+3811,/m/031q3w,Horace Mann School,3,14248,/m/07q68q,Samuel Vincent,0.953576922416687
+3811,/m/031q3w,Horace Mann School,4,14033,/m/0g9fm,Chatham,0.9531311392784119
+3811,/m/031q3w,Horace Mann School,5,9200,/m/09tlc8,Rogue,0.9522992968559265
+3811,/m/031q3w,Horace Mann School,6,13805,/m/0cfywh,Jagdeep,0.9522308707237244
+3811,/m/031q3w,Horace Mann School,7,12086,/m/0f83g2,Hapoel Be'er Sheva F.C.,0.9515106678009033
+3811,/m/031q3w,Horace Mann School,8,14269,/m/018ckn,Arunachal Pradesh,0.9506976008415222
+3811,/m/031q3w,Horace Mann School,9,354,/m/015pdg,Southern rock,0.9506553411483765
+3811,/m/031q3w,Horace Mann School,10,5560,/m/01f_3w,Jive Records,0.9506235718727112
+8279,/m/02y7sr,Duff McKagan,1,2702,/m/03xl77,Travis Barker,0.9387892484664917
+8279,/m/02y7sr,Duff McKagan,2,4508,/m/02lymt,Wesley Snipes,0.9328852891921997
+8279,/m/02y7sr,Duff McKagan,3,4711,/m/03f1d47,Macy Gray,0.9271460175514221
+8279,/m/02y7sr,Duff McKagan,4,614,/m/0274ck,Devin Townsend,0.9269137978553772
+8279,/m/02y7sr,Duff McKagan,5,2632,/m/01vn35l,Steve Winwood,0.9264436364173889
+8279,/m/02y7sr,Duff McKagan,6,530,/m/0168cl,Jimmy Buffett,0.9242922067642212
+8279,/m/02y7sr,Duff McKagan,7,3471,/m/0lzkm,Jim O'Rourke,0.9240898489952087
+8279,/m/02y7sr,Duff McKagan,8,2582,/m/02w4fkq,Colbie Caillat,0.9208382368087769
+8279,/m/02y7sr,Duff McKagan,9,5444,/m/024zq,Charles Mingus,0.9207459688186646
+8279,/m/02y7sr,Duff McKagan,10,6313,/m/016sqs,George Strait,0.920344352722168
+9863,/m/0p76z,Jethro Tull,1,8815,/m/07rnh,The Fall,0.9038020372390747
+9863,/m/0p76z,Jethro Tull,2,9411,/m/02pt27,Steve Hackett,0.8999040722846985
+9863,/m/0p76z,Jethro Tull,3,5477,/m/0bpk2,Tangerine Dream,0.8979230523109436
+9863,/m/0p76z,Jethro Tull,4,8333,/m/0jn38,Dream Theater,0.8966947793960571
+9863,/m/0p76z,Jethro Tull,5,1545,/m/01fl3,The Beach Boys,0.8960953950881958
+9863,/m/0p76z,Jethro Tull,6,4193,/m/0fcsd,Asia,0.8947714567184448
+9863,/m/0p76z,Jethro Tull,7,7850,/m/02hzz,Devo,0.8947423100471497
+9863,/m/0p76z,Jethro Tull,8,12756,/m/0fsyx,The Cure,0.8939812183380127
+9863,/m/0p76z,Jethro Tull,9,4373,/m/0394y,Grateful Dead,0.8936081528663635
+9863,/m/0p76z,Jethro Tull,10,8874,/m/011_vz,Faith No More,0.8852160573005676
+434,/m/04ztj,Marriage,1,141,/m/05zppz,Male,0.9612991213798523
+434,/m/04ztj,Marriage,2,1665,/m/01g63y,Domestic partnership,0.9611853361129761
+434,/m/04ztj,Marriage,3,23,/m/029j_,DVD,0.9568047523498535
+434,/m/04ztj,Marriage,4,1936,/m/01vx2h,Visual Effects,0.9536702632904053
+434,/m/04ztj,Marriage,5,64,/m/09zzb8,Makeup Artist-GB,0.9534983038902283
+434,/m/04ztj,Marriage,6,1877,/m/02rh1dz,Visual Effects Art Director,0.9524058103561401
+434,/m/04ztj,Marriage,7,9,/m/02nzb8,Midfielder,0.9521337151527405
+434,/m/04ztj,Marriage,8,1098,/m/0ch6mp2,Sound Mixer,0.9512820243835449
+434,/m/04ztj,Marriage,9,117,/m/0dgrmp,Goalkeeper,0.950631320476532
+434,/m/04ztj,Marriage,10,1881,/m/0dxtw,Special Effects,0.947973906993866
+9195,/m/035nm,General Motors,1,12588,/m/01fkr_,VH1,0.9568321704864502
+9195,/m/035nm,General Motors,2,9326,/m/06wvfq,Rekha,0.9458711743354797
+9195,/m/035nm,General Motors,3,8407,/m/026kmvf,Thiago Silva,0.9449949264526367
+9195,/m/035nm,General Motors,4,4237,/m/012wg,Alan Jay Lerner,0.9436903595924377
+9195,/m/035nm,General Motors,5,7324,/m/079kdz,Peter Horton,0.9431117177009583
+9195,/m/035nm,General Motors,6,12094,/m/02mgp,Ecology,0.9420665502548218
+9195,/m/035nm,General Motors,7,9076,/m/04rvy8,Ronald Neame,0.9420100450515747
+9195,/m/035nm,General Motors,8,4561,/m/0638kv,William Cameron Menzies,0.9407698512077332
+9195,/m/035nm,General Motors,9,13497,/m/03d29b,Mamiko Noto,0.9400449991226196
+9195,/m/035nm,General Motors,10,12558,/m/0g72r,Charles Bukowski,0.9395274519920349
+3257,/m/082gq,War film,1,470,/m/0lsxr,Crime Fiction,0.9749922752380371
+3257,/m/082gq,War film,2,6394,/m/01t_vv,Comedy-drama,0.9728993773460388
+3257,/m/082gq,War film,3,147,/m/06cvj,Romantic comedy,0.9723439812660217
+3257,/m/082gq,War film,4,844,/m/06n90,Science Fiction,0.9714862704277039
+3257,/m/082gq,War film,5,163,/m/05p553,Comedy-GB,0.9708782434463501
+3257,/m/082gq,War film,6,6607,/m/03bxz7,Biographical film,0.9652352929115295
+3257,/m/082gq,War film,7,1211,/m/02l7c8,Romance Film,0.9635225534439087
+3257,/m/082gq,War film,8,439,/m/03npn,Horror,0.959646999835968
+3257,/m/082gq,War film,9,658,/m/01jfsb,Thriller,0.9561504125595093
+3257,/m/082gq,War film,10,466,/m/02n4kr,Mystery,0.9551656246185303
+11731,/m/02h400t,Financial Services,1,9450,/m/05z55,Pasta,0.9338072538375854
+11731,/m/02h400t,Financial Services,2,5883,/m/033cnk,Egg,0.9336360692977905
+11731,/m/02h400t,Financial Services,3,8878,/m/02x08c,Richard Widmark,0.9326366782188416
+11731,/m/02h400t,Financial Services,4,4987,/m/01gl9g,CNBC,0.9290592670440674
+11731,/m/02h400t,Financial Services,5,11380,/m/0jnb0,Tex Avery,0.9262629747390747
+11731,/m/02h400t,Financial Services,6,13010,/m/01mgsn,Kingston,0.9262471795082092
+11731,/m/02h400t,Financial Services,7,4945,/m/01h8f,Bruce Campbell,0.924274206161499
+11731,/m/02h400t,Financial Services,8,2746,/m/01rnxn,Bruce Dern,0.9239897727966309
+11731,/m/02h400t,Financial Services,9,13724,/m/089_x,20th century,0.9234354496002197
+11731,/m/02h400t,Financial Services,10,7967,/m/03rqww,Caleb Deschanel,0.9233484268188477
+10647,/m/0jrv_,Thrash metal,1,8361,/m/05dbyt,Bob Gunton,0.9664543867111206
+10647,/m/0jrv_,Thrash metal,2,14532,/m/0zq7r,Vertigo,0.9612327218055725
+10647,/m/0jrv_,Thrash metal,3,14206,/m/064lqk,Christian punk,0.9611338973045349
+10647,/m/0jrv_,Thrash metal,4,12258,/m/04l58n,Connecticut Whale,0.9604988098144531
+10647,/m/0jrv_,Thrash metal,5,4954,/m/0n9dn,London Borough of Camden,0.9598587155342102
+10647,/m/0jrv_,Thrash metal,6,12576,/m/0nv99,Madison County,0.9590486884117126
+10647,/m/0jrv_,Thrash metal,7,12127,/m/01skcy,3D Realms,0.9587122201919556
+10647,/m/0jrv_,Thrash metal,8,9672,/m/048fz,Korea,0.9586443901062012
+10647,/m/0jrv_,Thrash metal,9,1297,/m/0cv9b,Texas Instruments,0.9585749506950378
+10647,/m/0jrv_,Thrash metal,10,8166,/m/0fczy,Niagara County,0.9585199356079102
+11490,/m/021y1s,Warwickshire,1,11070,/m/01vsb_,Gyeonggi-do,0.9621758460998535
+11490,/m/021y1s,Warwickshire,2,4830,/m/0jmxb,Cumbria,0.960057258605957
+11490,/m/021y1s,Warwickshire,3,4954,/m/0n9dn,London Borough of Camden,0.9569559097290039
+11490,/m/021y1s,Warwickshire,4,7547,/m/084kf,Waterloo,0.9565966725349426
+11490,/m/021y1s,Warwickshire,5,10547,/m/02b1hb,Dagenham & Redbridge F.C.,0.9562074542045593
+11490,/m/021y1s,Warwickshire,6,9248,/m/06l7jj,Sweden women's national football team,0.9555764198303223
+11490,/m/021y1s,Warwickshire,7,8766,/m/0drs7,Cattaraugus County,0.9550507664680481
+11490,/m/021y1s,Warwickshire,8,10901,/m/02vsw1,European American,0.9548304080963135
+11490,/m/021y1s,Warwickshire,9,13730,/m/03dhbp,Transformers,0.9540672302246094
+11490,/m/021y1s,Warwickshire,10,10025,/m/0ltv,Auto racing,0.9540009498596191
+8928,/m/0crs0b8,Brighton Rock,1,155,/m/0c3ybss,Insidious,0.9675491452217102
+8928,/m/0crs0b8,Brighton Rock,2,1011,/m/07sc6nw,Sucker Punch,0.9673569798469543
+8928,/m/0crs0b8,Brighton Rock,3,3168,/m/09g7vfw,Dark Shadows,0.9657338261604309
+8928,/m/0crs0b8,Brighton Rock,4,5045,/m/0353xq,Quadrophenia,0.9648568630218506
+8928,/m/0crs0b8,Brighton Rock,5,8011,/m/0cmf0m0,Puss in Boots,0.9638473987579346
+8928,/m/0crs0b8,Brighton Rock,6,3273,/m/0c34mt,From Hell,0.9638067483901978
+8928,/m/0crs0b8,Brighton Rock,7,8377,/m/09bw4_,Jumper,0.9631311297416687
+8928,/m/0crs0b8,Brighton Rock,8,4982,/m/01sby_,Battle Royale,0.9623178243637085
+8928,/m/0crs0b8,Brighton Rock,9,10495,/m/02wwmhc,The Rum Diary,0.961234986782074
+8928,/m/0crs0b8,Brighton Rock,10,7214,/m/0dgrwqr,Red State,0.9607402682304382
+6873,/m/02vq8xn,Charo Santos-Concio,1,9794,/m/05q9g1,Gulzar,0.9618125557899475
+6873,/m/02vq8xn,Charo Santos-Concio,2,4255,/m/0f5hyg,Granada CF,0.9594740867614746
+6873,/m/02vq8xn,Charo Santos-Concio,3,6057,/m/0n4mk,Brunswick County,0.9509938359260559
+6873,/m/02vq8xn,Charo Santos-Concio,4,11658,/m/02qny_,Landon Donovan,0.9493029713630676
+6873,/m/02vq8xn,Charo Santos-Concio,5,11480,/m/0n3ll,Wake County,0.9483776092529297
+6873,/m/02vq8xn,Charo Santos-Concio,6,10550,/m/06924p,Country pop,0.9460902214050293
+6873,/m/02vq8xn,Charo Santos-Concio,7,2841,/m/0mk7z,Fremont County,0.944476842880249
+6873,/m/02vq8xn,Charo Santos-Concio,8,13189,/m/0ftns,Valletta,0.9439009428024292
+6873,/m/02vq8xn,Charo Santos-Concio,9,4534,/m/0b_6jz,1983 NCAA Men's Division I Basketball Tournament,0.9431746602058411
+6873,/m/02vq8xn,Charo Santos-Concio,10,13703,/m/04qb6g,CBC Television,0.9423386454582214
+3611,/m/02xv8m,Oliver Platt,1,6876,/m/03m6_z,Ryan Gosling,0.968795120716095
+3611,/m/02xv8m,Oliver Platt,2,4079,/m/0jmj,Alan Alda,0.9684386253356934
+3611,/m/02xv8m,Oliver Platt,3,8880,/m/01nfys,Steve Coogan,0.9658409953117371
+3611,/m/02xv8m,Oliver Platt,4,8719,/m/0k9j_,Gregory Peck,0.9657153487205505
+3611,/m/02xv8m,Oliver Platt,5,8044,/m/0263tn1,Rob James-Collier,0.9653906226158142
+3611,/m/02xv8m,Oliver Platt,6,383,/m/01rr9f,Courteney Cox,0.9650694131851196
+3611,/m/02xv8m,Oliver Platt,7,1773,/m/06mfvc,Ben Foster,0.965017557144165
+3611,/m/02xv8m,Oliver Platt,8,2496,/m/034g2b,Rory Cochrane,0.9644699096679688
+3611,/m/02xv8m,Oliver Platt,9,3981,/m/02vntj,Anne Hathaway,0.96390700340271
+3611,/m/02xv8m,Oliver Platt,10,3011,/m/05ldnp,Paul Haggis,0.9637794494628906
+7359,/m/04b5n0,Arminia Bielefeld,1,10667,/m/0jnr_,Nashville Predators,0.9234564900398254
+7359,/m/04b5n0,Arminia Bielefeld,2,12261,/m/04zxrt,Racing Club de Avellaneda,0.9183071851730347
+7359,/m/04b5n0,Arminia Bielefeld,3,7579,/m/03mp4f,FC Metalurh Donetsk,0.9168286919593811
+7359,/m/04b5n0,Arminia Bielefeld,4,2178,/m/0x2p,Atlanta Braves,0.9090869426727295
+7359,/m/04b5n0,Arminia Bielefeld,5,9847,/m/04bsx1,Dean Saunders,0.9058421850204468
+7359,/m/04b5n0,Arminia Bielefeld,6,7679,/m/05y8n7,Dance-punk,0.903846263885498
+7359,/m/04b5n0,Arminia Bielefeld,7,11919,/m/0byq6h,Stade Brestois 29,0.9023911356925964
+7359,/m/04b5n0,Arminia Bielefeld,8,14401,/m/04bp0l,The Biggest Loser,0.901817262172699
+7359,/m/04b5n0,Arminia Bielefeld,9,14104,/m/03l7f,Homelessness,0.9010269045829773
+7359,/m/04b5n0,Arminia Bielefeld,10,14494,/m/057ph,Mickey Mouse,0.8984079360961914
+9654,/m/01gp_d,Finnish Language,1,12820,/m/02t1wn,"Alan Hale, Sr.",0.842598557472229
+9654,/m/01gp_d,Finnish Language,2,5525,/m/0dcsx,Alzheimer's disease,0.8410156965255737
+9654,/m/01gp_d,Finnish Language,3,10188,/m/03339m,Experimental metal,0.837943971157074
+9654,/m/01gp_d,Finnish Language,4,8268,/m/018h8j,Oldham,0.8373482823371887
+9654,/m/01gp_d,Finnish Language,5,3030,/m/0d4jl,Anthony Burgess,0.8356983661651611
+9654,/m/01gp_d,Finnish Language,6,5309,/m/03l295,Dwyane Wade,0.8346985578536987
+9654,/m/01gp_d,Finnish Language,7,14029,/m/02pr67,Pulitzer Prize for Public Service,0.8330993056297302
+9654,/m/01gp_d,Finnish Language,8,13355,/m/084x96,Greg Ayres,0.8324042558670044
+9654,/m/01gp_d,Finnish Language,9,4150,/m/04mhl,Larry Niven,0.8321690559387207
+9654,/m/01gp_d,Finnish Language,10,11929,/m/01jn5,Barrister-GB,0.831874668598175
+4557,/m/0177z,Brussels,1,10941,/m/0_jq4,York,0.9267253279685974
+4557,/m/0177z,Brussels,2,5808,/m/0n1rj,Tampa,0.9222329258918762
+4557,/m/0177z,Brussels,3,6216,/m/02sn34,Kiev,0.9215146899223328
+4557,/m/0177z,Brussels,4,11816,/m/0d739,Amherst,0.9201295971870422
+4557,/m/0177z,Brussels,5,4083,/m/0_vn7,Knoxville,0.918285071849823
+4557,/m/0177z,Brussels,6,11359,/m/01rxw2,Marche,0.9153011441230774
+4557,/m/0177z,Brussels,7,11688,/m/03msf,Hertfordshire,0.9150697588920593
+4557,/m/0177z,Brussels,8,13167,/m/0sbv7,Decatur,0.9145534038543701
+4557,/m/0177z,Brussels,9,8614,/m/0rv97,Marietta,0.9144777655601501
+4557,/m/0177z,Brussels,10,9843,/m/0f612,Franklin County,0.912976861000061
+13261,/m/0qcrj,Menlo Park,1,3251,/m/03fmfs,Lincoln University,0.9627873301506042
+13261,/m/0qcrj,Menlo Park,2,6134,/m/0zchj,Bend,0.961143970489502
+13261,/m/0qcrj,Menlo Park,3,6415,/m/0mndw,Newport News,0.9556138515472412
+13261,/m/0qcrj,Menlo Park,4,7735,/m/02yxjs,Northern Illinois University,0.9537837505340576
+13261,/m/0qcrj,Menlo Park,5,6223,/m/01ljpm,Vassar College,0.9507264494895935
+13261,/m/0qcrj,Menlo Park,6,11359,/m/01rxw2,Marche,0.9496716856956482
+13261,/m/0qcrj,Menlo Park,7,6495,/m/0l2lk,Monterey County,0.9495617747306824
+13261,/m/0qcrj,Menlo Park,8,10928,/m/018jkl,Miyagi Prefecture,0.9488770365715027
+13261,/m/0qcrj,Menlo Park,9,8827,/m/01v3k2,Swansea University,0.9488581418991089
+13261,/m/0qcrj,Menlo Park,10,6365,/m/01jpyb,"University of Nevada, Reno",0.9486491680145264
+14242,/m/02qvkj,Winger,1,5041,/m/0283ph,Ghost in the Shell: Stand Alone Complex,0.9457973837852478
+14242,/m/02qvkj,Winger,2,12534,/m/0d7_n,Lviv,0.9440792798995972
+14242,/m/02qvkj,Winger,3,13091,/m/064xp,Pisa,0.9430598020553589
+14242,/m/02qvkj,Winger,4,14508,/m/04z288,New York State Senate,0.9383007884025574
+14242,/m/02qvkj,Winger,5,4810,/m/0586wl,Danubio F.C.,0.9382815361022949
+14242,/m/02qvkj,Winger,6,11562,/m/09472,Sparta,0.9366759657859802
+14242,/m/02qvkj,Winger,7,4954,/m/0n9dn,London Borough of Camden,0.936130940914154
+14242,/m/02qvkj,Winger,8,13811,/m/0dwh5,Fremont,0.9350916147232056
+14242,/m/02qvkj,Winger,9,13408,/m/0hknf,Genoa,0.9344298839569092
+14242,/m/02qvkj,Winger,10,13518,/m/0p4gy,Jefferson Parish,0.9336134195327759
+106,/m/02p65p,Don Cheadle,1,3204,/m/02l4pj,Emily Watson,0.9606269598007202
+106,/m/02p65p,Don Cheadle,2,4268,/m/09yrh,Jennifer Aniston,0.9591559171676636
+106,/m/02p65p,Don Cheadle,3,5355,/m/07h565,Jacob Vargas,0.9591063857078552
+106,/m/02p65p,Don Cheadle,4,2053,/m/05dbf,Nicole Kidman,0.957528829574585
+106,/m/02p65p,Don Cheadle,5,37,/m/05vsxz,Chiwetel Ejiofor,0.9536490440368652
+106,/m/02p65p,Don Cheadle,6,5222,/m/016zp5,Ian Holm,0.9528939723968506
+106,/m/02p65p,Don Cheadle,7,2522,/m/019pm_,Demi Moore,0.9518702030181885
+106,/m/02p65p,Don Cheadle,8,367,/m/0bxtg,Tom Hanks,0.9502425193786621
+106,/m/02p65p,Don Cheadle,9,820,/m/0151w_,Ben Affleck,0.949941098690033
+106,/m/02p65p,Don Cheadle,10,5494,/m/03_wvl,Jorge Garcia,0.9497157335281372
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,1,11296,/m/058bzgm,Locus Award for Best First Novel,0.8756542205810547
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,2,4908,/m/02qkk9_,Special Tony Award,0.8740389347076416
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,3,7364,/m/04fgkf_,Daytime Emmy Award for Outstanding Talk Show Host,0.8729543685913086
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,4,4459,/m/04ldyx1,Primetime Emmy Award for Outstanding Music Composition - Series,0.8610830307006836
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,5,2996,/m/07h0cl,AACTA Award for Best Lead Actress,0.8569803237915039
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,6,5647,/m/09v8db5,Hong Kong Film Award for Best Supporting Actor,0.8526446223258972
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,7,8128,/m/03ncb2,Grammy Award for Best Contemporary Jazz Album,0.8417620658874512
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,8,2941,/m/03hj5vf,BFCA Critics' Choice Award for Best Comedy,0.8395742177963257
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,9,5748,/m/07z2lx,Primetime Emmy Award for Outstanding Miniseries,0.8388807773590088
+12432,/m/07kfzsg,Hong Kong Film Award for Best Actress,10,12792,/m/0789r6,Golden Lion,0.8387710452079773
+13202,/m/07s4l,Typhoid fever,1,11908,/m/052zgp,Portmore United F.C.,0.9489838480949402
+13202,/m/07s4l,Typhoid fever,2,6838,/m/06hzsx,William H. Daniels,0.9406890273094177
+13202,/m/07s4l,Typhoid fever,3,12285,/m/02mv_h,Dover Athletic F.C.,0.9390144944190979
+13202,/m/07s4l,Typhoid fever,4,10952,/m/0nt4s,Marion County,0.9372321963310242
+13202,/m/07s4l,Typhoid fever,5,8229,/m/02wd48,Alan Thicke,0.9370834231376648
+13202,/m/07s4l,Typhoid fever,6,1134,/m/0xy28,Auburn,0.934508740901947
+13202,/m/07s4l,Typhoid fever,7,14208,/m/0dlm_,Riyadh,0.9341198801994324
+13202,/m/07s4l,Typhoid fever,8,5662,/m/05f7w84,Kid vs. Kat,0.9339325428009033
+13202,/m/07s4l,Typhoid fever,9,11671,/m/0ljc_,Cartoon Network,0.9332225322723389
+13202,/m/07s4l,Typhoid fever,10,3129,/m/03m10r,FC Dynamo Kyiv,0.9331000447273254
+2615,/m/025n3p,Vin Diesel,1,314,/m/032xhg,Jason Bateman,0.9600096344947815
+2615,/m/025n3p,Vin Diesel,2,5703,/m/02t__3,Timothy Hutton,0.9596863389015198
+2615,/m/025n3p,Vin Diesel,3,8020,/m/016ynj,Peter Finch,0.9588547945022583
+2615,/m/025n3p,Vin Diesel,4,1488,/m/01fwj8,Minnie Driver,0.9564711451530457
+2615,/m/025n3p,Vin Diesel,5,7818,/m/01nms7,Jena Malone,0.9563127160072327
+2615,/m/025n3p,Vin Diesel,6,2302,/m/0lx2l,Jim Carrey,0.9545420408248901
+2615,/m/025n3p,Vin Diesel,7,8101,/m/0mb5x,Harold Pinter,0.9536287188529968
+2615,/m/025n3p,Vin Diesel,8,4898,/m/01vswx5,The Edge,0.9534897804260254
+2615,/m/025n3p,Vin Diesel,9,5039,/m/094xh,Stevie Nicks,0.9532760977745056
+2615,/m/025n3p,Vin Diesel,10,2042,/m/01y_px,Jeff Goldblum,0.9512296319007874
+11438,/m/0tz14,Haverhill,1,9485,/m/0105y2,Lubbock,0.9338257312774658
+11438,/m/0tz14,Haverhill,2,13167,/m/0sbv7,Decatur,0.9311343431472778
+11438,/m/0tz14,Haverhill,3,11359,/m/01rxw2,Marche,0.9309350252151489
+11438,/m/0tz14,Haverhill,4,1214,/m/0r7fy,Modesto,0.9268963932991028
+11438,/m/0tz14,Haverhill,5,5589,/m/0rh7t,Gainesville,0.9239833354949951
+11438,/m/0tz14,Haverhill,6,8445,/m/0m2cb,Pinal County,0.9229524731636047
+11438,/m/0tz14,Haverhill,7,3063,/m/02qvvv,Florida A&M University,0.9217745065689087
+11438,/m/0tz14,Haverhill,8,1776,/m/0r540,Oceanside,0.9209318161010742
+11438,/m/0tz14,Haverhill,9,9629,/m/02yr1q,Drake University,0.9199029803276062
+11438,/m/0tz14,Haverhill,10,10941,/m/0_jq4,York,0.919734001159668
+6924,/m/0280061,This Is England,1,5849,/m/03mnn0,Standing in the Shadows of Motown,0.9684758186340332
+6924,/m/0280061,This Is England,2,2251,/m/05fgt1,Intolerable Cruelty,0.9657661318778992
+6924,/m/0280061,This Is England,3,6137,/m/02z44tp,"Rich Man, Poor Man",0.9613619446754456
+6924,/m/0280061,This Is England,4,7563,/m/02x3y41,Green Zone,0.9610236287117004
+6924,/m/0280061,This Is England,5,8935,/m/08j7lh,Election,0.9608517289161682
+6924,/m/0280061,This Is England,6,5551,/m/0ggbfwf,Salmon Fishing in the Yemen,0.960761547088623
+6924,/m/0280061,This Is England,7,840,/m/01m13b,Dancer in the Dark,0.9594033360481262
+6924,/m/0280061,This Is England,8,9370,/m/0ddbjy4,Dredd,0.9593931436538696
+6924,/m/0280061,This Is England,9,4590,/m/0bmch_x,Unknown,0.9589998126029968
+6924,/m/0280061,This Is England,10,4187,/m/016y_f,Cape Fear,0.9581547379493713
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,1,8415,/m/03xyp_,Daniel Nestor,0.9710355997085571
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,2,5230,/m/0cm2xh,World War I,0.9694879055023193
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,3,14495,/m/03ykjs9,Comedy,0.9687449932098389
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,4,10529,/m/049mr,KLM,0.968576192855835
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,5,13060,/m/049wm,Kagoshima,0.9649133682250977
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,6,3719,/m/0h9dj,Skin cancer,0.9641316533088684
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,7,13507,/m/05gd9,Nationalism,0.963715136051178
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,8,14391,/m/08zx0s,Operatic pop,0.9629648923873901
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,9,14483,/m/07jqvw,Perkin Medal,0.9628063440322876
+5574,/m/037mjv,Inverness Caledonian Thistle F.C.,10,7406,/m/0gfp09,Kavala F.C.,0.9626381397247314
+4552,/m/02bqm0,104th United States Congress,1,7434,/m/01grr2,8th United States Congress,0.9562563300132751
+4552,/m/02bqm0,104th United States Congress,2,7692,/m/01gsvb,18th United States Congress,0.9546442031860352
+4552,/m/02bqm0,104th United States Congress,3,472,/m/03ww_x,96th United States Congress,0.9489263892173767
+4552,/m/02bqm0,104th United States Congress,4,3708,/m/01gssm,13th United States Congress,0.947247326374054
+4552,/m/02bqm0,104th United States Congress,5,2473,/m/01gst_,17th United States Congress,0.9466631412506104
+4552,/m/02bqm0,104th United States Congress,6,10859,/m/01grq1,6th United States Congress,0.9443680644035339
+4552,/m/02bqm0,104th United States Congress,7,4979,/m/01gtcq,27th United States Congress,0.9431318044662476
+4552,/m/02bqm0,104th United States Congress,8,857,/m/02bn_p,106th United States Congress,0.9402748346328735
+4552,/m/02bqm0,104th United States Congress,9,7663,/m/01h7xx,30th United States Congress,0.9343228936195374
+4552,/m/02bqm0,104th United States Congress,10,1625,/m/03z5xd,95th United States Congress,0.9325268268585205
+2547,/m/05q4y12,Away We Go,1,1045,/m/05z_kps,Fish Tank,0.973054826259613
+2547,/m/05q4y12,Away We Go,2,3644,/m/0gcrg,Seven Brides for Seven Brothers,0.967099666595459
+2547,/m/05q4y12,Away We Go,3,5794,/m/03nt59,Entourage,0.9654741883277893
+2547,/m/05q4y12,Away We Go,4,11065,/m/05sbv3,Gigi,0.9644244313240051
+2547,/m/05q4y12,Away We Go,5,1397,/m/05pbl56,Salt,0.9641243815422058
+2547,/m/05q4y12,Away We Go,6,1581,/m/091z_p,Pan's Labyrinth,0.9637974500656128
+2547,/m/05q4y12,Away We Go,7,7068,/m/01k0xy,American Wedding,0.9631379246711731
+2547,/m/05q4y12,Away We Go,8,3279,/m/09lcsj,Seraphim Falls,0.9621232151985168
+2547,/m/05q4y12,Away We Go,9,4982,/m/01sby_,Battle Royale,0.9613678455352783
+2547,/m/05q4y12,Away We Go,10,4890,/m/0j3d9tn,Rust and Bone,0.9611870646476746
+3527,/m/02mplj,Hamburger SV,1,10185,/m/03j755,APOEL F.C.,0.9687595963478088
+3527,/m/02mplj,Hamburger SV,2,8367,/m/08lmt7,Randers FC,0.9664735198020935
+3527,/m/02mplj,Hamburger SV,3,10547,/m/02b1hb,Dagenham & Redbridge F.C.,0.9653130769729614
+3527,/m/02mplj,Hamburger SV,4,11937,/m/0h08p,Big band,0.9652003049850464
+3527,/m/02mplj,Hamburger SV,5,8673,/m/058dm9,Zamalek SC,0.9642094969749451
+3527,/m/02mplj,Hamburger SV,6,5381,/m/03x6xl,Panionios G.S.S.,0.9618338346481323
+3527,/m/02mplj,Hamburger SV,7,9248,/m/06l7jj,Sweden women's national football team,0.9601282477378845
+3527,/m/02mplj,Hamburger SV,8,11495,/m/078ds,Sinhalese people,0.9599292278289795
+3527,/m/02mplj,Hamburger SV,9,10498,/m/0425hg,Jeju United FC,0.9593753218650818
+3527,/m/02mplj,Hamburger SV,10,13733,/m/018gmr,Markham,0.9576365947723389
+12509,/m/03x726,C.D. Nacional,1,13151,/m/0d3fdn,FC Dallas,0.9660589098930359
+12509,/m/03x726,C.D. Nacional,2,10984,/m/07b8m1,Denizlispor,0.9632082581520081
+12509,/m/03x726,C.D. Nacional,3,3467,/m/01n_2f,Iran national football team,0.9630467295646667
+12509,/m/03x726,C.D. Nacional,4,5638,/m/011v3,A.C. Milan,0.9575657844543457
+12509,/m/03x726,C.D. Nacional,5,4217,/m/01_lhg,Italy national football team,0.9560391306877136
+12509,/m/03x726,C.D. Nacional,6,8621,/m/01c_d,Buffalo Bills,0.9560295939445496
+12509,/m/03x726,C.D. Nacional,7,12990,/m/03_3z4,Egypt national football team,0.9557241201400757
+12509,/m/03x726,C.D. Nacional,8,2056,/m/06xj93,Khazar Lankaran FK,0.9547752737998962
+12509,/m/03x726,C.D. Nacional,9,10498,/m/0425hg,Jeju United FC,0.9544129371643066
+12509,/m/03x726,C.D. Nacional,10,13332,/m/03fnn5,Vitesse,0.9529940485954285
+5514,/m/0jvs0,Morgan Stanley,1,14201,/m/0l_qt,Kenai Peninsula Borough,0.9672117829322815
+5514,/m/0jvs0,Morgan Stanley,2,1273,/m/0cd25,Surgery,0.9616672396659851
+5514,/m/0jvs0,Morgan Stanley,3,14419,/m/050yl,Military history,0.9608761668205261
+5514,/m/0jvs0,Morgan Stanley,4,9562,/m/0m4yg,Guildhall School of Music and Drama,0.960313081741333
+5514,/m/0jvs0,Morgan Stanley,5,13665,/m/0fg1g,Haifa,0.9592848420143127
+5514,/m/0jvs0,Morgan Stanley,6,6665,/m/05w3y,Philips,0.957859992980957
+5514,/m/0jvs0,Morgan Stanley,7,11748,/m/02kxjx,Western Front,0.9568634033203125
+5514,/m/0jvs0,Morgan Stanley,8,8308,/m/01q8hj,Colgate University,0.9563819766044617
+5514,/m/0jvs0,Morgan Stanley,9,11168,/m/040p3y,Iraq national football team,0.9563765525817871
+5514,/m/0jvs0,Morgan Stanley,10,8680,/m/06d6y,Richard Matheson,0.9551997184753418
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,1,415,/m/01j_9c,University of Iowa,0.9404478669166565
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,2,6534,/m/03tw2s,University of South Carolina,0.93741774559021
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,3,2775,/m/027xx3,Santa Clara University,0.9297417402267456
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,4,447,/m/06pwq,Stanford University,0.9261207580566406
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,5,6055,/m/07ccs,Texas A&M University,0.924902617931366
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,6,7427,/m/01jt2w,Temple University,0.9235677123069763
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,7,10627,/m/013807,San Francisco State University,0.9208132028579712
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,8,7058,/m/01qgr3,University of Tennessee,0.9185938239097595
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,9,12453,/m/01stj9,Old Dominion University,0.9182116985321045
+1674,/m/0bx8pn,University of North Carolina at Chapel Hill,10,3991,/m/01q0kg,San Diego State University,0.9174619913101196
+1519,/m/0fsm8c,Paul Dano,1,2257,/m/04rsd2,Andrew Lincoln,0.9642807245254517
+1519,/m/0fsm8c,Paul Dano,2,6944,/m/04qz6n,Laura Innes,0.9608114957809448
+1519,/m/0fsm8c,Paul Dano,3,1664,/m/01t07j,Louis Malle,0.9594305753707886
+1519,/m/0fsm8c,Paul Dano,4,3962,/m/01gy7r,Bill Pullman,0.9591878652572632
+1519,/m/0fsm8c,Paul Dano,5,4017,/m/02fn5,Dennis Hopper,0.9589471817016602
+1519,/m/0fsm8c,Paul Dano,6,4827,/m/042z_g,Tony Goldwyn,0.9571042060852051
+1519,/m/0fsm8c,Paul Dano,7,899,/m/0170vn,Peter Fonda,0.9569971561431885
+1519,/m/0fsm8c,Paul Dano,8,10332,/m/08w6v_,Kay Alden,0.9569145441055298
+1519,/m/0fsm8c,Paul Dano,9,4057,/m/0flw6,Jeff Bridges,0.956351637840271
+1519,/m/0fsm8c,Paul Dano,10,10277,/m/01xwv7,Dave Chappelle,0.9562091827392578
+6224,/m/0457w0,Ricardo Fuller,1,10337,/m/03k48_,Andy Richter,0.9236025810241699
+6224,/m/0457w0,Ricardo Fuller,2,12560,/m/0mgrh,Manche,0.9231536388397217
+6224,/m/0457w0,Ricardo Fuller,3,11153,/m/03w6sj,Western Desert Campaign,0.9176754355430603
+6224,/m/0457w0,Ricardo Fuller,4,6035,/m/02ctyy,Karisma Kapoor,0.9164952039718628
+6224,/m/0457w0,Ricardo Fuller,5,9142,/m/02l101,Ralph Bellamy,0.9158565402030945
+6224,/m/0457w0,Ricardo Fuller,6,11440,/m/07s72n,Dubstep,0.914902925491333
+6224,/m/0457w0,Ricardo Fuller,7,14297,/m/019z2l,Rocksteady,0.9145498871803284
+6224,/m/0457w0,Ricardo Fuller,8,9042,/m/01qn8k,Mischa Barton,0.9120955467224121
+6224,/m/0457w0,Ricardo Fuller,9,13872,/m/013gz,Alexandria,0.9084081649780273
+6224,/m/0457w0,Ricardo Fuller,10,10568,/m/01pg1d,Illeana Douglas,0.9072007536888123
+1584,/m/0m_xy,Kilkenny,1,14523,/m/026y05,Productivity,0.9474930167198181
+1584,/m/0m_xy,Kilkenny,2,13979,/m/05z1_,Python,0.9453127980232239
+1584,/m/0m_xy,Kilkenny,3,8921,/m/0bn8fw,Michael McConnohie,0.9419456720352173
+1584,/m/0m_xy,Kilkenny,4,4972,/m/0l_q9,Juneau,0.9418195486068726
+1584,/m/0m_xy,Kilkenny,5,11484,/m/049msk,A.S. Bari,0.9409828782081604
+1584,/m/0m_xy,Kilkenny,6,10674,/m/02_l39,NBCUniversal,0.9402242302894592
+1584,/m/0m_xy,Kilkenny,7,14481,/m/025spv,Business magnate-GB,0.9397386312484741
+1584,/m/0m_xy,Kilkenny,8,12930,/m/038723,Greek American,0.9387978315353394
+1584,/m/0m_xy,Kilkenny,9,14013,/m/01j950,Crown prince,0.9380304217338562
+1584,/m/0m_xy,Kilkenny,10,9275,/m/027g8gr,ASAP,0.9380302429199219
+5881,/m/01515w,Edward Norton,1,2147,/m/016z2j,Robert Downey Jr.,0.9667560458183289
+5881,/m/01515w,Edward Norton,2,1487,/m/032v0v,Roland Emmerich,0.9633888602256775
+5881,/m/01515w,Edward Norton,3,1384,/m/01713c,Javier Bardem,0.9616864323616028
+5881,/m/01515w,Edward Norton,4,7780,/m/0sw6g,Hank Azaria,0.9607852101325989
+5881,/m/01515w,Edward Norton,5,2451,/m/03qmx_f,Andy Harries,0.9593423008918762
+5881,/m/01515w,Edward Norton,6,7944,/m/027vps,Joseph L. Mankiewicz,0.958952009677887
+5881,/m/01515w,Edward Norton,7,3092,/m/05np4c,Ellen Pompeo,0.9576969742774963
+5881,/m/01515w,Edward Norton,8,488,/m/01gvr1,Cicely Tyson,0.9558606743812561
+5881,/m/01515w,Edward Norton,9,4147,/m/018z_c,Marlee Matlin,0.9556743502616882
+5881,/m/01515w,Edward Norton,10,998,/m/05m883,Jim Taylor,0.9549217224121094
+13885,/m/09743,Pashtun,1,14500,/m/01_30_,"Strategic Simulations, Inc.",0.9447802305221558
+13885,/m/09743,Pashtun,2,10575,/m/01vqq1,New Westminster,0.9443723559379578
+13885,/m/09743,Pashtun,3,13791,/m/016m9h,Attorneys in the United States,0.9406619668006897
+13885,/m/09743,Pashtun,4,4754,/m/0fr7nt,Sayaji Shinde,0.9372165203094482
+13885,/m/09743,Pashtun,5,2877,/m/01hb1t,School of Visual Arts,0.9370898604393005
+13885,/m/09743,Pashtun,6,9637,/m/0cmpn,George V,0.9358463883399963
+13885,/m/09743,Pashtun,7,7985,/m/07q9q2,A.C. Perugia Calcio,0.9356439113616943
+13885,/m/09743,Pashtun,8,8552,/m/0173s9,Marlborough College,0.9354503154754639
+13885,/m/09743,Pashtun,9,9702,/m/01f1ps,Fukushima Prefecture,0.9337007403373718
+13885,/m/09743,Pashtun,10,10828,/m/0b6k40,Gresham's School,0.9323702454566956
+5635,/m/01_sz1,Synthpunk,1,6666,/m/026s90,PolyGram,0.934869110584259
+5635,/m/01_sz1,Synthpunk,2,12999,/m/05397h,Holby City,0.9319779276847839
+5635,/m/01_sz1,Synthpunk,3,11799,/m/08vlns,Latin pop,0.9309409856796265
+5635,/m/01_sz1,Synthpunk,4,11724,/m/0136kr,Liberal Party of Canada,0.9308306574821472
+5635,/m/01_sz1,Synthpunk,5,3656,/m/05m_jsg,Killers,0.930502712726593
+5635,/m/01_sz1,Synthpunk,6,6750,/m/07k2x,"Toho Co., Ltd.",0.9304705858230591
+5635,/m/01_sz1,Synthpunk,7,8234,/m/096cw_,FC Barcelona B,0.9272728562355042
+5635,/m/01_sz1,Synthpunk,8,12208,/m/0hx5f,Durham,0.926935076713562
+5635,/m/01_sz1,Synthpunk,9,7718,/m/05gc0h,Sreenivasan,0.9266020059585571
+5635,/m/01_sz1,Synthpunk,10,8273,/m/0fkwzs,Phineas and Ferb,0.9264055490493774
+9891,/m/01kqq7,Wild at Heart,1,6238,/m/04cppj,Road Trip,0.9706090092658997
+9891,/m/01kqq7,Wild at Heart,2,4817,/m/0bh8tgs,Battleship,0.9704824686050415
+9891,/m/01kqq7,Wild at Heart,3,3019,/m/02x6dqb,Annie,0.9698007106781006
+9891,/m/01kqq7,Wild at Heart,4,67,/m/0gtsx8c,American Reunion,0.969095766544342
+9891,/m/01kqq7,Wild at Heart,5,8893,/m/087pfc,Click,0.9673899412155151
+9891,/m/01kqq7,Wild at Heart,6,4421,/m/0gkz3nz,Moonrise Kingdom,0.9673093557357788
+9891,/m/01kqq7,Wild at Heart,7,2101,/m/020y73,Enemy at the Gates,0.9672572612762451
+9891,/m/01kqq7,Wild at Heart,8,10926,/m/04fjzv,The Shining,0.96685791015625
+9891,/m/01kqq7,Wild at Heart,9,3168,/m/09g7vfw,Dark Shadows,0.9666732549667358
+9891,/m/01kqq7,Wild at Heart,10,639,/m/087wc7n,The Lorax,0.9663158059120178
+4333,/m/09gb_4p,127 Hours,1,35,/m/0d90m,X-Men,0.9601923227310181
+4333,/m/09gb_4p,127 Hours,2,4857,/m/0jqj5,The Deer Hunter,0.9513452649116516
+4333,/m/09gb_4p,127 Hours,3,4341,/m/017jd9,The Lord of the Rings: The Return of the King,0.9503044486045837
+4333,/m/09gb_4p,127 Hours,4,6204,/m/0180mw,ER,0.950254499912262
+4333,/m/09gb_4p,127 Hours,5,6466,/m/059lwy,Over the Top,0.9485058784484863
+4333,/m/09gb_4p,127 Hours,6,6963,/m/0yzbg,Dead Poets Society,0.9441754817962646
+4333,/m/09gb_4p,127 Hours,7,8492,/m/0cq806,A Man for All Seasons,0.9411985278129578
+4333,/m/09gb_4p,127 Hours,8,2120,/m/0c_j9x,Murder on the Orient Express,0.940708339214325
+4333,/m/09gb_4p,127 Hours,9,3134,/m/01rwyq,Malcolm X,0.9402291178703308
+4333,/m/09gb_4p,127 Hours,10,3481,/m/03cw411,The Reader,0.940079927444458
+13223,/m/04qp06,Rakesh Roshan,1,6711,/m/0dyjz,West Midlands,0.9667149186134338
+13223,/m/04qp06,Rakesh Roshan,2,12378,/m/0d3ff,Wuppertal,0.9595962166786194
+13223,/m/04qp06,Rakesh Roshan,3,14226,/m/03j2ts,Gold Medal of the Royal Astronomical Society,0.9590733051300049
+13223,/m/04qp06,Rakesh Roshan,4,13369,/m/0ccxx6,Post-metal,0.9588409662246704
+13223,/m/04qp06,Rakesh Roshan,5,13226,/m/025rst1,Mecklenburg County,0.9587504863739014
+13223,/m/04qp06,Rakesh Roshan,6,14259,/m/019y_2,Harlem Renaissance,0.9578665494918823
+13223,/m/04qp06,Rakesh Roshan,7,13760,/m/0fs44,Rabat,0.9568577408790588
+13223,/m/04qp06,Rakesh Roshan,8,12433,/m/0mvn6,Spartanburg County,0.9556769132614136
+13223,/m/04qp06,Rakesh Roshan,9,12983,/m/03mq33,SK Slavia Prague,0.9552030563354492
+13223,/m/04qp06,Rakesh Roshan,10,14182,/m/01z28q,Irvine,0.9551142454147339
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,1,2630,/m/04mqgr,Tony Award for Best Book of a Musical,0.9609984159469604
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,2,608,/m/09qj50,Primetime Emmy Award for Outstanding Lead Actress - Comedy Series,0.9584693312644958
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,3,3241,/m/03qgjwc,Independent Spirit Award for Best Supporting Female,0.9560285210609436
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,4,1250,/m/054krc,Golden Globe Award for Best Original Score,0.955763041973114
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,5,2773,/m/057xs89,MTV Movie Award for Best Villain,0.9545321464538574
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,6,739,/m/02x1dht,Satellite Award for Best Original Screenplay,0.9539545774459839
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,7,2369,/m/09qs08,Primetime Emmy Award for Outstanding Supporting Actress - Comedy Series,0.9534119367599487
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,8,4527,/m/01c99j,Grammy Award for Best Female Pop Vocal Performance,0.9504644274711609
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,9,6912,/m/027571b,Los Angeles Film Critics Association Award for Best Actress,0.9499406814575195
+711,/m/09qv3c,Primetime Emmy Award for Outstanding Supporting Actor - Comedy Series,10,1127,/m/0gs9p,Academy Award for Best Director,0.949700117111206
+11955,/m/02dwpf,Relief pitcher,1,9275,/m/027g8gr,ASAP,0.9127480983734131
+11955,/m/02dwpf,Relief pitcher,2,10150,/m/0rmby,Fort Myers,0.9013313055038452
+11955,/m/02dwpf,Relief pitcher,3,11292,/m/0n4yq,Santa Fe County,0.8981753587722778
+11955,/m/02dwpf,Relief pitcher,4,13202,/m/07s4l,Typhoid fever,0.8964325189590454
+11955,/m/02dwpf,Relief pitcher,5,14265,/m/0c55fj,BBC HD,0.8952614068984985
+11955,/m/02dwpf,Relief pitcher,6,6014,/m/0gs0g,Nelson,0.8949187397956848
+11955,/m/02dwpf,Relief pitcher,7,13665,/m/0fg1g,Haifa,0.8934493064880371
+11955,/m/02dwpf,Relief pitcher,8,13581,/m/01hhyb,Sault Ste. Marie,0.8909109830856323
+11955,/m/02dwpf,Relief pitcher,9,7995,/m/0n5jm,Burlington County,0.8897976875305176
+11955,/m/02dwpf,Relief pitcher,10,3850,/m/04mnts,AC Ajaccio,0.8897308111190796
+7527,/m/02kcz,Equatorial Guinea,1,6547,/m/05cc1,Niger,0.9153082966804504
+7527,/m/02kcz,Equatorial Guinea,2,5829,/m/05tr7,Palau,0.9089237451553345
+7527,/m/02kcz,Equatorial Guinea,3,3898,/m/047t_,Kiribati,0.908262312412262
+7527,/m/02kcz,Equatorial Guinea,4,4483,/m/04tr1,Malawi,0.9051594138145447
+7527,/m/02kcz,Equatorial Guinea,5,4445,/m/03gyl,Haiti,0.9000223875045776
+7527,/m/02kcz,Equatorial Guinea,6,4154,/m/0166v,Botswana,0.8949159979820251
+7527,/m/02kcz,Equatorial Guinea,7,9372,/m/01n8qg,Solomon Islands,0.8898006081581116
+7527,/m/02kcz,Equatorial Guinea,8,2069,/m/07z5n,Vanuatu,0.8886446952819824
+7527,/m/02kcz,Equatorial Guinea,9,11006,/m/01nqj,Cape Verde,0.8825539946556091
+7527,/m/02kcz,Equatorial Guinea,10,7590,/m/01nyl,Central African Republic,0.8820425271987915
+8785,/m/03l78j,Florida Atlantic University,1,11135,/m/05gjfk,Sandefjord Fotball,0.9578452706336975
+8785,/m/03l78j,Florida Atlantic University,2,2726,/m/04344j,Centre College,0.9565995931625366
+8785,/m/03l78j,Florida Atlantic University,3,6991,/m/02j04_,Trinity College,0.9564718008041382
+8785,/m/03l78j,Florida Atlantic University,4,12874,/m/06z9k8,SD Eibar,0.9546581506729126
+8785,/m/03l78j,Florida Atlantic University,5,12712,/m/02hfgl,Saitama Seibu Lions,0.9522917866706848
+8785,/m/03l78j,Florida Atlantic University,6,9583,/m/04gd8j,Santa Monica College,0.9512852430343628
+8785,/m/03l78j,Florida Atlantic University,7,5323,/m/035ktt,University of New Orleans,0.9476865530014038
+8785,/m/03l78j,Florida Atlantic University,8,10358,/m/04999m,U.S. Lecce,0.9475196599960327
+8785,/m/03l78j,Florida Atlantic University,9,4969,/m/06khkb,Al Ain FC,0.9474492073059082
+8785,/m/03l78j,Florida Atlantic University,10,8278,/m/05cl8y,Koch Entertainment,0.9472246766090393
+2045,/m/01lb14,Road running,1,1754,/m/01cgz,Boxing,0.9375213384628296
+2045,/m/01lb14,Road running,2,4404,/m/07jbh,Table tennis,0.9325530529022217
+2045,/m/01lb14,Road running,3,1162,/m/0w0d,Archery,0.9317368865013123
+2045,/m/01lb14,Road running,4,6453,/m/01sgl,Cycling,0.9266789555549622
+2045,/m/01lb14,Road running,5,2396,/m/01z27,Cross-country skiing,0.9258622527122498
+2045,/m/01lb14,Road running,6,2769,/m/071t0,Shooting sport,0.9245933890342712
+2045,/m/01lb14,Road running,7,4235,/m/06z68,Synchronized swimming,0.9195827841758728
+2045,/m/01lb14,Road running,8,4043,/m/064vjs,Canoe Sprint,0.919314980506897
+2045,/m/01lb14,Road running,9,3094,/m/09qgm,Snowboarding,0.9187103509902954
+2045,/m/01lb14,Road running,10,526,/m/07gyv,Taekwondo,0.918016254901886
+6201,/m/01pfpt,Krautrock,1,185,/m/0827d,World music,0.9481732845306396
+6201,/m/01pfpt,Krautrock,2,12990,/m/03_3z4,Egypt national football team,0.9455863237380981
+6201,/m/01pfpt,Krautrock,3,8022,/m/01y998,Pacific War,0.9384057521820068
+6201,/m/01pfpt,Krautrock,4,4306,/m/05xzcz,Saba Qom F.C.,0.9346498847007751
+6201,/m/01pfpt,Krautrock,5,7842,/m/01flzq,Hardcore hip hop,0.9342272877693176
+6201,/m/01pfpt,Krautrock,6,7067,/m/06jwys,SpVgg Unterhaching,0.9340990781784058
+6201,/m/01pfpt,Krautrock,7,10625,/m/03915c,Hamilton Tiger-Cats,0.933942437171936
+6201,/m/01pfpt,Krautrock,8,2540,/m/02v4vl,FC Hansa Rostock,0.932739794254303
+6201,/m/01pfpt,Krautrock,9,6070,/m/021f30,Tokyo Yakult Swallows,0.9323353171348572
+6201,/m/01pfpt,Krautrock,10,14001,/m/0148xv,Hanging,0.9320310354232788
+1291,/m/045c66,Aidan Quinn,1,8752,/m/0chw_,Jodie Foster,0.963346540927887
+1291,/m/045c66,Aidan Quinn,2,10199,/m/0b25vg,Amy Adams,0.9577085375785828
+1291,/m/045c66,Aidan Quinn,3,8504,/m/09_99w,David Fury,0.956679105758667
+1291,/m/045c66,Aidan Quinn,4,8502,/m/0gpprt,Thomas McCarthy,0.9562450051307678
+1291,/m/045c66,Aidan Quinn,5,4498,/m/0205dx,Danny Glover,0.9558136463165283
+1291,/m/045c66,Aidan Quinn,6,11338,/m/01mxqyk,BeBe Winans,0.9556854963302612
+1291,/m/045c66,Aidan Quinn,7,7473,/m/03mszl,Gillian Welch,0.9556211829185486
+1291,/m/045c66,Aidan Quinn,8,12211,/m/04v7kt,Idris Elba,0.9543173909187317
+1291,/m/045c66,Aidan Quinn,9,2084,/m/01vhb0,Anne Heche,0.9542973041534424
+1291,/m/045c66,Aidan Quinn,10,7303,/m/087qxp,Sam Means,0.9540970325469971
+9044,/m/09bkc6,A.S. Varese 1910,1,9920,/m/0x2fg,Homicide,0.9609001874923706
+9044,/m/09bkc6,A.S. Varese 1910,2,13074,/m/07lqg0,Biologist,0.9582542181015015
+9044,/m/09bkc6,A.S. Varese 1910,3,777,/m/04jjy,Lesbian,0.9554768800735474
+9044,/m/09bkc6,A.S. Varese 1910,4,1647,/m/01c58j,Bob Clampett,0.9551445841789246
+9044,/m/09bkc6,A.S. Varese 1910,5,14022,/m/02v1ws,Bollingen Prize,0.9544640183448792
+9044,/m/09bkc6,A.S. Varese 1910,6,6929,/m/01v90t,Robert Morley,0.9542956948280334
+9044,/m/09bkc6,A.S. Varese 1910,7,14045,/m/0_jsl,Warwick,0.9541664123535156
+9044,/m/09bkc6,A.S. Varese 1910,8,4797,/m/06d4h,Racism,0.9526781439781189
+9044,/m/09bkc6,A.S. Varese 1910,9,10658,/m/030ykh,Bridgeport Sound Tigers,0.952409565448761
+9044,/m/09bkc6,A.S. Varese 1910,10,12551,/m/0425gc,Pohang Steelers,0.9520578980445862
+4803,/m/03pnvq,Shueisha,1,14185,/m/06b0n3,Sexploitation film,0.9603254199028015
+4803,/m/03pnvq,Shueisha,2,4972,/m/0l_q9,Juneau,0.9573861360549927
+4803,/m/03pnvq,Shueisha,3,14096,/m/05fny,Nebula,0.9570527672767639
+4803,/m/03pnvq,Shueisha,4,9146,/m/0m40d,Traditional pop music,0.9550444483757019
+4803,/m/03pnvq,Shueisha,5,12676,/m/01n4bh,Acid jazz,0.9535504579544067
+4803,/m/03pnvq,Shueisha,6,8944,/m/0g293,Latin American music,0.9495406746864319
+4803,/m/03pnvq,Shueisha,7,14503,/m/04y41,Modernism,0.9494922161102295
+4803,/m/03pnvq,Shueisha,8,14217,/m/08lg0g,Silkeborg IF,0.948816180229187
+4803,/m/03pnvq,Shueisha,9,13121,/m/0gyr_7,ABC1,0.9486420750617981
+4803,/m/03pnvq,Shueisha,10,11346,/m/098z9w,WCW WorldWide,0.9477514624595642
+13588,/m/0nm9y,Aroostook County,1,11542,/m/02y8bn,Chris Pronger,0.9526231288909912
+13588,/m/0nm9y,Aroostook County,2,13642,/m/0flsf,Arnhem,0.9523483514785767
+13588,/m/0nm9y,Aroostook County,3,13208,/m/0f11p,"Somerville College, Oxford",0.952212929725647
+13588,/m/0nm9y,Aroostook County,4,13718,/m/0dcrb,Cerebral palsy,0.9477440714836121
+13588,/m/0nm9y,Aroostook County,5,11184,/m/0ghvb,University of Northern Iowa,0.9477092623710632
+13588,/m/0nm9y,Aroostook County,6,6711,/m/0dyjz,West Midlands,0.9463351964950562
+13588,/m/0nm9y,Aroostook County,7,11477,/m/036921,Culinary Institute of America,0.9452413320541382
+13588,/m/0nm9y,Aroostook County,8,12378,/m/0d3ff,Wuppertal,0.9445849657058716
+13588,/m/0nm9y,Aroostook County,9,7995,/m/0n5jm,Burlington County,0.9444871544837952
+13588,/m/0nm9y,Aroostook County,10,13946,/m/01jp4s,Bergamo,0.9436540603637695
+10299,/m/0ggyr,Como,1,13445,/m/0lg0r,Ponce,0.9607368111610413
+10299,/m/0ggyr,Como,2,10385,/m/04g_wd,Wong Jim,0.9604427218437195
+10299,/m/0ggyr,Como,3,14540,/m/0q96,Australian Labor Party,0.9597855806350708
+10299,/m/0ggyr,Como,4,3533,/m/0b_6zk,1996 NCAA Men's Division I Basketball Tournament,0.9597152471542358
+10299,/m/0ggyr,Como,5,5584,/m/02__94,Frank Borzage,0.9596650004386902
+10299,/m/0ggyr,Como,6,14251,/m/09wc5,Shiraz,0.9586181640625
+10299,/m/0ggyr,Como,7,6115,/m/0kh3,Motor neuron disease,0.9562586545944214
+10299,/m/0ggyr,Como,8,1226,/m/03fghg,Toshiyuki Morikawa,0.9560229182243347
+10299,/m/0ggyr,Como,9,12186,/m/09xzd,Chevrolet,0.955878734588623
+10299,/m/0ggyr,Como,10,13928,/m/0dd2f,Kill Rock Stars,0.9556724429130554
+10133,/m/0cw67g,Richard A. Baker,1,6268,/m/0g9zcgx,Ve Neill,0.9101640582084656
+10133,/m/0cw67g,Richard A. Baker,2,524,/m/0284n42,Kevin O'Connell,0.8817627429962158
+10133,/m/0cw67g,Richard A. Baker,3,3614,/m/0bbxx9b,Randy Thom,0.8703368306159973
+10133,/m/0cw67g,Richard A. Baker,4,8134,/m/09thp87,Gethin Creagh,0.8643849492073059
+10133,/m/0cw67g,Richard A. Baker,5,9487,/m/027y151,Willie D. Burton,0.8513662815093994
+10133,/m/0cw67g,Richard A. Baker,6,1422,/m/09rp4r_,Mark Berger,0.8449119925498962
+10133,/m/0cw67g,Richard A. Baker,7,1769,/m/04ktcgn,Christopher Boyes,0.8300411105155945
+10133,/m/0cw67g,Richard A. Baker,8,7395,/m/03m49ly,Skip Lievsay,0.8274757862091064
+10133,/m/0cw67g,Richard A. Baker,9,5343,/m/065ydwb,Anna Camp,0.8134647011756897
+10133,/m/0cw67g,Richard A. Baker,10,1720,/m/0c94fn,Gary Rydstrom,0.8071597814559937
+14507,/m/01lk31,Governor of Massachusetts,1,14019,/m/043fz4,"Natsume Co., Ltd",0.959159791469574
+14507,/m/01lk31,Governor of Massachusetts,2,10693,/m/0m2mk,Sussex County,0.9579029083251953
+14507,/m/01lk31,Governor of Massachusetts,3,2175,/m/03jm6c,Steve Gerber,0.954589307308197
+14507,/m/01lk31,Governor of Massachusetts,4,10607,/m/03hzkq,K. Balachander,0.953930675983429
+14507,/m/01lk31,Governor of Massachusetts,5,8653,/m/01b39j,Target Corporation,0.9536641240119934
+14507,/m/01lk31,Governor of Massachusetts,6,4937,/m/0gd70t,FC Unirea Urziceni,0.953644871711731
+14507,/m/01lk31,Governor of Massachusetts,7,14329,/m/0h9vh,Guangdong Province,0.9531995058059692
+14507,/m/01lk31,Governor of Massachusetts,8,14321,/m/04knq3,California Department of Parks and Recreation,0.952649712562561
+14507,/m/01lk31,Governor of Massachusetts,9,10089,/m/0m76b,Roger Corman,0.9524948596954346
+14507,/m/01lk31,Governor of Massachusetts,10,12969,/m/01fzpw,Illegal drug trade,0.9519888162612915
+14118,/m/0hv7l,Busan,1,13364,/m/017j7y,Surrey,0.9501327276229858
+14118,/m/0hv7l,Busan,2,10060,/m/0cy8v,Columbia,0.9460682272911072
+14118,/m/0hv7l,Busan,3,13345,/m/01vfwd,East Java,0.9435071349143982
+14118,/m/0hv7l,Busan,4,9748,/m/03__77,Uzbekistan national football team,0.9410499334335327
+14118,/m/0hv7l,Busan,5,13842,/m/0166b8,Yunnan,0.9390818476676941
+14118,/m/0hv7l,Busan,6,220,/m/081pw,World War II,0.9371976256370544
+14118,/m/0hv7l,Busan,7,12478,/m/0225v9,Northeastern University,0.9365401268005371
+14118,/m/0hv7l,Busan,8,12564,/m/01t4p0,Southport,0.9359687566757202
+14118,/m/0hv7l,Busan,9,8022,/m/01y998,Pacific War,0.9354732632637024
+14118,/m/0hv7l,Busan,10,5924,/m/03y5ky,Valparaiso University,0.9349485039710999
+5925,/m/0123r4,Band Aid,1,5562,/m/02dw1_,The Incredible String Band,0.8988451957702637
+5925,/m/0123r4,Band Aid,2,2657,/m/01vrwfv,Chicago,0.8916361927986145
+5925,/m/0123r4,Band Aid,3,3916,/m/07yg2,The Velvet Underground,0.8906271457672119
+5925,/m/0123r4,Band Aid,4,1483,/m/01wv9xn,Pink Floyd,0.882600724697113
+5925,/m/0123r4,Band Aid,5,5006,/m/06nv27,Spinal Tap,0.8803510665893555
+5925,/m/0123r4,Band Aid,6,3258,/m/05563d,The Mothers of Invention,0.8785991072654724
+5925,/m/0123r4,Band Aid,7,5964,/m/07bzp,The Doors,0.8781737089157104
+5925,/m/0123r4,Band Aid,8,7340,/m/06gcn,Roxy Music,0.8773759603500366
+5925,/m/0123r4,Band Aid,9,7945,/m/017lb_,Blondie,0.8729686737060547
+5925,/m/0123r4,Band Aid,10,507,/m/04rcr,Metallica,0.87087482213974
+9459,/m/019vsw,Harrow School,1,7203,/m/01n4nd,Colchester,0.9172428250312805
+9459,/m/019vsw,Harrow School,2,12163,/m/013f1h,Traverse City,0.9146670699119568
+9459,/m/019vsw,Harrow School,3,8000,/m/07vfz,"University of California, San Francisco",0.9109728336334229
+9459,/m/019vsw,Harrow School,4,9686,/m/0k9ts,Delta Air Lines,0.9087191820144653
+9459,/m/019vsw,Harrow School,5,2613,/m/078lk,Sardinia,0.907870352268219
+9459,/m/019vsw,Harrow School,6,14382,/m/05sz6,Provisional Irish Republican Army,0.9055881500244141
+9459,/m/019vsw,Harrow School,7,12783,/m/0n5xb,Rockingham County,0.9054834246635437
+9459,/m/019vsw,Harrow School,8,12538,/m/01nn7r,"Corpus Christi College, Cambridge",0.9037266969680786
+9459,/m/019vsw,Harrow School,9,10768,/m/07_dn,Verizon Communications,0.9026225209236145
+9459,/m/019vsw,Harrow School,10,1354,/m/020lpx,Moscow Oblast,0.9020189046859741
+3150,/m/01wyy_,John Milius,1,8210,/m/01nr36,Tim Robbins,0.9631133079528809
+3150,/m/01wyy_,John Milius,2,2435,/m/04k25,Lars von Trier,0.9631103277206421
+3150,/m/01wyy_,John Milius,3,2551,/m/0b_7k,Peter Bogdanovich,0.9600293040275574
+3150,/m/01wyy_,John Milius,4,2083,/m/011zd3,Lucy Liu,0.9586519598960876
+3150,/m/01wyy_,John Milius,5,4388,/m/0f7hc,Eddie Murphy,0.9585616588592529
+3150,/m/01wyy_,John Milius,6,9244,/m/01gbn6,Kevin Kline,0.9581613540649414
+3150,/m/01wyy_,John Milius,7,6789,/m/0z05l,Graham Greene,0.9578205347061157
+3150,/m/01wyy_,John Milius,8,6876,/m/03m6_z,Ryan Gosling,0.957722544670105
+3150,/m/01wyy_,John Milius,9,1104,/m/0blbxk,Taraji P. Henson,0.957056999206543
+3150,/m/01wyy_,John Milius,10,1664,/m/01t07j,Louis Malle,0.9570345878601074
+11543,/m/0hn2q,Philadelphia Flyers,1,12990,/m/03_3z4,Egypt national football team,0.9598948359489441
+11543,/m/0hn2q,Philadelphia Flyers,2,12577,/m/02b168,Leyton Orient F.C.,0.9519448280334473
+11543,/m/0hn2q,Philadelphia Flyers,3,13068,/m/01g_k3,"Split, Croatia",0.9517183899879456
+11543,/m/0hn2q,Philadelphia Flyers,4,13043,/m/0hm2b,New Jersey Devils,0.9496139883995056
+11543,/m/0hn2q,Philadelphia Flyers,5,9748,/m/03__77,Uzbekistan national football team,0.9495530724525452
+11543,/m/0hn2q,Philadelphia Flyers,6,7259,/m/02px_23,TCU Horned Frogs football,0.9493904709815979
+11543,/m/0hn2q,Philadelphia Flyers,7,10498,/m/0425hg,Jeju United FC,0.9491164684295654
+11543,/m/0hn2q,Philadelphia Flyers,8,6070,/m/021f30,Tokyo Yakult Swallows,0.9478743672370911
+11543,/m/0hn2q,Philadelphia Flyers,9,5109,/m/0329nn,Romania national football team,0.9473442435264587
+11543,/m/0hn2q,Philadelphia Flyers,10,12768,/m/0plxn,Selma,0.9460776448249817
+1139,/m/0n5fl,Hunterdon County,1,10992,/m/0m2dk,Yavapai County,0.9070961475372314
+1139,/m/0n5fl,Hunterdon County,2,6847,/m/07x4c,United States Military Academy,0.9056017994880676
+1139,/m/0n5fl,Hunterdon County,3,9240,/m/01yqqv,Bradley University,0.9030084609985352
+1139,/m/0n5fl,Hunterdon County,4,10708,/m/0f4y3,Columbia County,0.9020555019378662
+1139,/m/0n5fl,Hunterdon County,5,3197,/m/0123_x,Province of Barcelona,0.9010266065597534
+1139,/m/0n5fl,Hunterdon County,6,4718,/m/0k3kg,Norfolk County,0.900338351726532
+1139,/m/0n5fl,Hunterdon County,7,9109,/m/01z8f0,Chichester,0.8989920616149902
+1139,/m/0n5fl,Hunterdon County,8,12245,/m/0l38g,Tuolumne County,0.897817850112915
+1139,/m/0n5fl,Hunterdon County,9,11257,/m/0fhzf,Belgrade,0.8973079919815063
+1139,/m/0n5fl,Hunterdon County,10,6625,/m/0k3hn,Essex County,0.8959351778030396
+750,/m/026dg51,Courtney Simon,1,2263,/m/01hkhq,Helen Mirren,0.9668862819671631
+750,/m/026dg51,Courtney Simon,2,7466,/m/0h0yt,Stephen Fry,0.961129367351532
+750,/m/026dg51,Courtney Simon,3,9906,/m/044mvs,Ian Somerhalder,0.9572373628616333
+750,/m/026dg51,Courtney Simon,4,3779,/m/01m15br,Chris Thile,0.9571715593338013
+750,/m/026dg51,Courtney Simon,5,745,/m/0pz7h,Tina Fey,0.9564977288246155
+750,/m/026dg51,Courtney Simon,6,1691,/m/07s6prs,Mark Salling,0.9556781053543091
+750,/m/026dg51,Courtney Simon,7,1923,/m/03_wj_,Evangeline Lilly,0.9541139006614685
+750,/m/026dg51,Courtney Simon,8,7632,/m/0crvfq,D.W. Moffett,0.9524416923522949
+750,/m/026dg51,Courtney Simon,9,2539,/m/07sgfsl,Naya Rivera,0.952247679233551
+750,/m/026dg51,Courtney Simon,10,558,/m/0187y5,Burt Reynolds,0.9518600702285767
+10834,/m/025r_t,Derby,1,2581,/m/02qdgx,Blue-eyed soul,0.9590367674827576
+10834,/m/025r_t,Derby,2,9336,/m/05hyzx,Gil Vicente F.C.,0.9582644701004028
+10834,/m/025r_t,Derby,3,6844,/m/01hcvm,Skate punk,0.9547891616821289
+10834,/m/025r_t,Derby,4,14422,/m/09d_r,Mountain,0.9542691111564636
+10834,/m/025r_t,Derby,5,10720,/m/0ymcz,"St John's College, Oxford",0.9501659870147705
+10834,/m/025r_t,Derby,6,10165,/m/06vnh2,Werner Stengel,0.9483284950256348
+10834,/m/025r_t,Derby,7,13862,/m/02nddq,TVT Records,0.9479974508285522
+10834,/m/025r_t,Derby,8,10210,/m/04h5tx,Cape Verde national football team,0.9478778839111328
+10834,/m/025r_t,Derby,9,777,/m/04jjy,Lesbian,0.9473027586936951
+10834,/m/025r_t,Derby,10,12174,/m/06q02g,Heracles Almelo,0.9471917748451233
+3733,/m/0184tc,Labyrinth,1,4971,/m/01pvxl,Anastasia,0.968268871307373
+3733,/m/0184tc,Labyrinth,2,5370,/m/0dll_t2,This Means War,0.9675318598747253
+3733,/m/0184tc,Labyrinth,3,1521,/m/02r8hh_,Persepolis,0.9658645987510681
+3733,/m/0184tc,Labyrinth,4,9375,/m/07jqjx,Oliver Twist,0.9644960165023804
+3733,/m/0184tc,Labyrinth,5,3493,/m/02vr3gz,The Orphanage,0.9640567302703857
+3733,/m/0184tc,Labyrinth,6,1075,/m/04hwbq,Toy Story 3,0.9639409184455872
+3733,/m/0184tc,Labyrinth,7,9577,/m/0g57wgv,The Perks of Being a Wallflower,0.9631058573722839
+3733,/m/0184tc,Labyrinth,8,8365,/m/05zvzf3,A Prophet,0.9629719853401184
+3733,/m/0184tc,Labyrinth,9,7182,/m/02v570,Fahrenheit 9/11,0.9612534046173096
+3733,/m/0184tc,Labyrinth,10,6651,/m/09v3jyg,Winnie the Pooh,0.9608424305915833
+12665,/m/02gnj2,Len Wein,1,11595,/m/04bdpf,Richard Roundtree,0.9598186612129211
+12665,/m/02gnj2,Len Wein,2,13817,/m/06z9f8,Xerez CD,0.95878666639328
+12665,/m/02gnj2,Len Wein,3,6118,/m/04s934,Lowell High School,0.952174961566925
+12665,/m/02gnj2,Len Wein,4,10328,/m/02x8s9,Steve Englehart,0.9500376582145691
+12665,/m/02gnj2,Len Wein,5,11663,/m/0135cw,Bharatiya Janata Party,0.9497269988059998
+12665,/m/02gnj2,Len Wein,6,10591,/m/067hq2,Lori Alan,0.9492864608764648
+12665,/m/02gnj2,Len Wein,7,14125,/m/01nd9f,Riot grrrl,0.9492020010948181
+12665,/m/02gnj2,Len Wein,8,2993,/m/0glmv,Dan Castellaneta,0.9487559795379639
+12665,/m/02gnj2,Len Wein,9,11717,/m/07gknc,Brian Drummond,0.9468891024589539
+12665,/m/02gnj2,Len Wein,10,9076,/m/04rvy8,Ronald Neame,0.9461097121238708
+4741,/m/011ycb,Quiz Show,1,4678,/m/07k2mq,Requiem for a Dream,0.9719038605690002
+4741,/m/011ycb,Quiz Show,2,7274,/m/01mgw,"Crouching Tiger, Hidden Dragon",0.969653844833374
+4741,/m/011ycb,Quiz Show,3,7485,/m/0hvvf,Bonnie and Clyde,0.9679712057113647
+4741,/m/011ycb,Quiz Show,4,8092,/m/0bs8hvm,Germany in Autumn,0.9662581086158752
+4741,/m/011ycb,Quiz Show,5,3582,/m/0d_wms,Superman II: The Richard Donner Cut,0.9659956693649292
+4741,/m/011ycb,Quiz Show,6,1897,/m/0bm2g,From Here to Eternity,0.9657819867134094
+4741,/m/011ycb,Quiz Show,7,8998,/m/05y0cr,Cyrano de Bergerac,0.9651246070861816
+4741,/m/011ycb,Quiz Show,8,6382,/m/0k7tq,Dial M for Murder,0.9650022387504578
+4741,/m/011ycb,Quiz Show,9,4155,/m/06zn2v2,Don't Be Afraid of the Dark,0.9649441242218018
+4741,/m/011ycb,Quiz Show,10,629,/m/0gkz15s,The Hunger Games,0.9644428491592407
+1307,/m/01pw2f1,Alyssa Milano,1,1176,/m/0136g9,Richard Curtis,0.966400682926178
+1307,/m/01pw2f1,Alyssa Milano,2,4057,/m/0flw6,Jeff Bridges,0.9532796144485474
+1307,/m/01pw2f1,Alyssa Milano,3,4284,/m/01vyv9,Larry Hagman,0.9529893398284912
+1307,/m/01pw2f1,Alyssa Milano,4,616,/m/0jf1b,Bob Fosse,0.9515824317932129
+1307,/m/01pw2f1,Alyssa Milano,5,1664,/m/01t07j,Louis Malle,0.950654149055481
+1307,/m/01pw2f1,Alyssa Milano,6,312,/m/025h4z,Judd Hirsch,0.9473568797111511
+1307,/m/01pw2f1,Alyssa Milano,7,6789,/m/0z05l,Graham Greene,0.9467008113861084
+1307,/m/01pw2f1,Alyssa Milano,8,6450,/m/01kgv4,Josh Hartnett,0.9466854333877563
+1307,/m/01pw2f1,Alyssa Milano,9,5497,/m/09r9m7,Johnny Green,0.9461677074432373
+1307,/m/01pw2f1,Alyssa Milano,10,1530,/m/015pkc,Tobey Maguire,0.945575475692749
+14013,/m/01j950,Crown prince,1,5041,/m/0283ph,Ghost in the Shell: Stand Alone Complex,0.9501615166664124
+14013,/m/01j950,Crown prince,2,14523,/m/026y05,Productivity,0.9498809576034546
+14013,/m/01j950,Crown prince,3,10390,/m/0b_6mr,1985 NCAA Men's Division I Basketball Tournament,0.9438417553901672
+14013,/m/01j950,Crown prince,4,14090,/m/01950l,Dark Horse Comics,0.9431228041648865
+14013,/m/01j950,Crown prince,5,11894,/m/01f07x,Logan International Airport,0.94257652759552
+14013,/m/01j950,Crown prince,6,13315,/m/0x44q,Billings,0.941718339920044
+14013,/m/01j950,Crown prince,7,11484,/m/049msk,A.S. Bari,0.940998911857605
+14013,/m/01j950,Crown prince,8,13502,/m/0fw9vx,Olympiacos B.C.,0.9406598210334778
+14013,/m/01j950,Crown prince,9,8724,/m/04zpv,Milk,0.9395737648010254
+14013,/m/01j950,Crown prince,10,11567,/m/02b7nz,"Harrow, London",0.9389446377754211
+3814,/m/081g_l,Avex Trax,1,7292,/m/08c7cz,Friedrich Hollaender,0.9650476574897766
+3814,/m/081g_l,Avex Trax,2,11001,/m/02c7lt,Ida Lupino,0.954704761505127
+3814,/m/081g_l,Avex Trax,3,5887,/m/02zjd,F. Scott Fitzgerald,0.9531682729721069
+3814,/m/081g_l,Avex Trax,4,2803,/m/041xyk,Real Salt Lake,0.9530399441719055
+3814,/m/081g_l,Avex Trax,5,5560,/m/01f_3w,Jive Records,0.9517765045166016
+3814,/m/081g_l,Avex Trax,6,13183,/m/0htp,Astronaut-GB,0.9517593383789062
+3814,/m/081g_l,Avex Trax,7,12937,/m/01zlx,Chiapas,0.9503189921379089
+3814,/m/081g_l,Avex Trax,8,12086,/m/0f83g2,Hapoel Be'er Sheva F.C.,0.9501391053199768
+3814,/m/081g_l,Avex Trax,9,5656,/m/012v1t,Nancy Pelosi,0.950087308883667
+3814,/m/081g_l,Avex Trax,10,13205,/m/0gry51,Jules White,0.9499973654747009
+14196,/m/01fhsb,Pastor,1,13059,/m/054f2k,Populous,0.9593249559402466
+14196,/m/01fhsb,Pastor,2,12762,/m/0bqthy,2006 NCAA Men's Division I Basketball Tournament,0.9566808938980103
+14196,/m/01fhsb,Pastor,3,9692,/m/0b_6pv,1987 NCAA Men's Division I Basketball Tournament,0.9555973410606384
+14196,/m/01fhsb,Pastor,4,10607,/m/03hzkq,K. Balachander,0.9542043805122375
+14196,/m/01fhsb,Pastor,5,10489,/m/010m55,McLean,0.9541453123092651
+14196,/m/01fhsb,Pastor,6,4534,/m/0b_6jz,1983 NCAA Men's Division I Basketball Tournament,0.9524597525596619
+14196,/m/01fhsb,Pastor,7,1797,/m/04913k,Chiba Lotte Marines,0.951793909072876
+14196,/m/01fhsb,Pastor,8,13312,/m/034cj9,Robert Montgomery,0.950796902179718
+14196,/m/01fhsb,Pastor,9,12868,/m/07s5fz,Shandong Luneng Taishan F.C.,0.9507383108139038
+14196,/m/01fhsb,Pastor,10,11952,/m/01cpkt,Major,0.9500965476036072
+1654,/m/0gr51,Academy Award for Best Original Screenplay,1,1121,/m/0gq9h,Academy Award for Best Picture,0.9742133617401123
+1654,/m/0gr51,Academy Award for Best Original Screenplay,2,545,/m/05b1610,Razzie Award for Worst Screenplay,0.9703670144081116
+1654,/m/0gr51,Academy Award for Best Original Screenplay,3,2610,/m/09qv_s,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role,0.9684944748878479
+1654,/m/0gr51,Academy Award for Best Original Screenplay,4,112,/m/040njc,BAFTA Award for Best Film,0.9671052694320679
+1654,/m/0gr51,Academy Award for Best Original Screenplay,5,1071,/m/02z0dfh,National Society of Film Critics Award for Best Supporting Actress,0.9666982293128967
+1654,/m/0gr51,Academy Award for Best Original Screenplay,6,2149,/m/04kxsb,BAFTA Award for Best Actor in a Leading Role,0.9646859765052795
+1654,/m/0gr51,Academy Award for Best Original Screenplay,7,1250,/m/054krc,Golden Globe Award for Best Original Score,0.963960587978363
+1654,/m/0gr51,Academy Award for Best Original Screenplay,8,2003,/m/0gs96,Academy Award for Best Costume Design,0.9631900191307068
+1654,/m/0gr51,Academy Award for Best Original Screenplay,9,2935,/m/0gkts9,Primetime Emmy Award for Outstanding Guest Actress - Drama Series,0.9607347249984741
+1654,/m/0gr51,Academy Award for Best Original Screenplay,10,1501,/m/0k611,Academy Award for Best Film Editing,0.9602459073066711
+6227,/m/0lbfv,University of Manchester,1,11587,/m/02kxx1,University of Calcutta,0.9706007242202759
+6227,/m/0lbfv,University of Manchester,2,11197,/m/01r47h,Montclair State University,0.966577410697937
+6227,/m/0lbfv,University of Manchester,3,3107,/m/0fnmz,California State University,0.9630604982376099
+6227,/m/0lbfv,University of Manchester,4,13579,/m/0bvz6,East India Company,0.9615195989608765
+6227,/m/0lbfv,University of Manchester,5,8539,/m/02pbzv,University of Bucharest,0.9604043960571289
+6227,/m/0lbfv,University of Manchester,6,3403,/m/04d5v9,Columbia University College of Physicians and Surgeons,0.9582891464233398
+6227,/m/0lbfv,University of Manchester,7,7844,/m/06q07,Sony Corporation,0.9569170475006104
+6227,/m/0lbfv,University of Manchester,8,1739,/m/021_z5,New jack swing,0.9567309617996216
+6227,/m/0lbfv,University of Manchester,9,8544,/m/02x9cv,University of Montana - Missoula,0.956493079662323
+6227,/m/0lbfv,University of Manchester,10,9597,/m/01pcj4,Bard College,0.9545626044273376
+4554,/m/0f6_4,Rensselaer County,1,13711,/m/0cv9t5,King Records,0.9522367715835571
+4554,/m/0f6_4,Rensselaer County,2,13419,/m/0z4_0,Norman,0.9518494009971619
+4554,/m/0f6_4,Rensselaer County,3,3685,/m/02_2kg,Oberlin Conservatory of Music,0.9503004550933838
+4554,/m/0f6_4,Rensselaer County,4,12812,/m/021vlg,Goregrind,0.9425104856491089
+4554,/m/0f6_4,Rensselaer County,5,10247,/m/01prf3,American Philosophical Society,0.9412956237792969
+4554,/m/0f6_4,Rensselaer County,6,14066,/m/05jrj4,Deva,0.9406294226646423
+4554,/m/0f6_4,Rensselaer County,7,12578,/m/0hcm7,Accrington Stanley F.C.,0.9402000308036804
+4554,/m/0f6_4,Rensselaer County,8,7369,/m/04zngls,Hugo Award for Best Professional Artist,0.9394887685775757
+4554,/m/0f6_4,Rensselaer County,9,7046,/m/018_q8,Viacom,0.9393153786659241
+4554,/m/0f6_4,Rensselaer County,10,13444,/m/01qgv7,Florida Keys,0.9392995834350586
+7428,/m/04pnx,Latin America,1,7176,/m/073q1,Southeast Asia,0.8030269742012024
+7428,/m/04pnx,Latin America,2,13896,/m/09jp3,Montevideo,0.8029854893684387
+7428,/m/04pnx,Latin America,3,14094,/m/0dfcn,Oahu,0.799521803855896
+7428,/m/04pnx,Latin America,4,8932,/m/0353tm,Freddy vs. Jason,0.7815030813217163
+7428,/m/04pnx,Latin America,5,8182,/m/04cnp4,Claremont Graduate University,0.7634588479995728
+7428,/m/04pnx,Latin America,6,7138,/m/03cz83,"Knox College, Illinois",0.7614676356315613
+7428,/m/04pnx,Latin America,7,2949,/m/0clz7,Cork,0.7523455619812012
+7428,/m/04pnx,Latin America,8,1380,/m/0jm2v,Miami Heat,0.7506844997406006
+7428,/m/04pnx,Latin America,9,3194,/m/0rd5k,Fairfield,0.7493167519569397
+7428,/m/04pnx,Latin America,10,7137,/m/0nm42,Washington County,0.7461007833480835
+10415,/m/0n56v,Bernalillo County,1,1204,/m/0fr59,Cecil County,0.9428712129592896
+10415,/m/0n56v,Bernalillo County,2,9030,/m/06nrt,Saskatchewan,0.941650927066803
+10415,/m/0n56v,Bernalillo County,3,9394,/m/02f4s3,Southern Illinois University Carbondale,0.9416065216064453
+10415,/m/0n56v,Bernalillo County,4,9485,/m/0105y2,Lubbock,0.9415242075920105
+10415,/m/0n56v,Bernalillo County,5,8780,/m/018dhx,Belleville,0.940744161605835
+10415,/m/0n56v,Bernalillo County,6,1020,/m/01wdl3,University of Alabama,0.9380390048027039
+10415,/m/0n56v,Bernalillo County,7,12036,/m/0nm87,Kennebec County,0.937659502029419
+10415,/m/0n56v,Bernalillo County,8,6578,/m/0l2l3,Mono County,0.9372661709785461
+10415,/m/0n56v,Bernalillo County,9,11359,/m/01rxw2,Marche,0.9371420741081238
+10415,/m/0n56v,Bernalillo County,10,3634,/m/01n1pp,University of Bologna,0.936571478843689
+13666,/m/0nqph,Arlington,1,9052,/m/0ynfz,Fargo,0.9561384916305542
+13666,/m/0nqph,Arlington,2,12127,/m/01skcy,3D Realms,0.9547246694564819
+13666,/m/0nqph,Arlington,3,10028,/m/0c630,Catania,0.9537567496299744
+13666,/m/0nqph,Arlington,4,12755,/m/01b85,Bordeaux,0.9528371095657349
+13666,/m/0nqph,Arlington,5,6439,/m/047gpsd,My Sister's Keeper,0.9513161778450012
+13666,/m/0nqph,Arlington,6,14393,/m/07vzd,Politics of the United States,0.9486137628555298
+13666,/m/0nqph,Arlington,7,12206,/m/01c57n,Queensland University of Technology,0.9457904100418091
+13666,/m/0nqph,Arlington,8,11509,/m/0f_j1,Free improvisation,0.945347011089325
+13666,/m/0nqph,Arlington,9,12066,/m/0cv2m,Chhattisgarh,0.9450855851173401
+13666,/m/0nqph,Arlington,10,13077,/m/026sb55,Alan Hume,0.9445619583129883
+5977,/m/06rhz7,The Pursuit of Happyness,1,10192,/m/047p798,Whip It!,0.9610529541969299
+5977,/m/06rhz7,The Pursuit of Happyness,2,4941,/m/01s3vk,Edward Scissorhands,0.9561111927032471
+5977,/m/06rhz7,The Pursuit of Happyness,3,8377,/m/09bw4_,Jumper,0.9561087489128113
+5977,/m/06rhz7,The Pursuit of Happyness,4,6016,/m/02tktw,What Lies Beneath,0.9553502798080444
+5977,/m/06rhz7,The Pursuit of Happyness,5,10313,/m/028kj0,Orange County,0.9533644914627075
+5977,/m/06rhz7,The Pursuit of Happyness,6,5261,/m/05zpghd,The Invention of Lying,0.9513331055641174
+5977,/m/06rhz7,The Pursuit of Happyness,7,6249,/m/0gfh84d,Lawless,0.950268030166626
+5977,/m/06rhz7,The Pursuit of Happyness,8,7214,/m/0dgrwqr,Red State,0.9500342011451721
+5977,/m/06rhz7,The Pursuit of Happyness,9,1329,/m/03qnvdl,The Bourne Legacy,0.9499608278274536
+5977,/m/06rhz7,The Pursuit of Happyness,10,9618,/m/0qmfk,Tess,0.9498034715652466
+2664,/m/0161sp,Lenny Kravitz,1,8836,/m/0167v4,Ryan Adams,0.9628908038139343
+2664,/m/0161sp,Lenny Kravitz,2,2524,/m/01w724,Billy Preston,0.9587132334709167
+2664,/m/0161sp,Lenny Kravitz,3,5231,/m/02x7vq,Dianne Wiest,0.9580020904541016
+2664,/m/0161sp,Lenny Kravitz,4,2719,/m/0gcs9,Bruce Springsteen,0.9543022513389587
+2664,/m/0161sp,Lenny Kravitz,5,284,/m/01q_ph,Owen Wilson,0.9533823728561401
+2664,/m/0161sp,Lenny Kravitz,6,1684,/m/02fgpf,Alan Menken,0.9528777003288269
+2664,/m/0161sp,Lenny Kravitz,7,6121,/m/0bvzp,Leonard Bernstein,0.9495022296905518
+2664,/m/0161sp,Lenny Kravitz,8,6808,/m/019x62,Giorgio Moroder,0.9492078423500061
+2664,/m/0161sp,Lenny Kravitz,9,4432,/m/03j24kf,Paul McCartney,0.949092447757721
+2664,/m/0161sp,Lenny Kravitz,10,8127,/m/0kb3n,Mario Puzo,0.9480940699577332
+6065,/m/05n6sq,Lords of Dogtown,1,4501,/m/08fbnx,Dragon Ball: Mystical Adventure,0.9653287529945374
+6065,/m/05n6sq,Lords of Dogtown,2,8920,/m/056k77g,Fist of the North Star,0.9608404040336609
+6065,/m/05n6sq,Lords of Dogtown,3,2555,/m/04q24zv,Agora,0.95928955078125
+6065,/m/05n6sq,Lords of Dogtown,4,10543,/m/0564x,My Neighbor Totoro,0.9584802985191345
+6065,/m/05n6sq,Lords of Dogtown,5,5354,/m/06bd5j,Basic Instinct 2,0.9581844210624695
+6065,/m/05n6sq,Lords of Dogtown,6,1992,/m/07nt8p,The Illusionist,0.9570417404174805
+6065,/m/05n6sq,Lords of Dogtown,7,3632,/m/02dpl9,The City of Lost Children,0.9547220468521118
+6065,/m/05n6sq,Lords of Dogtown,8,5996,/m/048xyn,The Messenger: The Story of Joan of Arc,0.9541876912117004
+6065,/m/05n6sq,Lords of Dogtown,9,3928,/m/04cv9m,All the King's Men,0.9534564018249512
+6065,/m/05n6sq,Lords of Dogtown,10,546,/m/0dj0m5,Christopher Columbus: The Discovery,0.9528042674064636
+5820,/m/0cdf37,Dean Tavoularis,1,4623,/m/0klw,Arthur C. Clarke,0.9509291052818298
+5820,/m/0cdf37,Dean Tavoularis,2,5482,/m/01pbs9w,Jack Nitzsche,0.9477377533912659
+5820,/m/0cdf37,Dean Tavoularis,3,4010,/m/046qq,Jon Voight,0.9455640316009521
+5820,/m/0cdf37,Dean Tavoularis,4,5959,/m/01xv77,Daryl Hannah,0.9427106976509094
+5820,/m/0cdf37,Dean Tavoularis,5,6148,/m/01tt43d,Roberto Benigni,0.9400283098220825
+5820,/m/0cdf37,Dean Tavoularis,6,3739,/m/01nm3s,John Goodman,0.938895583152771
+5820,/m/0cdf37,Dean Tavoularis,7,8441,/m/01w5jwb,Cee Lo Green,0.9362635016441345
+5820,/m/0cdf37,Dean Tavoularis,8,280,/m/01p7yb,Frances McDormand,0.9359510540962219
+5820,/m/0cdf37,Dean Tavoularis,9,3838,/m/02jsgf,Joan Allen,0.9347288608551025
+5820,/m/0cdf37,Dean Tavoularis,10,6486,/m/07fzq3,Alexander Golitzen,0.934531569480896
+3432,/m/02t4yc,Western Kentucky University,1,6693,/m/05x_5,Purdue University,0.9079000353813171
+3432,/m/02t4yc,Western Kentucky University,2,6922,/m/02bhj4,Saint Joseph's University,0.9031449556350708
+3432,/m/02t4yc,Western Kentucky University,3,13412,/m/0jksm,Tsinghua University,0.9025587439537048
+3432,/m/02t4yc,Western Kentucky University,4,4330,/m/07t90,University of Washington,0.9019965529441833
+3432,/m/02t4yc,Western Kentucky University,5,5901,/m/01tx9m,Baylor University,0.9006747007369995
+3432,/m/02t4yc,Western Kentucky University,6,6003,/m/02_cx_,East Tennessee State University,0.8992034792900085
+3432,/m/02t4yc,Western Kentucky University,7,10056,/m/01lpwh,Toronto Argonauts,0.897615373134613
+3432,/m/02t4yc,Western Kentucky University,8,5718,/m/04jr87,University of Rome La Sapienza,0.8958572149276733
+3432,/m/02t4yc,Western Kentucky University,9,11169,/m/03k7dn,Denison University,0.8955984115600586
+3432,/m/02t4yc,Western Kentucky University,10,8230,/m/03zrhb,South Korea national football team,0.8922962546348572
+10980,/m/01tgwv,Arthur C. Clarke Award,1,10265,/m/01ppdy,PEN/Faulkner Award for Fiction,0.8345071077346802
+10980,/m/01tgwv,Arthur C. Clarke Award,2,4426,/m/0fm3b5,Goya Award for Best Film,0.8230750560760498
+10980,/m/01tgwv,Arthur C. Clarke Award,3,8562,/m/02qrwjt,Genie Award for Best Achievement in Art Direction/Production Design,0.8041594624519348
+10980,/m/01tgwv,Arthur C. Clarke Award,4,10395,/m/039yzf,World Fantasy Award for Best Novella,0.803789496421814
+10980,/m/01tgwv,Arthur C. Clarke Award,5,3638,/m/024vjd,Grammy Award for Best Chamber Music Performance,0.7916938662528992
+10980,/m/01tgwv,Arthur C. Clarke Award,6,402,/m/0gq6s3,Goya Award for Best Original Screenplay,0.776727557182312
+10980,/m/01tgwv,Arthur C. Clarke Award,7,13930,/m/01bb1c,John W. Campbell Memorial Award for Best Science Fiction Novel,0.775201141834259
+10980,/m/01tgwv,Arthur C. Clarke Award,8,2365,/m/02qwdhq,Genie Award for Best Achievement in Overall Sound,0.7653396725654602
+10980,/m/01tgwv,Arthur C. Clarke Award,9,11296,/m/058bzgm,Locus Award for Best First Novel,0.762671172618866
+10980,/m/01tgwv,Arthur C. Clarke Award,10,9988,/m/06196,Prometheus Hall of Fame Award,0.7592454552650452
+4374,/m/080lkt7,Howl,1,67,/m/0gtsx8c,American Reunion,0.9664247632026672
+4374,/m/080lkt7,Howl,2,2030,/m/01qncf,Drugstore Cowboy,0.9633047580718994
+4374,/m/080lkt7,Howl,3,10495,/m/02wwmhc,The Rum Diary,0.9575082063674927
+4374,/m/080lkt7,Howl,4,1653,/m/0b76t12,Please Give,0.9547334313392639
+4374,/m/080lkt7,Howl,5,4820,/m/0gg5qcw,The Ides of March,0.9545035362243652
+4374,/m/080lkt7,Howl,6,10754,/m/05dl1s,Black Robe,0.9533841013908386
+4374,/m/080lkt7,Howl,7,6006,/m/0gmd3k7,Savages,0.9531924724578857
+4374,/m/080lkt7,Howl,8,2574,/m/04tz52,Popeye,0.9526634812355042
+4374,/m/080lkt7,Howl,9,1617,/m/0283_zv,The Hustler,0.9515177607536316
+4374,/m/080lkt7,Howl,10,3783,/m/0ddcbd5,Johnny English Reborn,0.9513933658599854
+11498,/m/02y0dd,Robbie Keane,1,12292,/m/03v36,Iain Banks,0.9556922912597656
+11498,/m/02y0dd,Robbie Keane,2,10337,/m/03k48_,Andy Richter,0.9513163566589355
+11498,/m/02y0dd,Robbie Keane,3,6384,/m/03m6pk,Rhys Ifans,0.9512535929679871
+11498,/m/02y0dd,Robbie Keane,4,973,/m/0lgsq,Melissa Etheridge,0.9502854347229004
+11498,/m/02y0dd,Robbie Keane,5,12325,/m/02x02kb,Achala Sachdev,0.9500458240509033
+11498,/m/02y0dd,Robbie Keane,6,13618,/m/0w6w,Augustine of Hippo,0.9481290578842163
+11498,/m/02y0dd,Robbie Keane,7,9931,/m/010tkc,Everett,0.9470977783203125
+11498,/m/02y0dd,Robbie Keane,8,6208,/m/03ysmg,Bobby Farrelly,0.9455955028533936
+11498,/m/02y0dd,Robbie Keane,9,5124,/m/03n52j,"Ed Begley, Jr.",0.9451342225074768
+11498,/m/02y0dd,Robbie Keane,10,12084,/m/04gc65,Scott Glenn,0.944866955280304
+11199,/m/02gjrc,Jesus of Nazareth,1,5817,/m/064q5v,Why We Fight,0.9467405676841736
+11199,/m/02gjrc,Jesus of Nazareth,2,6363,/m/063fh9,The Chronicles of Narnia: Prince Caspian,0.9411229491233826
+11199,/m/02gjrc,Jesus of Nazareth,3,1539,/m/0c8tkt,The Blues Brothers,0.9408646821975708
+11199,/m/02gjrc,Jesus of Nazareth,4,9978,/m/037cr1,Peter Pan,0.9390088319778442
+11199,/m/02gjrc,Jesus of Nazareth,5,155,/m/0c3ybss,Insidious,0.9387717843055725
+11199,/m/02gjrc,Jesus of Nazareth,6,8176,/m/034xyf,Thoroughly Modern Millie,0.9384881854057312
+11199,/m/02gjrc,Jesus of Nazareth,7,2196,/m/0k4d7,Snow White and the Seven Dwarfs,0.934605598449707
+11199,/m/02gjrc,Jesus of Nazareth,8,3042,/m/0gvs1kt,Extremely Loud and Incredibly Close,0.9341254234313965
+11199,/m/02gjrc,Jesus of Nazareth,9,5013,/m/02gs6r,Kiki's Delivery Service,0.933929443359375
+11199,/m/02gjrc,Jesus of Nazareth,10,1355,/m/0gj9qxr,Attack the Block,0.9333436489105225
+10617,/m/08g5q7,Cerebral hemorrhage,1,6787,/m/0ys4f,Minot,0.9180538058280945
+10617,/m/08g5q7,Cerebral hemorrhage,2,5505,/m/02zcz3,Weber State University,0.9084001183509827
+10617,/m/08g5q7,Cerebral hemorrhage,3,11284,/m/022tq4,Lucknow,0.9062403440475464
+10617,/m/08g5q7,Cerebral hemorrhage,4,9265,/m/04l5d0,Norfolk Admirals,0.9060731530189514
+10617,/m/08g5q7,Cerebral hemorrhage,5,7141,/m/0mn78,Prince William County,0.9026374816894531
+10617,/m/08g5q7,Cerebral hemorrhage,6,7897,/m/0n22z,Lucas County,0.9005924463272095
+10617,/m/08g5q7,Cerebral hemorrhage,7,5437,/m/0bl5c,The Best Years of Our Lives,0.9003667235374451
+10617,/m/08g5q7,Cerebral hemorrhage,8,13544,/m/01x5fb,"Royal Holloway, University of London",0.8962625861167908
+10617,/m/08g5q7,Cerebral hemorrhage,9,6544,/m/02zc7f,Middle Tennessee State University,0.895876407623291
+10617,/m/08g5q7,Cerebral hemorrhage,10,5210,/m/0jml5,Phoenix Suns,0.8940830230712891
+1169,/m/08pgl8,U.S. Sassuolo Calcio,1,1111,/m/03x746,Lille OSC,0.9672660231590271
+1169,/m/08pgl8,U.S. Sassuolo Calcio,2,8119,/m/04v9wn,FC Krylia Sovetov Samara,0.9515844583511353
+1169,/m/08pgl8,U.S. Sassuolo Calcio,3,8961,/m/0425kh,Incheon United FC,0.9429618120193481
+1169,/m/08pgl8,U.S. Sassuolo Calcio,4,1510,/m/06h4y9,Persepolis F.C.,0.9422070980072021
+1169,/m/08pgl8,U.S. Sassuolo Calcio,5,6510,/m/0515_6,K.R.C. Genk,0.9406095147132874
+1169,/m/08pgl8,U.S. Sassuolo Calcio,6,11919,/m/0byq6h,Stade Brestois 29,0.9393171072006226
+1169,/m/08pgl8,U.S. Sassuolo Calcio,7,9192,/m/02b1ng,Woking F.C.,0.9388103485107422
+1169,/m/08pgl8,U.S. Sassuolo Calcio,8,3559,/m/0ytc,A.S. Roma,0.9377216100692749
+1169,/m/08pgl8,U.S. Sassuolo Calcio,9,4984,/m/03yvgp,Malta national football team,0.937343955039978
+1169,/m/08pgl8,U.S. Sassuolo Calcio,10,1882,/m/0371rb,VfB Stuttgart,0.9369500279426575
+9980,/m/04wp63,Ben Burtt,1,1720,/m/0c94fn,Gary Rydstrom,0.9182878732681274
+9980,/m/04wp63,Ben Burtt,2,1769,/m/04ktcgn,Christopher Boyes,0.9047388434410095
+9980,/m/04wp63,Ben Burtt,3,7395,/m/03m49ly,Skip Lievsay,0.8956053853034973
+9980,/m/04wp63,Ben Burtt,4,6763,/m/02vqpx8,David Mills,0.8854634165763855
+9980,/m/04wp63,Ben Burtt,5,6268,/m/0g9zcgx,Ve Neill,0.8841343522071838
+9980,/m/04wp63,Ben Burtt,6,1422,/m/09rp4r_,Mark Berger,0.879602313041687
+9980,/m/04wp63,Ben Burtt,7,1344,/m/0crx5w,Steven Levitan,0.8759085536003113
+9980,/m/04wp63,Ben Burtt,8,3518,/m/092ys_y,Tom Johnson,0.8675616383552551
+9980,/m/04wp63,Ben Burtt,9,9487,/m/027y151,Willie D. Burton,0.8658369779586792
+9980,/m/04wp63,Ben Burtt,10,942,/m/039bp,Gene Hackman,0.865077555179596
+10403,/m/06mvyf,Cleveland Institute of Music,1,10235,/m/034ns,Geography,0.9598075747489929
+10403,/m/06mvyf,Cleveland Institute of Music,2,11807,/m/03q58q,Casablanca Records,0.958441972732544
+10403,/m/06mvyf,Cleveland Institute of Music,3,9935,/m/03818y,Clark Atlanta University,0.9558782577514648
+10403,/m/06mvyf,Cleveland Institute of Music,4,13058,/m/0pf5y,Mannheim,0.9531787037849426
+10403,/m/06mvyf,Cleveland Institute of Music,5,3107,/m/0fnmz,California State University,0.9523938298225403
+10403,/m/06mvyf,Cleveland Institute of Music,6,11197,/m/01r47h,Montclair State University,0.9514380693435669
+10403,/m/06mvyf,Cleveland Institute of Music,7,1491,/m/0gh4g0,Caroline Records,0.951319694519043
+10403,/m/06mvyf,Cleveland Institute of Music,8,14531,/m/0171c7,Australian Greens,0.9509885311126709
+10403,/m/06mvyf,Cleveland Institute of Music,9,14279,/m/087z2,Yellow fever,0.950931966304779
+10403,/m/06mvyf,Cleveland Institute of Music,10,11587,/m/02kxx1,University of Calcutta,0.950415313243866
+2803,/m/041xyk,Real Salt Lake,1,13935,/m/02lw5z,E!,0.9685196876525879
+2803,/m/041xyk,Real Salt Lake,2,14429,/m/06jtx,House of Romanov,0.9630753993988037
+2803,/m/041xyk,Real Salt Lake,3,11190,/m/0jnpv,Dallas Stars,0.9626061916351318
+2803,/m/041xyk,Real Salt Lake,4,8183,/m/03_jhh,Shanachie Records,0.9610803127288818
+2803,/m/041xyk,Real Salt Lake,5,12763,/m/0l8bg,Posttraumatic stress disorder,0.9605286121368408
+2803,/m/041xyk,Real Salt Lake,6,12941,/m/05fw6t,Children's music,0.9603772759437561
+2803,/m/041xyk,Real Salt Lake,7,14183,/m/01tlyq,Ontario Liberal Party,0.9597352743148804
+2803,/m/041xyk,Real Salt Lake,8,11001,/m/02c7lt,Ida Lupino,0.9594643115997314
+2803,/m/041xyk,Real Salt Lake,9,13421,/m/0mgcc,Collingwood Football Club,0.9593251347541809
+2803,/m/041xyk,Real Salt Lake,10,13158,/m/01ggbx,Mani Ratnam,0.9581929445266724
+8751,/m/03y317,One Tree Hill,1,9686,/m/0k9ts,Delta Air Lines,0.934451699256897
+8751,/m/03y317,One Tree Hill,2,12908,/m/02p72j,University of Kiel,0.9243044853210449
+8751,/m/03y317,One Tree Hill,3,13398,/m/0s3pw,Champaign,0.9233864545822144
+8751,/m/03y317,One Tree Hill,4,3575,/m/0mlyw,Skagit County,0.9227323532104492
+8751,/m/03y317,One Tree Hill,5,11457,/m/07wtc,Durham University,0.9223350286483765
+8751,/m/03y317,One Tree Hill,6,3555,/m/0xddr,Bloomington,0.9221793413162231
+8751,/m/03y317,One Tree Hill,7,13934,/m/01yf40,Rawalpindi,0.9218065142631531
+8751,/m/03y317,One Tree Hill,8,11610,/m/0xt3t,Summit,0.9216935038566589
+8751,/m/03y317,One Tree Hill,9,9166,/m/03kmyy,Yale School of Medicine,0.9205738306045532
+8751,/m/03y317,One Tree Hill,10,13240,/m/018d5b,Saskatoon,0.9181484580039978
+11946,/m/01xl5,Cessna,1,3375,/m/03pmfw,Nikon Corporation,0.9509164690971375
+11946,/m/01xl5,Cessna,2,11135,/m/05gjfk,Sandefjord Fotball,0.9411011338233948
+11946,/m/01xl5,Cessna,3,7658,/m/01qwb5,Tuskegee University,0.9393700957298279
+11946,/m/01xl5,Cessna,4,1975,/m/02jjdr,Concord Records,0.9383556842803955
+11946,/m/01xl5,Cessna,5,10427,/m/02cgp8,Blue Ridge Mountains,0.9382975101470947
+11946,/m/01xl5,Cessna,6,1373,/m/071x0k,Filipino,0.9379886984825134
+11946,/m/01xl5,Cessna,7,8153,/m/02lv2v,Pace University,0.9378566741943359
+11946,/m/01xl5,Cessna,8,14259,/m/019y_2,Harlem Renaissance,0.9371189475059509
+11946,/m/01xl5,Cessna,9,12258,/m/04l58n,Connecticut Whale,0.9352556467056274
+11946,/m/01xl5,Cessna,10,13899,/m/018vbf,1982 Lebanon War,0.9350447654724121
+4010,/m/046qq,Jon Voight,1,9103,/m/05mlqj,James Remar,0.9738924503326416
+4010,/m/046qq,Jon Voight,2,2454,/m/0408np,Thomas Jane,0.9681885242462158
+4010,/m/046qq,Jon Voight,3,8550,/m/0438pz,Dick Wolf,0.9669058322906494
+4010,/m/046qq,Jon Voight,4,3462,/m/02q5xsx,Kim Manners,0.9647799730300903
+4010,/m/046qq,Jon Voight,5,3278,/m/07cjqy,Justin Long,0.9644657969474792
+4010,/m/046qq,Jon Voight,6,8201,/m/02clgg,Wayne Knight,0.9633892178535461
+4010,/m/046qq,Jon Voight,7,5271,/m/0415mzy,RedOne,0.9632656574249268
+4010,/m/046qq,Jon Voight,8,6486,/m/07fzq3,Alexander Golitzen,0.962169885635376
+4010,/m/046qq,Jon Voight,9,3009,/m/02qx69,Parker Posey,0.9613774418830872
+4010,/m/046qq,Jon Voight,10,2987,/m/03jjzf,Jennifer Tilly,0.9609557390213013
+2677,/m/06n6p,Social science,1,7036,/m/02_3zj,Primetime Emmy Award for Outstanding Main Title Design,0.7503193616867065
+2677,/m/06n6p,Social science,2,12660,/m/01yfj,Curling,0.7320071458816528
+2677,/m/06n6p,Social science,3,6737,/m/05qdh,Painting,0.7279219031333923
+2677,/m/06n6p,Social science,4,9163,/m/06q83,Software Engineering,0.7057636976242065
+2677,/m/06n6p,Social science,5,13035,/m/0299ct,Women's studies,0.6916312575340271
+2677,/m/06n6p,Social science,6,8574,/m/03ytc,Information technology,0.6913212537765503
+2677,/m/06n6p,Social science,7,12175,/m/024_dt,Grammy Award for Best Choral Performance,0.6910837292671204
+2677,/m/06n6p,Social science,8,5342,/m/011s0,Advertising,0.672597348690033
+2677,/m/06n6p,Social science,9,6286,/m/0152n0,Skeleton,0.6716442704200745
+2677,/m/06n6p,Social science,10,10765,/m/03nl5k,Grammy Award for Best Mexican/Mexican-American Album,0.6695328950881958
+7573,/m/05ch98,The Jacket,1,9370,/m/0ddbjy4,Dredd,0.9663360118865967
+7573,/m/05ch98,The Jacket,2,7099,/m/032clf,Dirty Dancing,0.9658783674240112
+7573,/m/05ch98,The Jacket,3,1355,/m/0gj9qxr,Attack the Block,0.9574649333953857
+7573,/m/05ch98,The Jacket,4,10967,/m/01cvtf,Hill Street Blues,0.9567959308624268
+7573,/m/05ch98,The Jacket,5,2505,/m/04f52jw,How to Train Your Dragon,0.9566475749015808
+7573,/m/05ch98,The Jacket,6,12112,/m/0d8w2n,Shortbus,0.9534837603569031
+7573,/m/05ch98,The Jacket,7,6067,/m/02gd6x,Fanny and Alexander,0.9515005946159363
+7573,/m/05ch98,The Jacket,8,6928,/m/0b6l1st,The Losers,0.9501351118087769
+7573,/m/05ch98,The Jacket,9,10340,/m/0dgq80b,Ghost Rider: Spirit of Vengeance,0.9499877691268921
+7573,/m/05ch98,The Jacket,10,5892,/m/0gj96ln,Hotel Transylvania,0.9497228264808655
+6216,/m/02sn34,Kiev,1,4083,/m/0_vn7,Knoxville,0.9578872919082642
+6216,/m/02sn34,Kiev,2,10941,/m/0_jq4,York,0.9450663328170776
+6216,/m/02sn34,Kiev,3,10211,/m/02cb1j,Jalandhar,0.9399133920669556
+6216,/m/02sn34,Kiev,4,9382,/m/06rf7,Schleswig-Holstein,0.9387907385826111
+6216,/m/02sn34,Kiev,5,6423,/m/0f04v,San Jose,0.9341039061546326
+6216,/m/02sn34,Kiev,6,11816,/m/0d739,Amherst,0.9333131909370422
+6216,/m/02sn34,Kiev,7,1309,/m/0wp9b,Natchez,0.9326855540275574
+6216,/m/02sn34,Kiev,8,9929,/m/0rgxp,Wilmington,0.9325291514396667
+6216,/m/02sn34,Kiev,9,6409,/m/0n2q0,Cuyahoga County,0.9303596615791321
+6216,/m/02sn34,Kiev,10,1458,/m/015zxh,La Jolla,0.9302413463592529
+4422,/m/02h1rt,Richard Taylor,1,9282,/m/027j79k,Chris Sheridan,0.9610400199890137
+4422,/m/02h1rt,Richard Taylor,2,4724,/m/01fwf1,Susannah York,0.9598984718322754
+4422,/m/02h1rt,Richard Taylor,3,9791,/m/05ggt_,Eileen Brennan,0.9571858644485474
+4422,/m/02h1rt,Richard Taylor,4,10981,/m/018_lb,Kathleen Turner,0.9554038643836975
+4422,/m/02h1rt,Richard Taylor,5,8388,/m/01wyq0w,Robert C. Ludwig,0.9546157717704773
+4422,/m/02h1rt,Richard Taylor,6,6681,/m/0d0mbj,Rabindranath Tagore,0.9533259868621826
+4422,/m/02h1rt,Richard Taylor,7,5540,/m/03_80b,Ismail Merchant,0.9528311491012573
+4422,/m/02h1rt,Richard Taylor,8,10229,/m/04j_gs,Rob Corddry,0.952444314956665
+4422,/m/02h1rt,Richard Taylor,9,1369,/m/0ggl02,Michael Brauer,0.9523268938064575
+4422,/m/02h1rt,Richard Taylor,10,3743,/m/07h07,Tom Stoppard,0.9522088766098022
+10485,/m/0dhml,Frederick,1,11144,/m/06p8m,Sega,0.9547765254974365
+10485,/m/0dhml,Frederick,2,8260,/m/0jnpc,Anaheim Ducks,0.9510627388954163
+10485,/m/0dhml,Frederick,3,11276,/m/02bpy_,Liberty University,0.9494258761405945
+10485,/m/0dhml,Frederick,4,11761,/m/01bvx1,Canon,0.9461445808410645
+10485,/m/0dhml,Frederick,5,13420,/m/03k6x,House of Lords,0.945358395576477
+10485,/m/0dhml,Frederick,6,14006,/m/03ht1z,Havok,0.9449493885040283
+10485,/m/0dhml,Frederick,7,14517,/m/03f_jk,Lasker-DeBakey Clinical Medical Research Award,0.94432133436203
+10485,/m/0dhml,Frederick,8,13290,/m/018lkp,Orange Free State,0.9439221620559692
+10485,/m/0dhml,Frederick,9,11020,/m/03_c8p,Sony Computer Entertainment,0.9430016279220581
+10485,/m/0dhml,Frederick,10,12299,/m/018qpb,Rosalind Russell,0.9422963857650757
+11274,/m/059x3p,Lakeshore Entertainment,1,13062,/m/07scx,Unix,0.9386448860168457
+11274,/m/059x3p,Lakeshore Entertainment,2,11043,/m/03k1vm,Pinto Colvig,0.9299201965332031
+11274,/m/059x3p,Lakeshore Entertainment,3,10233,/m/0b22w,James A. Garfield,0.9289796948432922
+11274,/m/059x3p,Lakeshore Entertainment,4,5806,/m/09glbnt,E1 Entertainment,0.9272998571395874
+11274,/m/059x3p,Lakeshore Entertainment,5,7640,/m/02h3tp,Patrick Swayze,0.9251109957695007
+11274,/m/059x3p,Lakeshore Entertainment,6,13594,/m/0ngg,Augustus,0.9248931407928467
+11274,/m/059x3p,Lakeshore Entertainment,7,6762,/m/0b_72t,2000 NCAA Men's Division I Basketball Tournament,0.9247177243232727
+11274,/m/059x3p,Lakeshore Entertainment,8,4298,/m/0d3qd0,John Kerry,0.923621654510498
+11274,/m/059x3p,Lakeshore Entertainment,9,10826,/m/0jnh,American Revolutionary War,0.9233489632606506
+11274,/m/059x3p,Lakeshore Entertainment,10,10290,/m/065d1h,Eric Tsang,0.9207929968833923
+9125,/m/017lqp,Roger Moore,1,9530,/m/0f1jhc,Andy Heyward,0.9710547924041748
+9125,/m/017lqp,Roger Moore,2,4663,/m/03xb2w,Kevin James,0.9628713130950928
+9125,/m/017lqp,Roger Moore,3,11489,/m/06kbb6,Stirling Silliphant,0.959156334400177
+9125,/m/017lqp,Roger Moore,4,4696,/m/04205z,Emily Blunt,0.9581230282783508
+9125,/m/017lqp,Roger Moore,5,10413,/m/06j8q_,Timothy Busfield,0.9579490423202515
+9125,/m/017lqp,Roger Moore,6,3997,/m/02yplc,Molly Shannon,0.9566209316253662
+9125,/m/017lqp,Roger Moore,7,8067,/m/02_j8x,Matt Lucas,0.9558561444282532
+9125,/m/017lqp,Roger Moore,8,10774,/m/02_pft,Lee J. Cobb,0.9558305144309998
+9125,/m/017lqp,Roger Moore,9,11676,/m/01nglk,Jerry O'Connell,0.953140377998352
+9125,/m/017lqp,Roger Moore,10,12417,/m/026c0p,Roy Kinnear,0.9530513882637024
+3598,/m/0dx8gj,"Lust, Caution",1,6793,/m/016ywb,Henry V,0.9702645540237427
+3598,/m/0dx8gj,"Lust, Caution",2,895,/m/0bshwmp,Just Go With It,0.9669149518013
+3598,/m/0dx8gj,"Lust, Caution",3,6526,/m/02q7yfq,Machete,0.9632871150970459
+3598,/m/0dx8gj,"Lust, Caution",4,6084,/m/03_gz8,Elizabeth: The Golden Age,0.9628455638885498
+3598,/m/0dx8gj,"Lust, Caution",5,3002,/m/0571m,Mulholland Drive,0.9605684280395508
+3598,/m/0dx8gj,"Lust, Caution",6,8704,/m/04x4nv,Tucker: The Man and His Dream,0.9604835510253906
+3598,/m/0dx8gj,"Lust, Caution",7,3931,/m/01242_,Mrs. Brown,0.9602439403533936
+3598,/m/0dx8gj,"Lust, Caution",8,9242,/m/03whyr,John Carter,0.9600929617881775
+3598,/m/0dx8gj,"Lust, Caution",9,4196,/m/05pdh86,New Moon,0.9591265320777893
+3598,/m/0dx8gj,"Lust, Caution",10,992,/m/0872p_c,Transformers: Dark of the Moon,0.9588177800178528
+11216,/m/06jkm,Ralph Waldo Emerson,1,9410,/m/030wkp,Kenan Thompson,0.9674012064933777
+11216,/m/06jkm,Ralph Waldo Emerson,2,605,/m/042rnl,Jiang Wen,0.9666022658348083
+11216,/m/06jkm,Ralph Waldo Emerson,3,9144,/m/0mfc0,John Varley,0.9644545912742615
+11216,/m/06jkm,Ralph Waldo Emerson,4,6517,/m/092ggq,Leighton Meester,0.9642740488052368
+11216,/m/06jkm,Ralph Waldo Emerson,5,10735,/m/06g4_,Richard Dawkins,0.9627187848091125
+11216,/m/06jkm,Ralph Waldo Emerson,6,10389,/m/0ds2sb,David Kirschner,0.9622175097465515
+11216,/m/06jkm,Ralph Waldo Emerson,7,5073,/m/049gc,Kurt Vonnegut,0.9602645039558411
+11216,/m/06jkm,Ralph Waldo Emerson,8,11127,/m/019gz,Bram Stoker,0.9601544737815857
+11216,/m/06jkm,Ralph Waldo Emerson,9,10127,/m/02lyx4,Angie Dickinson,0.9599146842956543
+11216,/m/06jkm,Ralph Waldo Emerson,10,9383,/m/01syr4,Alain Delon,0.9593231678009033
+5313,/m/03rwng,Jean Smart,1,1659,/m/016ywr,Jeremy Irons,0.9620928764343262
+5313,/m/03rwng,Jean Smart,2,10194,/m/03c602,Alejandro Sanz,0.9616411924362183
+5313,/m/03rwng,Jean Smart,3,5950,/m/05kwx2,Timothy Spall,0.9592224359512329
+5313,/m/03rwng,Jean Smart,4,6102,/m/02s2wq,Rob Thomas,0.9559857845306396
+5313,/m/03rwng,Jean Smart,5,5766,/m/01wrcxr,Diana Ross,0.9547568559646606
+5313,/m/03rwng,Jean Smart,6,9660,/m/03qkgyl,Shobha Kapoor,0.9546817541122437
+5313,/m/03rwng,Jean Smart,7,2157,/m/028d4v,Catherine O'Hara,0.9541448354721069
+5313,/m/03rwng,Jean Smart,8,9043,/m/0btxr,Ashley Judd,0.9541348814964294
+5313,/m/03rwng,Jean Smart,9,9314,/m/0427y,Jerry Lewis,0.9529147744178772
+5313,/m/03rwng,Jean Smart,10,1334,/m/049g_xj,Ellen Page,0.9523228406906128
+13809,/m/02245,Communist Party of the Soviet Union,1,14473,/m/0by292,Candlelight Records,0.9592429399490356
+13809,/m/02245,Communist Party of the Soviet Union,2,14226,/m/03j2ts,Gold Medal of the Royal Astronomical Society,0.9564153552055359
+13809,/m/02245,Communist Party of the Soviet Union,3,14485,/m/03nh9,Heterosexuality,0.9536943435668945
+13809,/m/02245,Communist Party of the Soviet Union,4,13223,/m/04qp06,Rakesh Roshan,0.9535413384437561
+13809,/m/02245,Communist Party of the Soviet Union,5,8361,/m/05dbyt,Bob Gunton,0.9534363746643066
+13809,/m/02245,Communist Party of the Soviet Union,6,12234,/m/0bqc_,United States Forest Service,0.9530404210090637
+13809,/m/02245,Communist Party of the Soviet Union,7,11197,/m/01r47h,Montclair State University,0.9529774785041809
+13809,/m/02245,Communist Party of the Soviet Union,8,12208,/m/0hx5f,Durham,0.9516379237174988
+13809,/m/02245,Communist Party of the Soviet Union,9,12721,/m/0520y3,FC Torpedo Moscow,0.9505130052566528
+13809,/m/02245,Communist Party of the Soviet Union,10,10829,/m/020yvh,Groton School,0.9502387046813965
+12588,/m/01fkr_,VH1,1,3658,/m/0288crq,Salim Kumar,0.9722199440002441
+12588,/m/01fkr_,VH1,2,9326,/m/06wvfq,Rekha,0.9639884233474731
+12588,/m/01fkr_,VH1,3,10787,/m/02brqp,Microsoft Studios,0.9632012844085693
+12588,/m/01fkr_,VH1,4,1343,/m/07y2s,United Airlines,0.9626951217651367
+12588,/m/01fkr_,VH1,5,9931,/m/010tkc,Everett,0.9598447680473328
+12588,/m/01fkr_,VH1,6,9634,/m/031bf1,Lloyd Kaufman,0.9598177075386047
+12588,/m/01fkr_,VH1,7,9937,/m/02j4sk,Peter Graves,0.9593719244003296
+12588,/m/01fkr_,VH1,8,4561,/m/0638kv,William Cameron Menzies,0.9591773748397827
+12588,/m/01fkr_,VH1,9,8104,/m/01skxk,Jangle pop,0.9587153792381287
+12588,/m/01fkr_,VH1,10,10676,/m/02vptk_,James Cayne,0.9585428833961487
+12713,/m/0906w9,PFC Spartak Nalchik,1,12775,/m/073y53,John Fritz Medal,0.9439046382904053
+12713,/m/0906w9,PFC Spartak Nalchik,2,13396,/m/041_3z,"Portland-Vancouver-Beaverton, OR-WA Metropolitan Statistical Area",0.9309856295585632
+12713,/m/0906w9,PFC Spartak Nalchik,3,14253,/m/0m57f,Pulitzer Prize for Biography or Autobiography,0.9248257279396057
+12713,/m/0906w9,PFC Spartak Nalchik,4,12889,/m/01s_d4,Hamilton Academical F.C.,0.9228901863098145
+12713,/m/0906w9,PFC Spartak Nalchik,5,7730,/m/0172rj,Doom metal,0.9225398302078247
+12713,/m/0906w9,PFC Spartak Nalchik,6,14119,/m/03dkx,Geelong Football Club,0.9224547147750854
+12713,/m/0906w9,PFC Spartak Nalchik,7,12894,/m/0c0sl,NPR,0.9210229516029358
+12713,/m/0906w9,PFC Spartak Nalchik,8,12476,/m/034p8,Greek mythology,0.9199681878089905
+12713,/m/0906w9,PFC Spartak Nalchik,9,13022,/m/0fk3s,Sioux,0.9181617498397827
+12713,/m/0906w9,PFC Spartak Nalchik,10,13380,/m/0sngf,Anderson,0.9174608588218689
+916,/m/03x3wf,Grammy Lifetime Achievement Award,1,7218,/m/09v82c0,"Primetime Emmy Award for Outstanding Costumes for a Miniseries, Movie or a Special",0.8771076798439026
+916,/m/03x3wf,Grammy Lifetime Achievement Award,2,8849,/m/09cn0c,New York Film Critics Circle Award for Best Actress,0.8588824272155762
+916,/m/03x3wf,Grammy Lifetime Achievement Award,3,1622,/m/02nhxf,"Grammy Award for Producer of the Year, Non-Classical",0.8570942282676697
+916,/m/03x3wf,Grammy Lifetime Achievement Award,4,6725,/m/01ck6v,Grammy Award for Best Solo Rock Vocal Performance,0.8458608984947205
+916,/m/03x3wf,Grammy Lifetime Achievement Award,5,1054,/m/02g8mp,"Grammy Award for Best Engineered Album, Non-Classical",0.8448032736778259
+916,/m/03x3wf,Grammy Lifetime Achievement Award,6,6373,/m/01cw7s,Grammy Award for Best Female R&B Vocal Performance,0.8436219692230225
+916,/m/03x3wf,Grammy Lifetime Achievement Award,7,6935,/m/09v92_x,Hong Kong Film Award for Best Director,0.843392550945282
+916,/m/03x3wf,Grammy Lifetime Achievement Award,8,153,/m/02wh75,Grammy Award for Best Rock Song,0.8426270484924316
+916,/m/03x3wf,Grammy Lifetime Achievement Award,9,11173,/m/03q27t,Grammy Award for Best Boxed or Special Limited Edition Package,0.8419086337089539
+916,/m/03x3wf,Grammy Lifetime Achievement Award,10,5524,/m/03t5n3,Grammy Award for Best Rap Song,0.8391646146774292
+3752,/m/02dk5q,State school,1,12255,/m/056zdj,Tigres UANL,0.9513499736785889
+3752,/m/02dk5q,State school,2,14142,/m/013_5c,New Zealand Labour Party,0.9419509172439575
+3752,/m/02dk5q,State school,3,8973,/m/03ys48,Slovenia national football team,0.9416495561599731
+3752,/m/02dk5q,State school,4,7540,/m/021mkg,FC Basel,0.9414553046226501
+3752,/m/02dk5q,State school,5,7143,/m/03j79x,BSC Young Boys,0.9391639828681946
+3752,/m/02dk5q,State school,6,2441,/m/0g701n,S.C. Olhanense,0.9371387362480164
+3752,/m/02dk5q,State school,7,8545,/m/03x6w8,S.C. Braga,0.9350503087043762
+3752,/m/02dk5q,State school,8,9474,/m/051gjr,Beerschot AC,0.9340789914131165
+3752,/m/02dk5q,State school,9,9085,/m/03rrdb,Peru national football team,0.9335723519325256
+3752,/m/02dk5q,State school,10,9684,/m/0fjcgg,Tuvalu national football team,0.9334914088249207
+13464,/m/02qnk5c,Iftekhar,1,14137,/m/01yf92,Koei,0.9736208319664001
+13464,/m/02qnk5c,Iftekhar,2,10175,/m/03x45p,Dnipropetrovsk,0.9687855839729309
+13464,/m/02qnk5c,Iftekhar,3,3805,/m/0yl27,County Down,0.9679904580116272
+13464,/m/02qnk5c,Iftekhar,4,9051,/m/019lrz,Austrians,0.9675706028938293
+13464,/m/02qnk5c,Iftekhar,5,13284,/m/07yx86,Scottish Labour Party,0.9669565558433533
+13464,/m/02qnk5c,Iftekhar,6,9200,/m/09tlc8,Rogue,0.9648444652557373
+13464,/m/02qnk5c,Iftekhar,7,8144,/m/0690ct,Le Mans FC,0.9645447134971619
+13464,/m/02qnk5c,Iftekhar,8,11776,/m/0b0nq2,FC Kryvbas Kryvyi Rih,0.9628556966781616
+13464,/m/02qnk5c,Iftekhar,9,9131,/m/01r5xw,Real Valladolid,0.962607741355896
+13464,/m/02qnk5c,Iftekhar,10,13606,/m/0jgg3,Alachua County,0.9625983238220215
+525,/m/0pc62,Pearl Harbor,1,7148,/m/035gnh,3000 Miles to Graceland,0.953155517578125
+525,/m/0pc62,Pearl Harbor,2,7458,/m/01y9r2,Road to Perdition,0.9426795840263367
+525,/m/0pc62,Pearl Harbor,3,3818,/m/0gmblvq,Game Change,0.9418677091598511
+525,/m/0pc62,Pearl Harbor,4,7602,/m/0llcx,Witness,0.941274106502533
+525,/m/0pc62,Pearl Harbor,5,7413,/m/0m63c,The Lion King,0.9400543570518494
+525,/m/0pc62,Pearl Harbor,6,5724,/m/027j9wd,Ice Age: Dawn of the Dinosaurs,0.9397509098052979
+525,/m/0pc62,Pearl Harbor,7,2663,/m/03z20c,Little Nicky,0.9392451643943787
+525,/m/0pc62,Pearl Harbor,8,6251,/m/06823p,Talk to Her,0.9389470219612122
+525,/m/0pc62,Pearl Harbor,9,6793,/m/016ywb,Henry V,0.9388309717178345
+525,/m/0pc62,Pearl Harbor,10,2207,/m/02hct1,Arrested Development,0.9385694265365601
+13189,/m/0ftns,Valletta,1,10527,/m/0cw51,Bhopal,0.963569700717926
+13189,/m/0ftns,Valletta,2,14430,/m/018l5l,Mezzo-soprano,0.9625619649887085
+13189,/m/0ftns,Valletta,3,11894,/m/01f07x,Logan International Airport,0.9620383977890015
+13189,/m/0ftns,Valletta,4,14180,/m/03gq340,Street punk,0.9611117243766785
+13189,/m/0ftns,Valletta,5,14093,/m/07x16,Urinary tract infection,0.9594641923904419
+13189,/m/0ftns,Valletta,6,134,/m/01fq7,Battle Creek,0.9590203166007996
+13189,/m/0ftns,Valletta,7,4534,/m/0b_6jz,1983 NCAA Men's Division I Basketball Tournament,0.9584150910377502
+13189,/m/0ftns,Valletta,8,14327,/m/0g3cw,Hiroshima,0.9583010673522949
+13189,/m/0ftns,Valletta,9,10901,/m/02vsw1,European American,0.9577072262763977
+13189,/m/0ftns,Valletta,10,14175,/m/05q78ky,Tecmo Koei,0.9572324156761169
+5168,/m/04cbbz,Rambo III,1,7664,/m/02_fz3,Face/Off,0.9688616394996643
+5168,/m/04cbbz,Rambo III,2,3775,/m/02mt51,Eternal Sunshine of the Spotless Mind,0.9583069682121277
+5168,/m/04cbbz,Rambo III,3,1606,/m/01pgp6,There's Something About Mary,0.9555138945579529
+5168,/m/04cbbz,Rambo III,4,4897,/m/04jm_hq,The Messenger,0.951519250869751
+5168,/m/04cbbz,Rambo III,5,9473,/m/03wy8t,New York Stories,0.9506286978721619
+5168,/m/04cbbz,Rambo III,6,572,/m/0hmr4,Annie Hall,0.9506111741065979
+5168,/m/04cbbz,Rambo III,7,2502,/m/05c46y6,Precious: Based on the Novel Push by Sapphire,0.9504648447036743
+5168,/m/04cbbz,Rambo III,8,2789,/m/0j43swk,Zero Dark Thirty,0.9504401683807373
+5168,/m/04cbbz,Rambo III,9,1490,/m/03lrht,The Cable Guy,0.9484637975692749
+5168,/m/04cbbz,Rambo III,10,772,/m/01qb5d,X2,0.9473405480384827
+6572,/m/0lfbm,Jessica Tandy,1,5407,/m/0c8hct,Mike Nawrocki,0.9495454430580139
+6572,/m/0lfbm,Jessica Tandy,2,11864,/m/06y7d,Stephen Jay Gould,0.9367268085479736
+6572,/m/0lfbm,Jessica Tandy,3,4945,/m/01h8f,Bruce Campbell,0.936251163482666
+6572,/m/0lfbm,Jessica Tandy,4,11355,/m/0383f,Gioacchino Rossini,0.934764564037323
+6572,/m/0lfbm,Jessica Tandy,5,2672,/m/0gr36,Alec Guinness,0.9323230385780334
+6572,/m/0lfbm,Jessica Tandy,6,1627,/m/01ky2h,Sonny Rollins,0.9322805404663086
+6572,/m/0lfbm,Jessica Tandy,7,8404,/m/0154d7,Mark Hamill,0.9310802221298218
+6572,/m/0lfbm,Jessica Tandy,8,2479,/m/02mxw0,Ned Beatty,0.9307502508163452
+6572,/m/0lfbm,Jessica Tandy,9,2361,/m/05whq_9,Werner Herzog,0.9300885200500488
+6572,/m/0lfbm,Jessica Tandy,10,11682,/m/02lfwp,Michael Apted,0.928931713104248
+4386,/m/02gyl0,Theodore Bikel,1,10078,/m/0234pg,Carl Weathers,0.9774190783500671
+4386,/m/02gyl0,Theodore Bikel,2,10071,/m/0gdqy,Jean-Luc Godard,0.9713995456695557
+4386,/m/02gyl0,Theodore Bikel,3,8612,/m/02byfd,"Freddie Prinze, Jr.",0.9673083424568176
+4386,/m/02gyl0,Theodore Bikel,4,7091,/m/0g1w5,Lower Hutt,0.9663838148117065
+4386,/m/02gyl0,Theodore Bikel,5,10999,/m/03vrv9,Fred Williamson,0.9644908905029297
+4386,/m/02gyl0,Theodore Bikel,6,8348,/m/044_7j,Steven Blum,0.9643248915672302
+4386,/m/02gyl0,Theodore Bikel,7,11127,/m/019gz,Bram Stoker,0.9641575217247009
+4386,/m/02gyl0,Theodore Bikel,8,10030,/m/07lp1,Thomas Pynchon,0.9635850787162781
+4386,/m/02gyl0,Theodore Bikel,9,13591,/m/044ptm,Om Puri,0.9633377194404602
+4386,/m/02gyl0,Theodore Bikel,10,12815,/m/042fk,James Buchanan,0.9632338881492615
+1084,/m/0bm02,bass drum,1,4347,/m/01rhl,Classical guitar,0.9527850151062012
+1084,/m/0bm02,bass drum,2,3452,/m/03gvt,Hammond organ,0.9464712738990784
+1084,/m/0bm02,bass drum,3,2075,/m/051hrr,Electronic drum,0.9413597583770752
+1084,/m/0bm02,bass drum,4,2230,/m/021bmf,Jew's harp,0.9401484131813049
+1084,/m/0bm02,bass drum,5,1287,/m/02g9p4,Appalachian dulcimer,0.938379168510437
+1084,/m/0bm02,bass drum,6,10528,/m/0d8lm,String instrument,0.9369956851005554
+1084,/m/0bm02,bass drum,7,3439,/m/02dlh2,Conga,0.9353390336036682
+1084,/m/0bm02,bass drum,8,5763,/m/05kms,Oboe,0.9341883659362793
+1084,/m/0bm02,bass drum,9,7733,/m/0214km,Solo,0.9337820410728455
+1084,/m/0bm02,bass drum,10,1626,/m/03t22m,Soprano saxophone,0.9324368238449097
+3456,/m/03h2c,Honduras,1,6293,/m/03548,Gabon,0.9108014702796936
+3456,/m/03h2c,Honduras,2,11621,/m/06tgw,Somalia,0.9052378535270691
+3456,/m/03h2c,Honduras,3,5180,/m/088vb,Zambia,0.9042465686798096
+3456,/m/03h2c,Honduras,4,6561,/m/05l8y,Oman,0.9015278220176697
+3456,/m/03h2c,Honduras,5,8497,/m/06s9y,Samoa,0.8964570164680481
+3456,/m/03h2c,Honduras,6,8667,/m/07f5x,Togo,0.8940916061401367
+3456,/m/03h2c,Honduras,7,7199,/m/0165b,Bermuda,0.8927474617958069
+3456,/m/03h2c,Honduras,8,5829,/m/05tr7,Palau,0.8874990940093994
+3456,/m/03h2c,Honduras,9,5349,/m/0l3h,Antigua and Barbuda,0.8842426538467407
+3456,/m/03h2c,Honduras,10,9372,/m/01n8qg,Solomon Islands,0.8816360831260681
+9292,/m/037s5h,Lee Majors,1,7980,/m/023qfd,Glen A. Larson,0.9571223855018616
+9292,/m/037s5h,Lee Majors,2,12560,/m/0mgrh,Manche,0.9565632939338684
+9292,/m/037s5h,Lee Majors,3,10676,/m/02vptk_,James Cayne,0.9559985399246216
+9292,/m/037s5h,Lee Majors,4,7545,/m/01p87y,John Schlesinger,0.9535607695579529
+9292,/m/037s5h,Lee Majors,5,7967,/m/03rqww,Caleb Deschanel,0.9529994130134583
+9292,/m/037s5h,Lee Majors,6,13393,/m/075p0r,Jayaram,0.952112078666687
+9292,/m/037s5h,Lee Majors,7,1770,/m/063vn,Pierre Trudeau,0.9514080286026001
+9292,/m/037s5h,Lee Majors,8,7835,/m/07mz77,Udo Kier,0.9510686993598938
+9292,/m/037s5h,Lee Majors,9,8899,/m/0f2zc,Jim Thorpe,0.9484816789627075
+9292,/m/037s5h,Lee Majors,10,10290,/m/065d1h,Eric Tsang,0.9484354257583618
+14358,/m/0fr_b,Panama City,1,11446,/m/03n0pv,Richard M. Sherman,0.9580057263374329
+14358,/m/0fr_b,Panama City,2,7835,/m/07mz77,Udo Kier,0.957676351070404
+14358,/m/0fr_b,Panama City,3,10287,/m/03f02ct,Rishi Kapoor,0.9555174708366394
+14358,/m/0fr_b,Panama City,4,9266,/m/09k0f,Fidel Castro,0.9538779258728027
+14358,/m/0fr_b,Panama City,5,11018,/m/0dt39,Nobel Prize in Physics,0.9537878036499023
+14358,/m/0fr_b,Panama City,6,7874,/m/0c31_,Andrzej Wajda,0.9529169201850891
+14358,/m/0fr_b,Panama City,7,10105,/m/0m9v7,Chow Yun-Fat,0.9515467882156372
+14358,/m/0fr_b,Panama City,8,9291,/m/01j851,Farrah Fawcett,0.9508006572723389
+14358,/m/0fr_b,Panama City,9,10159,/m/03hmr_,Martin Mull,0.9504356384277344
+14358,/m/0fr_b,Panama City,10,3820,/m/02wycg2,Danny McBride,0.9489874839782715
+11762,/m/017j4q,Epsom,1,13193,/m/069b85,HTC Corporation,0.9556615352630615
+11762,/m/017j4q,Epsom,2,14175,/m/05q78ky,Tecmo Koei,0.9552275538444519
+11762,/m/017j4q,Epsom,3,12477,/m/0mzj_,Military,0.950946569442749
+11762,/m/017j4q,Epsom,4,12235,/m/0q6g3,The Super Dimension Fortress Macross,0.9507695436477661
+11762,/m/017j4q,Epsom,5,12206,/m/01c57n,Queensland University of Technology,0.9505370259284973
+11762,/m/017j4q,Epsom,6,14219,/m/01zb_g,Creation Records,0.9496599435806274
+11762,/m/017j4q,Epsom,7,10816,/m/0ql76,First Crusade,0.9493261575698853
+11762,/m/017j4q,Epsom,8,13012,/m/0rw2x,Albany,0.9492508172988892
+11762,/m/017j4q,Epsom,9,14485,/m/03nh9,Heterosexuality,0.948053240776062
+11762,/m/017j4q,Epsom,10,1593,/m/0f1vrl,Haim Saban,0.9472029805183411
+5155,/m/019lxm,Santos FC,1,10638,/m/03fn34,Neftchi Baku PFK,0.958076536655426
+5155,/m/019lxm,Santos FC,2,2273,/m/04jbyg,De Graafschap,0.9524124264717102
+5155,/m/019lxm,Santos FC,3,7259,/m/02px_23,TCU Horned Frogs football,0.9518831372261047
+5155,/m/019lxm,Santos FC,4,7825,/m/02rxrh,Scotland national football team,0.9505921602249146
+5155,/m/019lxm,Santos FC,5,10912,/m/0kwv2,Athletic Bilbao,0.9498713612556458
+5155,/m/019lxm,Santos FC,6,10534,/m/03078l,SK Rapid Wien,0.9494859576225281
+5155,/m/019lxm,Santos FC,7,8834,/m/0g0z58,Oklahoma Sooners football,0.9494251012802124
+5155,/m/019lxm,Santos FC,8,10333,/m/04n8xs,Equatorial Guinea national football team,0.9490725994110107
+5155,/m/019lxm,Santos FC,9,11698,/m/03n5v,Hellas Verona F.C.,0.9486358761787415
+5155,/m/019lxm,Santos FC,10,13043,/m/0hm2b,New Jersey Devils,0.9485317468643188
+3483,/m/027r8p,Maura Tierney,1,5309,/m/03l295,Dwyane Wade,0.9604400992393494
+3483,/m/027r8p,Maura Tierney,2,5468,/m/0rlz,Andrew Jackson,0.9602326154708862
+3483,/m/027r8p,Maura Tierney,3,8241,/m/08xwck,David Shore,0.959082841873169
+3483,/m/027r8p,Maura Tierney,4,11130,/m/02g3w,Dr. Seuss,0.9584883451461792
+3483,/m/027r8p,Maura Tierney,5,1889,/m/036c_0,Tim Matheson,0.9553603529930115
+3483,/m/027r8p,Maura Tierney,6,8734,/m/030dx5,Shemp Howard,0.9552000761032104
+3483,/m/027r8p,Maura Tierney,7,12078,/m/018q7,"Bernard Montgomery, 1st Viscount Montgomery of Alamein",0.9544603824615479
+3483,/m/027r8p,Maura Tierney,8,10999,/m/03vrv9,Fred Williamson,0.952599823474884
+3483,/m/027r8p,Maura Tierney,9,3446,/m/03pvt,Hugh Hefner,0.9522605538368225
+3483,/m/027r8p,Maura Tierney,10,9526,/m/0141kz,John Mills,0.9512284398078918
+10738,/m/05rnp1,Charles Band,1,11588,/m/0djc3s,Pritam Chakraborty,0.963232159614563
+10738,/m/05rnp1,Charles Band,2,13955,/m/024nj1,India national cricket team,0.9623045325279236
+10738,/m/05rnp1,Charles Band,3,11871,/m/03yf4d,Butch Hartman,0.9597659707069397
+10738,/m/05rnp1,Charles Band,4,9131,/m/01r5xw,Real Valladolid,0.9585975408554077
+10738,/m/05rnp1,Charles Band,5,5251,/m/04mp9q,Toulouse FC,0.9556240439414978
+10738,/m/05rnp1,Charles Band,6,14307,/m/0hmxn,Global Television Network,0.9555548429489136
+10738,/m/05rnp1,Charles Band,7,8246,/m/0b_6v_,1992 NCAA Men's Division I Basketball Tournament,0.9552592635154724
+10738,/m/05rnp1,Charles Band,8,12967,/m/04v7k2,Vijay,0.9551386833190918
+10738,/m/05rnp1,Charles Band,9,7753,/m/0c8br,L. Sprague de Camp,0.9541639685630798
+10738,/m/05rnp1,Charles Band,10,12568,/m/022s1m,John DiMaggio,0.9535966515541077
+8179,/m/063_t,Peter Sellers,1,13365,/m/018qql,Robert Young,0.9423093795776367
+8179,/m/063_t,Peter Sellers,2,1053,/m/045bg,Jean-Paul Sartre,0.9295419454574585
+8179,/m/063_t,Peter Sellers,3,8558,/m/01x0yrt,Shania Twain,0.9291531443595886
+8179,/m/063_t,Peter Sellers,4,886,/m/01sxq9,Bebe Neuwirth,0.9288382530212402
+8179,/m/063_t,Peter Sellers,5,7479,/m/0gt3p,Raymond Burr,0.9256580471992493
+8179,/m/063_t,Peter Sellers,6,4912,/m/026g801,Donald Sumpter,0.9219805598258972
+8179,/m/063_t,Peter Sellers,7,12109,/m/040rjq,Martin McDonagh,0.9218622446060181
+8179,/m/063_t,Peter Sellers,8,1369,/m/0ggl02,Michael Brauer,0.9208115935325623
+8179,/m/063_t,Peter Sellers,9,1026,/m/02lnhv,Bai Ling,0.9206229448318481
+8179,/m/063_t,Peter Sellers,10,8393,/m/01jmv8,Judy Davis,0.9196146130561829
+6482,/m/047rkcm,The Ugly Truth,1,5849,/m/03mnn0,Standing in the Shadows of Motown,0.9501315951347351
+6482,/m/047rkcm,The Ugly Truth,2,8448,/m/0fsd9t,Mansfield Park,0.9384319186210632
+6482,/m/047rkcm,The Ugly Truth,3,1602,/m/018nnz,The Animatrix,0.9379759430885315
+6482,/m/047rkcm,The Ugly Truth,4,1428,/m/0436yk,Dragon Ball Z: Dead Zone,0.9366955161094666
+6482,/m/047rkcm,The Ugly Truth,5,6928,/m/0b6l1st,The Losers,0.9321243166923523
+6482,/m/047rkcm,The Ugly Truth,6,9508,/m/0g_zyp,Love Affair,0.9299865365028381
+6482,/m/047rkcm,The Ugly Truth,7,6924,/m/0280061,This Is England,0.9296373128890991
+6482,/m/047rkcm,The Ugly Truth,8,3762,/m/01w8g3,Calendar Girls,0.9288454055786133
+6482,/m/047rkcm,The Ugly Truth,9,6232,/m/027gy0k,Speed Racer,0.9278690218925476
+6482,/m/047rkcm,The Ugly Truth,10,5952,/m/02q8ms8,The Brothers Bloom,0.9278516173362732
+14494,/m/057ph,Mickey Mouse,1,8246,/m/0b_6v_,1992 NCAA Men's Division I Basketball Tournament,0.9673309922218323
+14494,/m/057ph,Mickey Mouse,2,13363,/m/03cprft,Satyendra Kapoor,0.9633494019508362
+14494,/m/057ph,Mickey Mouse,3,9847,/m/04bsx1,Dean Saunders,0.9562123417854309
+14494,/m/057ph,Mickey Mouse,4,12877,/m/0n491,Gaston County,0.9539003968238831
+14494,/m/057ph,Mickey Mouse,5,10686,/m/029fbr,Noise rock,0.9515171647071838
+14494,/m/057ph,Mickey Mouse,6,7753,/m/0c8br,L. Sprague de Camp,0.9514898657798767
+14494,/m/057ph,Mickey Mouse,7,10210,/m/04h5tx,Cape Verde national football team,0.9504707455635071
+14494,/m/057ph,Mickey Mouse,8,6112,/m/02v_4xv,Hulk,0.9492337703704834
+14494,/m/057ph,Mickey Mouse,9,13859,/m/024sbq,Chanson,0.9491912722587585
+14494,/m/057ph,Mickey Mouse,10,8183,/m/03_jhh,Shanachie Records,0.9490149021148682
+10532,/m/0fkh6,Orange County,1,9754,/m/03t4nx,Princeton Theological Seminary,0.9652999639511108
+10532,/m/0fkh6,Orange County,2,7288,/m/0mkqr,Milwaukee County,0.9590628743171692
+10532,/m/0fkh6,Orange County,3,7181,/m/06fz_,Rhine,0.9555889964103699
+10532,/m/0fkh6,Orange County,4,11184,/m/0ghvb,University of Northern Iowa,0.9547786712646484
+10532,/m/0fkh6,Orange County,5,7735,/m/02yxjs,Northern Illinois University,0.9528864622116089
+10532,/m/0fkh6,Orange County,6,7510,/m/06mvq,Swedes,0.9501914381980896
+10532,/m/0fkh6,Orange County,7,13424,/m/024cg8,University of Dundee,0.9491931796073914
+10532,/m/0fkh6,Orange County,8,2851,/m/0n6bs,Huntington,0.9488398432731628
+10532,/m/0fkh6,Orange County,9,13313,/m/0nvvw,Champaign County,0.9487939476966858
+10532,/m/0fkh6,Orange County,10,11744,/m/0fkhz,Otsego County,0.9485260844230652
+7517,/m/02qw2xb,Lea Michele,1,8559,/m/044mjy,Josh Holloway,0.9554027318954468
+7517,/m/02qw2xb,Lea Michele,2,7665,/m/0kjgl,Michael Douglas,0.953495979309082
+7517,/m/02qw2xb,Lea Michele,3,5985,/m/060j8b,John Krasinski,0.9522432088851929
+7517,/m/02qw2xb,Lea Michele,4,2932,/m/01846t,John Rhys-Davies,0.9477416276931763
+7517,/m/02qw2xb,Lea Michele,5,668,/m/064nh4k,Jenna Ushkowitz,0.9473603367805481
+7517,/m/02qw2xb,Lea Michele,6,5837,/m/01jfrg,Jennifer Garner,0.9459527730941772
+7517,/m/02qw2xb,Lea Michele,7,3710,/m/02v0ff,Al Roker,0.9458248019218445
+7517,/m/02qw2xb,Lea Michele,8,1955,/m/015gw6,Alan Bates,0.9450761675834656
+7517,/m/02qw2xb,Lea Michele,9,8591,/m/0cj2k3,Gene Stupnitsky,0.9433383941650391
+7517,/m/02qw2xb,Lea Michele,10,4769,/m/048q6x,Robert Morse,0.9394455552101135
+2340,/m/05b3ts,Safety,1,1057,/m/023wyl,Cornerback,0.9769321084022522
+2340,/m/05b3ts,Safety,2,1321,/m/02g_6j,Linebacker,0.9658737778663635
+2340,/m/05b3ts,Safety,3,1587,/m/05zm34,Punter,0.9630327820777893
+2340,/m/05b3ts,Safety,4,3095,/m/02g_7z,Tight end,0.9513770341873169
+2340,/m/05b3ts,Safety,5,1929,/m/04nfpk,Defensive end,0.9511739611625671
+2340,/m/05b3ts,Safety,6,2087,/m/02qpbqj,Fullback,0.9508134126663208
+2340,/m/05b3ts,Safety,7,6799,/m/08ns5s,Long snapper,0.940173327922821
+2340,/m/05b3ts,Safety,8,97,/m/01r3hr,Running back,0.9374784231185913
+2340,/m/05b3ts,Safety,9,771,/m/06b1q,Quarterback,0.9351345896720886
+2340,/m/05b3ts,Safety,10,937,/m/047g8h,Placekicker,0.9092637300491333
+4339,/m/044k8,Janis Joplin,1,9548,/m/01m7pwq,Aldo Nova,0.9492471218109131
+4339,/m/044k8,Janis Joplin,2,3471,/m/0lzkm,Jim O'Rourke,0.9479367733001709
+4339,/m/044k8,Janis Joplin,3,10461,/m/01t8399,Ritchie Blackmore,0.9440702795982361
+4339,/m/044k8,Janis Joplin,4,2682,/m/016pns,Nelly,0.9405533075332642
+4339,/m/044k8,Janis Joplin,5,1206,/m/01j4ls,Chris Isaak,0.9375737309455872
+4339,/m/044k8,Janis Joplin,6,5482,/m/01pbs9w,Jack Nitzsche,0.932293176651001
+4339,/m/044k8,Janis Joplin,7,8258,/m/01w9mnm,David Sylvian,0.9310893416404724
+4339,/m/044k8,Janis Joplin,8,3857,/m/01wv9p,Marc Anthony,0.9296000599861145
+4339,/m/044k8,Janis Joplin,9,5791,/m/018y81,Roger Meddows Taylor,0.9295822978019714
+4339,/m/044k8,Janis Joplin,10,2096,/m/0136pk,Jackson Browne,0.9292502999305725
+2287,/m/016sp_,Dwight Yoakam,1,12109,/m/040rjq,Martin McDonagh,0.9385103583335876
+2287,/m/016sp_,Dwight Yoakam,2,847,/m/0456xp,Sienna Miller,0.9353253245353699
+2287,/m/016sp_,Dwight Yoakam,3,1689,/m/073bb,Sylvia Plath,0.9270820617675781
+2287,/m/016sp_,Dwight Yoakam,4,6636,/m/01f7dd,Willem Dafoe,0.9252055883407593
+2287,/m/016sp_,Dwight Yoakam,5,5277,/m/01bczm,Bryan Adams,0.9231881499290466
+2287,/m/016sp_,Dwight Yoakam,6,2164,/m/01_x6v,Trey Parker,0.9217917323112488
+2287,/m/016sp_,Dwight Yoakam,7,4070,/m/01cj6y,Adrien Brody,0.9185104370117188
+2287,/m/016sp_,Dwight Yoakam,8,2812,/m/03m_k0,Alan Ball,0.9168281555175781
+2287,/m/016sp_,Dwight Yoakam,9,9039,/m/0c921,Billy Wilder,0.9167871475219727
+2287,/m/016sp_,Dwight Yoakam,10,6788,/m/01ts_3,Neil Jordan,0.9167822599411011
+4040,/m/012rng,Norman Jewison,1,3553,/m/0164nb,David Hasselhoff,0.9628763198852539
+4040,/m/012rng,Norman Jewison,2,7478,/m/08t7nz,William A. Fraker,0.9622263312339783
+4040,/m/012rng,Norman Jewison,3,4244,/m/036jb,Gene Kelly,0.9587268829345703
+4040,/m/012rng,Norman Jewison,4,9284,/m/04258w,Samuel Fuller,0.95766282081604
+4040,/m/012rng,Norman Jewison,5,2141,/m/02fcs2,Lawrence Kasdan,0.9560988545417786
+4040,/m/012rng,Norman Jewison,6,5519,/m/02pjvc,Linda Cardellini,0.9555046558380127
+4040,/m/012rng,Norman Jewison,7,1202,/m/0f721s,20th Century Fox Television,0.953399658203125
+4040,/m/012rng,Norman Jewison,8,72,/m/012d40,Jackie Chan,0.952441394329071
+4040,/m/012rng,Norman Jewison,9,8875,/m/03swmf,Ron Silver,0.9523800611495972
+4040,/m/012rng,Norman Jewison,10,9435,/m/02hh8j,Claude Berri,0.9519091248512268
+12205,/m/04pry,Lansing,1,684,/m/01bh3l,KwaZulu-Natal,0.9191498160362244
+12205,/m/04pry,Lansing,2,12602,/m/0njj0,Kent County,0.9190265536308289
+12205,/m/04pry,Lansing,3,12408,/m/0r6c4,Mountain View,0.9174648523330688
+12205,/m/04pry,Lansing,4,10934,/m/01cpjx,Major General,0.9158965945243835
+12205,/m/04pry,Lansing,5,7240,/m/0kq1l,Contra Costa County,0.9149639010429382
+12205,/m/04pry,Lansing,6,6484,/m/0n9r8,Hampstead,0.9086702466011047
+12205,/m/04pry,Lansing,7,11939,/m/013n0n,Corpus Christi,0.9080219864845276
+12205,/m/04pry,Lansing,8,13264,/m/0d9z_y,Texarkana,0.9075504541397095
+12205,/m/04pry,Lansing,9,5609,/m/0c9cp0,Al-Gharafa Sports Club,0.9062227010726929
+12205,/m/04pry,Lansing,10,12379,/m/0fvvg,Frankfort,0.9056547284126282
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,1,5669,/m/05t0_2v,Scott Pilgrim vs. the World,0.9580919146537781
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,2,7252,/m/09gdh6k,Hereafter,0.9560839533805847
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,3,9978,/m/037cr1,Peter Pan,0.9558401703834534
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,4,4794,/m/07bwr,The Big Lebowski,0.9555748701095581
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,5,10495,/m/02wwmhc,The Rum Diary,0.950629472732544
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,6,6258,/m/09gmmt6,Let Me In,0.9484820365905762
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,7,4867,/m/07bzz7,Yellow Submarine,0.9475563764572144
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,8,633,/m/03hjv97,The Merry Widow,0.9470568895339966
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,9,10386,/m/02py9yf,Chuck,0.9461982846260071
+9197,/m/0f8j13,Fear and Loathing in Las Vegas,10,9813,/m/0267wwv,Jesus Christ Superstar,0.9456273913383484
+8830,/m/04sh3,Medicine,1,6590,/m/01540,Biology,0.9374054670333862
+8830,/m/04sh3,Medicine,2,2736,/m/02j62,Economics,0.9359626770019531
+8830,/m/04sh3,Medicine,3,6579,/m/01tbp,Chemical Engineering,0.9275974631309509
+8830,/m/04sh3,Medicine,4,3232,/m/05qfh,Psychology,0.9210569858551025
+8830,/m/04sh3,Medicine,5,1467,/m/01mkq,Computer Science,0.9195674061775208
+8830,/m/04sh3,Medicine,6,5341,/m/03qsdpk,Theatre,0.9164243936538696
+8830,/m/04sh3,Medicine,7,4054,/m/0g26h,Business Administration,0.9152408242225647
+8830,/m/04sh3,Medicine,8,2371,/m/062z7,Political Science,0.905857503414154
+8830,/m/04sh3,Medicine,9,3730,/m/0fdys,English Literature,0.9047063589096069
+8830,/m/04sh3,Medicine,10,2367,/m/04x_3,Mechanical Engineering,0.9022051692008972
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),1,574,/m/018wng,Academy Award for Best Documentary Short Subject,0.8957905769348145
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),2,2167,/m/02x258x,Satellite Award for Best Cinematography,0.8939961791038513
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),3,8083,/m/09d28z,New York Film Critics Circle Award for Best Film,0.8929386138916016
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),4,3869,/m/027cyf7,National Board of Review Award for Best Cast,0.8911223411560059
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),5,460,/m/02grdc,Grammy Award for Best Spoken Word Album,0.8852185010910034
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),6,1990,/m/0gr42,Academy Award for Best Visual Effects,0.8841690421104431
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),7,10464,/m/0262s1,Hugo Award for Best Dramatic Presentation,0.8841033577919006
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),8,3201,/m/0gqxm,Academy Award for Best Makeup and Hairstyling,0.883018970489502
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),9,2099,/m/02581c,Grammy Award for Best Classical Album,0.8827922940254211
+4304,/m/0gq_d,Academy Award for Best Short Film (Animated),10,2191,/m/026mfs,Grammy Award for Best Country Collaboration with Vocals,0.8748805522918701
+12239,/m/01gh6z,Minas Gerais,1,9030,/m/06nrt,Saskatchewan,0.9330039024353027
+12239,/m/01gh6z,Minas Gerais,2,10261,/m/059ts,Northwest Territories,0.9283037185668945
+12239,/m/01gh6z,Minas Gerais,3,10482,/m/09hrc,Saxony-Anhalt,0.924512505531311
+12239,/m/01gh6z,Minas Gerais,4,3560,/m/04s7y,Manitoba,0.9238213300704956
+12239,/m/01gh6z,Minas Gerais,5,12016,/m/0r111,Torrance,0.9230641722679138
+12239,/m/01gh6z,Minas Gerais,6,10729,/m/0ftjx,Sofia,0.9195014834403992
+12239,/m/01gh6z,Minas Gerais,7,8780,/m/018dhx,Belleville,0.9190868139266968
+12239,/m/01gh6z,Minas Gerais,8,11507,/m/035yzw,Martin Luther University of Halle-Wittenberg,0.9161133170127869
+12239,/m/01gh6z,Minas Gerais,9,9204,/m/04fh3,Kosovo,0.9140752553939819
+12239,/m/01gh6z,Minas Gerais,10,12271,/m/0n2vl,Ashtabula County,0.911056637763977
+9577,/m/0g57wgv,The Perks of Being a Wallflower,1,4438,/m/02xbyr,Tangled,0.9765636324882507
+9577,/m/0g57wgv,The Perks of Being a Wallflower,2,6341,/m/0mbql,The Goonies,0.9725309014320374
+9577,/m/0g57wgv,The Perks of Being a Wallflower,3,9375,/m/07jqjx,Oliver Twist,0.9714903831481934
+9577,/m/0g57wgv,The Perks of Being a Wallflower,4,155,/m/0c3ybss,Insidious,0.9712197780609131
+9577,/m/0g57wgv,The Perks of Being a Wallflower,5,6651,/m/09v3jyg,Winnie the Pooh,0.9694185256958008
+9577,/m/0g57wgv,The Perks of Being a Wallflower,6,1268,/m/0gtvrv3,Cosmopolis,0.9687751531600952
+9577,/m/0g57wgv,The Perks of Being a Wallflower,7,1075,/m/04hwbq,Toy Story 3,0.9682924747467041
+9577,/m/0g57wgv,The Perks of Being a Wallflower,8,8011,/m/0cmf0m0,Puss in Boots,0.9675270915031433
+9577,/m/0g57wgv,The Perks of Being a Wallflower,9,1355,/m/0gj9qxr,Attack the Block,0.966393768787384
+9577,/m/0g57wgv,The Perks of Being a Wallflower,10,4740,/m/091rc5,The Santa Clause 3: The Escape Clause,0.9663784503936768
+7019,/m/0q9b0,Man on the Moon,1,3233,/m/0gtvpkw,To Rome with Love,0.9700833559036255
+7019,/m/0q9b0,Man on the Moon,2,4186,/m/0dr_9t7,Bernie,0.9651889204978943
+7019,/m/0q9b0,Man on the Moon,3,1355,/m/0gj9qxr,Attack the Block,0.9645664691925049
+7019,/m/0q9b0,Man on the Moon,4,8488,/m/0bj25,All About Eve,0.96401447057724
+7019,/m/0q9b0,Man on the Moon,5,7261,/m/02gpkt,Rush Hour,0.9632517099380493
+7019,/m/0q9b0,Man on the Moon,6,8401,/m/0bmfnjs,Jane Eyre,0.9609360694885254
+7019,/m/0q9b0,Man on the Moon,7,9370,/m/0ddbjy4,Dredd,0.9607647657394409
+7019,/m/0q9b0,Man on the Moon,8,1966,/m/0fvr1,Donnie Darko,0.9604352712631226
+7019,/m/0q9b0,Man on the Moon,9,2505,/m/04f52jw,How to Train Your Dragon,0.9599775075912476
+7019,/m/0q9b0,Man on the Moon,10,2825,/m/014zwb,You've Got Mail,0.9594484567642212
+9560,/m/0bbxd3,David Greenwalt,1,12084,/m/04gc65,Scott Glenn,0.9607270359992981
+9560,/m/0bbxd3,David Greenwalt,2,12224,/m/05v45k,Jack Elam,0.9593304395675659
+9560,/m/0bbxd3,David Greenwalt,3,14160,/m/01rww3,K Records,0.9584925770759583
+9560,/m/0bbxd3,David Greenwalt,4,13551,/m/0qkj7,Lou Costello,0.9580895304679871
+9560,/m/0bbxd3,David Greenwalt,5,10433,/m/04_by,Mary Shelley,0.9576695561408997
+9560,/m/0bbxd3,David Greenwalt,6,5752,/m/0143wl,Timothy Dalton,0.9575003385543823
+9560,/m/0bbxd3,David Greenwalt,7,13721,/m/03d9wk,Hayley Mills,0.9573792219161987
+9560,/m/0bbxd3,David Greenwalt,8,12325,/m/02x02kb,Achala Sachdev,0.956973671913147
+9560,/m/0bbxd3,David Greenwalt,9,9834,/m/02wyc0,Abhishek Bachchan,0.956939160823822
+9560,/m/0bbxd3,David Greenwalt,10,7330,/m/0451j,Jet Li,0.9569146633148193
+6543,/m/07l8f,Tampa Bay Rays,1,5230,/m/0cm2xh,World War I,0.9679499268531799
+6543,/m/07l8f,Tampa Bay Rays,2,12868,/m/07s5fz,Shandong Luneng Taishan F.C.,0.9626802206039429
+6543,/m/07l8f,Tampa Bay Rays,3,3082,/m/01yjl,Chicago Cubs,0.9618789553642273
+6543,/m/07l8f,Tampa Bay Rays,4,8249,/m/02wmbg,Rajnikanth,0.9615111947059631
+6543,/m/07l8f,Tampa Bay Rays,5,5574,/m/037mjv,Inverness Caledonian Thistle F.C.,0.9606316685676575
+6543,/m/07l8f,Tampa Bay Rays,6,8415,/m/03xyp_,Daniel Nestor,0.9602530598640442
+6543,/m/07l8f,Tampa Bay Rays,7,13495,/m/0mkk3,Sauk County,0.960205614566803
+6543,/m/07l8f,Tampa Bay Rays,8,1956,/m/051vz,Milwaukee Brewers,0.9569413065910339
+6543,/m/07l8f,Tampa Bay Rays,9,13915,/m/0bld8,Katowice,0.9567946791648865
+6543,/m/07l8f,Tampa Bay Rays,10,11604,/m/09b93,Ravenna,0.956328809261322
+5930,/m/01htxr,Tony Bennett,1,154,/m/0lbj1,Sting,0.9600958228111267
+5930,/m/01htxr,Tony Bennett,2,3007,/m/01vwyqp,Tina Turner,0.9572789669036865
+5930,/m/01htxr,Tony Bennett,3,5065,/m/0gn30,Sylvester Stallone,0.9540845155715942
+5930,/m/01htxr,Tony Bennett,4,2953,/m/0bhvtc,Jerry Douglas,0.953521192073822
+5930,/m/01htxr,Tony Bennett,5,1547,/m/05crg7,Santana,0.9500343799591064
+5930,/m/01htxr,Tony Bennett,6,5263,/m/01vsgrn,Eminem,0.9499081969261169
+5930,/m/01htxr,Tony Bennett,7,5886,/m/01w9wwg,Will.i.am,0.9489380121231079
+5930,/m/01htxr,Tony Bennett,8,1757,/m/0zjpz,Richie Sambora,0.9488912224769592
+5930,/m/01htxr,Tony Bennett,9,9898,/m/020hyj,Luis Miguel,0.9485030770301819
+5930,/m/01htxr,Tony Bennett,10,4432,/m/03j24kf,Paul McCartney,0.948265552520752
+3593,/m/05jm7,Neil Gaiman,1,9533,/m/033jj1,Sean Hayes,0.9556782245635986
+3593,/m/05jm7,Neil Gaiman,2,5497,/m/09r9m7,Johnny Green,0.9553792476654053
+3593,/m/05jm7,Neil Gaiman,3,417,/m/014x77,Rachel Weisz,0.952813446521759
+3593,/m/05jm7,Neil Gaiman,4,72,/m/012d40,Jackie Chan,0.9513798356056213
+3593,/m/05jm7,Neil Gaiman,5,1538,/m/0b_c7,Franco Zeffirelli,0.9509526491165161
+3593,/m/05jm7,Neil Gaiman,6,3838,/m/02jsgf,Joan Allen,0.9478874206542969
+3593,/m/05jm7,Neil Gaiman,7,966,/m/014zfs,Bill Cosby,0.946861207485199
+3593,/m/05jm7,Neil Gaiman,8,7767,/m/0dw3l,Les Claypool,0.94629967212677
+3593,/m/05jm7,Neil Gaiman,9,7741,/m/02661h,Tony Shalhoub,0.9458693265914917
+3593,/m/05jm7,Neil Gaiman,10,6350,/m/013t9y,George Miller,0.9446848034858704
+2266,/m/0sxrz,1920 Summer Olympics,1,275,/m/0l6vl,1980 Summer Olympics,0.9328125715255737
+2266,/m/0sxrz,1920 Summer Olympics,2,7495,/m/01f1kd,1976 Winter Olympics,0.9279743432998657
+2266,/m/0sxrz,1920 Summer Olympics,3,3989,/m/0lgxj,1952 Summer Olympics,0.9252863526344299
+2266,/m/0sxrz,1920 Summer Olympics,4,632,/m/018ctl,2010 Winter Olympics,0.9228801131248474
+2266,/m/0sxrz,1920 Summer Olympics,5,1829,/m/0lv1x,1928 Summer Olympics,0.9175992608070374
+2266,/m/0sxrz,1920 Summer Olympics,6,2864,/m/0kbvv,2006 Winter Olympics,0.9162747263908386
+2266,/m/0sxrz,1920 Summer Olympics,7,450,/m/0l98s,1972 Summer Olympics,0.9120556712150574
+2266,/m/0sxrz,1920 Summer Olympics,8,7161,/m/0ldqf,1956 Summer Olympics,0.9084997773170471
+2266,/m/0sxrz,1920 Summer Olympics,9,7408,/m/0jkvj,1976 Summer Olympics,0.9061462879180908
+2266,/m/0sxrz,1920 Summer Olympics,10,2143,/m/0lbbj,1964 Summer Olympics,0.9022592306137085
+8348,/m/044_7j,Steven Blum,1,11382,/m/03w9bjf,British Indian,0.9709634184837341
+8348,/m/044_7j,Steven Blum,2,13291,/m/01kym3,Megumi Hayashibara,0.9685688614845276
+8348,/m/044_7j,Steven Blum,3,2790,/m/01f8ld,Kathryn Bigelow,0.968319833278656
+8348,/m/044_7j,Steven Blum,4,9937,/m/02j4sk,Peter Graves,0.9676843285560608
+8348,/m/044_7j,Steven Blum,5,2038,/m/01wyzyl,Jim Belushi,0.9669655561447144
+8348,/m/044_7j,Steven Blum,6,8972,/m/01x2tm8,Kamal Haasan,0.9663886427879333
+8348,/m/044_7j,Steven Blum,7,3976,/m/01vy_v8,Frank Oz,0.9657074213027954
+8348,/m/044_7j,Steven Blum,8,7531,/m/024my5,Kath Soucie,0.965368390083313
+8348,/m/044_7j,Steven Blum,9,4386,/m/02gyl0,Theodore Bikel,0.9643248915672302
+8348,/m/044_7j,Steven Blum,10,4848,/m/0dfjb8,Nassar,0.9641430377960205
+8085,/m/05z_p6,Mark Robson,1,5175,/m/017gry,Essen,0.9551271796226501
+8085,/m/05z_p6,Mark Robson,2,4417,/m/07yw6t,Paresh Rawal,0.9531538486480713
+8085,/m/05z_p6,Mark Robson,3,1656,/m/01t2h2,Andy Lau,0.9527221918106079
+8085,/m/05z_p6,Mark Robson,4,11577,/m/05p606,Ed Lauter,0.9516397714614868
+8085,/m/05z_p6,Mark Robson,5,9067,/m/04cdxc,Prabhu,0.9516183733940125
+8085,/m/05z_p6,Mark Robson,6,12427,/m/0pgm3,Chris Elliott,0.9501139521598816
+8085,/m/05z_p6,Mark Robson,7,1582,/m/02jm0n,Jon Lovitz,0.947947084903717
+8085,/m/05z_p6,Mark Robson,8,11382,/m/03w9bjf,British Indian,0.9466817378997803
+8085,/m/05z_p6,Mark Robson,9,9199,/m/063tn,Pyotr Ilyich Tchaikovsky,0.9466522932052612
+8085,/m/05z_p6,Mark Robson,10,3290,/m/03gyh_z,Robert F. Boyle,0.9461963772773743
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,1,1654,/m/0gr51,Academy Award for Best Original Screenplay,0.9267050623893738
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,2,2610,/m/09qv_s,Screen Actors Guild Award for Outstanding Performance by a Male Actor in a Leading Role,0.923495888710022
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,3,1389,/m/02rdyk7,National Society of Film Critics Award for Best Director,0.9220247268676758
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,4,545,/m/05b1610,Razzie Award for Worst Screenplay,0.9157145619392395
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,5,1071,/m/02z0dfh,National Society of Film Critics Award for Best Supporting Actress,0.9154481887817383
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,6,112,/m/040njc,BAFTA Award for Best Film,0.9118297100067139
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,7,1857,/m/0bdw6t,Primetime Emmy Award for Outstanding Lead Actor - Drama Series,0.9115781784057617
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,8,598,/m/04dn09n,Golden Globe Award for Best Screenplay - Motion Picture,0.9098021388053894
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,9,931,/m/019f4v,Golden Globe Award for Best Director - Motion Picture,0.9080204963684082
+1489,/m/05zvj3m,MTV Movie Award for Best Comedic Performance,10,550,/m/09qvc0,Primetime Emmy Award for Outstanding Guest Actor - Comedy Series,0.9069507122039795
+12382,/m/0d7m90,ECW on TNN,1,13950,/m/0kz10,Intelligent dance music,0.9325747489929199
+12382,/m/0d7m90,ECW on TNN,2,12800,/m/0fw9n7,Wisconsin Badgers football,0.9240026473999023
+12382,/m/0d7m90,ECW on TNN,3,6235,/m/06cp5,Rapcore,0.9231440424919128
+12382,/m/0d7m90,ECW on TNN,4,11493,/m/04jnd7,Club Necaxa,0.9184131622314453
+12382,/m/0d7m90,ECW on TNN,5,11000,/m/01xjx6,Fontana Records,0.9157429933547974
+12382,/m/0d7m90,ECW on TNN,6,5633,/m/041738,Alternative dance,0.9153034687042236
+12382,/m/0d7m90,ECW on TNN,7,13108,/m/0889d,Yerevan,0.9142234325408936
+12382,/m/0d7m90,ECW on TNN,8,10026,/m/09rfh9,Saw III,0.9136902093887329
+12382,/m/0d7m90,ECW on TNN,9,2256,/m/015nl4,Royal Academy of Dramatic Art,0.9136128425598145
+12382,/m/0d7m90,ECW on TNN,10,13226,/m/025rst1,Mecklenburg County,0.9129319190979004
+771,/m/06b1q,Quarterback,1,1929,/m/04nfpk,Defensive end,0.9683873653411865
+771,/m/06b1q,Quarterback,2,3095,/m/02g_7z,Tight end,0.9667989611625671
+771,/m/06b1q,Quarterback,3,1587,/m/05zm34,Punter,0.9585829377174377
+771,/m/06b1q,Quarterback,4,2087,/m/02qpbqj,Fullback,0.9513762593269348
+771,/m/06b1q,Quarterback,5,6799,/m/08ns5s,Long snapper,0.9468822479248047
+771,/m/06b1q,Quarterback,6,1057,/m/023wyl,Cornerback,0.9466177821159363
+771,/m/06b1q,Quarterback,7,97,/m/01r3hr,Running back,0.9431601762771606
+771,/m/06b1q,Quarterback,8,2340,/m/05b3ts,Safety,0.9351345896720886
+771,/m/06b1q,Quarterback,9,1321,/m/02g_6j,Linebacker,0.9300664067268372
+771,/m/06b1q,Quarterback,10,937,/m/047g8h,Placekicker,0.9253115653991699
+14108,/m/01bkv,Bulgarian Language,1,14302,/m/042s9,Jainism,0.8823455572128296
+14108,/m/01bkv,Bulgarian Language,2,13971,/m/03ll3,Human rights,0.8821714520454407
+14108,/m/01bkv,Bulgarian Language,3,9631,/m/0fc_9,Oneida County,0.8813351988792419
+14108,/m/01bkv,Bulgarian Language,4,9665,/m/01kvrz,Smith College,0.870580792427063
+14108,/m/01bkv,Bulgarian Language,5,1460,/m/0r2l7,Orange,0.8703105449676514
+14108,/m/01bkv,Bulgarian Language,6,11335,/m/049912,FC Nantes,0.8693824410438538
+14108,/m/01bkv,Bulgarian Language,7,10442,/m/03l7tr,Ross County F.C.,0.8688778281211853
+14108,/m/01bkv,Bulgarian Language,8,9694,/m/0grd7,Southampton,0.8681187033653259
+14108,/m/01bkv,Bulgarian Language,9,12108,/m/0fb_1,Herkimer County,0.8654989004135132
+14108,/m/01bkv,Bulgarian Language,10,11778,/m/012b30,Sub Pop,0.8650712370872498
+1796,/m/02lyr4,Outfielder,1,5453,/m/02wszf,Infielder,0.8615192174911499
+1796,/m/02lyr4,Outfielder,2,3978,/m/028c_8,Catcher,0.8614813089370728
+1796,/m/02lyr4,Outfielder,3,8239,/m/01z9v6,Pitcher,0.8019213676452637
+1796,/m/02lyr4,Outfielder,4,786,/m/06f0dc,110th United States Congress,0.6684336066246033
+1796,/m/02lyr4,Outfielder,5,471,/m/077g7n,113th United States Congress,0.6594021320343018
+1796,/m/02lyr4,Outfielder,6,6463,/m/04h1rz,91st United States Congress,0.601458728313446
+1796,/m/02lyr4,Outfielder,7,3501,/m/04gp1d,92nd United States Congress,0.6007847189903259
+1796,/m/02lyr4,Outfielder,8,244,/m/0495ys,93rd United States Congress,0.5970394015312195
+1796,/m/02lyr4,Outfielder,9,688,/m/07p__7,109th United States Congress,0.5963617563247681
+1796,/m/02lyr4,Outfielder,10,3206,/m/02bqmq,103rd United States Congress,0.5918867588043213
+2504,/m/038rzr,Gerard Butler,1,7465,/m/03q91d,Diedrich Bader,0.9582799673080444
+2504,/m/038rzr,Gerard Butler,2,9007,/m/04mhbh,Craig Ferguson,0.9566153287887573
+2504,/m/038rzr,Gerard Butler,3,2161,/m/0tc7,Arnold Schwarzenegger,0.9564708471298218
+2504,/m/038rzr,Gerard Butler,4,11933,/m/047g6,Karl Popper,0.9552932977676392
+2504,/m/038rzr,Gerard Butler,5,7178,/m/0gm34,Rod Steiger,0.9550029039382935
+2504,/m/038rzr,Gerard Butler,6,12860,/m/0156ts,Darlington,0.9523507356643677
+2504,/m/038rzr,Gerard Butler,7,3475,/m/01y0y6,Paul Reiser,0.9521705508232117
+2504,/m/038rzr,Gerard Butler,8,7452,/m/02nfhx,John Amos,0.9521359801292419
+2504,/m/038rzr,Gerard Butler,9,11832,/m/01200d,Wallace Beery,0.9511536359786987
+2504,/m/038rzr,Gerard Butler,10,12138,/m/04dz_y7,Arthur Wong,0.9507431387901306
+10280,/m/02s838,Dorchester,1,13106,/m/01zrs_,Kirkcaldy,0.9201106429100037
+10280,/m/02s838,Dorchester,2,3139,/m/02607j,Hofstra University,0.8991287350654602
+10280,/m/02s838,Dorchester,3,11685,/m/0f2sq,Galveston,0.8989660143852234
+10280,/m/02s838,Dorchester,4,872,/m/0kz2w,Brandeis University,0.8931170701980591
+10280,/m/02s838,Dorchester,5,3933,/m/016ndm,University of Western Ontario,0.888250470161438
+10280,/m/02s838,Dorchester,6,11538,/m/015wy_,Goldsmiths College,0.887525200843811
+10280,/m/02s838,Dorchester,7,9409,/m/0g8fs,United States Naval Academy,0.8860246539115906
+10280,/m/02s838,Dorchester,8,10214,/m/02m0b0,Bennington College,0.8834939002990723
+10280,/m/02s838,Dorchester,9,1932,/m/07w3r,University of Tulsa,0.8832120895385742
+10280,/m/02s838,Dorchester,10,13577,/m/06x6s,St. Louis Blues,0.8831836581230164
+2621,/m/016h9b,Maurice Gibb,1,7754,/m/095x_,Todd Rundgren,0.9580773711204529
+2621,/m/016h9b,Maurice Gibb,2,213,/m/0c9d9,Jean Michel Jarre,0.9570645093917847
+2621,/m/016h9b,Maurice Gibb,3,8355,/m/0k60,Aphex Twin,0.9555515646934509
+2621,/m/016h9b,Maurice Gibb,4,5179,/m/016s_5,John Fogerty,0.9515631794929504
+2621,/m/016h9b,Maurice Gibb,5,2543,/m/0137g1,Beck Hansen,0.9480265974998474
+2621,/m/016h9b,Maurice Gibb,6,6360,/m/0137hn,Robin Gibb,0.9470568895339966
+2621,/m/016h9b,Maurice Gibb,7,5220,/m/0kr_t,Coldplay,0.9438625574111938
+2621,/m/016h9b,Maurice Gibb,8,4854,/m/03h502k,Marilyn Manson,0.9438424110412598
+2621,/m/016h9b,Maurice Gibb,9,126,/m/07s3vqk,Ray Charles,0.9432439208030701
+2621,/m/016h9b,Maurice Gibb,10,4571,/m/06m61,Roy Orbison,0.9427475333213806
+12977,/m/03qrh9,Hiroshima Toyo Carp,1,11542,/m/02y8bn,Chris Pronger,0.9506191611289978
+12977,/m/03qrh9,Hiroshima Toyo Carp,2,1758,/m/01nd2c,1. FC Kaiserslautern,0.9475504755973816
+12977,/m/03qrh9,Hiroshima Toyo Carp,3,7203,/m/01n4nd,Colchester,0.9469572901725769
+12977,/m/03qrh9,Hiroshima Toyo Carp,4,6711,/m/0dyjz,West Midlands,0.946832537651062
+12977,/m/03qrh9,Hiroshima Toyo Carp,5,8000,/m/07vfz,"University of California, San Francisco",0.9453085660934448
+12977,/m/03qrh9,Hiroshima Toyo Carp,6,14323,/m/050sw4,Contemporary hit radio,0.9447561502456665
+12977,/m/03qrh9,Hiroshima Toyo Carp,7,5631,/m/01jq4b,Wake Forest University,0.9440188407897949
+12977,/m/03qrh9,Hiroshima Toyo Carp,8,14039,/m/0hqzr,Nantes,0.9429723620414734
+12977,/m/03qrh9,Hiroshima Toyo Carp,9,9789,/m/0gl6x,Imperial College London,0.9418859481811523
+12977,/m/03qrh9,Hiroshima Toyo Carp,10,3784,/m/0nccd,London Borough of Enfield,0.9417622089385986
+11149,/m/0cxgc,Surrey,1,13168,/m/0jbrr,Santa Ana,0.9387336373329163
+11149,/m/0cxgc,Surrey,2,7126,/m/01kk32,Canton of Zurich,0.9283217191696167
+11149,/m/0cxgc,Surrey,3,2076,/m/0mp3l,Charlottesville,0.9262368083000183
+11149,/m/0cxgc,Surrey,4,11553,/m/0ms1n,Dallas County,0.9241411685943604
+11149,/m/0cxgc,Surrey,5,3440,/m/03fb3t,Honolulu County,0.924129843711853
+11149,/m/0cxgc,Surrey,6,12413,/m/01m1_d,Westport,0.9241028428077698
+11149,/m/0cxgc,Surrey,7,13869,/m/02gjp,Damascus,0.923518180847168
+11149,/m/0cxgc,Surrey,8,11811,/m/03v9w,Iberian Peninsula,0.9229525327682495
+11149,/m/0cxgc,Surrey,9,10965,/m/01ly8d,Buenos Aires Province,0.9220829606056213
+11149,/m/0cxgc,Surrey,10,13663,/m/0fnm3,Georgetown,0.922021746635437
+6916,/m/0d2t4g,Philippine Time Zone-US,1,11219,/m/0l0wv,Rochester Institute of Technology,0.9266083836555481
+6916,/m/0d2t4g,Philippine Time Zone-US,2,4228,/m/075wq,Saint Patrick,0.9242072105407715
+6916,/m/0d2t4g,Philippine Time Zone-US,3,8737,/m/025ttz4,University of Warsaw,0.9241109490394592
+6916,/m/0d2t4g,Philippine Time Zone-US,4,8769,/m/0fs54,Yangon,0.9227958917617798
+6916,/m/0d2t4g,Philippine Time Zone-US,5,14004,/m/0ym69,"Pembroke College, Oxford",0.9207586050033569
+6916,/m/0d2t4g,Philippine Time Zone-US,6,10879,/m/01x7jb,Imperial Records,0.9195110201835632
+6916,/m/0d2t4g,Philippine Time Zone-US,7,11326,/m/028q7m,Tabriz,0.9193803071975708
+6916,/m/0d2t4g,Philippine Time Zone-US,8,3834,/m/01f1r4,"University of California, Santa Barbara",0.9185546636581421
+6916,/m/0d2t4g,Philippine Time Zone-US,9,8552,/m/0173s9,Marlborough College,0.9183672070503235
+6916,/m/0d2t4g,Philippine Time Zone-US,10,11927,/m/09c17,Bangalore,0.9168606400489807
+9771,/m/04mhxx,America Ferrera,1,5577,/m/06nns1,Lisa Edelstein,0.9619264602661133
+9771,/m/04mhxx,America Ferrera,2,849,/m/01fkv0,Terence Stamp,0.9601461291313171
+9771,/m/04mhxx,America Ferrera,3,5769,/m/056wb,Michael Crichton,0.9540981650352478
+9771,/m/04mhxx,America Ferrera,4,1239,/m/022_lg,William Friedkin,0.953136682510376
+9771,/m/04mhxx,America Ferrera,5,6857,/m/01gbb4,Harvey Fierstein,0.952319860458374
+9771,/m/04mhxx,America Ferrera,6,9802,/m/07mkj0,Burnett Guffey,0.9522913098335266
+9771,/m/04mhxx,America Ferrera,7,4677,/m/0fgg4,Jennifer Connelly,0.9518445730209351
+9771,/m/04mhxx,America Ferrera,8,3462,/m/02q5xsx,Kim Manners,0.9512696266174316
+9771,/m/04mhxx,America Ferrera,9,3948,/m/0219q,Cary Elwes,0.9495348334312439
+9771,/m/04mhxx,America Ferrera,10,12677,/m/03fqv5,Alan J. Pakula,0.9493871927261353
+1040,/m/016gr2,Derek Jacobi,1,2186,/m/03n_7k,Josh Brolin,0.966092050075531
+1040,/m/016gr2,Derek Jacobi,2,2037,/m/0f4vbz,Angelina Jolie,0.963344931602478
+1040,/m/016gr2,Derek Jacobi,3,8056,/m/0697kh,Damon Lindelof,0.9624361991882324
+1040,/m/016gr2,Derek Jacobi,4,2892,/m/0b_dy,Albert Finney,0.962241530418396
+1040,/m/016gr2,Derek Jacobi,5,9219,/m/02778tk,Matt Hubbard,0.9614190459251404
+1040,/m/016gr2,Derek Jacobi,6,367,/m/0bxtg,Tom Hanks,0.9597527980804443
+1040,/m/016gr2,Derek Jacobi,7,5371,/m/0382m4,Michael C. Hall,0.958820104598999
+1040,/m/016gr2,Derek Jacobi,8,3778,/m/06t74h,William Fichtner,0.957797110080719
+1040,/m/016gr2,Derek Jacobi,9,140,/m/02bfmn,Brad Dourif,0.9577799439430237
+1040,/m/016gr2,Derek Jacobi,10,641,/m/018db8,Joaquin Phoenix,0.9574636220932007
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,1,14471,/m/01rqxn,National Assembly,0.9482378363609314
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,2,12795,/m/0133k0,Electroclash,0.9482064247131348
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,3,14517,/m/03f_jk,Lasker-DeBakey Clinical Medical Research Award,0.9439451098442078
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,4,6894,/m/05pcr,Ottawa Senators,0.9424475431442261
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,5,14322,/m/0lxg6,Varna,0.9414231777191162
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,6,13420,/m/03k6x,House of Lords,0.9413737654685974
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,7,10437,/m/09myny,George J. Folsey,0.9391470551490784
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,8,11012,/m/0fwwkj,Virginia Tech Hokies football,0.938841700553894
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,9,9275,/m/027g8gr,ASAP,0.9387118816375732
+6304,/m/0b_75k,1998 NCAA Men's Division I Basketball Tournament,10,14489,/m/01qynv,Oneworld,0.9381943345069885
+6252,/m/01lrrt,Melodrama,1,3207,/m/04n1q6,Provost,0.8139390349388123
+6252,/m/01lrrt,Melodrama,2,13402,/m/08322,Wuxia,0.8093481659889221
+6252,/m/01lrrt,Melodrama,3,7776,/m/0jq2r,Last of the Summer Wine,0.8087788224220276
+6252,/m/01lrrt,Melodrama,4,7974,/m/054nbl,Progressive bluegrass,0.8030255436897278
+6252,/m/01lrrt,Melodrama,5,10021,/m/07_l61,FC Erzgebirge Aue,0.7990098595619202
+6252,/m/01lrrt,Melodrama,6,7432,/m/0215n,Cartoon,0.7987069487571716
+6252,/m/01lrrt,Melodrama,7,10270,/m/0425yz,Jeonbuk Hyundai Motors,0.7980194687843323
+6252,/m/01lrrt,Melodrama,8,13399,/m/0j5ym,Second Sino-Japanese War,0.7974647283554077
+6252,/m/01lrrt,Melodrama,9,8802,/m/01tz3c,Anthology,0.7971240878105164
+6252,/m/01lrrt,Melodrama,10,12596,/m/01b3l,National Baseball Hall of Fame and Museum,0.7970521450042725
+9763,/m/01_k7f,University of Northern Colorado,1,11111,/m/03mghh,AEK Larnaca F.C.,0.9356623291969299
+9763,/m/01_k7f,University of Northern Colorado,2,10106,/m/08vk_r,Genoa C.F.C.,0.9275288581848145
+9763,/m/01_k7f,University of Northern Colorado,3,3193,/m/03_9hm,Morocco national football team,0.9267231822013855
+9763,/m/01_k7f,University of Northern Colorado,4,6510,/m/0515_6,K.R.C. Genk,0.9254022240638733
+9763,/m/01_k7f,University of Northern Colorado,5,5160,/m/0449sw,Togo national football team,0.9248226284980774
+9763,/m/01_k7f,University of Northern Colorado,6,10090,/m/01tzfz,Lancaster University,0.9229908585548401
+9763,/m/01_k7f,University of Northern Colorado,7,13045,/m/0d5fb,Rugby School,0.9226219058036804
+9763,/m/01_k7f,University of Northern Colorado,8,13626,/m/0212ny,Ukrainian SSR,0.9210728406906128
+9763,/m/01_k7f,University of Northern Colorado,9,14197,/m/017575,Porto Alegre,0.920391857624054
+9763,/m/01_k7f,University of Northern Colorado,10,2862,/m/02w4v,Folk music,0.9201087951660156
+7668,/m/0d1xh,Brazoria County,1,4031,/m/0l0mk,Santa Cruz,0.9411673545837402
+7668,/m/0d1xh,Brazoria County,2,11553,/m/0ms1n,Dallas County,0.9389824271202087
+7668,/m/0d1xh,Brazoria County,3,10055,/m/015cj9,Cheltenham,0.9375584721565247
+7668,/m/0d1xh,Brazoria County,4,7786,/m/01zlwg6,Redlands,0.934696614742279
+7668,/m/0d1xh,Brazoria County,5,10965,/m/01ly8d,Buenos Aires Province,0.9335310459136963
+7668,/m/0d1xh,Brazoria County,6,5111,/m/09c6w,Hyderabad,0.932948112487793
+7668,/m/0d1xh,Brazoria County,7,12627,/m/01jc9d,Selangor,0.9326391220092773
+7668,/m/0d1xh,Brazoria County,8,11783,/m/041sbd,Architectural Association School of Architecture,0.9324668049812317
+7668,/m/0d1xh,Brazoria County,9,5011,/m/0rqyx,Clearwater,0.9318475723266602
+7668,/m/0d1xh,Brazoria County,10,5585,/m/09j_g,Activision,0.93170565366745
+8669,/m/01v80y,Barry Levinson,1,5725,/m/09pl3f,Alex Kurtzman,0.9716438055038452
+8669,/m/01v80y,Barry Levinson,2,2005,/m/02t_zq,"Louis Gossett, Jr.",0.9610532522201538
+8669,/m/01v80y,Barry Levinson,3,2596,/m/0gkydb,Scott Adsit,0.9591878652572632
+8669,/m/01v80y,Barry Levinson,4,10805,/m/0d3k14,John F. Kennedy,0.9556456804275513
+8669,/m/01v80y,Barry Levinson,5,7582,/m/01vrlqd,Betty Comden,0.9521080255508423
+8669,/m/01v80y,Barry Levinson,6,6789,/m/0z05l,Graham Greene,0.9519513249397278
+8669,/m/01v80y,Barry Levinson,7,312,/m/025h4z,Judd Hirsch,0.9503186345100403
+8669,/m/01v80y,Barry Levinson,8,2551,/m/0b_7k,Peter Bogdanovich,0.9478874206542969
+8669,/m/01v80y,Barry Levinson,9,8879,/m/026dd2b,Gary Tomlin,0.947695255279541
+8669,/m/01v80y,Barry Levinson,10,1629,/m/016_mj,Chris Rock,0.9469727277755737
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,1,2820,/m/0gqy2,Academy Award for Best Actor in a Supporting Role,0.9486108422279358
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,2,6449,/m/099ck7,Broadcast Film Critics Association Award for Best Actor,0.947087287902832
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,3,7230,/m/027gs1_,Primetime Emmy Award for Outstanding Directing - Comedy Series,0.9432200193405151
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,4,4649,/m/0fbtbt,Primetime Emmy Award for Outstanding Drama Series,0.9426060318946838
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,5,1501,/m/0k611,Academy Award for Best Film Editing,0.9410473108291626
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,6,240,/m/05f4m9q,Razzie Award for Worst Director,0.9401161074638367
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,7,739,/m/02x1dht,Satellite Award for Best Original Screenplay,0.9377533197402954
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,8,179,/m/0f_nbyh,Producers Guild of America Award for Best Theatrical Motion Picture,0.937385082244873
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,9,1654,/m/0gr51,Academy Award for Best Original Screenplay,0.9364710450172424
+4119,/m/0fc9js,Primetime Emmy Award for Outstanding Variety Series,10,1965,/m/02x4w6g,Independent Spirit Award for Best Male Lead,0.9358595013618469
+9064,/m/014knw,Stalag 17,1,1580,/m/0gj9tn5,Ted,0.96626216173172
+9064,/m/014knw,Stalag 17,2,7583,/m/0cbn7c,The Maltese Falcon,0.9617564082145691
+9064,/m/014knw,Stalag 17,3,3693,/m/0gyh2wm,Hyde Park on Hudson,0.9612897634506226
+9064,/m/014knw,Stalag 17,4,5922,/m/03bxp5,Little Women,0.9603667855262756
+9064,/m/014knw,Stalag 17,5,1262,/m/0cz8mkh,Final Destination 5,0.9601238965988159
+9064,/m/014knw,Stalag 17,6,1785,/m/0gd0c7x,Prometheus,0.9598748087882996
+9064,/m/014knw,Stalag 17,7,11065,/m/05sbv3,Gigi,0.9593716263771057
+9064,/m/014knw,Stalag 17,8,5074,/m/02ylg6,Punch-Drunk Love,0.9587671160697937
+9064,/m/014knw,Stalag 17,9,5601,/m/02qyv3h,Iron Sky,0.95799320936203
+9064,/m/014knw,Stalag 17,10,3019,/m/02x6dqb,Annie,0.9575124979019165
+14103,/m/0h5qxv,Nunavut,1,14118,/m/0hv7l,Busan,0.9307902455329895
+14103,/m/0h5qxv,Nunavut,2,8994,/m/0l30v,Shasta County,0.9209359288215637
+14103,/m/0h5qxv,Nunavut,3,10945,/m/0mpzm,Travis County,0.9205717444419861
+14103,/m/0h5qxv,Nunavut,4,12997,/m/013p59,Merseyside,0.917253315448761
+14103,/m/0h5qxv,Nunavut,5,11524,/m/02grjf,Calvin College,0.9141379594802856
+14103,/m/0h5qxv,Nunavut,6,684,/m/01bh3l,KwaZulu-Natal,0.9137678742408752
+14103,/m/0h5qxv,Nunavut,7,10924,/m/01gpy4,Carinthia,0.9136838912963867
+14103,/m/0h5qxv,Nunavut,8,9002,/m/035hm,Gibraltar,0.9129754900932312
+14103,/m/0h5qxv,Nunavut,9,10688,/m/0lfyd,Canton Ticino,0.9126909971237183
+14103,/m/0h5qxv,Nunavut,10,12150,/m/0n5_t,Carroll County,0.9124532341957092
+188,/m/0yyg4,Mississippi Burning,1,221,/m/0gzy02,The Guns of Navarone,0.9661936163902283
+188,/m/0yyg4,Mississippi Burning,2,1942,/m/014kq6,Die Another Day,0.9521005749702454
+188,/m/0yyg4,Mississippi Burning,3,28,/m/015qsq,Serpico,0.9519650340080261
+188,/m/0yyg4,Mississippi Burning,4,1203,/m/019nnl,Family Guy,0.9513151049613953
+188,/m/0yyg4,Mississippi Burning,5,6275,/m/011yhm,Fargo,0.9508854746818542
+188,/m/0yyg4,Mississippi Burning,6,8736,/m/06r2h,Star Trek: First Contact,0.950753390789032
+188,/m/0yyg4,Mississippi Burning,7,5393,/m/074rg9,The Specialist,0.9505554437637329
+188,/m/0yyg4,Mississippi Burning,8,7152,/m/01hv3t,The Truman Show,0.9501299262046814
+188,/m/0yyg4,Mississippi Burning,9,1181,/m/01kff7,Wild Wild West,0.9499922394752502
+188,/m/0yyg4,Mississippi Burning,10,5782,/m/03vyw8,Mrs. Parker and the Vicious Circle,0.9490562677383423
+11145,/m/0dznvw,23rd Academy Awards,1,936,/m/09qvms,12th Screen Actors Guild Awards,0.9222941398620605
+11145,/m/0dznvw,23rd Academy Awards,2,6825,/m/073hd1,63rd Academy Awards,0.9118769764900208
+11145,/m/0dznvw,23rd Academy Awards,3,4781,/m/0dthsy,35th Academy Awards,0.9053075313568115
+11145,/m/0dznvw,23rd Academy Awards,4,468,/m/0bzk8w,46th Academy Awards,0.9017068147659302
+11145,/m/0dznvw,23rd Academy Awards,5,9385,/m/0c4hx0,37th Academy Awards,0.9008605480194092
+11145,/m/0dznvw,23rd Academy Awards,6,7293,/m/09pj68,63rd Golden Globe Awards,0.898699164390564
+11145,/m/0dznvw,23rd Academy Awards,7,9617,/m/0c4hnm,38th Academy Awards,0.8986679911613464
+11145,/m/0dznvw,23rd Academy Awards,8,1909,/m/07z31v,56th Primetime Emmy Awards,0.8977852463722229
+11145,/m/0dznvw,23rd Academy Awards,9,6316,/m/026kqs9,28th Golden Globe Awards,0.8960093855857849
+11145,/m/0dznvw,23rd Academy Awards,10,7172,/m/09pnw5,57th Golden Globe Awards,0.8954821825027466
+11808,/m/035s37,Finland national football team,1,10984,/m/07b8m1,Denizlispor,0.9589666128158569
+11808,/m/035s37,Finland national football team,2,10704,/m/077jpc,CFR Cluj,0.9502580165863037
+11808,/m/035s37,Finland national football team,3,12960,/m/03zm00,El Salvador national football team,0.9483490586280823
+11808,/m/035s37,Finland national football team,4,5657,/m/0261w5,Fredrikstad FK,0.9479257464408875
+11808,/m/035s37,Finland national football team,5,9340,/m/057n_g,Royal Antwerp F.C.,0.9476193785667419
+11808,/m/035s37,Finland national football team,6,5251,/m/04mp9q,Toulouse FC,0.9433839321136475
+11808,/m/035s37,Finland national football team,7,12940,/m/0ly8z,Rosenborg BK,0.942966639995575
+11808,/m/035s37,Finland national football team,8,2450,/m/017_1x,Molde FK,0.9426106810569763
+11808,/m/035s37,Finland national football team,9,13094,/m/04kn29,Ittihad FC,0.9423370361328125
+11808,/m/035s37,Finland national football team,10,11348,/m/0515zg,R. Charleroi S.C.,0.9414772987365723
+1876,/m/01hqhm,Magnolia,1,4897,/m/04jm_hq,The Messenger,0.9641732573509216
+1876,/m/01hqhm,Magnolia,2,4744,/m/062zm5h,The Avengers,0.9638749957084656
+1876,/m/01hqhm,Magnolia,3,2421,/m/03qnc6q,The Tree of Life,0.9634929895401001
+1876,/m/01hqhm,Magnolia,4,1531,/m/029zqn,Pleasantville,0.961246132850647
+1876,/m/01hqhm,Magnolia,5,5845,/m/064lsn,The Pianist,0.9609377384185791
+1876,/m/01hqhm,Magnolia,6,357,/m/0ds11z,Sweeney Todd: The Demon Barber of Fleet Street,0.9600607752799988
+1876,/m/01hqhm,Magnolia,7,1707,/m/0_7w6,Beauty and the Beast,0.9600570201873779
+1876,/m/01hqhm,Magnolia,8,7936,/m/04v89z,The Longest Day,0.9594312310218811
+1876,/m/01hqhm,Magnolia,9,8779,/m/02p86pb,Born on the Fourth of July,0.9594159126281738
+1876,/m/01hqhm,Magnolia,10,3716,/m/047tsx3,The Notebook,0.9594112634658813
+11169,/m/03k7dn,Denison University,1,13260,/m/01gpkz,University of Strathclyde,0.9540082216262817
+11169,/m/03k7dn,Denison University,2,4330,/m/07t90,University of Washington,0.950857400894165
+11169,/m/03k7dn,Denison University,3,8230,/m/03zrhb,South Korea national football team,0.9499577283859253
+11169,/m/03k7dn,Denison University,4,8656,/m/02482c,University of New Mexico,0.9485686421394348
+11169,/m/03k7dn,Denison University,5,13516,/m/0ch280,University of Texas School of Law,0.9471680521965027
+11169,/m/03k7dn,Denison University,6,8570,/m/021w0_,"California State University, Long Beach",0.9462511539459229
+11169,/m/03k7dn,Denison University,7,4813,/m/02dj3,Dalhousie University,0.9461809992790222
+11169,/m/03k7dn,Denison University,8,9629,/m/02yr1q,Drake University,0.9457975625991821
+11169,/m/03k7dn,Denison University,9,662,/m/0288zy,Mills College,0.9448608160018921
+11169,/m/03k7dn,Denison University,10,10845,/m/01pdgp,St. Olaf College,0.9416833519935608
+14496,/m/060m4,Prime Minister of Canada,1,14253,/m/0m57f,Pulitzer Prize for Biography or Autobiography,0.9465922713279724
+14496,/m/060m4,Prime Minister of Canada,2,13366,/m/012pd4,Scott Bradley,0.9432458877563477
+14496,/m/060m4,Prime Minister of Canada,3,12665,/m/02gnj2,Len Wein,0.9424253106117249
+14496,/m/060m4,Prime Minister of Canada,4,2054,/m/04qhdf,Cumulus Media,0.9409311413764954
+14496,/m/060m4,Prime Minister of Canada,5,6531,/m/01tpvt,University of Zurich,0.9360281229019165
+14496,/m/060m4,Prime Minister of Canada,6,13817,/m/06z9f8,Xerez CD,0.9340235590934753
+14496,/m/060m4,Prime Minister of Canada,7,14329,/m/0h9vh,Guangdong Province,0.9321792125701904
+14496,/m/060m4,Prime Minister of Canada,8,11668,/m/0f_zkz,Hal Mohr,0.9316611289978027
+14496,/m/060m4,Prime Minister of Canada,9,861,/m/04hpck,Treat Williams,0.931632936000824
+14496,/m/060m4,Prime Minister of Canada,10,6118,/m/04s934,Lowell High School,0.931415319442749
+8797,/m/02hrb2,Philipps University of Marburg,1,6365,/m/01jpyb,"University of Nevada, Reno",0.949048638343811
+8797,/m/02hrb2,Philipps University of Marburg,2,4783,/m/029d_,Drexel University,0.9343301057815552
+8797,/m/02hrb2,Philipps University of Marburg,3,13397,/m/01nhgd,Cleveland State University,0.9343297481536865
+8797,/m/02hrb2,Philipps University of Marburg,4,8425,/m/0trv,Arizona State University,0.9342767596244812
+8797,/m/02hrb2,Philipps University of Marburg,5,11849,/m/027b43,University of North Dakota,0.9340580105781555
+8797,/m/02hrb2,Philipps University of Marburg,6,4143,/m/017j69,Northwestern University,0.9330068230628967
+8797,/m/02hrb2,Philipps University of Marburg,7,7609,/m/0_kq3,Beaufort,0.9320741891860962
+8797,/m/02hrb2,Philipps University of Marburg,8,13335,/m/01f6ss,University of Aberdeen,0.9318685531616211
+8797,/m/02hrb2,Philipps University of Marburg,9,8741,/m/022fj_,Florida International University,0.9313938617706299
+8797,/m/02hrb2,Philipps University of Marburg,10,7605,/m/0l1pj,Van Nuys,0.9309191107749939
+12302,/m/01pt5w,Quezon City,1,8651,/m/09t4t,Manufacturing,0.9588068127632141
+12302,/m/01pt5w,Quezon City,2,13201,/m/011w54,Nobel Memorial Prize in Economic Sciences,0.9525140523910522
+12302,/m/01pt5w,Quezon City,3,10420,/m/09bcm,Venus,0.942720890045166
+12302,/m/01pt5w,Quezon City,4,3674,/m/0dlw0,Umbria,0.9395055174827576
+12302,/m/01pt5w,Quezon City,5,1006,/m/0y54,AFC Ajax,0.938448965549469
+12302,/m/01pt5w,Quezon City,6,13320,/m/09c04n,PFC Cherno More Varna,0.9343910217285156
+12302,/m/01pt5w,Quezon City,7,9030,/m/06nrt,Saskatchewan,0.9339545965194702
+12302,/m/01pt5w,Quezon City,8,12913,/m/06n8j,Sarajevo,0.9334077835083008
+12302,/m/01pt5w,Quezon City,9,5880,/m/04htfd,PepsiCo,0.9331668615341187
+12302,/m/01pt5w,Quezon City,10,7138,/m/03cz83,"Knox College, Illinois",0.9322092533111572
+4371,/m/018n6m,Missy Elliott,1,1612,/m/015882,Linda Ronstadt,0.9601576924324036
+4371,/m/018n6m,Missy Elliott,2,6806,/m/07r1_,The Smashing Pumpkins,0.9544882774353027
+4371,/m/018n6m,Missy Elliott,3,1775,/m/04mn81,Pharrell Williams,0.9527090191841125
+4371,/m/018n6m,Missy Elliott,4,548,/m/03ldxq,Ann Curry,0.9523767828941345
+4371,/m/018n6m,Missy Elliott,5,6555,/m/06mt91,Rihanna,0.9522346258163452
+4371,/m/018n6m,Missy Elliott,6,3487,/m/01d8yn,Aaron Sorkin,0.9504331350326538
+4371,/m/018n6m,Missy Elliott,7,355,/m/0m2l9,Neil Young,0.9498643279075623
+4371,/m/018n6m,Missy Elliott,8,6700,/m/0zcbl,Paul Giamatti,0.949138879776001
+4371,/m/018n6m,Missy Elliott,9,2232,/m/01cwhp,Celine Dion,0.9486114978790283
+4371,/m/018n6m,Missy Elliott,10,5217,/m/04kr63w,Alison Brie,0.947848916053772
+12592,/m/0q_0z,Bakersfield,1,5730,/m/03l6bs,Beloit College,0.923632800579071
+12592,/m/0q_0z,Bakersfield,2,10423,/m/0bzty,Lombardy,0.9230771660804749
+12592,/m/0q_0z,Bakersfield,3,2239,/m/01n6c,Comoros,0.9225623607635498
+12592,/m/0q_0z,Bakersfield,4,13717,/m/021npd,"Scarborough, North Yorkshire",0.92125004529953
+12592,/m/0q_0z,Bakersfield,5,12374,/m/03s0c,Island,0.9165393114089966
+12592,/m/0q_0z,Bakersfield,6,11462,/m/01gb_7,Kelowna,0.9125033020973206
+12592,/m/0q_0z,Bakersfield,7,6883,/m/07lly,Truro,0.9118911027908325
+12592,/m/0q_0z,Bakersfield,8,13054,/m/013d_f,East Lansing,0.9096661806106567
+12592,/m/0q_0z,Bakersfield,9,7195,/m/0727_,Stuttgart,0.908164381980896
+12592,/m/0q_0z,Bakersfield,10,6007,/m/0f63n,Greene County,0.9076923727989197
+10501,/m/03j76b,AC Sparta Prague,1,12990,/m/03_3z4,Egypt national football team,0.9663149118423462
+10501,/m/03j76b,AC Sparta Prague,2,7906,/m/05jg58,Post-grunge,0.9625549912452698
+10501,/m/03j76b,AC Sparta Prague,3,10534,/m/03078l,SK Rapid Wien,0.959935188293457
+10501,/m/03j76b,AC Sparta Prague,4,11111,/m/03mghh,AEK Larnaca F.C.,0.9584957361221313
+10501,/m/03j76b,AC Sparta Prague,5,10498,/m/0425hg,Jeju United FC,0.9575833082199097
+10501,/m/03j76b,AC Sparta Prague,6,13219,/m/025rpyx,Panathinaikos FC,0.9574594497680664
+10501,/m/03j76b,AC Sparta Prague,7,13150,/m/0txrs,Salisbury,0.9571431875228882
+10501,/m/03j76b,AC Sparta Prague,8,9896,/m/01tntf,Saint Mary's College of California,0.9566209316253662
+10501,/m/03j76b,AC Sparta Prague,9,11925,/m/0gmf0nj,Bounce TV,0.9563066959381104
+10501,/m/03j76b,AC Sparta Prague,10,13043,/m/0hm2b,New Jersey Devils,0.9552875757217407
+5573,/m/02h22,Das Boot,1,905,/m/0k2sk,Who Framed Roger Rabbit,0.9607254266738892
+5573,/m/02h22,Das Boot,2,5088,/m/04fv5b,Book of Shadows: Blair Witch 2,0.9505409598350525
+5573,/m/02h22,Das Boot,3,6602,/m/043tvp3,Terminator Salvation,0.9490278363227844
+5573,/m/02h22,Das Boot,4,7744,/m/03nsm5x,Seven Pounds,0.94826740026474
+5573,/m/02h22,Das Boot,5,101,/m/02vxq9m,Skyfall,0.9470869302749634
+5573,/m/02h22,Das Boot,6,8092,/m/0bs8hvm,Germany in Autumn,0.9467096924781799
+5573,/m/02h22,Das Boot,7,5447,/m/01d259,Lost Highway,0.9447494149208069
+5573,/m/02h22,Das Boot,8,11830,/m/0gt14,Mr. Smith Goes to Washington,0.9447283744812012
+5573,/m/02h22,Das Boot,9,9245,/m/01rnly,The Cotton Club,0.9444906711578369
+5573,/m/02h22,Das Boot,10,1499,/m/0bh8yn3,Green Lantern,0.944381594657898
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,1,2820,/m/0gqy2,Academy Award for Best Actor in a Supporting Role,0.9633911848068237
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,2,1965,/m/02x4w6g,Independent Spirit Award for Best Male Lead,0.9570528864860535
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,3,739,/m/02x1dht,Satellite Award for Best Original Screenplay,0.9513982534408569
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,4,4649,/m/0fbtbt,Primetime Emmy Award for Outstanding Drama Series,0.9513892531394958
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,5,1501,/m/0k611,Academy Award for Best Film Editing,0.9476611018180847
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,6,2036,/m/09td7p,Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting Role,0.9473738074302673
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,7,327,/m/099jhq,Broadcast Film Critics Association Award for Best Supporting Actor,0.9472697377204895
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,8,608,/m/09qj50,Primetime Emmy Award for Outstanding Lead Actress - Comedy Series,0.9462384581565857
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,9,631,/m/0fbvqf,Primetime Emmy Award for Outstanding Supporting Actor - Drama Series,0.9460194706916809
+1827,/m/0bdx29,Primetime Emmy Award for Outstanding Supporting Actress - Drama Series,10,6449,/m/099ck7,Broadcast Film Critics Association Award for Best Actor,0.9434992074966431
+4808,/m/014kkm,The Bad and the Beautiful,1,9334,/m/045r_9,An Early Frost,0.955653965473175
+4808,/m/014kkm,The Bad and the Beautiful,2,3957,/m/02md2d,St. Elsewhere,0.9546663761138916
+4808,/m/014kkm,The Bad and the Beautiful,3,6601,/m/07nxnw,Beowulf,0.9540269374847412
+4808,/m/014kkm,The Bad and the Beautiful,4,5192,/m/0fjyzt,The Quiet American,0.9483534693717957
+4808,/m/014kkm,The Bad and the Beautiful,5,6652,/m/027pfg,Big Fish,0.9474705457687378
+4808,/m/014kkm,The Bad and the Beautiful,6,4155,/m/06zn2v2,Don't Be Afraid of the Dark,0.9453147053718567
+4808,/m/014kkm,The Bad and the Beautiful,7,6348,/m/07gghl,Showtime,0.9452003836631775
+4808,/m/014kkm,The Bad and the Beautiful,8,296,/m/095zlp,The Hours,0.9443520903587341
+4808,/m/014kkm,The Bad and the Beautiful,9,4824,/m/0b2qtl,War and Peace,0.9441589117050171
+4808,/m/014kkm,The Bad and the Beautiful,10,7641,/m/0y_pg,Ghost,0.9429042339324951
+7123,/m/06mnr,Statistics,1,11095,/m/01lhf,Communication,0.8558008074760437
+7123,/m/06mnr,Statistics,2,11752,/m/01400v,Public policy,0.7760618925094604
+7123,/m/06mnr,Statistics,3,8812,/m/040p_q,Creative writing,0.7677769064903259
+7123,/m/06mnr,Statistics,4,10097,/m/02stgt,Public administration,0.7676684856414795
+7123,/m/06mnr,Statistics,5,1140,/m/01lhy,Classics,0.7607670426368713
+7123,/m/06mnr,Statistics,6,8798,/m/0l5mz,International relations,0.75734943151474
+7123,/m/06mnr,Statistics,7,3145,/m/0pf2,Applied mathematics,0.7572789788246155
+7123,/m/06mnr,Statistics,8,6086,/m/05qt0,Politics,0.7469246983528137
+7123,/m/06mnr,Statistics,9,9982,/m/01bt59,Industrial engineering,0.7406717538833618
+7123,/m/06mnr,Statistics,10,3184,/m/0jjw,Art,0.739287793636322
+2591,/m/04jwly,Far from Heaven,1,2789,/m/0j43swk,Zero Dark Thirty,0.9660677909851074
+2591,/m/04jwly,Far from Heaven,2,70,/m/0m313,Shakespeare in Love,0.963241457939148
+2591,/m/04jwly,Far from Heaven,3,197,/m/01gc7,Braveheart,0.9568638801574707
+2591,/m/04jwly,Far from Heaven,4,4232,/m/01pj_5,Scary Movie,0.9561043977737427
+2591,/m/04jwly,Far from Heaven,5,805,/m/017gl1,The Lord of the Rings: The Fellowship of the Ring,0.9558502435684204
+2591,/m/04jwly,Far from Heaven,6,3481,/m/03cw411,The Reader,0.9530462026596069
+2591,/m/04jwly,Far from Heaven,7,4482,/m/0k2cb,Dangerous Liaisons,0.9528836011886597
+2591,/m/04jwly,Far from Heaven,8,895,/m/0bshwmp,Just Go With It,0.9521319270133972
+2591,/m/04jwly,Far from Heaven,9,7602,/m/0llcx,Witness,0.9510205388069153
+2591,/m/04jwly,Far from Heaven,10,2886,/m/07w8fz,"Good Night, and Good Luck",0.9507473111152649
+7433,/m/0fxmbn,The Man with the Golden Gun,1,6324,/m/094g2z,Father of the Bride Part II,0.970398485660553
+7433,/m/0fxmbn,The Man with the Golden Gun,2,4421,/m/0gkz3nz,Moonrise Kingdom,0.9691471457481384
+7433,/m/0fxmbn,The Man with the Golden Gun,3,5902,/m/02v_r7d,Luther,0.9664732813835144
+7433,/m/0fxmbn,The Man with the Golden Gun,4,8092,/m/0bs8hvm,Germany in Autumn,0.9662848711013794
+7433,/m/0fxmbn,The Man with the Golden Gun,5,1849,/m/02xhpl,Alice,0.9659908413887024
+7433,/m/0fxmbn,The Man with the Golden Gun,6,4541,/m/026qnh6,Australia,0.9657753705978394
+7433,/m/0fxmbn,The Man with the Golden Gun,7,639,/m/087wc7n,The Lorax,0.9652445912361145
+7433,/m/0fxmbn,The Man with the Golden Gun,8,3582,/m/0d_wms,Superman II: The Richard Donner Cut,0.9640808701515198
+7433,/m/0fxmbn,The Man with the Golden Gun,9,9659,/m/024lt6,Rushmore,0.9634890556335449
+7433,/m/0fxmbn,The Man with the Golden Gun,10,3291,/m/017kct,Oh! What a Lovely War,0.9631301164627075

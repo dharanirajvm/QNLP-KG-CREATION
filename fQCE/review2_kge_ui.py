@@ -21,10 +21,17 @@ def parse_kg_line(line: str) -> tuple[str, str, str]:
     return parts[0], parts[1], parts[2]
 
 
-def list_snapshot_dirs(base: Path) -> list[Path]:
-    if not base.exists():
-        return []
-    return sorted([p for p in base.iterdir() if p.is_dir()], key=lambda p: p.stat().st_mtime, reverse=True)
+def list_snapshot_dirs(bases: list[Path]) -> list[Path]:
+    dirs: list[Path] = []
+    seen = set()
+    for base in bases:
+        if not base.exists():
+            continue
+        for p in base.iterdir():
+            if p.is_dir() and str(p) not in seen:
+                dirs.append(p)
+                seen.add(str(p))
+    return sorted(dirs, key=lambda p: p.stat().st_mtime, reverse=True)
 
 
 @st.cache_data(show_spinner=False)
@@ -123,15 +130,21 @@ def main() -> None:
     st.caption("Choose mode, run inference, and compare predictions with ground truth.")
 
     root = Path(__file__).resolve().parent
-    default_snapshots_root = root / "runs_kge_fb15k237"
-    snapshots = list_snapshot_dirs(default_snapshots_root)
+    default_snapshots_roots = [
+        root / "inference_snapshots",
+        root / "runs_kge_fb15k237",
+    ]
+    snapshots = list_snapshot_dirs(default_snapshots_roots)
 
     with st.sidebar:
         st.header("Model")
         if snapshots:
             snapshot_dir = st.selectbox("Snapshot / Run directory", [str(p) for p in snapshots], index=0)
         else:
-            snapshot_dir = st.text_input("Snapshot / Run directory", value=str(default_snapshots_root))
+            snapshot_dir = st.text_input(
+                "Snapshot / Run directory",
+                value=str(default_snapshots_roots[0]),
+            )
         backend = st.text_input("Backend override (optional)", value="")
 
         st.header("Data")

@@ -1,0 +1,13 @@
+{
+  "snapshot_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344",
+  "dataset_dir": "c:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\datasets\\fb15k237",
+  "backend": "lightning.gpu",
+  "num_qubits": 6,
+  "num_entities_total": 14541,
+  "num_entities_visualized": 2000,
+  "outputs": [
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_pca.png",
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_tsne.png",
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_projection.csv"
+  ]
+}

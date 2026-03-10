@@ -1,0 +1,16 @@
+{
+  "epochs_recorded": 17,
+  "total_training_hours": 36.776588056882225,
+  "best_train_loss": 0.42246248793764424,
+  "best_train_loss_epoch": 17,
+  "best_train_pair_acc": 0.94756,
+  "best_train_pair_acc_epoch": 15,
+  "best_val_mrr": 0.21358201407937466,
+  "best_val_mrr_epoch": 10,
+  "best_val_hits@3": 0.235,
+  "best_val_hits@3_epoch": 10,
+  "best_val_hits@10": 0.33,
+  "best_val_hits@10_epoch": 10,
+  "best_val_mr": 248.53,
+  "best_val_mr_epoch": 10
+}

@@ -8,10 +8,17 @@ import torch
 
 from training_fb15k237 import QuantumKGE, setup_quantum
 
+# Updated best-model snapshot copy for default inference.
+DEFAULT_SNAPSHOT_DIR = (
+    Path(__file__).resolve().parent
+    / "inference_snapshots"
+    / "quantum_fb15k237_20260308_174529_updated_20260310_193344"
+)
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Inference + ranking for saved FB15k-237 quantum model.")
-    parser.add_argument("--snapshot-dir", type=Path, required=True)
+    parser.add_argument("--snapshot-dir", type=Path, default=DEFAULT_SNAPSHOT_DIR)
     parser.add_argument(
         "--mode",
         choices=["tail", "head", "score"],

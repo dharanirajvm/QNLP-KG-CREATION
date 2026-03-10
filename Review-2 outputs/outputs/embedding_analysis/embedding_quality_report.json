@@ -1,0 +1,34 @@
+{
+  "snapshot_dir": "c:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344",
+  "dataset_dir": "c:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\datasets\\fb15k237",
+  "backend": "lightning.gpu",
+  "num_qubits": 6,
+  "num_entities": 14541,
+  "num_relations": 237,
+  "eval_settings": {
+    "anchors": 60,
+    "nearest_pool": 1200,
+    "topk": 10,
+    "max_metric_triples": 400,
+    "max_prototype_triples": 1500,
+    "cached_entities_used": 3646
+  },
+  "relation_retrieval": {
+    "top1_relation_retrieval": 0.645,
+    "mrr_relation_retrieval": 0.7264027466151509,
+    "samples": 400.0
+  },
+  "score_separation": {
+    "pos_score_mean": 0.5724224703069046,
+    "pos_score_std": 0.2998926646416823,
+    "neg_score_mean": -0.3213130082603863,
+    "neg_score_std": 0.3719927511164452,
+    "margin_mean": 0.8937354785672909,
+    "pairwise_acc": 0.9425,
+    "samples": 400.0
+  },
+  "artifacts": {
+    "nearest_entities_csv": "c:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_analysis\\nearest_entities.csv",
+    "nearest_relations_csv": "c:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_analysis\\nearest_relations.csv"
+  }
+}

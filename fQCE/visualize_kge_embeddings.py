@@ -16,7 +16,7 @@ from training_fb15k237 import QuantumKGE, setup_quantum
 
 # Replace this with your final trained model snapshot path once ready.
 SNAPSHOT_DIR = Path(
-    r"c:\Users\DHARANIRAJ VM\Documents\FYP-25\QNLP\Phase-1\lambeq\qnlp\LLM-Simplification\fQCE\inference_snapshots\quantum_fb15k237_20260308_174529_20260309_220713"
+    r"C:\Users\DHARANIRAJ VM\Documents\FYP-25\QNLP\Phase-1\lambeq\qnlp\LLM-Simplification\fQCE\inference_snapshots\quantum_fb15k237_20260308_174529_updated_20260310_193344"
 )
 
 # Keep in sync with your FB15k-237 split files.
