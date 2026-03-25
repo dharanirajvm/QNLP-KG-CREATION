@@ -1,4 +1,4 @@
-﻿import argparse
+import argparse
 import json
 import logging
 import random
@@ -177,58 +177,7 @@ def load_fb15k237(dataset_dir: Path, download: bool, max_train_triples: int) -> 
     return KGData(train=train, val=val, test=test, entity_to_id=entity_to_id, relation_to_id=relation_to_id)
 
 
-class ComplexKGE(nn.Module):
-    def __init__(self, num_entities: int, num_relations: int, dim: int):
-        super().__init__()
-        self.ent_re = nn.Embedding(num_entities, dim)
-        self.ent_im = nn.Embedding(num_entities, dim)
-        self.rel_re = nn.Embedding(num_relations, dim)
-        self.rel_im = nn.Embedding(num_relations, dim)
-        self.reset_parameters()
-
-    def reset_parameters(self) -> None:
-        bound = 6.0 / (self.ent_re.embedding_dim ** 0.5)
-        nn.init.uniform_(self.ent_re.weight, -bound, bound)
-        nn.init.uniform_(self.ent_im.weight, -bound, bound)
-        nn.init.uniform_(self.rel_re.weight, -bound, bound)
-        nn.init.uniform_(self.rel_im.weight, -bound, bound)
-
-    def score(self, h: torch.Tensor, r: torch.Tensor, t: torch.Tensor) -> torch.Tensor:
-        hr = self.ent_re(h)
-        hi = self.ent_im(h)
-        rr = self.rel_re(r)
-        ri = self.rel_im(r)
-        tr = self.ent_re(t)
-        ti = self.ent_im(t)
-        return ((hr * rr - hi * ri) * tr + (hr * ri + hi * rr) * ti).sum(dim=-1)
-
-    @torch.no_grad()
-    def score_tails_all(self, h: int, r: int, device: torch.device) -> torch.Tensor:
-        h_t = torch.tensor([h], device=device)
-        r_t = torch.tensor([r], device=device)
-        hr = self.ent_re(h_t)
-        hi = self.ent_im(h_t)
-        rr = self.rel_re(r_t)
-        ri = self.rel_im(r_t)
-        q_re = hr * rr - hi * ri
-        q_im = hr * ri + hi * rr
-        scores = q_re @ self.ent_re.weight.T + q_im @ self.ent_im.weight.T
-        return scores.squeeze(0)
-
-    @torch.no_grad()
-    def score_heads_all(self, r: int, t: int, device: torch.device) -> torch.Tensor:
-        r_t = torch.tensor([r], device=device)
-        t_t = torch.tensor([t], device=device)
-        rr = self.rel_re(r_t)
-        ri = self.rel_im(r_t)
-        tr = self.ent_re(t_t)
-        ti = self.ent_im(t_t)
-        # from ComplEx symmetry for heads
-        q_re = rr * tr + ri * ti
-        q_im = rr * ti - ri * tr
-        scores = self.ent_re.weight @ q_re.squeeze(0) + self.ent_im.weight @ q_im.squeeze(0)
-        return scores
-
+ 
 
 class QuantumContext:
     num_qubits: int = 4
@@ -274,6 +223,57 @@ def build_qnodes():
         return qml.state()
 
     return sp_circuit, e_circuit
+
+
+class ComplexKGE(nn.Module):
+    def __init__(self, num_entities: int, num_relations: int, embedding_dim: int):
+        super().__init__()
+        self.embedding_dim = embedding_dim
+        # ComplEx embeddings: real and imaginary parts
+        self.entity_emb = nn.Embedding(num_entities, embedding_dim * 2)
+        self.relation_emb = nn.Embedding(num_relations, embedding_dim * 2)
+        nn.init.xavier_uniform_(self.entity_emb.weight)
+        nn.init.xavier_uniform_(self.relation_emb.weight)
+
+    def score(self, h: int, r: int, t: int) -> torch.Tensor:
+        h_emb = self.entity_emb(torch.tensor(h))
+        r_emb = self.relation_emb(torch.tensor(r))
+        t_emb = self.entity_emb(torch.tensor(t))
+        
+        h_real, h_imag = h_emb[:self.embedding_dim], h_emb[self.embedding_dim:]
+        r_real, r_imag = r_emb[:self.embedding_dim], r_emb[self.embedding_dim:]
+        t_real, t_imag = t_emb[:self.embedding_dim], t_emb[self.embedding_dim:]
+        
+        # ComplEx scoring: Re(<h, r, conj(t)>)
+        real_part = h_real * r_real * t_real + h_imag * r_imag * t_real + h_real * r_imag * t_imag - h_imag * r_real * t_imag
+        imag_part = h_real * r_real * t_imag + h_imag * r_imag * t_imag + h_real * r_imag * t_real + h_imag * r_real * t_real
+        return real_part.sum(dim=-1)
+
+    @torch.no_grad()
+    def score_tails_all(self, h: int, r: int, device: torch.device) -> torch.Tensor:
+        h_emb = self.entity_emb(torch.tensor(h, device=device))
+        r_emb = self.relation_emb(torch.tensor(r, device=device))
+        t_emb = self.entity_emb.weight  # all entities
+        
+        h_real, h_imag = h_emb[:self.embedding_dim], h_emb[self.embedding_dim:]
+        r_real, r_imag = r_emb[:self.embedding_dim], r_emb[self.embedding_dim:]
+        t_real, t_imag = t_emb[:, :self.embedding_dim], t_emb[:, self.embedding_dim:]
+        
+        real_part = (h_real * r_real).unsqueeze(0) * t_real + (h_imag * r_imag).unsqueeze(0) * t_real + (h_real * r_imag).unsqueeze(0) * t_imag - (h_imag * r_real).unsqueeze(0) * t_imag
+        return real_part.sum(dim=-1)
+
+    @torch.no_grad()
+    def score_heads_all(self, r: int, t: int, device: torch.device) -> torch.Tensor:
+        r_emb = self.relation_emb(torch.tensor(r, device=device))
+        t_emb = self.entity_emb(torch.tensor(t, device=device))
+        h_emb = self.entity_emb.weight  # all entities
+        
+        r_real, r_imag = r_emb[:self.embedding_dim], r_emb[self.embedding_dim:]
+        t_real, t_imag = t_emb[:self.embedding_dim], t_emb[self.embedding_dim:]
+        h_real, h_imag = h_emb[:, :self.embedding_dim], h_emb[:, self.embedding_dim:]
+        
+        real_part = h_real * (r_real * t_real) + h_imag * (r_imag * t_real) + h_real * (r_imag * t_imag) - h_imag * (r_real * t_imag)
+        return real_part.sum(dim=-1)
 
 
 class QuantumKGE(nn.Module):

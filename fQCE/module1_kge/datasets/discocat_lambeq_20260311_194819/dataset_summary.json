@@ -1,0 +1,38 @@
+{
+  "timestamp": "20260311_194819",
+  "dataset_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\datasets\\discocat_lambeq_20260311_194819",
+  "source_mode": "both",
+  "source_stats": {
+    "lambeq_generated": {
+      "files_found": 1,
+      "rows_kept": 444,
+      "rows_skipped": 0
+    },
+    "dataset_csv": {
+      "files_found": 1,
+      "rows_kept": 3000,
+      "rows_skipped": 0
+    }
+  },
+  "triples_before_dedupe": 3444,
+  "triples_after_filters": 120,
+  "split_sizes": {
+    "train": 84,
+    "valid": 18,
+    "test": 18
+  },
+  "num_unique_entities": 101,
+  "num_relations": 10,
+  "relation_distribution": {
+    "born_in": 12,
+    "lives_in": 18,
+    "located_in": 12,
+    "married_to": 12,
+    "owns": 10,
+    "parent_of": 8,
+    "part_of": 9,
+    "studies_at": 12,
+    "uses": 10,
+    "works_at": 17
+  }
+}

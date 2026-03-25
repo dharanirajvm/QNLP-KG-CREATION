@@ -1,0 +1,99 @@
+{
+  "pipeline": "module1_kge",
+  "run_datetime": "2026-03-11T20:01:50.720822",
+  "args": {
+    "source_mode": "both",
+    "lambeq_triples_jsonl": [
+      "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\runs\\lambeq_relation_20260304_193030\\kg_triples_test.jsonl"
+    ],
+    "dataset_csv": [
+      "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\data\\relation_extraction_discocat_v2.csv"
+    ],
+    "min_confidence": 0.0,
+    "deduplicate": true,
+    "max_triples": 120,
+    "train_ratio": 0.7,
+    "valid_ratio": 0.15,
+    "seed": 42,
+    "dataset_tag": "discocat_lambeq",
+    "dataset_out_dir": null,
+    "model": "quantum",
+    "device": "auto",
+    "epochs": 1,
+    "batch_size": 1,
+    "learning_rate": 0.0002,
+    "weight_decay": 1e-06,
+    "grad_clip": 1.0,
+    "embedding_dim": 256,
+    "negatives_per_positive": 32,
+    "num_qubits": 6,
+    "q_backend": "default.qubit",
+    "kappa": 1,
+    "train_samples_per_epoch": 40,
+    "eval_every": 1,
+    "early_stop_patience": 8,
+    "eval_max_triples": 20,
+    "eval_candidates": 128,
+    "max_train_triples": 0,
+    "allow_classical": false,
+    "log_level": "INFO",
+    "skip_training": false,
+    "existing_run_dir": null,
+    "runs_root": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs",
+    "skip_visualization": false,
+    "skip_meaning_analysis": false,
+    "skip_metrics_viz": false,
+    "viz_max_entities": 80,
+    "analysis_anchors": 20,
+    "analysis_nearest_pool": 80,
+    "analysis_topk": 10,
+    "analysis_max_metric_triples": 80,
+    "analysis_max_prototype_triples": 80
+  },
+  "dataset_summary": {
+    "timestamp": "20260311_194819",
+    "dataset_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\datasets\\discocat_lambeq_20260311_194819",
+    "source_mode": "both",
+    "source_stats": {
+      "lambeq_generated": {
+        "files_found": 1,
+        "rows_kept": 444,
+        "rows_skipped": 0
+      },
+      "dataset_csv": {
+        "files_found": 1,
+        "rows_kept": 3000,
+        "rows_skipped": 0
+      }
+    },
+    "triples_before_dedupe": 3444,
+    "triples_after_filters": 120,
+    "split_sizes": {
+      "train": 84,
+      "valid": 18,
+      "test": 18
+    },
+    "num_unique_entities": 101,
+    "num_relations": 10,
+    "relation_distribution": {
+      "born_in": 12,
+      "lives_in": 18,
+      "located_in": 12,
+      "married_to": 12,
+      "owns": 10,
+      "parent_of": 8,
+      "part_of": 9,
+      "studies_at": 12,
+      "uses": 10,
+      "works_at": 17
+    }
+  },
+  "artifacts": {
+    "run_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857",
+    "dataset_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\datasets\\discocat_lambeq_20260311_194819",
+    "labels_human": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\labels_human.json",
+    "embedding_viz_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\embedding_viz",
+    "embedding_analysis_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\embedding_analysis",
+    "metrics_viz_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\metrics_viz"
+  }
+}

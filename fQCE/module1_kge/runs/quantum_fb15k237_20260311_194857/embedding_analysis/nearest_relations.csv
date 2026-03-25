@@ -1,0 +1,91 @@
+relation_id,relation_raw,relation_text,neighbor_rank,neighbor_relation_id,neighbor_relation_raw,neighbor_relation_text,cosine_similarity,relation_train_count
+0,studies_at,studies at,1,8,lives_in,lives in,0.454810231924057,8
+0,studies_at,studies at,2,7,uses,uses,0.39742568135261536,8
+0,studies_at,studies at,3,2,owns,owns,0.26862451434135437,8
+0,studies_at,studies at,4,6,born_in,born in,0.23025663197040558,8
+0,studies_at,studies at,5,3,works_at,works at,0.14317947626113892,8
+0,studies_at,studies at,6,4,located_in,located in,0.026828467845916748,8
+0,studies_at,studies at,7,1,married_to,married to,0.0013862939085811377,8
+0,studies_at,studies at,8,5,parent_of,parent of,-0.17064045369625092,8
+0,studies_at,studies at,9,9,part_of,part of,-0.2483527958393097,8
+1,married_to,married to,1,7,uses,uses,0.22600969672203064,9
+1,married_to,married to,2,9,part_of,part of,0.21446959674358368,9
+1,married_to,married to,3,6,born_in,born in,0.19412174820899963,9
+1,married_to,married to,4,5,parent_of,parent of,0.1363237500190735,9
+1,married_to,married to,5,8,lives_in,lives in,0.026850493624806404,9
+1,married_to,married to,6,0,studies_at,studies at,0.0013862939085811377,9
+1,married_to,married to,7,3,works_at,works at,-0.02704678475856781,9
+1,married_to,married to,8,2,owns,owns,-0.044337980449199677,9
+1,married_to,married to,9,4,located_in,located in,-0.058883264660835266,9
+2,owns,owns,1,6,born_in,born in,0.279764860868454,4
+2,owns,owns,2,0,studies_at,studies at,0.26862451434135437,4
+2,owns,owns,3,7,uses,uses,0.21817809343338013,4
+2,owns,owns,4,5,parent_of,parent of,0.2045062929391861,4
+2,owns,owns,5,8,lives_in,lives in,0.1585153490304947,4
+2,owns,owns,6,3,works_at,works at,0.09503123164176941,4
+2,owns,owns,7,1,married_to,married to,-0.044337980449199677,4
+2,owns,owns,8,4,located_in,located in,-0.08964956551790237,4
+2,owns,owns,9,9,part_of,part of,-0.2758747637271881,4
+3,works_at,works at,1,7,uses,uses,0.15545380115509033,11
+3,works_at,works at,2,0,studies_at,studies at,0.14317947626113892,11
+3,works_at,works at,3,8,lives_in,lives in,0.14292457699775696,11
+3,works_at,works at,4,6,born_in,born in,0.117033950984478,11
+3,works_at,works at,5,2,owns,owns,0.09503123164176941,11
+3,works_at,works at,6,5,parent_of,parent of,0.07797806710004807,11
+3,works_at,works at,7,4,located_in,located in,-0.009662644937634468,11
+3,works_at,works at,8,1,married_to,married to,-0.02704678475856781,11
+3,works_at,works at,9,9,part_of,part of,-0.1871187388896942,11
+4,located_in,located in,1,8,lives_in,lives in,0.29415252804756165,8
+4,located_in,located in,2,9,part_of,part of,0.2392762005329132,8
+4,located_in,located in,3,6,born_in,born in,0.15250234305858612,8
+4,located_in,located in,4,7,uses,uses,0.03779808431863785,8
+4,located_in,located in,5,0,studies_at,studies at,0.026828467845916748,8
+4,located_in,located in,6,3,works_at,works at,-0.009662644937634468,8
+4,located_in,located in,7,5,parent_of,parent of,-0.02440306916832924,8
+4,located_in,located in,8,1,married_to,married to,-0.058883264660835266,8
+4,located_in,located in,9,2,owns,owns,-0.08964956551790237,8
+5,parent_of,parent of,1,7,uses,uses,0.20483499765396118,6
+5,parent_of,parent of,2,2,owns,owns,0.2045062929391861,6
+5,parent_of,parent of,3,1,married_to,married to,0.1363237500190735,6
+5,parent_of,parent of,4,3,works_at,works at,0.07797806710004807,6
+5,parent_of,parent of,5,9,part_of,part of,0.02702971175312996,6
+5,parent_of,parent of,6,4,located_in,located in,-0.02440306916832924,6
+5,parent_of,parent of,7,0,studies_at,studies at,-0.17064045369625092,6
+5,parent_of,parent of,8,6,born_in,born in,-0.2352694720029831,6
+5,parent_of,parent of,9,8,lives_in,lives in,-0.24213692545890808,6
+6,born_in,born in,1,8,lives_in,lives in,0.4800914227962494,9
+6,born_in,born in,2,2,owns,owns,0.279764860868454,9
+6,born_in,born in,3,0,studies_at,studies at,0.23025663197040558,9
+6,born_in,born in,4,1,married_to,married to,0.19412174820899963,9
+6,born_in,born in,5,4,located_in,located in,0.15250234305858612,9
+6,born_in,born in,6,7,uses,uses,0.11723747104406357,9
+6,born_in,born in,7,3,works_at,works at,0.117033950984478,9
+6,born_in,born in,8,9,part_of,part of,-0.08952916413545609,9
+6,born_in,born in,9,5,parent_of,parent of,-0.2352694720029831,9
+7,uses,uses,1,0,studies_at,studies at,0.39742568135261536,8
+7,uses,uses,2,8,lives_in,lives in,0.25189346075057983,8
+7,uses,uses,3,1,married_to,married to,0.22600969672203064,8
+7,uses,uses,4,2,owns,owns,0.21817809343338013,8
+7,uses,uses,5,5,parent_of,parent of,0.20483499765396118,8
+7,uses,uses,6,3,works_at,works at,0.15545380115509033,8
+7,uses,uses,7,6,born_in,born in,0.11723747104406357,8
+7,uses,uses,8,4,located_in,located in,0.03779808431863785,8
+7,uses,uses,9,9,part_of,part of,-0.19750098884105682,8
+8,lives_in,lives in,1,6,born_in,born in,0.4800914227962494,12
+8,lives_in,lives in,2,0,studies_at,studies at,0.454810231924057,12
+8,lives_in,lives in,3,4,located_in,located in,0.29415252804756165,12
+8,lives_in,lives in,4,7,uses,uses,0.25189346075057983,12
+8,lives_in,lives in,5,2,owns,owns,0.1585153490304947,12
+8,lives_in,lives in,6,3,works_at,works at,0.14292457699775696,12
+8,lives_in,lives in,7,1,married_to,married to,0.026850493624806404,12
+8,lives_in,lives in,8,9,part_of,part of,-0.12703104317188263,12
+8,lives_in,lives in,9,5,parent_of,parent of,-0.24213692545890808,12
+9,part_of,part of,1,4,located_in,located in,0.2392762005329132,5
+9,part_of,part of,2,1,married_to,married to,0.21446959674358368,5
+9,part_of,part of,3,5,parent_of,parent of,0.02702971175312996,5
+9,part_of,part of,4,6,born_in,born in,-0.08952916413545609,5
+9,part_of,part of,5,8,lives_in,lives in,-0.12703104317188263,5
+9,part_of,part of,6,3,works_at,works at,-0.1871187388896942,5
+9,part_of,part of,7,7,uses,uses,-0.19750098884105682,5
+9,part_of,part of,8,0,studies_at,studies at,-0.2483527958393097,5
+9,part_of,part of,9,2,owns,owns,-0.2758747637271881,5

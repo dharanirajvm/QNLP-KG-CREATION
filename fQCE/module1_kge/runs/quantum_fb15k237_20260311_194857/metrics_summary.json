@@ -1,0 +1,33 @@
+{
+  "model": "quantum",
+  "best_epoch": 1,
+  "best_val_hits@3": 0.027777777777777776,
+  "test_filtered_ranking": {
+    "mr": 48.5,
+    "mrr": 0.06325240570452421,
+    "hits@1": 0.0,
+    "hits@3": 0.027777777777777776,
+    "hits@10": 0.16666666666666666,
+    "n": 36.0
+  },
+  "history": [
+    {
+      "epoch": 1.0,
+      "train_loss": 1.3673170344351238,
+      "train_pair_acc": 0.45,
+      "epoch_seconds": 22.05848717689514,
+      "train_samples": 40.0,
+      "val_mr": 54.05555555555556,
+      "val_mrr": 0.03462468637055986,
+      "val_hits@1": 0.0,
+      "val_hits@3": 0.027777777777777776,
+      "val_hits@10": 0.05555555555555555,
+      "val_n": 36.0
+    }
+  ],
+  "num_entities": 101,
+  "num_relations": 10,
+  "n_train": 84,
+  "n_val": 18,
+  "n_test": 18
+}

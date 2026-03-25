@@ -3,6 +3,8 @@ import random
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -75,6 +77,38 @@ def extract_entity_embeddings(
             vec = np.concatenate([state.real, state.imag], axis=0)
             vectors.append(vec)
     return np.asarray(vectors, dtype=np.float32)
+
+
+def extract_entity_states(
+    model: QuantumKGE,
+    entity_ids: list[int],
+) -> np.ndarray:
+    states = []
+    with torch.no_grad():
+        for eid in entity_ids:
+            state = model.entity_state(eid).cpu().numpy()
+            states.append(state)
+    return np.asarray(states, dtype=np.complex64)
+
+
+def write_statevectors_csv(
+    out_path: Path,
+    entity_ids: list[int],
+    id_to_entity: dict[int, str],
+    ent_text: list[str],
+    tags: list[str],
+    states: np.ndarray,
+) -> None:
+    data: dict[str, list] = {
+        "entity_id": entity_ids,
+        "entity_raw": [id_to_entity[e] for e in entity_ids],
+        "entity_text": ent_text,
+        "dominant_relation": tags,
+    }
+    for i in range(states.shape[1]):
+        col = states[:, i]
+        data[f"amp_{i:02d}"] = [f"{z.real:.10f}{z.imag:+.10f}j" for z in col]
+    pd.DataFrame(data).to_csv(out_path, index=False, encoding="utf-8")
 
 
 def build_entity_relation_labels(
@@ -160,10 +194,22 @@ def main() -> None:
     else:
         entity_ids = all_entity_ids
 
-    X = extract_entity_embeddings(model, entity_ids)
-
     tags = [entity_tag.get(e, "other") for e in entity_ids]
     ent_text = [labels_human.get(id_to_entity[e], id_to_entity[e]) for e in entity_ids]
+    states = extract_entity_states(model, entity_ids)
+    X = np.concatenate([states.real, states.imag], axis=1).astype(np.float32)
+
+    # Raw 64-d complex statevector before compression (PCA/t-SNE).
+    state_csv_path = OUT_DIR / "entity_statevectors_64d.csv"
+    write_statevectors_csv(
+        out_path=state_csv_path,
+        entity_ids=entity_ids,
+        id_to_entity=id_to_entity,
+        ent_text=ent_text,
+        tags=tags,
+        states=states,
+    )
+    np.save(OUT_DIR / "entity_statevectors_64d.npy", states)
 
     # PCA
     pca = PCA(n_components=2, random_state=RANDOM_SEED)
@@ -217,6 +263,8 @@ def main() -> None:
             str(OUT_DIR / "entity_embeddings_pca.png"),
             str(OUT_DIR / "entity_embeddings_tsne.png"),
             str(OUT_DIR / "entity_embeddings_projection.csv"),
+            str(OUT_DIR / "entity_statevectors_64d.csv"),
+            str(OUT_DIR / "entity_statevectors_64d.npy"),
         ],
     }
     (OUT_DIR / "viz_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
@@ -228,4 +276,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

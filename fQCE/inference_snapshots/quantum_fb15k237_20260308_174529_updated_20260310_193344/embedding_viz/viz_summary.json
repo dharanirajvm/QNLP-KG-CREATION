@@ -8,6 +8,8 @@
   "outputs": [
     "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_pca.png",
     "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_tsne.png",
-    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_projection.csv"
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_embeddings_projection.csv",
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_statevectors_64d.csv",
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344\\embedding_viz\\entity_statevectors_64d.npy"
   ]
 }

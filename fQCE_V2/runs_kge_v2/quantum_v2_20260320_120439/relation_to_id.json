@@ -1,0 +1,12 @@
+{
+  "studies_at": 0,
+  "married_to": 1,
+  "owns": 2,
+  "works_at": 3,
+  "located_in": 4,
+  "parent_of": 5,
+  "born_in": 6,
+  "uses": 7,
+  "lives_in": 8,
+  "part_of": 9
+}

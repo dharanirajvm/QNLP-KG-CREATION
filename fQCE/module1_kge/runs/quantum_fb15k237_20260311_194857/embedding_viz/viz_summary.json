@@ -1,0 +1,13 @@
+{
+  "snapshot_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857",
+  "dataset_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\datasets\\discocat_lambeq_20260311_194819",
+  "model": "quantum",
+  "num_entities_total": 101,
+  "num_entities_visualized": 80,
+  "tsne_perplexity_used": 30.0,
+  "outputs": [
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\embedding_viz\\entity_embeddings_pca.png",
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\embedding_viz\\entity_embeddings_tsne.png",
+    "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\module1_kge\\runs\\quantum_fb15k237_20260311_194857\\embedding_viz\\entity_embeddings_projection.csv"
+  ]
+}
