@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import math
+import random
 import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass
@@ -18,6 +19,15 @@ from downstream_utils import KGEContext, humanize, load_context, norm_text, pars
 
 DEFAULT_SNAPSHOT_DIR = PROJECT_ROOT / "fQCE" / "inference_snapshots" / "quantum_fb15k237_20260308_174529_updated_20260310_193344"
 DEFAULT_DATASET_DIR = PROJECT_ROOT / "fQCE" / "datasets" / "fb15k237"
+DEFAULT_WEIGHTS_DIR = THIS_DIR.parent / "models" / "learned_explanation_weights"
+
+
+@dataclass
+class LearnedLinearModel:
+    feature_names: list[str]
+    bias: float
+    weights: dict[str, float]
+    source_path: str = ""
 
 
 @dataclass
@@ -33,10 +43,44 @@ class ExplanationContext:
     pattern_relation_support: Counter[tuple[tuple[int, int], int]]
     entity_text_to_raw: dict[str, set[str]]
     relation_text_to_raw: dict[str, set[str]]
+    path_model: LearnedLinearModel | None = None
+    shared_neighbor_model: LearnedLinearModel | None = None
 
 
 def load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def sigmoid(x: float) -> float:
+    if x >= 0:
+        z = math.exp(-x)
+        return 1.0 / (1.0 + z)
+    z = math.exp(x)
+    return z / (1.0 + z)
+
+
+def load_linear_model(path: Path) -> LearnedLinearModel | None:
+    if not path.exists():
+        return None
+    payload = load_json(path)
+    feature_names = [str(name) for name in payload.get("feature_names", [])]
+    weights_raw = payload.get("weights", {})
+    weights = {str(name): float(value) for name, value in weights_raw.items()}
+    return LearnedLinearModel(
+        feature_names=feature_names,
+        bias=float(payload.get("bias", 0.0)),
+        weights=weights,
+        source_path=str(path),
+    )
+
+
+def score_linear_model(model: LearnedLinearModel | None, row: dict) -> float | None:
+    if model is None:
+        return None
+    total = float(model.bias)
+    for feature_name in model.feature_names:
+        total += float(model.weights.get(feature_name, 0.0)) * float(row.get(feature_name, 0.0))
+    return sigmoid(total)
 
 
 def load_train_triples(dataset_dir: Path, entity_to_id: dict[str, int], relation_to_id: dict[str, int]) -> list[tuple[int, int, int]]:
@@ -135,6 +179,7 @@ def resolve_relation_input(ctx: ExplanationContext, text: str) -> int:
 def build_explanation_context(
     snapshot_dir: Path = DEFAULT_SNAPSHOT_DIR,
     dataset_dir: Path = DEFAULT_DATASET_DIR,
+    weights_dir: Path = DEFAULT_WEIGHTS_DIR,
 ) -> ExplanationContext:
     kge = load_context(snapshot_dir=snapshot_dir, dataset_dir=dataset_dir)
     train_triples = load_train_triples(dataset_dir, kge.entity_to_id, kge.relation_to_id)
@@ -166,6 +211,9 @@ def build_explanation_context(
             for target_relation in pair_to_relations.get((h, t), set()):
                 pattern_relation_support[(pattern, target_relation)] += 1
 
+    path_model = load_linear_model(weights_dir / "path_model.json")
+    shared_neighbor_model = load_linear_model(weights_dir / "shared_neighbor_model.json")
+
     return ExplanationContext(
         kge=kge,
         train_triples=train_triples,
@@ -178,6 +226,8 @@ def build_explanation_context(
         pattern_relation_support=pattern_relation_support,
         entity_text_to_raw=build_text_lookup(raw_entity_text, is_relation=False),
         relation_text_to_raw=build_text_lookup(raw_relation_text, is_relation=True),
+        path_model=path_model,
+        shared_neighbor_model=shared_neighbor_model,
     )
 
 
@@ -197,6 +247,89 @@ def normalize_rows(rows: list[dict], key: str, out_key: str) -> None:
 
 def edge_count(ctx: ExplanationContext, node_id: int) -> int:
     return len(ctx.outgoing.get(node_id, [])) + len(ctx.incoming.get(node_id, []))
+
+
+def path_feature_row(
+    ctx: ExplanationContext,
+    *,
+    head_id: int,
+    relation_id: int,
+    tail_id: int,
+    r1: int,
+    mid_id: int,
+    r2: int,
+) -> dict:
+    pattern = (r1, r2)
+    path_reliability = 1.0 / max(1, len(ctx.outgoing_by_relation.get(head_id, {}).get(r1, [])))
+    path_reliability *= 1.0 / max(1, len(ctx.outgoing_by_relation.get(mid_id, {}).get(r2, [])))
+
+    pattern_count = int(ctx.pattern_instance_counts.get(pattern, 0))
+    relation_support = int(ctx.pattern_relation_support.get((pattern, relation_id), 0))
+    relation_relevance = relation_support / pattern_count if pattern_count else 0.0
+    embedding_support = 0.5 * (
+        ctx.kge.similarity(head_id, mid_id) + ctx.kge.similarity(mid_id, tail_id)
+    )
+    return {
+        "intermediate_id": mid_id,
+        "intermediate": ctx.kge.display(ctx.kge.id_to_entity[mid_id]),
+        "path_pattern_raw": [ctx.kge.id_to_relation[r1], ctx.kge.id_to_relation[r2]],
+        "path_pattern": [
+            ctx.kge.display(ctx.kge.id_to_relation[r1]),
+            ctx.kge.display(ctx.kge.id_to_relation[r2]),
+        ],
+        "path_sentence": (
+            f"{ctx.kge.display(ctx.kge.id_to_entity[head_id])} -- "
+            f"{ctx.kge.display(ctx.kge.id_to_relation[r1])} -- "
+            f"{ctx.kge.display(ctx.kge.id_to_entity[mid_id])} -- "
+            f"{ctx.kge.display(ctx.kge.id_to_relation[r2])} -- "
+            f"{ctx.kge.display(ctx.kge.id_to_entity[tail_id])}"
+        ),
+        "path_reliability": path_reliability,
+        "relation_relevance": relation_relevance,
+        "path_frequency": pattern_count,
+        "path_frequency_log": math.log1p(pattern_count),
+        "embedding_support": embedding_support,
+    }
+
+
+def shared_neighbor_feature_row(
+    ctx: ExplanationContext,
+    *,
+    head_id: int,
+    relation_id: int,
+    tail_id: int,
+    nbr_id: int,
+) -> dict:
+    head_edges = [r for r, dst in ctx.outgoing.get(head_id, []) if dst == nbr_id]
+    tail_edges = [r for r, dst in ctx.outgoing.get(tail_id, []) if dst == nbr_id]
+    in_to_head = [r for r, src in ctx.incoming.get(head_id, []) if src == nbr_id]
+    in_to_tail = [r for r, src in ctx.incoming.get(tail_id, []) if src == nbr_id]
+
+    relation_match_strength = 0.0
+    if relation_id in head_edges or relation_id in tail_edges or relation_id in in_to_head or relation_id in in_to_tail:
+        relation_match_strength = 1.0
+    else:
+        target_rel_raw = ctx.kge.id_to_relation[relation_id]
+        if any(ctx.kge.id_to_relation[r] == target_rel_raw for r in head_edges + tail_edges + in_to_head + in_to_tail):
+            relation_match_strength = 0.5
+
+    degree_penalty = 1.0 / math.log2(2.0 + edge_count(ctx, nbr_id))
+    hubness_log = math.log1p(edge_count(ctx, nbr_id))
+    embedding_coherence = 0.5 * (
+        ctx.kge.similarity(head_id, nbr_id) + ctx.kge.similarity(tail_id, nbr_id)
+    )
+    return {
+        "neighbor_id": nbr_id,
+        "neighbor": ctx.kge.display(ctx.kge.id_to_entity[nbr_id]),
+        "head_to_neighbor_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in head_edges],
+        "neighbor_to_head_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in in_to_head],
+        "tail_to_neighbor_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in tail_edges],
+        "neighbor_to_tail_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in in_to_tail],
+        "degree_penalty": degree_penalty,
+        "hubness_log": hubness_log,
+        "relation_match_strength": relation_match_strength,
+        "embedding_coherence": embedding_coherence,
+    }
 
 
 def extract_local_subgraph(
@@ -267,39 +400,16 @@ def enumerate_two_hop_paths(
         for r2, end_id in ctx.outgoing.get(mid_id, []):
             if end_id != tail_id:
                 continue
-
-            pattern = (r1, r2)
-            path_reliability = 1.0 / max(1, len(ctx.outgoing_by_relation.get(head_id, {}).get(r1, [])))
-            path_reliability *= 1.0 / max(1, len(ctx.outgoing_by_relation.get(mid_id, {}).get(r2, [])))
-
-            pattern_count = int(ctx.pattern_instance_counts.get(pattern, 0))
-            relation_support = int(ctx.pattern_relation_support.get((pattern, relation_id), 0))
-            relation_relevance = relation_support / pattern_count if pattern_count else 0.0
-            embedding_support = 0.5 * (
-                ctx.kge.similarity(head_id, mid_id) + ctx.kge.similarity(mid_id, tail_id)
-            )
-
             rows.append(
-                {
-                    "intermediate_id": mid_id,
-                    "intermediate": ctx.kge.display(ctx.kge.id_to_entity[mid_id]),
-                    "path_pattern_raw": [ctx.kge.id_to_relation[r1], ctx.kge.id_to_relation[r2]],
-                    "path_pattern": [
-                        ctx.kge.display(ctx.kge.id_to_relation[r1]),
-                        ctx.kge.display(ctx.kge.id_to_relation[r2]),
-                    ],
-                    "path_sentence": (
-                        f"{ctx.kge.display(ctx.kge.id_to_entity[head_id])} -- "
-                        f"{ctx.kge.display(ctx.kge.id_to_relation[r1])} -- "
-                        f"{ctx.kge.display(ctx.kge.id_to_entity[mid_id])} -- "
-                        f"{ctx.kge.display(ctx.kge.id_to_relation[r2])} -- "
-                        f"{ctx.kge.display(ctx.kge.id_to_entity[tail_id])}"
-                    ),
-                    "path_reliability": path_reliability,
-                    "relation_relevance": relation_relevance,
-                    "path_frequency": pattern_count,
-                    "embedding_support": embedding_support,
-                }
+                path_feature_row(
+                    ctx,
+                    head_id=head_id,
+                    relation_id=relation_id,
+                    tail_id=tail_id,
+                    r1=r1,
+                    mid_id=mid_id,
+                    r2=r2,
+                )
             )
 
     if not rows:
@@ -308,12 +418,14 @@ def enumerate_two_hop_paths(
     normalize_rows(rows, "path_frequency", "path_frequency_norm")
     normalize_rows(rows, "embedding_support", "embedding_support_norm")
     for row in rows:
-        row["explanation_score"] = (
+        learned_score = score_linear_model(ctx.path_model, row)
+        row["explanation_score"] = learned_score if learned_score is not None else (
             0.40 * float(row["path_reliability"])
             + 0.30 * float(row["relation_relevance"])
             + 0.15 * float(row["path_frequency_norm"])
             + 0.15 * float(row["embedding_support_norm"])
         )
+        row["score_source"] = "learned" if learned_score is not None else "heuristic"
     rows.sort(key=lambda row: row["explanation_score"], reverse=True)
     for rank, row in enumerate(rows[:top_k], start=1):
         row["rank"] = rank
@@ -330,45 +442,56 @@ def collect_shared_neighbors(
 ) -> list[dict]:
     shared = ctx.undirected_neighbors.get(head_id, set()) & ctx.undirected_neighbors.get(tail_id, set())
     rows = []
-    target_rel_raw = ctx.kge.id_to_relation[relation_id]
 
     for nbr_id in shared:
-        head_edges = [r for r, dst in ctx.outgoing.get(head_id, []) if dst == nbr_id]
-        tail_edges = [r for r, dst in ctx.outgoing.get(tail_id, []) if dst == nbr_id]
-        in_to_head = [r for r, src in ctx.incoming.get(head_id, []) if src == nbr_id]
-        in_to_tail = [r for r, src in ctx.incoming.get(tail_id, []) if src == nbr_id]
-
-        relation_match_strength = 0.0
-        if relation_id in head_edges or relation_id in tail_edges or relation_id in in_to_head or relation_id in in_to_tail:
-            relation_match_strength = 1.0
-        elif any(ctx.kge.id_to_relation[r] == target_rel_raw for r in head_edges + tail_edges + in_to_head + in_to_tail):
-            relation_match_strength = 0.5
-
-        degree_penalty = 1.0 / math.log2(2.0 + edge_count(ctx, nbr_id))
-        embedding_coherence = 0.5 * (
-            ctx.kge.similarity(head_id, nbr_id) + ctx.kge.similarity(tail_id, nbr_id)
+        row = shared_neighbor_feature_row(
+            ctx,
+            head_id=head_id,
+            relation_id=relation_id,
+            tail_id=tail_id,
+            nbr_id=nbr_id,
         )
-        score = 0.55 * embedding_coherence + 0.25 * degree_penalty + 0.20 * relation_match_strength
-
-        rows.append(
-            {
-                "neighbor_id": nbr_id,
-                "neighbor": ctx.kge.display(ctx.kge.id_to_entity[nbr_id]),
-                "head_to_neighbor_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in head_edges],
-                "neighbor_to_head_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in in_to_head],
-                "tail_to_neighbor_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in tail_edges],
-                "neighbor_to_tail_relations": [ctx.kge.display(ctx.kge.id_to_relation[r]) for r in in_to_tail],
-                "degree_penalty": degree_penalty,
-                "relation_match_strength": relation_match_strength,
-                "embedding_coherence": embedding_coherence,
-                "shared_neighbor_score": score,
-            }
+        learned_score = score_linear_model(ctx.shared_neighbor_model, row)
+        row["shared_neighbor_score"] = learned_score if learned_score is not None else (
+            0.55 * float(row["embedding_coherence"])
+            + 0.25 * float(row["degree_penalty"])
+            + 0.20 * float(row["relation_match_strength"])
         )
+        row["score_source"] = "learned" if learned_score is not None else "heuristic"
+        rows.append(row)
 
     rows.sort(key=lambda row: row["shared_neighbor_score"], reverse=True)
     for rank, row in enumerate(rows[:top_k], start=1):
         row["rank"] = rank
     return rows[:top_k]
+
+
+def sample_negative_triples(
+    ctx: ExplanationContext,
+    positive_triples: list[tuple[int, int, int]],
+    *,
+    rng: random.Random,
+    negatives_per_positive: int = 2,
+) -> list[tuple[int, int, int]]:
+    entity_ids = list(range(len(ctx.kge.id_to_entity)))
+    relation_ids = list(range(len(ctx.kge.id_to_relation)))
+    known = set(ctx.train_triples)
+    negatives: list[tuple[int, int, int]] = []
+    for h, r, t in positive_triples:
+        generated = 0
+        attempts = 0
+        while generated < negatives_per_positive and attempts < negatives_per_positive * 20:
+            attempts += 1
+            mode = "tail" if generated % 2 == 0 else "relation"
+            if mode == "tail":
+                cand = (h, r, rng.choice(entity_ids))
+            else:
+                cand = (h, rng.choice(relation_ids), t)
+            if cand in known:
+                continue
+            negatives.append(cand)
+            generated += 1
+    return negatives
 
 
 def collect_analogical_support(

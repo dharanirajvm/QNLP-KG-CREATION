@@ -1,0 +1,81 @@
+head_id,head,relation_id,relation,tail_id,tail
+740,Governor-GB,37,government government office category officeholders. government government position held jurisdiction of office,1131,United States Virgin Islands
+1774,Black Swan,34,film film estimated budget. measurement unit dated money value currency,90,United States Dollar
+2090,Sailing,104,olympics olympic sport athletes. olympics olympic athlete affiliation olympics,2722,2012 Summer Olympics
+4212,Al Gore,60,base schemastaging person extra net worth. measurement unit dated money value currency,90,United States Dollar
+2165,Iraq War,88,base culturalevent event entity involved,4899,Gordon Brown
+6993,Americas,15,location location contains,1131,United States Virgin Islands
+4881,Aasif Mandvi,6,film actor film. film performance film,7031,The Dictator
+7414,Body of Lies,34,film film estimated budget. measurement unit dated money value currency,90,United States Dollar
+4212,Al Gore,45,base popstra celebrity friendship. base popstra friendship participant,2433,Barack Obama
+7629,Punahou School,22,education educational institution students graduates. education education student,4925,Kelly Preston
+2767,Kevin Corrigan,6,film actor film. film performance film,7031,The Dictator
+3451,Scottish people,71,people ethnicity people,4899,Gordon Brown
+5521,John Rawls,17,people person profession,8059,Professor-GB
+5949,Hawaii,133,base biblioness bibs location country,32,United States of America
+8284,Occidental College,124,education educational institution school type,2956,Private school
+1770,Pierre Trudeau,17,people person profession,8800,Journalist-GB
+9309,"United States presidential election, 2008",210,time event instance of recurring event,9310,United States presidential election
+9397,Labour Party,165,government political party politicians in this party. government political party tenure politician,9398,Tony Blair
+3587,Angela Kinsey,48,people person nationality,32,United States of America
+2165,Iraq War,88,base culturalevent event entity involved,2433,Barack Obama
+7223,Jeff Schaffer,8,award award nominee award nominations. award award nomination award nominee,9563,Alec Berg
+10086,War in North-West Pakistan,88,base culturalevent event entity involved,10087,United States Air Force-GB
+9563,Alec Berg,8,award award nominee award nominations. award award nomination award nominee,7223,Jeff Schaffer
+6722,David Mandel,85,people person spouse s. people marriage type of union,434,Marriage
+10933,Libyan Civil War,88,base culturalevent event entity involved,10934,Major General
+3485,Indonesia,219,location statistical region gdp nominal. measurement unit dated money value currency,90,United States Dollar
+2165,Iraq War,88,base culturalevent event entity involved,11005,David Petraeus
+32,United States of America,206,location statistical region gdp real. measurement unit adjusted money value adjustment currency,90,United States Dollar
+9116,Anna Deavere Smith,48,people person nationality,32,United States of America
+11328,Jakarta,135,location administrative division country,3485,Indonesia
+7031,The Dictator,86,film film production companies,7410,Spyglass Entertainment
+8284,Occidental College,124,education educational institution school type,873,Private university
+4988,Toni Morrison,60,base schemastaging person extra net worth. measurement unit dated money value currency,90,United States Dollar
+8357,Megan Fox,85,people person spouse s. people marriage type of union,434,Marriage
+11220,Jack Kemp,85,people person spouse s. people marriage type of union,434,Marriage
+9398,Tony Blair,85,people person spouse s. people marriage type of union,434,Marriage
+3780,Swimming,29,olympics olympic sport athletes. olympics olympic athlete affiliation country,3827,Iraq
+10735,Richard Dawkins,17,people person profession,8059,Professor-GB
+9398,Tony Blair,179,government politician government positions held. government government position held basic title,9836,Member of Parliament-GB
+8284,Occidental College,128,education university local tuition. measurement unit dated money value currency,90,United States Dollar
+4988,Toni Morrison,85,people person spouse s. people marriage type of union,434,Marriage
+434,Marriage,161,people marriage union type unions of this type. people marriage location of ceremony,3765,Glasgow
+8315,Michael J. Fox,172,award ranked item appears in ranked lists. award ranking list,4888,Time 100
+3854,Libya,139,location statistical region gdp nominal per capita. measurement unit dated money value currency,90,United States Dollar
+12427,Chris Elliott,6,film actor film. film performance film,7031,The Dictator
+3780,Swimming,29,olympics olympic sport athletes. olympics olympic athlete affiliation country,1131,United States Virgin Islands
+12170,Condoleezza Rice,3,award award winner awards won. award award honor award winner,3930,George W. Bush
+8010,Luke Wilson,48,people person nationality,32,United States of America
+4899,Gordon Brown,179,government politician government positions held. government government position held basic title,9836,Member of Parliament-GB
+3587,Angela Kinsey,66,people person places lived. people place lived location,11328,Jakarta
+2767,Kevin Corrigan,85,people person spouse s. people marriage type of union,434,Marriage
+3485,Indonesia,69,olympics olympic participating country medals won. olympics olympic medal honor olympics,2722,2012 Summer Olympics
+8284,Occidental College,22,education educational institution students graduates. education education student,11220,Jack Kemp
+8284,Occidental College,129,business business operation revenue. measurement unit dated money value currency,90,United States Dollar
+6170,The Hurt Locker,13,film film release date s. film film regional release date film release region,32,United States of America
+3930,George W. Bush,236,government politician government positions held. government government position held jurisdiction of office,32,United States of America
+2361,Werner Herzog,85,people person spouse s. people marriage type of union,434,Marriage
+11328,Jakarta,62,base aareas schema administrative area administrative parent,3485,Indonesia
+3676,William James,17,people person profession,8059,Professor-GB
+32,United States of America,228,dataworld gardening hint split to,32,United States of America
+3930,George W. Bush,8,award award nominee award nominations. award award nomination award nominee,12170,Condoleezza Rice
+3485,Indonesia,139,location statistical region gdp nominal per capita. measurement unit dated money value currency,90,United States Dollar
+596,Sarah Palin,172,award ranked item appears in ranked lists. award ranking list,4888,Time 100
+1493,Sociology,188,education field of study students majoring. education education major field of study,1800,Mathematics
+2165,Iraq War,88,base culturalevent event entity involved,13098,2003 invasion of Iraq
+2165,Iraq War,131,military military conflict combatants. military military combatant group combatants,32,United States of America
+5949,Hawaii,15,location location contains,4921,Honolulu
+11005,David Petraeus,172,award ranked item appears in ranked lists. award ranking list,4888,Time 100
+1131,United States Virgin Islands,58,location location adjoin s. location adjoining relationship adjoins,11270,British Virgin Islands
+8284,Occidental College,146,education educational institution campuses,8284,Occidental College
+32,United States of America,69,olympics olympic participating country medals won. olympics olympic medal honor olympics,2722,2012 Summer Olympics
+7072,Terry Gilliam,85,people person spouse s. people marriage type of union,434,Marriage
+12170,Condoleezza Rice,8,award award nominee award nominations. award award nomination award nominee,3930,George W. Bush
+2433,Barack Obama,48,people person nationality,32,United States of America
+12170,Condoleezza Rice,48,people person nationality,32,United States of America
+3930,George W. Bush,60,base schemastaging person extra net worth. measurement unit dated money value currency,90,United States Dollar
+11220,Jack Kemp,236,government politician government positions held. government government position held jurisdiction of office,32,United States of America
+2165,Iraq War,88,base culturalevent event entity involved,12637,Saddam Hussein
+4921,Honolulu,15,location location contains,7629,Punahou School
+9235,Marriott International,208,business business operation assets. measurement unit dated money value currency,90,United States Dollar

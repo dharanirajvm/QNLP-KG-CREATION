@@ -1,0 +1,271 @@
+{
+  "relation": "people person nationality",
+  "raw_relation": "/people/person/nationality",
+  "train_count": 4197,
+  "top_heads": [
+    {
+      "entity": "Albert Einstein",
+      "count": 5
+    },
+    {
+      "entity": "Gary Chalk",
+      "count": 4
+    },
+    {
+      "entity": "Erich Ludendorff",
+      "count": 4
+    },
+    {
+      "entity": "Walter Model",
+      "count": 4
+    },
+    {
+      "entity": "T. S. Eliot",
+      "count": 3
+    },
+    {
+      "entity": "Ruth Prawer Jhabvala",
+      "count": 3
+    },
+    {
+      "entity": "Frances Fisher",
+      "count": 3
+    },
+    {
+      "entity": "Leonhard Euler",
+      "count": 3
+    },
+    {
+      "entity": "Christopher Hitchens",
+      "count": 3
+    },
+    {
+      "entity": "John Houseman",
+      "count": 3
+    },
+    {
+      "entity": "Mark Knopfler",
+      "count": 3
+    },
+    {
+      "entity": "Mike Myers",
+      "count": 3
+    },
+    {
+      "entity": "Emily Mortimer",
+      "count": 3
+    },
+    {
+      "entity": "Peter Lawford",
+      "count": 3
+    },
+    {
+      "entity": "Leon Trotsky",
+      "count": 3
+    },
+    {
+      "entity": "Keanu Reeves",
+      "count": 3
+    },
+    {
+      "entity": "Ludwig Wittgenstein",
+      "count": 3
+    },
+    {
+      "entity": "Joe Strummer",
+      "count": 3
+    },
+    {
+      "entity": "Luis Miguel",
+      "count": 3
+    },
+    {
+      "entity": "Jean Simmons",
+      "count": 3
+    }
+  ],
+  "top_tails": [
+    {
+      "entity": "United States of America",
+      "count": 2509
+    },
+    {
+      "entity": "England",
+      "count": 365
+    },
+    {
+      "entity": "United Kingdom",
+      "count": 292
+    },
+    {
+      "entity": "India",
+      "count": 185
+    },
+    {
+      "entity": "Canada",
+      "count": 133
+    },
+    {
+      "entity": "France",
+      "count": 67
+    },
+    {
+      "entity": "Germany",
+      "count": 65
+    },
+    {
+      "entity": "Italy",
+      "count": 57
+    },
+    {
+      "entity": "Australia",
+      "count": 45
+    },
+    {
+      "entity": "Japan",
+      "count": 41
+    },
+    {
+      "entity": "Republic of Ireland",
+      "count": 40
+    },
+    {
+      "entity": "Scotland",
+      "count": 33
+    },
+    {
+      "entity": "Austria",
+      "count": 20
+    },
+    {
+      "entity": "China",
+      "count": 20
+    },
+    {
+      "entity": "New Zealand",
+      "count": 19
+    },
+    {
+      "entity": "Wales",
+      "count": 18
+    },
+    {
+      "entity": "Russia",
+      "count": 15
+    },
+    {
+      "entity": "Sweden",
+      "count": 11
+    },
+    {
+      "entity": "South Africa",
+      "count": 10
+    },
+    {
+      "entity": "Israel",
+      "count": 10
+    }
+  ],
+  "sample_triples": [
+    {
+      "head": "Kaneto Shiozawa",
+      "relation": "people person nationality",
+      "tail": "Japan"
+    },
+    {
+      "head": "Will Smith",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "T. S. Eliot",
+      "relation": "people person nationality",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Christopher Hampton",
+      "relation": "people person nationality",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Steve McQueen",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Matthew Perry",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Cy Coleman",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "William McKinley",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Norman Foster",
+      "relation": "people person nationality",
+      "tail": "England"
+    },
+    {
+      "head": "Philip Baker Hall",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Lou Diamond Phillips",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Lindy Hemming",
+      "relation": "people person nationality",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Colin Powell",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Mark Berger",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Fatboy Slim",
+      "relation": "people person nationality",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Gene Roddenberry",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Tony Walton",
+      "relation": "people person nationality",
+      "tail": "England"
+    },
+    {
+      "head": "KT Tunstall",
+      "relation": "people person nationality",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Raquel Welch",
+      "relation": "people person nationality",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Shammi Kapoor",
+      "relation": "people person nationality",
+      "tail": "India"
+    }
+  ]
+}

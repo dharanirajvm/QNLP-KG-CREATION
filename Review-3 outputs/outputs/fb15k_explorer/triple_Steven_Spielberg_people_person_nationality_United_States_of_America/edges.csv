@@ -1,0 +1,81 @@
+head_id,head,relation_id,relation,tail_id,tail
+400,Into the West,1,tv tv program regular cast. tv regular tv appearance actor,401,Matthew Modine
+3410,Superman IV: The Quest For Peace,28,film film country,32,United States of America
+3582,Superman II: The Richard Donner Cut,28,film film country,32,United States of America
+645,Gary Goetzman,3,award award winner awards won. award award honor award winner,4894,Tim Van Patten
+1871,The Ice Storm,28,film film country,32,United States of America
+2781,Emma Stone,43,people person gender,384,Female
+1917,Steven Spielberg,3,award award winner awards won. award award honor award winner,5556,Paul Dini
+5747,Elizabeth I,30,award award winning work awards won. award award honor award,5748,Primetime Emmy Award for Outstanding Miniseries
+3949,Michael Kahn,48,people person nationality,32,United States of America
+6212,Camden County,190,location us county county seat,6213,Camden
+901,Superman,97,award award nominated work award nominations. award award nomination nominated for,3410,Superman IV: The Quest For Peace
+2910,Randy Travis,25,common topic webpage. common webpage category,62,Official Website
+7227,Mikael Salomon,43,people person gender,141,Male
+7242,Dan Aykroyd,25,common topic webpage. common webpage category,62,Official Website
+6212,Camden County,120,location hud foreclosure area estimated number of mortgages. measurement unit dated integer source,791,United States Department of Housing and Urban Development
+7941,Margot Kidder,43,people person gender,384,Female
+7999,Western,2,media common netflix genre titles,400,Into the West
+4825,Julianne Moore,43,people person gender,384,Female
+8038,Rufus Wainwright,25,common topic webpage. common webpage category,62,Official Website
+8111,DreamWorks Records,76,music record label artist,8112,Asleep at the Wheel
+5949,Hawaii,133,base biblioness bibs location country,32,United States of America
+645,Gary Goetzman,145,tv tv producer programs produced. tv tv producer term program,5055,John Adams
+1917,Steven Spielberg,145,tv tv producer programs produced. tv tv producer term program,8387,The Pacific
+400,Into the West,1,tv tv program regular cast. tv regular tv appearance actor,8594,Rachael Leigh Cook
+5748,Primetime Emmy Award for Outstanding Miniseries,47,award award category winners. award award honor award winner,4894,Tim Van Patten
+8851,Patrick McGoohan,43,people person gender,141,Male
+9049,Wayne's World,106,film film featured film locations,9050,Scottsdale
+2897,Tom Ruegger,48,people person nationality,32,United States of America
+9092,David Geffen,48,people person nationality,32,United States of America
+7941,Margot Kidder,82,people person religion,2456,Atheism
+9050,Scottsdale,58,location location adjoin s. location adjoining relationship adjoins,4152,Phoenix
+5195,Brian De Palma,77,base popstra celebrity dated. base popstra dated participant,7941,Margot Kidder
+7811,Alan Tudyk,43,people person gender,141,Male
+2107,Michael Mann,48,people person nationality,32,United States of America
+6615,New Jersey,15,location location contains,6213,Camden
+8883,John Landis,48,people person nationality,32,United States of America
+6213,Camden,25,common topic webpage. common webpage category,62,Official Website
+2781,Emma Stone,66,people person places lived. people place lived location,9050,Scottsdale
+5188,"Cuba Gooding, Jr.",66,people person places lived. people place lived location,10015,Pacific Palisades
+1917,Steven Spielberg,66,people person places lived. people place lived location,10075,Naples
+3544,Beau Bridges,48,people person nationality,32,United States of America
+10075,Naples,111,location hud county place county,10096,Collier County
+5556,Paul Dini,3,award award winner awards won. award award honor award winner,3770,J.J. Abrams
+645,Gary Goetzman,48,people person nationality,32,United States of America
+8111,DreamWorks Records,76,music record label artist,10429,The Isley Brothers
+32,United States of America,15,location location contains,6615,New Jersey
+4152,Phoenix,194,location capital of administrative division capital of. location administrative division capital relationship administrative division,7129,Maricopa County
+1917,Steven Spielberg,45,base popstra celebrity friendship. base popstra friendship participant,9092,David Geffen
+2213,Roberto Orci,43,people person gender,141,Male
+1766,Billy Bob Thornton,43,people person gender,141,Male
+1917,Steven Spielberg,226,organization organization founder organizations founded,8111,DreamWorks Records
+773,Arizona,205,location administrative division first level division of,32,United States of America
+4574,The Barbarian Invasions,13,film film release date s. film film regional release date film release region,32,United States of America
+5055,John Adams,30,award award winning work awards won. award award honor award,5748,Primetime Emmy Award for Outstanding Miniseries
+645,Gary Goetzman,8,award award nominee award nominations. award award nomination award nominee,3771,Graham Yost
+11045,Cameron Mitchell,39,people deceased person place of death,10015,Pacific Palisades
+32,United States of America,154,location location time zones,1874,Mountain Time Zone-US
+11094,Freakazoid!,107,tv tv program genre,7405,Animated cartoon
+11230,John F. Kennedy International Airport,25,common topic webpage. common webpage category,62,Official Website
+11287,Eric Rodwell,48,people person nationality,32,United States of America
+5179,John Fogerty,25,common topic webpage. common webpage category,62,Official Website
+11346,WCW WorldWide,1,tv tv program regular cast. tv regular tv appearance actor,11347,Hulk Hogan
+5055,John Adams,107,tv tv program genre,5245,Miniseries
+11398,Twilight Zone: The Movie,116,film film music,8093,Jerry Goldsmith
+3410,Superman IV: The Quest For Peace,97,award award nominated work award nominations. award award nomination nominated for,3582,Superman II: The Richard Donner Cut
+901,Superman,141,award award winning work awards won. award award honor honored for,3582,Superman II: The Richard Donner Cut
+5055,John Adams,28,film film country,32,United States of America
+2897,Tom Ruegger,8,award award nominee award nominations. award award nomination award nominee,9870,Bruce Timm
+11290,Bob Clark,48,people person nationality,32,United States of America
+7879,David Spade,25,common topic webpage. common webpage category,62,Official Website
+11121,Rod Serling,48,people person nationality,32,United States of America
+1917,Steven Spielberg,145,tv tv producer programs produced. tv tv producer term program,11094,Freakazoid!
+8038,Rufus Wainwright,43,people person gender,141,Male
+11931,Superman III,230,film film prequel,3582,Superman II: The Richard Donner Cut
+5556,Paul Dini,8,award award nominee award nominations. award award nomination award nominee,2897,Tom Ruegger
+8112,Asleep at the Wheel,25,common topic webpage. common webpage category,62,Official Website
+11094,Freakazoid!,107,tv tv program genre,2308,Animation
+8094,Larry David,82,people person religion,2456,Atheism
+12075,Tempe,111,location hud county place county,7129,Maricopa County
+5055,John Adams,30,award award winning work awards won. award award honor award,7218,"Primetime Emmy Award for Outstanding Costumes for a Miniseries, Movie or a Special"

@@ -1,0 +1,209 @@
+{
+  "num_train_triples": 272115,
+  "num_entities": 14541,
+  "num_relations": 237,
+  "top_relations": [
+    {
+      "relation": "award award nominee award nominations. award award nomination award nominee",
+      "raw_relation": "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "count": 15989
+    },
+    {
+      "relation": "film film release date s. film film regional release date film release region",
+      "raw_relation": "/film/film/release_date_s./film/film_regional_release_date/film_release_region",
+      "count": 12893
+    },
+    {
+      "relation": "award award nominee award nominations. award award nomination award",
+      "raw_relation": "/award/award_nominee/award_nominations./award/award_nomination/award",
+      "count": 12157
+    },
+    {
+      "relation": "people person profession",
+      "raw_relation": "/people/person/profession",
+      "count": 10945
+    },
+    {
+      "relation": "film actor film. film performance film",
+      "raw_relation": "/film/actor/film./film/performance/film",
+      "count": 9494
+    },
+    {
+      "relation": "award award category nominees. award award nomination nominated for",
+      "raw_relation": "/award/award_category/nominees./award/award_nomination/nominated_for",
+      "count": 9465
+    },
+    {
+      "relation": "award award winner awards won. award award honor award winner",
+      "raw_relation": "/award/award_winner/awards_won./award/award_honor/award_winner",
+      "count": 8423
+    },
+    {
+      "relation": "film film genre",
+      "raw_relation": "/film/film/genre",
+      "count": 7268
+    },
+    {
+      "relation": "award award nominee award nominations. award award nomination nominated for",
+      "raw_relation": "/award/award_nominee/award_nominations./award/award_nomination/nominated_for",
+      "count": 6277
+    },
+    {
+      "relation": "music genre artists",
+      "raw_relation": "/music/genre/artists",
+      "count": 5880
+    },
+    {
+      "relation": "award award category winners. award award honor award winner",
+      "raw_relation": "/award/award_category/winners./award/award_honor/award_winner",
+      "count": 5673
+    },
+    {
+      "relation": "film film other crew. film film crew gig film crew role",
+      "raw_relation": "/film/film/other_crew./film/film_crew_gig/film_crew_role",
+      "count": 5305
+    },
+    {
+      "relation": "location location contains",
+      "raw_relation": "/location/location/contains",
+      "count": 5201
+    },
+    {
+      "relation": "people person nationality",
+      "raw_relation": "/people/person/nationality",
+      "count": 4197
+    },
+    {
+      "relation": "music performance role track performances. music track contribution role",
+      "raw_relation": "/music/performance_role/track_performances./music/track_contribution/role",
+      "count": 3795
+    },
+    {
+      "relation": "people person places lived. people place lived location",
+      "raw_relation": "/people/person/places_lived./people/place_lived/location",
+      "count": 3738
+    },
+    {
+      "relation": "people person gender",
+      "raw_relation": "/people/person/gender",
+      "count": 3717
+    },
+    {
+      "relation": "common topic webpage. common webpage category",
+      "raw_relation": "/common/topic/webpage./common/webpage/category",
+      "count": 3612
+    },
+    {
+      "relation": "sports sports position players. sports sports team roster team",
+      "raw_relation": "/sports/sports_position/players./sports/sports_team_roster/team",
+      "count": 3500
+    },
+    {
+      "relation": "award award winning work awards won. award award honor award",
+      "raw_relation": "/award/award_winning_work/awards_won./award/award_honor/award",
+      "count": 3310
+    }
+  ],
+  "top_entities_by_degree": [
+    {
+      "entity": "United States of America",
+      "raw_entity": "/m/09c7w0",
+      "degree": 7614
+    },
+    {
+      "entity": "United States Dollar",
+      "raw_entity": "/m/09nqf",
+      "degree": 4286
+    },
+    {
+      "entity": "Official Website",
+      "raw_entity": "/m/08mbj5d",
+      "degree": 3612
+    },
+    {
+      "entity": "Marriage",
+      "raw_entity": "/m/04ztj",
+      "degree": 2992
+    },
+    {
+      "entity": "Male",
+      "raw_entity": "/m/05zppz",
+      "degree": 2928
+    },
+    {
+      "entity": "English Language",
+      "raw_entity": "/m/02h40lc",
+      "degree": 2675
+    },
+    {
+      "entity": "Actor-GB",
+      "raw_entity": "/m/02hrh1q",
+      "degree": 2272
+    },
+    {
+      "entity": "United Kingdom",
+      "raw_entity": "/m/07ssc",
+      "degree": 1953
+    },
+    {
+      "entity": "Forward",
+      "raw_entity": "/m/02sdk9v",
+      "degree": 1787
+    },
+    {
+      "entity": "Midfielder",
+      "raw_entity": "/m/02nzb8",
+      "degree": 1776
+    },
+    {
+      "entity": "Defender",
+      "raw_entity": "/m/02_j1w",
+      "degree": 1740
+    },
+    {
+      "entity": "Goalkeeper",
+      "raw_entity": "/m/0dgrmp",
+      "degree": 1491
+    },
+    {
+      "entity": "Drama",
+      "raw_entity": "/m/07s9rl0",
+      "degree": 1441
+    },
+    {
+      "entity": "DVD",
+      "raw_entity": "/m/029j_",
+      "degree": 1388
+    },
+    {
+      "entity": "Guitar",
+      "raw_entity": "/m/0342h",
+      "degree": 1189
+    },
+    {
+      "entity": "New York City",
+      "raw_entity": "/m/02_286",
+      "degree": 1077
+    },
+    {
+      "entity": "France",
+      "raw_entity": "/m/0f8l9c",
+      "degree": 982
+    },
+    {
+      "entity": "Canada",
+      "raw_entity": "/m/0d060g",
+      "degree": 877
+    },
+    {
+      "entity": "Screenwriter",
+      "raw_entity": "/m/0dxtg",
+      "degree": 873
+    },
+    {
+      "entity": "Film Producer-GB",
+      "raw_entity": "/m/01d_h8",
+      "degree": 864
+    }
+  ]
+}

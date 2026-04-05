@@ -1,0 +1,264 @@
+{
+  "dataset_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\datasets\\fb15k237",
+  "splits": [
+    "train",
+    "valid",
+    "test"
+  ],
+  "num_nodes": 14541,
+  "num_edges": 310116,
+  "top_relations": [
+    {
+      "relation_raw": "/award/award_nominee/award_nominations./award/award_nomination/award_nominee",
+      "relation": "award award nominee award nominations. award award nomination award nominee",
+      "count": 16391
+    },
+    {
+      "relation_raw": "/film/film/release_date_s./film/film_regional_release_date/film_release_region",
+      "relation": "film film release date s. film film regional release date film release region",
+      "count": 15568
+    },
+    {
+      "relation_raw": "/award/award_nominee/award_nominations./award/award_nomination/award",
+      "relation": "award award nominee award nominations. award award nomination award",
+      "count": 14051
+    },
+    {
+      "relation_raw": "/people/person/profession",
+      "relation": "people person profession",
+      "count": 13382
+    },
+    {
+      "relation_raw": "/award/award_category/nominees./award/award_nomination/nominated_for",
+      "relation": "award award category nominees. award award nomination nominated for",
+      "count": 11069
+    },
+    {
+      "relation_raw": "/film/actor/film./film/performance/film",
+      "relation": "film actor film. film performance film",
+      "count": 11045
+    },
+    {
+      "relation_raw": "/film/film/genre",
+      "relation": "film film genre",
+      "count": 8649
+    },
+    {
+      "relation_raw": "/award/award_winner/awards_won./award/award_honor/award_winner",
+      "relation": "award award winner awards won. award award honor award winner",
+      "count": 8491
+    },
+    {
+      "relation_raw": "/music/genre/artists",
+      "relation": "music genre artists",
+      "count": 7134
+    },
+    {
+      "relation_raw": "/award/award_nominee/award_nominations./award/award_nomination/nominated_for",
+      "relation": "award award nominee award nominations. award award nomination nominated for",
+      "count": 6483
+    },
+    {
+      "relation_raw": "/film/film/other_crew./film/film_crew_gig/film_crew_role",
+      "relation": "film film other crew. film film crew gig film crew role",
+      "count": 6445
+    },
+    {
+      "relation_raw": "/award/award_category/winners./award/award_honor/award_winner",
+      "relation": "award award category winners. award award honor award winner",
+      "count": 6070
+    },
+    {
+      "relation_raw": "/location/location/contains",
+      "relation": "location location contains",
+      "count": 5834
+    },
+    {
+      "relation_raw": "/people/person/nationality",
+      "relation": "people person nationality",
+      "count": 5097
+    },
+    {
+      "relation_raw": "/people/person/gender",
+      "relation": "people person gender",
+      "count": 4530
+    },
+    {
+      "relation_raw": "/common/topic/webpage./common/webpage/category",
+      "relation": "common topic webpage. common webpage category",
+      "count": 4364
+    },
+    {
+      "relation_raw": "/people/person/places_lived./people/place_lived/location",
+      "relation": "people person places lived. people place lived location",
+      "count": 4275
+    },
+    {
+      "relation_raw": "/music/performance_role/track_performances./music/track_contribution/role",
+      "relation": "music performance role track performances. music track contribution role",
+      "count": 3887
+    },
+    {
+      "relation_raw": "/people/person/spouse_s./people/marriage/type_of_union",
+      "relation": "people person spouse s. people marriage type of union",
+      "count": 3557
+    },
+    {
+      "relation_raw": "/sports/sports_position/players./sports/sports_team_roster/team",
+      "relation": "sports sports position players. sports sports team roster team",
+      "count": 3551
+    },
+    {
+      "relation_raw": "/award/award_winning_work/awards_won./award/award_honor/award",
+      "relation": "award award winning work awards won. award award honor award",
+      "count": 3536
+    },
+    {
+      "relation_raw": "/award/award_category/winners./award/award_honor/ceremony",
+      "relation": "award award category winners. award award honor ceremony",
+      "count": 3440
+    },
+    {
+      "relation_raw": "/award/award_ceremony/awards_presented./award/award_honor/award_winner",
+      "relation": "award award ceremony awards presented. award award honor award winner",
+      "count": 3337
+    },
+    {
+      "relation_raw": "/education/educational_institution/students_graduates./education/education/student",
+      "relation": "education educational institution students graduates. education education student",
+      "count": 3229
+    },
+    {
+      "relation_raw": "/education/educational_institution/students_graduates./education/education/major_field_of_study",
+      "relation": "education educational institution students graduates. education education major field of study",
+      "count": 3219
+    }
+  ],
+  "top_entities_by_degree": [
+    {
+      "entity_raw": "/m/09c7w0",
+      "entity": "United States of America",
+      "degree": 8642
+    },
+    {
+      "entity_raw": "/m/09nqf",
+      "entity": "United States Dollar",
+      "degree": 4749
+    },
+    {
+      "entity_raw": "/m/08mbj5d",
+      "entity": "Official Website",
+      "degree": 4364
+    },
+    {
+      "entity_raw": "/m/04ztj",
+      "entity": "Marriage",
+      "degree": 3679
+    },
+    {
+      "entity_raw": "/m/05zppz",
+      "entity": "Male",
+      "degree": 3567
+    },
+    {
+      "entity_raw": "/m/02h40lc",
+      "entity": "English Language",
+      "degree": 3225
+    },
+    {
+      "entity_raw": "/m/02hrh1q",
+      "entity": "Actor-GB",
+      "degree": 2767
+    },
+    {
+      "entity_raw": "/m/07ssc",
+      "entity": "United Kingdom",
+      "degree": 2226
+    },
+    {
+      "entity_raw": "/m/02sdk9v",
+      "entity": "Forward",
+      "degree": 1797
+    },
+    {
+      "entity_raw": "/m/02nzb8",
+      "entity": "Midfielder",
+      "degree": 1785
+    },
+    {
+      "entity_raw": "/m/02_j1w",
+      "entity": "Defender",
+      "degree": 1755
+    },
+    {
+      "entity_raw": "/m/029j_",
+      "entity": "DVD",
+      "degree": 1695
+    },
+    {
+      "entity_raw": "/m/07s9rl0",
+      "entity": "Drama",
+      "degree": 1655
+    },
+    {
+      "entity_raw": "/m/0dgrmp",
+      "entity": "Goalkeeper",
+      "degree": 1508
+    },
+    {
+      "entity_raw": "/m/0342h",
+      "entity": "Guitar",
+      "degree": 1262
+    },
+    {
+      "entity_raw": "/m/02_286",
+      "entity": "New York City",
+      "degree": 1232
+    },
+    {
+      "entity_raw": "/m/0f8l9c",
+      "entity": "France",
+      "degree": 1102
+    },
+    {
+      "entity_raw": "/m/01d_h8",
+      "entity": "Film Producer-GB",
+      "degree": 1088
+    },
+    {
+      "entity_raw": "/m/0dxtg",
+      "entity": "Screenwriter",
+      "degree": 1073
+    },
+    {
+      "entity_raw": "/m/0d060g",
+      "entity": "Canada",
+      "degree": 1027
+    },
+    {
+      "entity_raw": "/m/0345h",
+      "entity": "Germany",
+      "degree": 1008
+    },
+    {
+      "entity_raw": "/m/0ch6mp2",
+      "entity": "Sound Mixer",
+      "degree": 990
+    },
+    {
+      "entity_raw": "/m/02zsn",
+      "entity": "Female",
+      "degree": 986
+    },
+    {
+      "entity_raw": "/m/09zzb8",
+      "entity": "Makeup Artist-GB",
+      "degree": 976
+    },
+    {
+      "entity_raw": "/m/0jbk9",
+      "entity": "United States Department of Housing and Urban Development",
+      "degree": 971
+    }
+  ]
+}

@@ -379,3 +379,59 @@ That is enough to keep the module fast and presentable.
 We will build this module as:
 
 **SFE-style path extraction + PCRA-style path scoring + KGE embedding support**, with **XKE-style surrogate explanations** as a later extension.
+
+## Learned Weight Upgrade
+
+The original Phase 1 implementation used fixed fusion weights for path scoring and shared-neighbor scoring. That was acceptable for a first prototype, but not strong enough for a serious explanation layer.
+
+We now move to a data-driven upgrade:
+
+### Learned path scoring
+
+Train a logistic-regression model on path-level evidence rows using:
+
+- `path_reliability`
+- `relation_relevance`
+- `log(1 + path_frequency)`
+- `embedding_support`
+
+Labels:
+
+- positive rows come from true FB15k training triples
+- negative rows come from corrupted FB15k triples
+
+This learns how strongly each feature predicts that a path is evidence for a true triple.
+
+### Learned shared-neighbor scoring
+
+Train a second logistic-regression model on shared-neighbor rows using:
+
+- `relation_match_strength`
+- `degree_penalty`
+- `embedding_coherence`
+
+Again:
+
+- positive rows are collected from true triples
+- negative rows are collected from corrupted triples
+
+This replaces manually chosen shared-neighbor coefficients with weights estimated from data.
+
+### Why this is better
+
+- the features remain interpretable
+- the fusion coefficients are no longer arbitrary
+- the resulting explanation score is a learned probability-like support score
+
+This is still lighter than a full XKE surrogate, but it is a stronger and more defensible intermediate version.
+
+### Monotonic constraints
+
+To keep the learned coefficients aligned with explanation semantics, the trainer enforces sign constraints:
+
+- path features are constrained to have nonnegative weights
+- `relation_match_strength` is constrained to be nonnegative
+- `embedding_coherence` is constrained to be nonnegative
+- neighbor hubness is represented as `hubness_log` and constrained to have a nonpositive weight
+
+This avoids counterintuitive learned coefficients such as a negative weight on embedding coherence or a negative weight on path reliability.

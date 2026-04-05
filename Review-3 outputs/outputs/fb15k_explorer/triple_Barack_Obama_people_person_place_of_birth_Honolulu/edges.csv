@@ -1,0 +1,81 @@
+head_id,head,relation_id,relation,tail_id,tail
+755,Matthew Perry,48,people person nationality,32,United States of America
+740,Governor-GB,37,government government office category officeholders. government government position held jurisdiction of office,1131,United States Virgin Islands
+1330,Master of Arts,112,education educational degree people with this degree. education education major field of study,1493,Sociology
+1774,Black Swan,34,film film estimated budget. measurement unit dated money value currency,90,United States Dollar
+2018,Joseph Campbell,21,influence influence node influenced by,2019,Arthur Schopenhauer
+664,Timothy Olyphant,8,award award nominee award nominations. award award nomination award nominee,2313,Anna Gunn
+3052,Deadwood,185,tv tv program country of origin,32,United States of America
+3384,Tia Carrere,19,award award nominee award nominations. award award nomination award,3385,MTV Movie Award for Best Dance Sequence
+2381,Molly Parker,8,award award nominee award nominations. award award nomination award nominee,3398,Powers Boothe
+3440,Honolulu County,33,location statistical region rent50 2. measurement unit dated money value currency,90,United States Dollar
+3676,William James,17,people person profession,2006,Author-GB
+3749,Jason Momoa,8,award award nominee award nominations. award award nomination award nominee,3750,Lena Headey
+596,Sarah Palin,17,people person profession,2006,Author-GB
+2090,Sailing,104,olympics olympic sport athletes. olympics olympic athlete affiliation olympics,2722,2012 Summer Olympics
+4593,Robert L. Surtees,43,people person gender,141,Male
+4212,Al Gore,60,base schemastaging person extra net worth. measurement unit dated money value currency,90,United States Dollar
+3373,Texas,18,location statistical region religions. location religion percentage religion,2357,Presbyterianism
+2165,Iraq War,88,base culturalevent event entity involved,4899,Gordon Brown
+5154,Jeffrey Jones,8,award award nominee award nominations. award award nomination award nominee,2381,Molly Parker
+5267,Germans,71,people ethnicity people,5268,Anna Faris
+3587,Angela Kinsey,17,people person profession,862,Actor-GB
+6145,French Polynesia,206,location statistical region gdp real. measurement unit adjusted money value adjustment currency,90,United States Dollar
+5521,John Rawls,43,people person gender,141,Male
+5335,Charlie's Angels: Full Throttle,34,film film estimated budget. measurement unit dated money value currency,90,United States Dollar
+1906,Titus Welliver,85,people person spouse s. people marriage type of union,434,Marriage
+5267,Germans,71,people ethnicity people,2361,Werner Herzog
+6767,Mark Addy,8,award award nominee award nominations. award award nomination award nominee,6768,Peter Dinklage
+802,Tate Donovan,43,people person gender,141,Male
+6993,Americas,15,location location contains,1131,United States Virgin Islands
+4881,Aasif Mandvi,6,film actor film. film performance film,7031,The Dictator
+7105,Trevor Howard,17,people person profession,862,Actor-GB
+7215,Pablo Picasso-GB,43,people person gender,141,Male
+4912,Donald Sumpter,8,award award nominee award nominations. award award nomination award nominee,2469,Aidan Gillen
+7414,Body of Lies,34,film film estimated budget. measurement unit dated money value currency,90,United States Dollar
+4212,Al Gore,45,base popstra celebrity friendship. base popstra friendship participant,2433,Barack Obama
+32,United States of America,15,location location contains,5686,Bethesda
+4394,Scream 2,28,film film country,32,United States of America
+3384,Tia Carrere,8,award award nominee award nominations. award award nomination award nominee,2161,Arnold Schwarzenegger
+7629,Punahou School,22,education educational institution students graduates. education education student,4925,Kelly Preston
+2767,Kevin Corrigan,6,film actor film. film performance film,7031,The Dictator
+3451,Scottish people,71,people ethnicity people,4899,Gordon Brown
+5521,John Rawls,17,people person profession,8059,Professor-GB
+4212,Al Gore,43,people person gender,141,Male
+5949,Hawaii,133,base biblioness bibs location country,32,United States of America
+4539,John Steinbeck,43,people person gender,141,Male
+2433,Barack Obama,17,people person profession,2006,Author-GB
+8284,Occidental College,124,education educational institution school type,2956,Private school
+3750,Lena Headey,17,people person profession,862,Actor-GB
+3324,White American,151,people ethnicity geographic distribution,32,United States of America
+3749,Jason Momoa,17,people person profession,862,Actor-GB
+3324,White American,71,people ethnicity people,8755,Richard Chamberlain
+1770,Pierre Trudeau,17,people person profession,8800,Journalist-GB
+8909,Maui County,15,location location contains,8910,Maui
+9309,"United States presidential election, 2008",210,time event instance of recurring event,9310,United States presidential election
+9397,Labour Party,165,government political party politicians in this party. government political party tenure politician,9398,Tony Blair
+6767,Mark Addy,19,award award nominee award nominations. award award nomination award,3385,MTV Movie Award for Best Dance Sequence
+3587,Angela Kinsey,48,people person nationality,32,United States of America
+3169,Columbia University,22,education educational institution students graduates. education education student,2433,Barack Obama
+2165,Iraq War,88,base culturalevent event entity involved,2433,Barack Obama
+9515,Richard Harris,85,people person spouse s. people marriage type of union,434,Marriage
+7223,Jeff Schaffer,8,award award nominee award nominations. award award nomination award nominee,9563,Alec Berg
+8927,The George Washington University Law School,124,education educational institution school type,873,Private university
+2018,Joseph Campbell,85,people person spouse s. people marriage type of union,434,Marriage
+664,Timothy Olyphant,8,award award nominee award nominations. award award nomination award nominee,1906,Titus Welliver
+2381,Molly Parker,8,award award nominee award nominations. award award nomination award nominee,1906,Titus Welliver
+10086,War in North-West Pakistan,88,base culturalevent event entity involved,10087,United States Air Force-GB
+8910,Maui,122,base popstra location vacationers. base popstra vacation choice vacationer,8357,Megan Fox
+10304,Edward Dmytryk,43,people person gender,141,Male
+8244,Pomona College,22,education educational institution students graduates. education education student,8755,Richard Chamberlain
+10394,Edward Said,17,people person profession,243,Writer-GB
+9563,Alec Berg,8,award award nominee award nominations. award award nomination award nominee,7223,Jeff Schaffer
+10475,Carol Reed,85,people person spouse s. people marriage type of union,434,Marriage
+245,90th United States Congress,64,government legislative session members. government government position held legislative sessions,3501,92nd United States Congress
+9576,Be Cool,13,film film release date s. film film regional release date film release region,32,United States of America
+6480,Acting,140,education field of study students majoring. education education student,10597,Lauren Graham
+10612,Sigmund Freud,21,influence influence node influenced by,2019,Arthur Schopenhauer
+4974,Julia Roberts,77,base popstra celebrity dated. base popstra dated participant,2412,Elizabeth Hurley
+5382,51st Annual Grammy Awards-US,27,award award ceremony awards presented. award award honor award winner,3384,Tia Carrere
+6722,David Mandel,85,people person spouse s. people marriage type of union,434,Marriage
+5949,Hawaii,15,location location contains,8909,Maui County

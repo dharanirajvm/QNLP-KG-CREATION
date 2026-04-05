@@ -1,0 +1,1553 @@
+{
+  "query": {
+    "head": "Steven Spielberg",
+    "relation": "people person nationality",
+    "tail": "United States of America"
+  },
+  "subgraph": {
+    "nodes": [
+      {
+        "entity_id": 32,
+        "entity_raw": "/m/09c7w0",
+        "entity": "United States of America",
+        "degree": 7614
+      },
+      {
+        "entity_id": 43,
+        "entity_raw": "/m/0rh6k",
+        "entity": "Washington, D.C.",
+        "degree": 195
+      },
+      {
+        "entity_id": 62,
+        "entity_raw": "/m/08mbj5d",
+        "entity": "Official Website",
+        "degree": 3612
+      },
+      {
+        "entity_id": 141,
+        "entity_raw": "/m/05zppz",
+        "entity": "Male",
+        "degree": 2928
+      },
+      {
+        "entity_id": 259,
+        "entity_raw": "/m/02vxn",
+        "entity": "Film",
+        "degree": 129
+      },
+      {
+        "entity_id": 384,
+        "entity_raw": "/m/02zsn",
+        "entity": "Female",
+        "degree": 811
+      },
+      {
+        "entity_id": 395,
+        "entity_raw": "/m/05hj0n",
+        "entity": "Kathleen Quinlan",
+        "degree": 32
+      },
+      {
+        "entity_id": 400,
+        "entity_raw": "/m/06cs95",
+        "entity": "Into the West",
+        "degree": 23
+      },
+      {
+        "entity_id": 401,
+        "entity_raw": "/m/02nb2s",
+        "entity": "Matthew Modine",
+        "degree": 16
+      },
+      {
+        "entity_id": 431,
+        "entity_raw": "/m/01nqfh_",
+        "entity": "Brian Tyler",
+        "degree": 27
+      },
+      {
+        "entity_id": 466,
+        "entity_raw": "/m/02n4kr",
+        "entity": "Mystery",
+        "degree": 250
+      },
+      {
+        "entity_id": 580,
+        "entity_raw": "/m/05kj_",
+        "entity": "Oregon",
+        "degree": 97
+      },
+      {
+        "entity_id": 645,
+        "entity_raw": "/m/0415svh",
+        "entity": "Gary Goetzman",
+        "degree": 57
+      },
+      {
+        "entity_id": 700,
+        "entity_raw": "/m/03ds3",
+        "entity": "Gary Busey",
+        "degree": 20
+      },
+      {
+        "entity_id": 720,
+        "entity_raw": "/m/01yk13",
+        "entity": "John Lithgow",
+        "degree": 61
+      },
+      {
+        "entity_id": 773,
+        "entity_raw": "/m/0vmt",
+        "entity": "Arizona",
+        "degree": 87
+      },
+      {
+        "entity_id": 791,
+        "entity_raw": "/m/0jbk9",
+        "entity": "United States Department of Housing and Urban Development",
+        "degree": 792
+      },
+      {
+        "entity_id": 901,
+        "entity_raw": "/m/01_mdl",
+        "entity": "Superman",
+        "degree": 62
+      },
+      {
+        "entity_id": 1092,
+        "entity_raw": "/m/016hvl",
+        "entity": "Pier Paolo Pasolini",
+        "degree": 21
+      },
+      {
+        "entity_id": 1192,
+        "entity_raw": "/m/0np9r",
+        "entity": "Voice Actor",
+        "degree": 348
+      },
+      {
+        "entity_id": 1560,
+        "entity_raw": "/m/02wrhj",
+        "entity": "Maurice LaMarche",
+        "degree": 12
+      },
+      {
+        "entity_id": 1766,
+        "entity_raw": "/m/01fh9",
+        "entity": "Billy Bob Thornton",
+        "degree": 57
+      },
+      {
+        "entity_id": 1770,
+        "entity_raw": "/m/063vn",
+        "entity": "Pierre Trudeau",
+        "degree": 23
+      },
+      {
+        "entity_id": 1787,
+        "entity_raw": "/m/03fvqg",
+        "entity": "Eddie Albert",
+        "degree": 21
+      },
+      {
+        "entity_id": 1871,
+        "entity_raw": "/m/0kvgxk",
+        "entity": "The Ice Storm",
+        "degree": 42
+      },
+      {
+        "entity_id": 1874,
+        "entity_raw": "/m/02hczc",
+        "entity": "Mountain Time Zone-US",
+        "degree": 70
+      },
+      {
+        "entity_id": 1917,
+        "entity_raw": "/m/06pj8",
+        "entity": "Steven Spielberg",
+        "degree": 245
+      },
+      {
+        "entity_id": 2107,
+        "entity_raw": "/m/04y8r",
+        "entity": "Michael Mann",
+        "degree": 56
+      },
+      {
+        "entity_id": 2213,
+        "entity_raw": "/m/09pl3s",
+        "entity": "Roberto Orci",
+        "degree": 34
+      },
+      {
+        "entity_id": 2308,
+        "entity_raw": "/m/0hcr",
+        "entity": "Animation",
+        "degree": 176
+      },
+      {
+        "entity_id": 2388,
+        "entity_raw": "/m/02xry",
+        "entity": "Florida",
+        "degree": 134
+      },
+      {
+        "entity_id": 2415,
+        "entity_raw": "/m/0d7hg4",
+        "entity": "Edward Kitsis",
+        "degree": 45
+      },
+      {
+        "entity_id": 2438,
+        "entity_raw": "/m/02hcv8",
+        "entity": "Eastern Time Zone",
+        "degree": 455
+      },
+      {
+        "entity_id": 2456,
+        "entity_raw": "/m/0kpl",
+        "entity": "Atheism",
+        "degree": 147
+      },
+      {
+        "entity_id": 2524,
+        "entity_raw": "/m/01w724",
+        "entity": "Billy Preston",
+        "degree": 65
+      },
+      {
+        "entity_id": 2662,
+        "entity_raw": "/m/0249kn",
+        "entity": "Nitty Gritty Dirt Band",
+        "degree": 51
+      },
+      {
+        "entity_id": 2781,
+        "entity_raw": "/m/09yhzs",
+        "entity": "Emma Stone",
+        "degree": 56
+      },
+      {
+        "entity_id": 2897,
+        "entity_raw": "/m/09b0xs",
+        "entity": "Tom Ruegger",
+        "degree": 49
+      },
+      {
+        "entity_id": 2910,
+        "entity_raw": "/m/016srn",
+        "entity": "Randy Travis",
+        "degree": 68
+      },
+      {
+        "entity_id": 3410,
+        "entity_raw": "/m/024mxd",
+        "entity": "Superman IV: The Quest For Peace",
+        "degree": 38
+      },
+      {
+        "entity_id": 3544,
+        "entity_raw": "/m/03xkps",
+        "entity": "Beau Bridges",
+        "degree": 39
+      },
+      {
+        "entity_id": 3582,
+        "entity_raw": "/m/0d_wms",
+        "entity": "Superman II: The Richard Donner Cut",
+        "degree": 39
+      },
+      {
+        "entity_id": 3734,
+        "entity_raw": "/m/04w391",
+        "entity": "Shia LaBeouf",
+        "degree": 84
+      },
+      {
+        "entity_id": 3770,
+        "entity_raw": "/m/01xndd",
+        "entity": "J.J. Abrams",
+        "degree": 86
+      },
+      {
+        "entity_id": 3771,
+        "entity_raw": "/m/04m_zp",
+        "entity": "Graham Yost",
+        "degree": 41
+      },
+      {
+        "entity_id": 3797,
+        "entity_raw": "/m/0bqsy",
+        "entity": "Nelly Furtado",
+        "degree": 42
+      },
+      {
+        "entity_id": 3939,
+        "entity_raw": "/m/0c3351",
+        "entity": "Suspense",
+        "degree": 119
+      },
+      {
+        "entity_id": 3949,
+        "entity_raw": "/m/03q8ch",
+        "entity": "Michael Kahn",
+        "degree": 46
+      },
+      {
+        "entity_id": 4120,
+        "entity_raw": "/m/0kvnn",
+        "entity": "Elliott Smith",
+        "degree": 33
+      },
+      {
+        "entity_id": 4152,
+        "entity_raw": "/m/0d35y",
+        "entity": "Phoenix",
+        "degree": 42
+      },
+      {
+        "entity_id": 4295,
+        "entity_raw": "/m/01gb54",
+        "entity": "DreamWorks",
+        "degree": 190
+      },
+      {
+        "entity_id": 4574,
+        "entity_raw": "/m/02hfk5",
+        "entity": "The Barbarian Invasions",
+        "degree": 32
+      },
+      {
+        "entity_id": 4580,
+        "entity_raw": "/m/016szr",
+        "entity": "Randy Newman",
+        "degree": 92
+      },
+      {
+        "entity_id": 4614,
+        "entity_raw": "/m/03ct7jd",
+        "entity": "Eagle Eye",
+        "degree": 22
+      },
+      {
+        "entity_id": 4825,
+        "entity_raw": "/m/01kb2j",
+        "entity": "Julianne Moore",
+        "degree": 127
+      },
+      {
+        "entity_id": 4894,
+        "entity_raw": "/m/05m9f9",
+        "entity": "Tim Van Patten",
+        "degree": 44
+      },
+      {
+        "entity_id": 5026,
+        "entity_raw": "/m/02c6pq",
+        "entity": "Simon Baker",
+        "degree": 49
+      },
+      {
+        "entity_id": 5055,
+        "entity_raw": "/m/03cv_gy",
+        "entity": "John Adams",
+        "degree": 58
+      },
+      {
+        "entity_id": 5179,
+        "entity_raw": "/m/016s_5",
+        "entity": "John Fogerty",
+        "degree": 39
+      },
+      {
+        "entity_id": 5188,
+        "entity_raw": "/m/014v6f",
+        "entity": "Cuba Gooding, Jr.",
+        "degree": 64
+      },
+      {
+        "entity_id": 5195,
+        "entity_raw": "/m/01c6l",
+        "entity": "Brian De Palma",
+        "degree": 26
+      },
+      {
+        "entity_id": 5245,
+        "entity_raw": "/m/01z77k",
+        "entity": "Miniseries",
+        "degree": 40
+      },
+      {
+        "entity_id": 5286,
+        "entity_raw": "/m/02tkzn",
+        "entity": "Ed Asner",
+        "degree": 32
+      },
+      {
+        "entity_id": 5333,
+        "entity_raw": "/m/0g8_vp",
+        "entity": "Canadian-American",
+        "degree": 21
+      },
+      {
+        "entity_id": 5556,
+        "entity_raw": "/m/06jrhz",
+        "entity": "Paul Dini",
+        "degree": 48
+      },
+      {
+        "entity_id": 5725,
+        "entity_raw": "/m/09pl3f",
+        "entity": "Alex Kurtzman",
+        "degree": 32
+      },
+      {
+        "entity_id": 5747,
+        "entity_raw": "/m/0bbm7r",
+        "entity": "Elizabeth I",
+        "degree": 34
+      },
+      {
+        "entity_id": 5748,
+        "entity_raw": "/m/07z2lx",
+        "entity": "Primetime Emmy Award for Outstanding Miniseries",
+        "degree": 25
+      },
+      {
+        "entity_id": 5949,
+        "entity_raw": "/m/03gh4",
+        "entity": "Hawaii",
+        "degree": 94
+      },
+      {
+        "entity_id": 6022,
+        "entity_raw": "/m/078g3l",
+        "entity": "John Heard",
+        "degree": 9
+      },
+      {
+        "entity_id": 6212,
+        "entity_raw": "/m/0n5j7",
+        "entity": "Camden County",
+        "degree": 13
+      },
+      {
+        "entity_id": 6213,
+        "entity_raw": "/m/0pzmf",
+        "entity": "Camden",
+        "degree": 14
+      },
+      {
+        "entity_id": 6237,
+        "entity_raw": "/m/01rrd4",
+        "entity": "Matt LeBlanc",
+        "degree": 55
+      },
+      {
+        "entity_id": 6350,
+        "entity_raw": "/m/013t9y",
+        "entity": "George Miller",
+        "degree": 25
+      },
+      {
+        "entity_id": 6615,
+        "entity_raw": "/m/05fjf",
+        "entity": "New Jersey",
+        "degree": 157
+      },
+      {
+        "entity_id": 6979,
+        "entity_raw": "/m/0677ng",
+        "entity": "Swizz Beatz",
+        "degree": 55
+      },
+      {
+        "entity_id": 6986,
+        "entity_raw": "/m/02gf_l",
+        "entity": "Frank Welker",
+        "degree": 29
+      },
+      {
+        "entity_id": 7129,
+        "entity_raw": "/m/0m27n",
+        "entity": "Maricopa County",
+        "degree": 25
+      },
+      {
+        "entity_id": 7218,
+        "entity_raw": "/m/09v82c0",
+        "entity": "Primetime Emmy Award for Outstanding Costumes for a Miniseries, Movie or a Special",
+        "degree": 26
+      },
+      {
+        "entity_id": 7227,
+        "entity_raw": "/m/0h5j77",
+        "entity": "Mikael Salomon",
+        "degree": 26
+      },
+      {
+        "entity_id": 7242,
+        "entity_raw": "/m/0d608",
+        "entity": "Dan Aykroyd",
+        "degree": 46
+      },
+      {
+        "entity_id": 7405,
+        "entity_raw": "/m/095bb",
+        "entity": "Animated cartoon",
+        "degree": 16
+      },
+      {
+        "entity_id": 7432,
+        "entity_raw": "/m/0215n",
+        "entity": "Cartoon",
+        "degree": 13
+      },
+      {
+        "entity_id": 7499,
+        "entity_raw": "/m/0c35b1",
+        "entity": "Anthony Mackie",
+        "degree": 35
+      },
+      {
+        "entity_id": 7612,
+        "entity_raw": "/m/02n9k",
+        "entity": "Eleanor Roosevelt",
+        "degree": 18
+      },
+      {
+        "entity_id": 7760,
+        "entity_raw": "/m/029m83",
+        "entity": "Sydney Pollack",
+        "degree": 61
+      },
+      {
+        "entity_id": 7811,
+        "entity_raw": "/m/02w29z",
+        "entity": "Alan Tudyk",
+        "degree": 37
+      },
+      {
+        "entity_id": 7879,
+        "entity_raw": "/m/02dlfh",
+        "entity": "David Spade",
+        "degree": 49
+      },
+      {
+        "entity_id": 7941,
+        "entity_raw": "/m/04mlmx",
+        "entity": "Margot Kidder",
+        "degree": 18
+      },
+      {
+        "entity_id": 7999,
+        "entity_raw": "/m/0hfjk",
+        "entity": "Western",
+        "degree": 66
+      },
+      {
+        "entity_id": 8038,
+        "entity_raw": "/m/02_t2t",
+        "entity": "Rufus Wainwright",
+        "degree": 26
+      },
+      {
+        "entity_id": 8093,
+        "entity_raw": "/m/023361",
+        "entity": "Jerry Goldsmith",
+        "degree": 59
+      },
+      {
+        "entity_id": 8094,
+        "entity_raw": "/m/0q9zc",
+        "entity": "Larry David",
+        "degree": 65
+      },
+      {
+        "entity_id": 8111,
+        "entity_raw": "/m/04gmlt",
+        "entity": "DreamWorks Records",
+        "degree": 13
+      },
+      {
+        "entity_id": 8112,
+        "entity_raw": "/m/01jkqfz",
+        "entity": "Asleep at the Wheel",
+        "degree": 40
+      },
+      {
+        "entity_id": 8215,
+        "entity_raw": "/m/0cvkv5",
+        "entity": "Volver",
+        "degree": 36
+      },
+      {
+        "entity_id": 8291,
+        "entity_raw": "/m/027d5g5",
+        "entity": "Tonino Guerra",
+        "degree": 13
+      },
+      {
+        "entity_id": 8316,
+        "entity_raw": "/m/02q5bx2",
+        "entity": "Tin Man",
+        "degree": 33
+      },
+      {
+        "entity_id": 8387,
+        "entity_raw": "/m/02qjv1p",
+        "entity": "The Pacific",
+        "degree": 30
+      },
+      {
+        "entity_id": 8594,
+        "entity_raw": "/m/01x9_8",
+        "entity": "Rachael Leigh Cook",
+        "degree": 20
+      },
+      {
+        "entity_id": 8680,
+        "entity_raw": "/m/06d6y",
+        "entity": "Richard Matheson",
+        "degree": 19
+      },
+      {
+        "entity_id": 8851,
+        "entity_raw": "/m/022qw7",
+        "entity": "Patrick McGoohan",
+        "degree": 18
+      },
+      {
+        "entity_id": 8883,
+        "entity_raw": "/m/030vmc",
+        "entity": "John Landis",
+        "degree": 19
+      },
+      {
+        "entity_id": 9049,
+        "entity_raw": "/m/0kbwb",
+        "entity": "Wayne's World",
+        "degree": 29
+      },
+      {
+        "entity_id": 9050,
+        "entity_raw": "/m/0qpqn",
+        "entity": "Scottsdale",
+        "degree": 23
+      },
+      {
+        "entity_id": 9092,
+        "entity_raw": "/m/01vhrz",
+        "entity": "David Geffen",
+        "degree": 46
+      },
+      {
+        "entity_id": 9503,
+        "entity_raw": "/m/02tn0_",
+        "entity": "Tony Scott",
+        "degree": 45
+      },
+      {
+        "entity_id": 9650,
+        "entity_raw": "/m/05f5rsr",
+        "entity": "1982 Cannes Film Festival",
+        "degree": 15
+      },
+      {
+        "entity_id": 9827,
+        "entity_raw": "/m/0sw62",
+        "entity": "Nancy Cartwright",
+        "degree": 16
+      },
+      {
+        "entity_id": 9870,
+        "entity_raw": "/m/05vtbl",
+        "entity": "Bruce Timm",
+        "degree": 37
+      },
+      {
+        "entity_id": 9877,
+        "entity_raw": "/m/025s89p",
+        "entity": "Animated series",
+        "degree": 15
+      },
+      {
+        "entity_id": 9904,
+        "entity_raw": "/m/03_2y",
+        "entity": "John Woo",
+        "degree": 30
+      },
+      {
+        "entity_id": 10015,
+        "entity_raw": "/m/027l4q",
+        "entity": "Pacific Palisades",
+        "degree": 15
+      },
+      {
+        "entity_id": 10075,
+        "entity_raw": "/m/0rk71",
+        "entity": "Naples",
+        "degree": 14
+      },
+      {
+        "entity_id": 10096,
+        "entity_raw": "/m/0jgm8",
+        "entity": "Collier County",
+        "degree": 14
+      },
+      {
+        "entity_id": 10429,
+        "entity_raw": "/m/016376",
+        "entity": "The Isley Brothers",
+        "degree": 29
+      },
+      {
+        "entity_id": 10614,
+        "entity_raw": "/m/02j490",
+        "entity": "Ray Liotta",
+        "degree": 25
+      },
+      {
+        "entity_id": 10685,
+        "entity_raw": "/m/01rw116",
+        "entity": "Scatman Crothers",
+        "degree": 18
+      },
+      {
+        "entity_id": 10840,
+        "entity_raw": "/m/0k6yt1",
+        "entity": "Eve",
+        "degree": 33
+      },
+      {
+        "entity_id": 10948,
+        "entity_raw": "/m/03wf1p2",
+        "entity": "2000 Cannes Film Festival",
+        "degree": 23
+      },
+      {
+        "entity_id": 10988,
+        "entity_raw": "/m/0hcvy",
+        "entity": "Graham Greene",
+        "degree": 22
+      },
+      {
+        "entity_id": 11045,
+        "entity_raw": "/m/07tvwy",
+        "entity": "Cameron Mitchell",
+        "degree": 7
+      },
+      {
+        "entity_id": 11094,
+        "entity_raw": "/m/025x1t",
+        "entity": "Freakazoid!",
+        "degree": 23
+      },
+      {
+        "entity_id": 11121,
+        "entity_raw": "/m/0pqzh",
+        "entity": "Rod Serling",
+        "degree": 23
+      },
+      {
+        "entity_id": 11230,
+        "entity_raw": "/m/0p1l2",
+        "entity": "John F. Kennedy International Airport",
+        "degree": 2
+      },
+      {
+        "entity_id": 11287,
+        "entity_raw": "/m/09fqdt",
+        "entity": "Eric Rodwell",
+        "degree": 2
+      },
+      {
+        "entity_id": 11290,
+        "entity_raw": "/m/04dyqk",
+        "entity": "Bob Clark",
+        "degree": 15
+      },
+      {
+        "entity_id": 11346,
+        "entity_raw": "/m/098z9w",
+        "entity": "WCW WorldWide",
+        "degree": 2
+      },
+      {
+        "entity_id": 11347,
+        "entity_raw": "/m/01rzxl",
+        "entity": "Hulk Hogan",
+        "degree": 17
+      },
+      {
+        "entity_id": 11398,
+        "entity_raw": "/m/04sh80",
+        "entity": "Twilight Zone: The Movie",
+        "degree": 24
+      },
+      {
+        "entity_id": 11771,
+        "entity_raw": "/m/0sw6y",
+        "entity": "Tress MacNeille",
+        "degree": 18
+      },
+      {
+        "entity_id": 11834,
+        "entity_raw": "/m/03ctqqf",
+        "entity": "Cranford-GB",
+        "degree": 23
+      },
+      {
+        "entity_id": 11840,
+        "entity_raw": "/m/021npv",
+        "entity": "Tom Berenger",
+        "degree": 21
+      },
+      {
+        "entity_id": 11931,
+        "entity_raw": "/m/042g97",
+        "entity": "Superman III",
+        "degree": 45
+      },
+      {
+        "entity_id": 11972,
+        "entity_raw": "/m/0m68w",
+        "entity": "Sandra Bernhard",
+        "degree": 26
+      },
+      {
+        "entity_id": 12075,
+        "entity_raw": "/m/0qpsn",
+        "entity": "Tempe",
+        "degree": 15
+      },
+      {
+        "entity_id": 12119,
+        "entity_raw": "/m/085gk",
+        "entity": "Walt Whitman",
+        "degree": 19
+      },
+      {
+        "entity_id": 12153,
+        "entity_raw": "/m/04xbr4",
+        "entity": "Kevin McCarthy",
+        "degree": 13
+      },
+      {
+        "entity_id": 12217,
+        "entity_raw": "/m/05bnx3j",
+        "entity": "Rebecca Eaton",
+        "degree": 23
+      },
+      {
+        "entity_id": 12298,
+        "entity_raw": "/m/0468g4r",
+        "entity": "Cannes Film Festival Award for Best Screenplay",
+        "degree": 9
+      },
+      {
+        "entity_id": 12784,
+        "entity_raw": "/m/0kcd5",
+        "entity": "TNT",
+        "degree": 9
+      },
+      {
+        "entity_id": 13169,
+        "entity_raw": "/m/0r_ch",
+        "entity": "Hilo",
+        "degree": 2
+      },
+      {
+        "entity_id": 13959,
+        "entity_raw": "/m/01kyln",
+        "entity": "LaGuardia Airport",
+        "degree": 1
+      },
+      {
+        "entity_id": 13986,
+        "entity_raw": "/m/01dz7z",
+        "entity": "First Lady",
+        "degree": 2
+      },
+      {
+        "entity_id": 13988,
+        "entity_raw": "/m/01nvdc",
+        "entity": "Major League Baseball All-Star Game",
+        "degree": 1
+      },
+      {
+        "entity_id": 14090,
+        "entity_raw": "/m/01950l",
+        "entity": "Dark Horse Comics",
+        "degree": 2
+      },
+      {
+        "entity_id": 14244,
+        "entity_raw": "/m/03cxqp5",
+        "entity": "Paul Soloway",
+        "degree": 1
+      },
+      {
+        "entity_id": 14270,
+        "entity_raw": "/m/025sh_8",
+        "entity": "Washington metropolitan area",
+        "degree": 1
+      },
+      {
+        "entity_id": 14350,
+        "entity_raw": "/m/09f5pp",
+        "entity": "Bob Hamman",
+        "degree": 2
+      },
+      {
+        "entity_id": 14445,
+        "entity_raw": "/m/02z3cm0",
+        "entity": "ECW Hardcore TV",
+        "degree": 1
+      }
+    ],
+    "edges": [
+      {
+        "head_id": 400,
+        "head": "Into the West",
+        "relation_id": 1,
+        "relation": "tv tv program regular cast. tv regular tv appearance actor",
+        "tail_id": 401,
+        "tail": "Matthew Modine"
+      },
+      {
+        "head_id": 3410,
+        "head": "Superman IV: The Quest For Peace",
+        "relation_id": 28,
+        "relation": "film film country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 3582,
+        "head": "Superman II: The Richard Donner Cut",
+        "relation_id": 28,
+        "relation": "film film country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 645,
+        "head": "Gary Goetzman",
+        "relation_id": 3,
+        "relation": "award award winner awards won. award award honor award winner",
+        "tail_id": 4894,
+        "tail": "Tim Van Patten"
+      },
+      {
+        "head_id": 1871,
+        "head": "The Ice Storm",
+        "relation_id": 28,
+        "relation": "film film country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 2781,
+        "head": "Emma Stone",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 384,
+        "tail": "Female"
+      },
+      {
+        "head_id": 1917,
+        "head": "Steven Spielberg",
+        "relation_id": 3,
+        "relation": "award award winner awards won. award award honor award winner",
+        "tail_id": 5556,
+        "tail": "Paul Dini"
+      },
+      {
+        "head_id": 5747,
+        "head": "Elizabeth I",
+        "relation_id": 30,
+        "relation": "award award winning work awards won. award award honor award",
+        "tail_id": 5748,
+        "tail": "Primetime Emmy Award for Outstanding Miniseries"
+      },
+      {
+        "head_id": 3949,
+        "head": "Michael Kahn",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 6212,
+        "head": "Camden County",
+        "relation_id": 190,
+        "relation": "location us county county seat",
+        "tail_id": 6213,
+        "tail": "Camden"
+      },
+      {
+        "head_id": 901,
+        "head": "Superman",
+        "relation_id": 97,
+        "relation": "award award nominated work award nominations. award award nomination nominated for",
+        "tail_id": 3410,
+        "tail": "Superman IV: The Quest For Peace"
+      },
+      {
+        "head_id": 2910,
+        "head": "Randy Travis",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 7227,
+        "head": "Mikael Salomon",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 7242,
+        "head": "Dan Aykroyd",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 6212,
+        "head": "Camden County",
+        "relation_id": 120,
+        "relation": "location hud foreclosure area estimated number of mortgages. measurement unit dated integer source",
+        "tail_id": 791,
+        "tail": "United States Department of Housing and Urban Development"
+      },
+      {
+        "head_id": 7941,
+        "head": "Margot Kidder",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 384,
+        "tail": "Female"
+      },
+      {
+        "head_id": 7999,
+        "head": "Western",
+        "relation_id": 2,
+        "relation": "media common netflix genre titles",
+        "tail_id": 400,
+        "tail": "Into the West"
+      },
+      {
+        "head_id": 4825,
+        "head": "Julianne Moore",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 384,
+        "tail": "Female"
+      },
+      {
+        "head_id": 8038,
+        "head": "Rufus Wainwright",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 8111,
+        "head": "DreamWorks Records",
+        "relation_id": 76,
+        "relation": "music record label artist",
+        "tail_id": 8112,
+        "tail": "Asleep at the Wheel"
+      },
+      {
+        "head_id": 5949,
+        "head": "Hawaii",
+        "relation_id": 133,
+        "relation": "base biblioness bibs location country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 645,
+        "head": "Gary Goetzman",
+        "relation_id": 145,
+        "relation": "tv tv producer programs produced. tv tv producer term program",
+        "tail_id": 5055,
+        "tail": "John Adams"
+      },
+      {
+        "head_id": 1917,
+        "head": "Steven Spielberg",
+        "relation_id": 145,
+        "relation": "tv tv producer programs produced. tv tv producer term program",
+        "tail_id": 8387,
+        "tail": "The Pacific"
+      },
+      {
+        "head_id": 400,
+        "head": "Into the West",
+        "relation_id": 1,
+        "relation": "tv tv program regular cast. tv regular tv appearance actor",
+        "tail_id": 8594,
+        "tail": "Rachael Leigh Cook"
+      },
+      {
+        "head_id": 5748,
+        "head": "Primetime Emmy Award for Outstanding Miniseries",
+        "relation_id": 47,
+        "relation": "award award category winners. award award honor award winner",
+        "tail_id": 4894,
+        "tail": "Tim Van Patten"
+      },
+      {
+        "head_id": 8851,
+        "head": "Patrick McGoohan",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 9049,
+        "head": "Wayne's World",
+        "relation_id": 106,
+        "relation": "film film featured film locations",
+        "tail_id": 9050,
+        "tail": "Scottsdale"
+      },
+      {
+        "head_id": 2897,
+        "head": "Tom Ruegger",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 9092,
+        "head": "David Geffen",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 7941,
+        "head": "Margot Kidder",
+        "relation_id": 82,
+        "relation": "people person religion",
+        "tail_id": 2456,
+        "tail": "Atheism"
+      },
+      {
+        "head_id": 9050,
+        "head": "Scottsdale",
+        "relation_id": 58,
+        "relation": "location location adjoin s. location adjoining relationship adjoins",
+        "tail_id": 4152,
+        "tail": "Phoenix"
+      },
+      {
+        "head_id": 5195,
+        "head": "Brian De Palma",
+        "relation_id": 77,
+        "relation": "base popstra celebrity dated. base popstra dated participant",
+        "tail_id": 7941,
+        "tail": "Margot Kidder"
+      },
+      {
+        "head_id": 7811,
+        "head": "Alan Tudyk",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 2107,
+        "head": "Michael Mann",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 6615,
+        "head": "New Jersey",
+        "relation_id": 15,
+        "relation": "location location contains",
+        "tail_id": 6213,
+        "tail": "Camden"
+      },
+      {
+        "head_id": 8883,
+        "head": "John Landis",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 6213,
+        "head": "Camden",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 2781,
+        "head": "Emma Stone",
+        "relation_id": 66,
+        "relation": "people person places lived. people place lived location",
+        "tail_id": 9050,
+        "tail": "Scottsdale"
+      },
+      {
+        "head_id": 5188,
+        "head": "Cuba Gooding, Jr.",
+        "relation_id": 66,
+        "relation": "people person places lived. people place lived location",
+        "tail_id": 10015,
+        "tail": "Pacific Palisades"
+      },
+      {
+        "head_id": 1917,
+        "head": "Steven Spielberg",
+        "relation_id": 66,
+        "relation": "people person places lived. people place lived location",
+        "tail_id": 10075,
+        "tail": "Naples"
+      },
+      {
+        "head_id": 3544,
+        "head": "Beau Bridges",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 10075,
+        "head": "Naples",
+        "relation_id": 111,
+        "relation": "location hud county place county",
+        "tail_id": 10096,
+        "tail": "Collier County"
+      },
+      {
+        "head_id": 5556,
+        "head": "Paul Dini",
+        "relation_id": 3,
+        "relation": "award award winner awards won. award award honor award winner",
+        "tail_id": 3770,
+        "tail": "J.J. Abrams"
+      },
+      {
+        "head_id": 645,
+        "head": "Gary Goetzman",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 8111,
+        "head": "DreamWorks Records",
+        "relation_id": 76,
+        "relation": "music record label artist",
+        "tail_id": 10429,
+        "tail": "The Isley Brothers"
+      },
+      {
+        "head_id": 32,
+        "head": "United States of America",
+        "relation_id": 15,
+        "relation": "location location contains",
+        "tail_id": 6615,
+        "tail": "New Jersey"
+      },
+      {
+        "head_id": 4152,
+        "head": "Phoenix",
+        "relation_id": 194,
+        "relation": "location capital of administrative division capital of. location administrative division capital relationship administrative division",
+        "tail_id": 7129,
+        "tail": "Maricopa County"
+      },
+      {
+        "head_id": 1917,
+        "head": "Steven Spielberg",
+        "relation_id": 45,
+        "relation": "base popstra celebrity friendship. base popstra friendship participant",
+        "tail_id": 9092,
+        "tail": "David Geffen"
+      },
+      {
+        "head_id": 2213,
+        "head": "Roberto Orci",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 1766,
+        "head": "Billy Bob Thornton",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 1917,
+        "head": "Steven Spielberg",
+        "relation_id": 226,
+        "relation": "organization organization founder organizations founded",
+        "tail_id": 8111,
+        "tail": "DreamWorks Records"
+      },
+      {
+        "head_id": 773,
+        "head": "Arizona",
+        "relation_id": 205,
+        "relation": "location administrative division first level division of",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 4574,
+        "head": "The Barbarian Invasions",
+        "relation_id": 13,
+        "relation": "film film release date s. film film regional release date film release region",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 5055,
+        "head": "John Adams",
+        "relation_id": 30,
+        "relation": "award award winning work awards won. award award honor award",
+        "tail_id": 5748,
+        "tail": "Primetime Emmy Award for Outstanding Miniseries"
+      },
+      {
+        "head_id": 645,
+        "head": "Gary Goetzman",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 3771,
+        "tail": "Graham Yost"
+      },
+      {
+        "head_id": 11045,
+        "head": "Cameron Mitchell",
+        "relation_id": 39,
+        "relation": "people deceased person place of death",
+        "tail_id": 10015,
+        "tail": "Pacific Palisades"
+      },
+      {
+        "head_id": 32,
+        "head": "United States of America",
+        "relation_id": 154,
+        "relation": "location location time zones",
+        "tail_id": 1874,
+        "tail": "Mountain Time Zone-US"
+      },
+      {
+        "head_id": 11094,
+        "head": "Freakazoid!",
+        "relation_id": 107,
+        "relation": "tv tv program genre",
+        "tail_id": 7405,
+        "tail": "Animated cartoon"
+      },
+      {
+        "head_id": 11230,
+        "head": "John F. Kennedy International Airport",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 11287,
+        "head": "Eric Rodwell",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 5179,
+        "head": "John Fogerty",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 11346,
+        "head": "WCW WorldWide",
+        "relation_id": 1,
+        "relation": "tv tv program regular cast. tv regular tv appearance actor",
+        "tail_id": 11347,
+        "tail": "Hulk Hogan"
+      },
+      {
+        "head_id": 5055,
+        "head": "John Adams",
+        "relation_id": 107,
+        "relation": "tv tv program genre",
+        "tail_id": 5245,
+        "tail": "Miniseries"
+      },
+      {
+        "head_id": 11398,
+        "head": "Twilight Zone: The Movie",
+        "relation_id": 116,
+        "relation": "film film music",
+        "tail_id": 8093,
+        "tail": "Jerry Goldsmith"
+      },
+      {
+        "head_id": 3410,
+        "head": "Superman IV: The Quest For Peace",
+        "relation_id": 97,
+        "relation": "award award nominated work award nominations. award award nomination nominated for",
+        "tail_id": 3582,
+        "tail": "Superman II: The Richard Donner Cut"
+      },
+      {
+        "head_id": 901,
+        "head": "Superman",
+        "relation_id": 141,
+        "relation": "award award winning work awards won. award award honor honored for",
+        "tail_id": 3582,
+        "tail": "Superman II: The Richard Donner Cut"
+      },
+      {
+        "head_id": 5055,
+        "head": "John Adams",
+        "relation_id": 28,
+        "relation": "film film country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 2897,
+        "head": "Tom Ruegger",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 9870,
+        "tail": "Bruce Timm"
+      },
+      {
+        "head_id": 11290,
+        "head": "Bob Clark",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 7879,
+        "head": "David Spade",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 11121,
+        "head": "Rod Serling",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 1917,
+        "head": "Steven Spielberg",
+        "relation_id": 145,
+        "relation": "tv tv producer programs produced. tv tv producer term program",
+        "tail_id": 11094,
+        "tail": "Freakazoid!"
+      },
+      {
+        "head_id": 8038,
+        "head": "Rufus Wainwright",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 11931,
+        "head": "Superman III",
+        "relation_id": 230,
+        "relation": "film film prequel",
+        "tail_id": 3582,
+        "tail": "Superman II: The Richard Donner Cut"
+      },
+      {
+        "head_id": 5556,
+        "head": "Paul Dini",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 2897,
+        "tail": "Tom Ruegger"
+      },
+      {
+        "head_id": 8112,
+        "head": "Asleep at the Wheel",
+        "relation_id": 25,
+        "relation": "common topic webpage. common webpage category",
+        "tail_id": 62,
+        "tail": "Official Website"
+      },
+      {
+        "head_id": 11094,
+        "head": "Freakazoid!",
+        "relation_id": 107,
+        "relation": "tv tv program genre",
+        "tail_id": 2308,
+        "tail": "Animation"
+      },
+      {
+        "head_id": 8094,
+        "head": "Larry David",
+        "relation_id": 82,
+        "relation": "people person religion",
+        "tail_id": 2456,
+        "tail": "Atheism"
+      },
+      {
+        "head_id": 12075,
+        "head": "Tempe",
+        "relation_id": 111,
+        "relation": "location hud county place county",
+        "tail_id": 7129,
+        "tail": "Maricopa County"
+      },
+      {
+        "head_id": 5055,
+        "head": "John Adams",
+        "relation_id": 30,
+        "relation": "award award winning work awards won. award award honor award",
+        "tail_id": 7218,
+        "tail": "Primetime Emmy Award for Outstanding Costumes for a Miniseries, Movie or a Special"
+      }
+    ]
+  }
+}

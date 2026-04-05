@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 900px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "#111111"}, "id": 32, "label": "United States of America", "shape": "dot", "size": 18, "title": "United States of America\u003cbr\u003edegree=7614"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6615, "label": "New Jersey", "shape": "dot", "size": 18, "title": "New Jersey\u003cbr\u003edegree=157"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1874, "label": "Mountain Time Zone-US", "shape": "dot", "size": 18, "title": "Mountain Time Zone-US\u003cbr\u003edegree=70"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 400, "label": "Into the West", "shape": "dot", "size": 18, "title": "Into the West\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 401, "label": "Matthew Modine", "shape": "dot", "size": 18, "title": "Matthew Modine\u003cbr\u003edegree=16"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8594, "label": "Rachael Leigh Cook", "shape": "dot", "size": 18, "title": "Rachael Leigh Cook\u003cbr\u003edegree=20"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 645, "label": "Gary Goetzman", "shape": "dot", "size": 18, "title": "Gary Goetzman\u003cbr\u003edegree=57"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4894, "label": "Tim Van Patten", "shape": "dot", "size": 18, "title": "Tim Van Patten\u003cbr\u003edegree=44"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5055, "label": "John Adams", "shape": "dot", "size": 18, "title": "John Adams\u003cbr\u003edegree=58"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3771, "label": "Graham Yost", "shape": "dot", "size": 18, "title": "Graham Yost\u003cbr\u003edegree=41"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 773, "label": "Arizona", "shape": "dot", "size": 18, "title": "Arizona\u003cbr\u003edegree=87"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 901, "label": "Superman", "shape": "dot", "size": 18, "title": "Superman\u003cbr\u003edegree=62"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3410, "label": "Superman IV: The Quest For Peace", "shape": "dot", "size": 18, "title": "Superman IV: The Quest For Peace\u003cbr\u003edegree=38"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3582, "label": "Superman II: The Richard Donner Cut", "shape": "dot", "size": 18, "title": "Superman II: The Richard Donner Cut\u003cbr\u003edegree=39"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1766, "label": "Billy Bob Thornton", "shape": "dot", "size": 18, "title": "Billy Bob Thornton\u003cbr\u003edegree=57"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 141, "label": "Male", "shape": "dot", "size": 18, "title": "Male\u003cbr\u003edegree=2928"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1871, "label": "The Ice Storm", "shape": "dot", "size": 18, "title": "The Ice Storm\u003cbr\u003edegree=42"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1917, "label": "Steven Spielberg", "shape": "dot", "size": 18, "title": "Steven Spielberg\u003cbr\u003edegree=245"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5556, "label": "Paul Dini", "shape": "dot", "size": 18, "title": "Paul Dini\u003cbr\u003edegree=48"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8387, "label": "The Pacific", "shape": "dot", "size": 18, "title": "The Pacific\u003cbr\u003edegree=30"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10075, "label": "Naples", "shape": "dot", "size": 18, "title": "Naples\u003cbr\u003edegree=14"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9092, "label": "David Geffen", "shape": "dot", "size": 18, "title": "David Geffen\u003cbr\u003edegree=46"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8111, "label": "DreamWorks Records", "shape": "dot", "size": 18, "title": "DreamWorks Records\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11094, "label": "Freakazoid!", "shape": "dot", "size": 18, "title": "Freakazoid!\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2107, "label": "Michael Mann", "shape": "dot", "size": 18, "title": "Michael Mann\u003cbr\u003edegree=56"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2213, "label": "Roberto Orci", "shape": "dot", "size": 18, "title": "Roberto Orci\u003cbr\u003edegree=34"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2781, "label": "Emma Stone", "shape": "dot", "size": 18, "title": "Emma Stone\u003cbr\u003edegree=56"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 384, "label": "Female", "shape": "dot", "size": 18, "title": "Female\u003cbr\u003edegree=811"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9050, "label": "Scottsdale", "shape": "dot", "size": 18, "title": "Scottsdale\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2897, "label": "Tom Ruegger", "shape": "dot", "size": 18, "title": "Tom Ruegger\u003cbr\u003edegree=49"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9870, "label": "Bruce Timm", "shape": "dot", "size": 18, "title": "Bruce Timm\u003cbr\u003edegree=37"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2910, "label": "Randy Travis", "shape": "dot", "size": 18, "title": "Randy Travis\u003cbr\u003edegree=68"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 62, "label": "Official Website", "shape": "dot", "size": 18, "title": "Official Website\u003cbr\u003edegree=3612"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3544, "label": "Beau Bridges", "shape": "dot", "size": 18, "title": "Beau Bridges\u003cbr\u003edegree=39"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3949, "label": "Michael Kahn", "shape": "dot", "size": 18, "title": "Michael Kahn\u003cbr\u003edegree=46"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4152, "label": "Phoenix", "shape": "dot", "size": 18, "title": "Phoenix\u003cbr\u003edegree=42"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7129, "label": "Maricopa County", "shape": "dot", "size": 18, "title": "Maricopa County\u003cbr\u003edegree=25"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4574, "label": "The Barbarian Invasions", "shape": "dot", "size": 18, "title": "The Barbarian Invasions\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4825, "label": "Julianne Moore", "shape": "dot", "size": 18, "title": "Julianne Moore\u003cbr\u003edegree=127"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5748, "label": "Primetime Emmy Award for Outstanding Miniseries", "shape": "dot", "size": 18, "title": "Primetime Emmy Award for Outstanding Miniseries\u003cbr\u003edegree=25"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5245, "label": "Miniseries", "shape": "dot", "size": 18, "title": "Miniseries\u003cbr\u003edegree=40"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7218, "label": "Primetime Emmy Award for Outstanding Costumes for a Miniseries, Movie or a Special", "shape": "dot", "size": 18, "title": "Primetime Emmy Award for Outstanding Costumes for a Miniseries, Movie or a Special\u003cbr\u003edegree=26"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5179, "label": "John Fogerty", "shape": "dot", "size": 18, "title": "John Fogerty\u003cbr\u003edegree=39"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5188, "label": "Cuba Gooding, Jr.", "shape": "dot", "size": 18, "title": "Cuba Gooding, Jr.\u003cbr\u003edegree=64"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10015, "label": "Pacific Palisades", "shape": "dot", "size": 18, "title": "Pacific Palisades\u003cbr\u003edegree=15"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5195, "label": "Brian De Palma", "shape": "dot", "size": 18, "title": "Brian De Palma\u003cbr\u003edegree=26"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7941, "label": "Margot Kidder", "shape": "dot", "size": 18, "title": "Margot Kidder\u003cbr\u003edegree=18"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3770, "label": "J.J. Abrams", "shape": "dot", "size": 18, "title": "J.J. Abrams\u003cbr\u003edegree=86"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5747, "label": "Elizabeth I", "shape": "dot", "size": 18, "title": "Elizabeth I\u003cbr\u003edegree=34"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5949, "label": "Hawaii", "shape": "dot", "size": 18, "title": "Hawaii\u003cbr\u003edegree=94"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6212, "label": "Camden County", "shape": "dot", "size": 18, "title": "Camden County\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6213, "label": "Camden", "shape": "dot", "size": 18, "title": "Camden\u003cbr\u003edegree=14"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 791, "label": "United States Department of Housing and Urban Development", "shape": "dot", "size": 18, "title": "United States Department of Housing and Urban Development\u003cbr\u003edegree=792"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7227, "label": "Mikael Salomon", "shape": "dot", "size": 18, "title": "Mikael Salomon\u003cbr\u003edegree=26"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7242, "label": "Dan Aykroyd", "shape": "dot", "size": 18, "title": "Dan Aykroyd\u003cbr\u003edegree=46"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7811, "label": "Alan Tudyk", "shape": "dot", "size": 18, "title": "Alan Tudyk\u003cbr\u003edegree=37"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7879, "label": "David Spade", "shape": "dot", "size": 18, "title": "David Spade\u003cbr\u003edegree=49"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2456, "label": "Atheism", "shape": "dot", "size": 18, "title": "Atheism\u003cbr\u003edegree=147"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7999, "label": "Western", "shape": "dot", "size": 18, "title": "Western\u003cbr\u003edegree=66"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8038, "label": "Rufus Wainwright", "shape": "dot", "size": 18, "title": "Rufus Wainwright\u003cbr\u003edegree=26"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8094, "label": "Larry David", "shape": "dot", "size": 18, "title": "Larry David\u003cbr\u003edegree=65"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8112, "label": "Asleep at the Wheel", "shape": "dot", "size": 18, "title": "Asleep at the Wheel\u003cbr\u003edegree=40"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10429, "label": "The Isley Brothers", "shape": "dot", "size": 18, "title": "The Isley Brothers\u003cbr\u003edegree=29"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8851, "label": "Patrick McGoohan", "shape": "dot", "size": 18, "title": "Patrick McGoohan\u003cbr\u003edegree=18"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8883, "label": "John Landis", "shape": "dot", "size": 18, "title": "John Landis\u003cbr\u003edegree=19"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9049, "label": "Wayne\u0027s World", "shape": "dot", "size": 18, "title": "Wayne\u0027s World\u003cbr\u003edegree=29"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10096, "label": "Collier County", "shape": "dot", "size": 18, "title": "Collier County\u003cbr\u003edegree=14"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11045, "label": "Cameron Mitchell", "shape": "dot", "size": 18, "title": "Cameron Mitchell\u003cbr\u003edegree=7"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7405, "label": "Animated cartoon", "shape": "dot", "size": 18, "title": "Animated cartoon\u003cbr\u003edegree=16"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2308, "label": "Animation", "shape": "dot", "size": 18, "title": "Animation\u003cbr\u003edegree=176"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11121, "label": "Rod Serling", "shape": "dot", "size": 18, "title": "Rod Serling\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11230, "label": "John F. Kennedy International Airport", "shape": "dot", "size": 18, "title": "John F. Kennedy International Airport\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11287, "label": "Eric Rodwell", "shape": "dot", "size": 18, "title": "Eric Rodwell\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11290, "label": "Bob Clark", "shape": "dot", "size": 18, "title": "Bob Clark\u003cbr\u003edegree=15"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11346, "label": "WCW WorldWide", "shape": "dot", "size": 18, "title": "WCW WorldWide\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11347, "label": "Hulk Hogan", "shape": "dot", "size": 18, "title": "Hulk Hogan\u003cbr\u003edegree=17"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11398, "label": "Twilight Zone: The Movie", "shape": "dot", "size": 18, "title": "Twilight Zone: The Movie\u003cbr\u003edegree=24"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8093, "label": "Jerry Goldsmith", "shape": "dot", "size": 18, "title": "Jerry Goldsmith\u003cbr\u003edegree=59"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11931, "label": "Superman III", "shape": "dot", "size": 18, "title": "Superman III\u003cbr\u003edegree=45"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12075, "label": "Tempe", "shape": "dot", "size": 18, "title": "Tempe\u003cbr\u003edegree=15"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 43, "label": "Washington, D.C.", "shape": "dot", "size": 18, "title": "Washington, D.C.\u003cbr\u003edegree=195"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 259, "label": "Film", "shape": "dot", "size": 18, "title": "Film\u003cbr\u003edegree=129"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 395, "label": "Kathleen Quinlan", "shape": "dot", "size": 18, "title": "Kathleen Quinlan\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 431, "label": "Brian Tyler", "shape": "dot", "size": 18, "title": "Brian Tyler\u003cbr\u003edegree=27"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 466, "label": "Mystery", "shape": "dot", "size": 18, "title": "Mystery\u003cbr\u003edegree=250"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 580, "label": "Oregon", "shape": "dot", "size": 18, "title": "Oregon\u003cbr\u003edegree=97"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 700, "label": "Gary Busey", "shape": "dot", "size": 18, "title": "Gary Busey\u003cbr\u003edegree=20"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 720, "label": "John Lithgow", "shape": "dot", "size": 18, "title": "John Lithgow\u003cbr\u003edegree=61"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1092, "label": "Pier Paolo Pasolini", "shape": "dot", "size": 18, "title": "Pier Paolo Pasolini\u003cbr\u003edegree=21"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1192, "label": "Voice Actor", "shape": "dot", "size": 18, "title": "Voice Actor\u003cbr\u003edegree=348"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1560, "label": "Maurice LaMarche", "shape": "dot", "size": 18, "title": "Maurice LaMarche\u003cbr\u003edegree=12"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1770, "label": "Pierre Trudeau", "shape": "dot", "size": 18, "title": "Pierre Trudeau\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1787, "label": "Eddie Albert", "shape": "dot", "size": 18, "title": "Eddie Albert\u003cbr\u003edegree=21"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2388, "label": "Florida", "shape": "dot", "size": 18, "title": "Florida\u003cbr\u003edegree=134"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2415, "label": "Edward Kitsis", "shape": "dot", "size": 18, "title": "Edward Kitsis\u003cbr\u003edegree=45"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2438, "label": "Eastern Time Zone", "shape": "dot", "size": 18, "title": "Eastern Time Zone\u003cbr\u003edegree=455"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2524, "label": "Billy Preston", "shape": "dot", "size": 18, "title": "Billy Preston\u003cbr\u003edegree=65"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2662, "label": "Nitty Gritty Dirt Band", "shape": "dot", "size": 18, "title": "Nitty Gritty Dirt Band\u003cbr\u003edegree=51"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3734, "label": "Shia LaBeouf", "shape": "dot", "size": 18, "title": "Shia LaBeouf\u003cbr\u003edegree=84"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3797, "label": "Nelly Furtado", "shape": "dot", "size": 18, "title": "Nelly Furtado\u003cbr\u003edegree=42"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3939, "label": "Suspense", "shape": "dot", "size": 18, "title": "Suspense\u003cbr\u003edegree=119"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4120, "label": "Elliott Smith", "shape": "dot", "size": 18, "title": "Elliott Smith\u003cbr\u003edegree=33"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4295, "label": "DreamWorks", "shape": "dot", "size": 18, "title": "DreamWorks\u003cbr\u003edegree=190"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4580, "label": "Randy Newman", "shape": "dot", "size": 18, "title": "Randy Newman\u003cbr\u003edegree=92"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4614, "label": "Eagle Eye", "shape": "dot", "size": 18, "title": "Eagle Eye\u003cbr\u003edegree=22"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5026, "label": "Simon Baker", "shape": "dot", "size": 18, "title": "Simon Baker\u003cbr\u003edegree=49"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5286, "label": "Ed Asner", "shape": "dot", "size": 18, "title": "Ed Asner\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5333, "label": "Canadian-American", "shape": "dot", "size": 18, "title": "Canadian-American\u003cbr\u003edegree=21"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5725, "label": "Alex Kurtzman", "shape": "dot", "size": 18, "title": "Alex Kurtzman\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6022, "label": "John Heard", "shape": "dot", "size": 18, "title": "John Heard\u003cbr\u003edegree=9"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6237, "label": "Matt LeBlanc", "shape": "dot", "size": 18, "title": "Matt LeBlanc\u003cbr\u003edegree=55"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6350, "label": "George Miller", "shape": "dot", "size": 18, "title": "George Miller\u003cbr\u003edegree=25"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6979, "label": "Swizz Beatz", "shape": "dot", "size": 18, "title": "Swizz Beatz\u003cbr\u003edegree=55"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6986, "label": "Frank Welker", "shape": "dot", "size": 18, "title": "Frank Welker\u003cbr\u003edegree=29"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7432, "label": "Cartoon", "shape": "dot", "size": 18, "title": "Cartoon\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7499, "label": "Anthony Mackie", "shape": "dot", "size": 18, "title": "Anthony Mackie\u003cbr\u003edegree=35"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7612, "label": "Eleanor Roosevelt", "shape": "dot", "size": 18, "title": "Eleanor Roosevelt\u003cbr\u003edegree=18"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7760, "label": "Sydney Pollack", "shape": "dot", "size": 18, "title": "Sydney Pollack\u003cbr\u003edegree=61"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8215, "label": "Volver", "shape": "dot", "size": 18, "title": "Volver\u003cbr\u003edegree=36"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8291, "label": "Tonino Guerra", "shape": "dot", "size": 18, "title": "Tonino Guerra\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8316, "label": "Tin Man", "shape": "dot", "size": 18, "title": "Tin Man\u003cbr\u003edegree=33"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8680, "label": "Richard Matheson", "shape": "dot", "size": 18, "title": "Richard Matheson\u003cbr\u003edegree=19"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9503, "label": "Tony Scott", "shape": "dot", "size": 18, "title": "Tony Scott\u003cbr\u003edegree=45"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9650, "label": "1982 Cannes Film Festival", "shape": "dot", "size": 18, "title": "1982 Cannes Film Festival\u003cbr\u003edegree=15"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9827, "label": "Nancy Cartwright", "shape": "dot", "size": 18, "title": "Nancy Cartwright\u003cbr\u003edegree=16"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9877, "label": "Animated series", "shape": "dot", "size": 18, "title": "Animated series\u003cbr\u003edegree=15"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9904, "label": "John Woo", "shape": "dot", "size": 18, "title": "John Woo\u003cbr\u003edegree=30"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10614, "label": "Ray Liotta", "shape": "dot", "size": 18, "title": "Ray Liotta\u003cbr\u003edegree=25"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10685, "label": "Scatman Crothers", "shape": "dot", "size": 18, "title": "Scatman Crothers\u003cbr\u003edegree=18"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10840, "label": "Eve", "shape": "dot", "size": 18, "title": "Eve\u003cbr\u003edegree=33"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10948, "label": "2000 Cannes Film Festival", "shape": "dot", "size": 18, "title": "2000 Cannes Film Festival\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10988, "label": "Graham Greene", "shape": "dot", "size": 18, "title": "Graham Greene\u003cbr\u003edegree=22"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11771, "label": "Tress MacNeille", "shape": "dot", "size": 18, "title": "Tress MacNeille\u003cbr\u003edegree=18"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11834, "label": "Cranford-GB", "shape": "dot", "size": 18, "title": "Cranford-GB\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11840, "label": "Tom Berenger", "shape": "dot", "size": 18, "title": "Tom Berenger\u003cbr\u003edegree=21"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11972, "label": "Sandra Bernhard", "shape": "dot", "size": 18, "title": "Sandra Bernhard\u003cbr\u003edegree=26"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12119, "label": "Walt Whitman", "shape": "dot", "size": 18, "title": "Walt Whitman\u003cbr\u003edegree=19"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12153, "label": "Kevin McCarthy", "shape": "dot", "size": 18, "title": "Kevin McCarthy\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12217, "label": "Rebecca Eaton", "shape": "dot", "size": 18, "title": "Rebecca Eaton\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12298, "label": "Cannes Film Festival Award for Best Screenplay", "shape": "dot", "size": 18, "title": "Cannes Film Festival Award for Best Screenplay\u003cbr\u003edegree=9"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12784, "label": "TNT", "shape": "dot", "size": 18, "title": "TNT\u003cbr\u003edegree=9"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 13169, "label": "Hilo", "shape": "dot", "size": 18, "title": "Hilo\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 13959, "label": "LaGuardia Airport", "shape": "dot", "size": 18, "title": "LaGuardia Airport\u003cbr\u003edegree=1"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 13986, "label": "First Lady", "shape": "dot", "size": 18, "title": "First Lady\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 13988, "label": "Major League Baseball All-Star Game", "shape": "dot", "size": 18, "title": "Major League Baseball All-Star Game\u003cbr\u003edegree=1"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14090, "label": "Dark Horse Comics", "shape": "dot", "size": 18, "title": "Dark Horse Comics\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14244, "label": "Paul Soloway", "shape": "dot", "size": 18, "title": "Paul Soloway\u003cbr\u003edegree=1"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14270, "label": "Washington metropolitan area", "shape": "dot", "size": 18, "title": "Washington metropolitan area\u003cbr\u003edegree=1"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14350, "label": "Bob Hamman", "shape": "dot", "size": 18, "title": "Bob Hamman\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14445, "label": "ECW Hardcore TV", "shape": "dot", "size": 18, "title": "ECW Hardcore TV\u003cbr\u003edegree=1"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#5b7c99", "from": 32, "label": "location location contains", "title": "location location contains", "to": 6615, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 32, "label": "location location time zones", "title": "location location time zones", "to": 1874, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 400, "label": "tv tv program regular cast. tv regular tv appearance actor", "title": "tv tv program regular cast. tv regular tv appearance actor", "to": 401, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 400, "label": "tv tv program regular cast. tv regular tv appearance actor", "title": "tv tv program regular cast. tv regular tv appearance actor", "to": 8594, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 645, "label": "award award winner awards won. award award honor award winner", "title": "award award winner awards won. award award honor award winner", "to": 4894, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 645, "label": "tv tv producer programs produced. tv tv producer term program", "title": "tv tv producer programs produced. tv tv producer term program", "to": 5055, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 645, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 645, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 3771, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 773, "label": "location administrative division first level division of", "title": "location administrative division first level division of", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 901, "label": "award award nominated work award nominations. award award nomination nominated for", "title": "award award nominated work award nominations. award award nomination nominated for", "to": 3410, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 901, "label": "award award winning work awards won. award award honor honored for", "title": "award award winning work awards won. award award honor honored for", "to": 3582, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1766, "label": "people person gender", "title": "people person gender", "to": 141, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1871, "label": "film film country", "title": "film film country", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1917, "label": "award award winner awards won. award award honor award winner", "title": "award award winner awards won. award award honor award winner", "to": 5556, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1917, "label": "tv tv producer programs produced. tv tv producer term program", "title": "tv tv producer programs produced. tv tv producer term program", "to": 8387, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1917, "label": "people person places lived. people place lived location", "title": "people person places lived. people place lived location", "to": 10075, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1917, "label": "base popstra celebrity friendship. base popstra friendship participant", "title": "base popstra celebrity friendship. base popstra friendship participant", "to": 9092, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1917, "label": "organization organization founder organizations founded", "title": "organization organization founder organizations founded", "to": 8111, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1917, "label": "tv tv producer programs produced. tv tv producer term program", "title": "tv tv producer programs produced. tv tv producer term program", "to": 11094, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2107, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2213, "label": "people person gender", "title": "people person gender", "to": 141, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2781, "label": "people person gender", "title": "people person gender", "to": 384, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2781, "label": "people person places lived. people place lived location", "title": "people person places lived. people place lived location", "to": 9050, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2897, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2897, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 9870, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2910, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3410, "label": "film film country", "title": "film film country", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3410, "label": "award award nominated work award nominations. award award nomination nominated for", "title": "award award nominated work award nominations. award award nomination nominated for", "to": 3582, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3544, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3582, "label": "film film country", "title": "film film country", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3949, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4152, "label": "location capital of administrative division capital of. location administrative division capital relationship administrative division", "title": "location capital of administrative division capital of. location administrative division capital relationship administrative division", "to": 7129, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4574, "label": "film film release date s. film film regional release date film release region", "title": "film film release date s. film film regional release date film release region", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4825, "label": "people person gender", "title": "people person gender", "to": 384, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5055, "label": "award award winning work awards won. award award honor award", "title": "award award winning work awards won. award award honor award", "to": 5748, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5055, "label": "tv tv program genre", "title": "tv tv program genre", "to": 5245, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5055, "label": "film film country", "title": "film film country", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5055, "label": "award award winning work awards won. award award honor award", "title": "award award winning work awards won. award award honor award", "to": 7218, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5179, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5188, "label": "people person places lived. people place lived location", "title": "people person places lived. people place lived location", "to": 10015, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5195, "label": "base popstra celebrity dated. base popstra dated participant", "title": "base popstra celebrity dated. base popstra dated participant", "to": 7941, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5556, "label": "award award winner awards won. award award honor award winner", "title": "award award winner awards won. award award honor award winner", "to": 3770, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5556, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 2897, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5747, "label": "award award winning work awards won. award award honor award", "title": "award award winning work awards won. award award honor award", "to": 5748, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5748, "label": "award award category winners. award award honor award winner", "title": "award award category winners. award award honor award winner", "to": 4894, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5949, "label": "base biblioness bibs location country", "title": "base biblioness bibs location country", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6212, "label": "location us county county seat", "title": "location us county county seat", "to": 6213, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6212, "label": "location hud foreclosure area estimated number of mortgages. measurement unit dated integer source", "title": "location hud foreclosure area estimated number of mortgages. measurement unit dated integer source", "to": 791, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6213, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6615, "label": "location location contains", "title": "location location contains", "to": 6213, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7227, "label": "people person gender", "title": "people person gender", "to": 141, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7242, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7811, "label": "people person gender", "title": "people person gender", "to": 141, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7879, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7941, "label": "people person gender", "title": "people person gender", "to": 384, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7941, "label": "people person religion", "title": "people person religion", "to": 2456, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7999, "label": "media common netflix genre titles", "title": "media common netflix genre titles", "to": 400, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8038, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8038, "label": "people person gender", "title": "people person gender", "to": 141, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8094, "label": "people person religion", "title": "people person religion", "to": 2456, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8111, "label": "music record label artist", "title": "music record label artist", "to": 8112, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8111, "label": "music record label artist", "title": "music record label artist", "to": 10429, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8112, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8851, "label": "people person gender", "title": "people person gender", "to": 141, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8883, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9049, "label": "film film featured film locations", "title": "film film featured film locations", "to": 9050, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9050, "label": "location location adjoin s. location adjoining relationship adjoins", "title": "location location adjoin s. location adjoining relationship adjoins", "to": 4152, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9092, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 10075, "label": "location hud county place county", "title": "location hud county place county", "to": 10096, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11045, "label": "people deceased person place of death", "title": "people deceased person place of death", "to": 10015, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11094, "label": "tv tv program genre", "title": "tv tv program genre", "to": 7405, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11094, "label": "tv tv program genre", "title": "tv tv program genre", "to": 2308, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11121, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11230, "label": "common topic webpage. common webpage category", "title": "common topic webpage. common webpage category", "to": 62, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11287, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11290, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11346, "label": "tv tv program regular cast. tv regular tv appearance actor", "title": "tv tv program regular cast. tv regular tv appearance actor", "to": 11347, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11398, "label": "film film music", "title": "film film music", "to": 8093, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11931, "label": "film film prequel", "title": "film film prequel", "to": 3582, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 12075, "label": "location hud county place county", "title": "location hud county place county", "to": 7129, "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

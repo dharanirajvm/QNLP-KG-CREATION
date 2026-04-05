@@ -1,0 +1,54 @@
+{
+  "snapshot_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\inference_snapshots\\quantum_fb15k237_20260308_174529_updated_20260310_193344",
+  "dataset_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\fQCE\\datasets\\fb15k237",
+  "weights_dir": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\Review-3 outputs\\models\\learned_explanation_weights",
+  "device": "cuda",
+  "path_model": {
+    "device": "cuda",
+    "train": {
+      "accuracy": 0.9024533033370972,
+      "loss": 0.24710701406002045,
+      "count": 47895
+    },
+    "valid": {
+      "accuracy": 0.9015617370605469,
+      "loss": 0.24773745238780975,
+      "count": 8452
+    },
+    "positive_triples_used": 4000,
+    "negative_triples_used": 8000,
+    "training_rows": 56347,
+    "train_rows": 47895,
+    "valid_rows": 8452,
+    "constraints": {
+      "path_reliability": "nonnegative",
+      "relation_relevance": "nonnegative",
+      "path_frequency_log": "nonnegative",
+      "embedding_support": "nonnegative"
+    }
+  },
+  "shared_neighbor_model": {
+    "device": "cuda",
+    "train": {
+      "accuracy": 0.7427487373352051,
+      "loss": 0.5319486856460571,
+      "count": 51646
+    },
+    "valid": {
+      "accuracy": 0.744540810585022,
+      "loss": 0.5338754653930664,
+      "count": 9113
+    },
+    "positive_triples_used": 4000,
+    "negative_triples_used": 8000,
+    "training_rows": 60759,
+    "train_rows": 51646,
+    "valid_rows": 9113,
+    "constraints": {
+      "relation_match_strength": "nonnegative",
+      "hubness_log": "nonpositive",
+      "embedding_coherence": "nonnegative"
+    }
+  },
+  "log_path": "C:\\Users\\DHARANIRAJ VM\\Documents\\FYP-25\\QNLP\\Phase-1\\lambeq\\qnlp\\LLM-Simplification\\Review-3 outputs\\models\\learned_explanation_weights\\training.log"
+}

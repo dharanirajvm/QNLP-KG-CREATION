@@ -1,0 +1,271 @@
+{
+  "relation": "people person place of birth",
+  "raw_relation": "/people/person/place_of_birth",
+  "train_count": 2465,
+  "top_heads": [
+    {
+      "entity": "Alan Burnett",
+      "count": 1
+    },
+    {
+      "entity": "Anjelica Huston",
+      "count": 1
+    },
+    {
+      "entity": "Billy West",
+      "count": 1
+    },
+    {
+      "entity": "J.K. Simmons",
+      "count": 1
+    },
+    {
+      "entity": "Curtis Armstrong",
+      "count": 1
+    },
+    {
+      "entity": "Moby",
+      "count": 1
+    },
+    {
+      "entity": "Walter Lantz",
+      "count": 1
+    },
+    {
+      "entity": "Don Heck",
+      "count": 1
+    },
+    {
+      "entity": "Chris Thomas King",
+      "count": 1
+    },
+    {
+      "entity": "Georg Solti",
+      "count": 1
+    },
+    {
+      "entity": "Dean Devlin",
+      "count": 1
+    },
+    {
+      "entity": "Bai Ling",
+      "count": 1
+    },
+    {
+      "entity": "John Wood",
+      "count": 1
+    },
+    {
+      "entity": "Eddie Albert",
+      "count": 1
+    },
+    {
+      "entity": "Chris Cooper",
+      "count": 1
+    },
+    {
+      "entity": "Patti Smith",
+      "count": 1
+    },
+    {
+      "entity": "Tate Donovan",
+      "count": 1
+    },
+    {
+      "entity": "Harvey Keitel",
+      "count": 1
+    },
+    {
+      "entity": "Amy Irving",
+      "count": 1
+    },
+    {
+      "entity": "Kevin Corrigan",
+      "count": 1
+    }
+  ],
+  "top_tails": [
+    {
+      "entity": "New York City",
+      "count": 213
+    },
+    {
+      "entity": "Los Angeles",
+      "count": 102
+    },
+    {
+      "entity": "Brooklyn",
+      "count": 99
+    },
+    {
+      "entity": "Chicago",
+      "count": 93
+    },
+    {
+      "entity": "London",
+      "count": 51
+    },
+    {
+      "entity": "The Bronx",
+      "count": 37
+    },
+    {
+      "entity": "Detroit",
+      "count": 34
+    },
+    {
+      "entity": "Philadelphia",
+      "count": 31
+    },
+    {
+      "entity": "Mumbai",
+      "count": 29
+    },
+    {
+      "entity": "Washington, D.C.",
+      "count": 29
+    },
+    {
+      "entity": "Boston",
+      "count": 27
+    },
+    {
+      "entity": "Manhattan",
+      "count": 27
+    },
+    {
+      "entity": "San Francisco",
+      "count": 24
+    },
+    {
+      "entity": "Baltimore",
+      "count": 22
+    },
+    {
+      "entity": "Paris",
+      "count": 21
+    },
+    {
+      "entity": "Cleveland",
+      "count": 20
+    },
+    {
+      "entity": "Houston",
+      "count": 18
+    },
+    {
+      "entity": "Newark",
+      "count": 18
+    },
+    {
+      "entity": "Santa Monica",
+      "count": 17
+    },
+    {
+      "entity": "St. Louis",
+      "count": 17
+    }
+  ],
+  "sample_triples": [
+    {
+      "head": "Alan Burnett",
+      "relation": "people person place of birth",
+      "tail": "United States of America"
+    },
+    {
+      "head": "Anjelica Huston",
+      "relation": "people person place of birth",
+      "tail": "Santa Monica"
+    },
+    {
+      "head": "Billy West",
+      "relation": "people person place of birth",
+      "tail": "Detroit"
+    },
+    {
+      "head": "J.K. Simmons",
+      "relation": "people person place of birth",
+      "tail": "Detroit"
+    },
+    {
+      "head": "Curtis Armstrong",
+      "relation": "people person place of birth",
+      "tail": "Detroit"
+    },
+    {
+      "head": "Moby",
+      "relation": "people person place of birth",
+      "tail": "Harlem"
+    },
+    {
+      "head": "Walter Lantz",
+      "relation": "people person place of birth",
+      "tail": "New Rochelle"
+    },
+    {
+      "head": "Don Heck",
+      "relation": "people person place of birth",
+      "tail": "Jamaica"
+    },
+    {
+      "head": "Chris Thomas King",
+      "relation": "people person place of birth",
+      "tail": "Baton Rouge"
+    },
+    {
+      "head": "Georg Solti",
+      "relation": "people person place of birth",
+      "tail": "Budapest"
+    },
+    {
+      "head": "Dean Devlin",
+      "relation": "people person place of birth",
+      "tail": "New York City"
+    },
+    {
+      "head": "Bai Ling",
+      "relation": "people person place of birth",
+      "tail": "Chengdu"
+    },
+    {
+      "head": "John Wood",
+      "relation": "people person place of birth",
+      "tail": "Derbyshire"
+    },
+    {
+      "head": "Eddie Albert",
+      "relation": "people person place of birth",
+      "tail": "Rock Island"
+    },
+    {
+      "head": "Chris Cooper",
+      "relation": "people person place of birth",
+      "tail": "Kansas City"
+    },
+    {
+      "head": "Patti Smith",
+      "relation": "people person place of birth",
+      "tail": "Chicago"
+    },
+    {
+      "head": "Tate Donovan",
+      "relation": "people person place of birth",
+      "tail": "New York City"
+    },
+    {
+      "head": "Harvey Keitel",
+      "relation": "people person place of birth",
+      "tail": "Brooklyn"
+    },
+    {
+      "head": "Amy Irving",
+      "relation": "people person place of birth",
+      "tail": "Palo Alto"
+    },
+    {
+      "head": "Kevin Corrigan",
+      "relation": "people person place of birth",
+      "tail": "The Bronx"
+    }
+  ]
+}

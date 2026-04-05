@@ -1,0 +1,199 @@
+{
+  "relation": "people person gender",
+  "raw_relation": "/people/person/gender",
+  "train_count": 3717,
+  "top_heads": [
+    {
+      "entity": "Brad Dourif",
+      "count": 1
+    },
+    {
+      "entity": "Courteney Cox",
+      "count": 1
+    },
+    {
+      "entity": "Ivan Reitman",
+      "count": 1
+    },
+    {
+      "entity": "Jeffrey Tambor",
+      "count": 1
+    },
+    {
+      "entity": "Peter Wentz",
+      "count": 1
+    },
+    {
+      "entity": "Jackie Cooper",
+      "count": 1
+    },
+    {
+      "entity": "Sridevi",
+      "count": 1
+    },
+    {
+      "entity": "Hilary Duff",
+      "count": 1
+    },
+    {
+      "entity": "Bette Davis",
+      "count": 1
+    },
+    {
+      "entity": "Ron W. Miller",
+      "count": 1
+    },
+    {
+      "entity": "Clifton Collins, Jr.",
+      "count": 1
+    },
+    {
+      "entity": "Jon Lovitz",
+      "count": 1
+    },
+    {
+      "entity": "Tinnu Anand",
+      "count": 1
+    },
+    {
+      "entity": "Aamir Khan",
+      "count": 1
+    },
+    {
+      "entity": "Thomas Little",
+      "count": 1
+    },
+    {
+      "entity": "Eddie Izzard",
+      "count": 1
+    },
+    {
+      "entity": "Jack Kerouac",
+      "count": 1
+    },
+    {
+      "entity": "Martin Donovan",
+      "count": 1
+    },
+    {
+      "entity": "Al Green",
+      "count": 1
+    },
+    {
+      "entity": "Joseph Gordon-Levitt",
+      "count": 1
+    }
+  ],
+  "top_tails": [
+    {
+      "entity": "Male",
+      "count": 2914
+    },
+    {
+      "entity": "Female",
+      "count": 803
+    }
+  ],
+  "sample_triples": [
+    {
+      "head": "Brad Dourif",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Courteney Cox",
+      "relation": "people person gender",
+      "tail": "Female"
+    },
+    {
+      "head": "Ivan Reitman",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Jeffrey Tambor",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Peter Wentz",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Jackie Cooper",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Sridevi",
+      "relation": "people person gender",
+      "tail": "Female"
+    },
+    {
+      "head": "Hilary Duff",
+      "relation": "people person gender",
+      "tail": "Female"
+    },
+    {
+      "head": "Bette Davis",
+      "relation": "people person gender",
+      "tail": "Female"
+    },
+    {
+      "head": "Ron W. Miller",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Clifton Collins, Jr.",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Jon Lovitz",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Tinnu Anand",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Aamir Khan",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Thomas Little",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Eddie Izzard",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Jack Kerouac",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Martin Donovan",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Al Green",
+      "relation": "people person gender",
+      "tail": "Male"
+    },
+    {
+      "head": "Joseph Gordon-Levitt",
+      "relation": "people person gender",
+      "tail": "Male"
+    }
+  ]
+}

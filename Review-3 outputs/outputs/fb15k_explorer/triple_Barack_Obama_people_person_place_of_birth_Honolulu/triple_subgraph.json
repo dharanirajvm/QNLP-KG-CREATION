@@ -1,0 +1,1931 @@
+{
+  "query": {
+    "head": "Barack Obama",
+    "relation": "people person place of birth",
+    "tail": "Honolulu"
+  },
+  "subgraph": {
+    "nodes": [
+      {
+        "entity_id": 32,
+        "entity_raw": "/m/09c7w0",
+        "entity": "United States of America",
+        "degree": 7614
+      },
+      {
+        "entity_id": 90,
+        "entity_raw": "/m/09nqf",
+        "entity": "United States Dollar",
+        "degree": 4286
+      },
+      {
+        "entity_id": 105,
+        "entity_raw": "/m/0k049",
+        "entity": "Beverly Hills",
+        "degree": 95
+      },
+      {
+        "entity_id": 135,
+        "entity_raw": "/m/06w99h3",
+        "entity": "Rango",
+        "degree": 40
+      },
+      {
+        "entity_id": 141,
+        "entity_raw": "/m/05zppz",
+        "entity": "Male",
+        "degree": 2928
+      },
+      {
+        "entity_id": 243,
+        "entity_raw": "/m/0cbd2",
+        "entity": "Writer-GB",
+        "degree": 441
+      },
+      {
+        "entity_id": 245,
+        "entity_raw": "/m/05l2z4",
+        "entity": "90th United States Congress",
+        "degree": 46
+      },
+      {
+        "entity_id": 434,
+        "entity_raw": "/m/04ztj",
+        "entity": "Marriage",
+        "degree": 2992
+      },
+      {
+        "entity_id": 512,
+        "entity_raw": "/m/021sv1",
+        "entity": "Daniel Inouye",
+        "degree": 36
+      },
+      {
+        "entity_id": 596,
+        "entity_raw": "/m/08f3b1",
+        "entity": "Sarah Palin",
+        "degree": 31
+      },
+      {
+        "entity_id": 664,
+        "entity_raw": "/m/05ml_s",
+        "entity": "Timothy Olyphant",
+        "degree": 32
+      },
+      {
+        "entity_id": 740,
+        "entity_raw": "/m/0fkvn",
+        "entity": "Governor-GB",
+        "degree": 89
+      },
+      {
+        "entity_id": 755,
+        "entity_raw": "/m/01hxs4",
+        "entity": "Matthew Perry",
+        "degree": 56
+      },
+      {
+        "entity_id": 802,
+        "entity_raw": "/m/03pmty",
+        "entity": "Tate Donovan",
+        "degree": 73
+      },
+      {
+        "entity_id": 862,
+        "entity_raw": "/m/02hrh1q",
+        "entity": "Actor-GB",
+        "degree": 2272
+      },
+      {
+        "entity_id": 873,
+        "entity_raw": "/m/05pcjw",
+        "entity": "Private university",
+        "degree": 112
+      },
+      {
+        "entity_id": 935,
+        "entity_raw": "/m/0cqh6z",
+        "entity": "Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Drama Series",
+        "degree": 75
+      },
+      {
+        "entity_id": 1131,
+        "entity_raw": "/m/07ww5",
+        "entity": "United States Virgin Islands",
+        "degree": 16
+      },
+      {
+        "entity_id": 1199,
+        "entity_raw": "/m/0bjrnt",
+        "entity": "Master of Arts",
+        "degree": 59
+      },
+      {
+        "entity_id": 1214,
+        "entity_raw": "/m/0r7fy",
+        "entity": "Modesto",
+        "degree": 17
+      },
+      {
+        "entity_id": 1253,
+        "entity_raw": "/m/033tf_",
+        "entity": "Irish American",
+        "degree": 154
+      },
+      {
+        "entity_id": 1330,
+        "entity_raw": "/m/0bkj86",
+        "entity": "Master of Arts",
+        "degree": 206
+      },
+      {
+        "entity_id": 1404,
+        "entity_raw": "/m/0gxtknx",
+        "entity": "Seven Psychopaths",
+        "degree": 56
+      },
+      {
+        "entity_id": 1493,
+        "entity_raw": "/m/06ms6",
+        "entity": "Sociology",
+        "degree": 86
+      },
+      {
+        "entity_id": 1669,
+        "entity_raw": "/m/05rgl",
+        "entity": "Pacific Ocean",
+        "degree": 30
+      },
+      {
+        "entity_id": 1768,
+        "entity_raw": "/m/03z19",
+        "entity": "Internal Revenue Service",
+        "degree": 126
+      },
+      {
+        "entity_id": 1770,
+        "entity_raw": "/m/063vn",
+        "entity": "Pierre Trudeau",
+        "degree": 23
+      },
+      {
+        "entity_id": 1774,
+        "entity_raw": "/m/09k56b7",
+        "entity": "Black Swan",
+        "degree": 101
+      },
+      {
+        "entity_id": 1800,
+        "entity_raw": "/m/04rjg",
+        "entity": "Mathematics",
+        "degree": 147
+      },
+      {
+        "entity_id": 1906,
+        "entity_raw": "/m/0f6_dy",
+        "entity": "Titus Welliver",
+        "degree": 42
+      },
+      {
+        "entity_id": 2006,
+        "entity_raw": "/m/0kyk",
+        "entity": "Author-GB",
+        "degree": 292
+      },
+      {
+        "entity_id": 2018,
+        "entity_raw": "/m/0453t",
+        "entity": "Joseph Campbell",
+        "degree": 17
+      },
+      {
+        "entity_id": 2019,
+        "entity_raw": "/m/0j3v",
+        "entity": "Arthur Schopenhauer",
+        "degree": 45
+      },
+      {
+        "entity_id": 2090,
+        "entity_raw": "/m/06wrt",
+        "entity": "Sailing",
+        "degree": 103
+      },
+      {
+        "entity_id": 2132,
+        "entity_raw": "/m/01gkgk",
+        "entity": "Member of Congress",
+        "degree": 17
+      },
+      {
+        "entity_id": 2161,
+        "entity_raw": "/m/0tc7",
+        "entity": "Arnold Schwarzenegger",
+        "degree": 53
+      },
+      {
+        "entity_id": 2165,
+        "entity_raw": "/m/0d06vc",
+        "entity": "Iraq War",
+        "degree": 19
+      },
+      {
+        "entity_id": 2313,
+        "entity_raw": "/m/03mcwq3",
+        "entity": "Anna Gunn",
+        "degree": 38
+      },
+      {
+        "entity_id": 2349,
+        "entity_raw": "/m/06hwzy",
+        "entity": "Dancing with the Stars",
+        "degree": 34
+      },
+      {
+        "entity_id": 2357,
+        "entity_raw": "/m/0631_",
+        "entity": "Presbyterianism",
+        "degree": 55
+      },
+      {
+        "entity_id": 2361,
+        "entity_raw": "/m/05whq_9",
+        "entity": "Werner Herzog",
+        "degree": 20
+      },
+      {
+        "entity_id": 2381,
+        "entity_raw": "/m/05th8t",
+        "entity": "Molly Parker",
+        "degree": 56
+      },
+      {
+        "entity_id": 2392,
+        "entity_raw": "/m/0gz6b6g",
+        "entity": "End of Watch",
+        "degree": 55
+      },
+      {
+        "entity_id": 2412,
+        "entity_raw": "/m/01pnn3",
+        "entity": "Elizabeth Hurley",
+        "degree": 34
+      },
+      {
+        "entity_id": 2433,
+        "entity_raw": "/m/02mjmr",
+        "entity": "Barack Obama",
+        "degree": 63
+      },
+      {
+        "entity_id": 2455,
+        "entity_raw": "/m/02ck1",
+        "entity": "Dmitri Shostakovich",
+        "degree": 27
+      },
+      {
+        "entity_id": 2469,
+        "entity_raw": "/m/059t6d",
+        "entity": "Aidan Gillen",
+        "degree": 27
+      },
+      {
+        "entity_id": 2501,
+        "entity_raw": "/m/0f__1",
+        "entity": "Louisville",
+        "degree": 40
+      },
+      {
+        "entity_id": 2722,
+        "entity_raw": "/m/06sks6",
+        "entity": "2012 Summer Olympics",
+        "degree": 322
+      },
+      {
+        "entity_id": 2767,
+        "entity_raw": "/m/0c7lcx",
+        "entity": "Kevin Corrigan",
+        "degree": 23
+      },
+      {
+        "entity_id": 2824,
+        "entity_raw": "/m/0dn3n",
+        "entity": "Meg Ryan",
+        "degree": 53
+      },
+      {
+        "entity_id": 2940,
+        "entity_raw": "/m/01g5v",
+        "entity": "Blue",
+        "degree": 212
+      },
+      {
+        "entity_id": 2956,
+        "entity_raw": "/m/01rs41",
+        "entity": "Private school",
+        "degree": 130
+      },
+      {
+        "entity_id": 3041,
+        "entity_raw": "/m/01jbx1",
+        "entity": "Tyra Banks",
+        "degree": 37
+      },
+      {
+        "entity_id": 3052,
+        "entity_raw": "/m/039c26",
+        "entity": "Deadwood",
+        "degree": 55
+      },
+      {
+        "entity_id": 3064,
+        "entity_raw": "/m/0jc_p",
+        "entity": "Orange",
+        "degree": 44
+      },
+      {
+        "entity_id": 3169,
+        "entity_raw": "/m/01w5m",
+        "entity": "Columbia University",
+        "degree": 144
+      },
+      {
+        "entity_id": 3188,
+        "entity_raw": "/m/0d1_f",
+        "entity": "Elizabeth II",
+        "degree": 25
+      },
+      {
+        "entity_id": 3222,
+        "entity_raw": "/m/043q4d",
+        "entity": "Contestant",
+        "degree": 50
+      },
+      {
+        "entity_id": 3324,
+        "entity_raw": "/m/07hwkr",
+        "entity": "White American",
+        "degree": 104
+      },
+      {
+        "entity_id": 3373,
+        "entity_raw": "/m/07b_l",
+        "entity": "Texas",
+        "degree": 148
+      },
+      {
+        "entity_id": 3384,
+        "entity_raw": "/m/0253b6",
+        "entity": "Tia Carrere",
+        "degree": 20
+      },
+      {
+        "entity_id": 3385,
+        "entity_raw": "/m/0hnf5vm",
+        "entity": "MTV Movie Award for Best Dance Sequence",
+        "degree": 40
+      },
+      {
+        "entity_id": 3398,
+        "entity_raw": "/m/02p7_k",
+        "entity": "Powers Boothe",
+        "degree": 61
+      },
+      {
+        "entity_id": 3440,
+        "entity_raw": "/m/03fb3t",
+        "entity": "Honolulu County",
+        "degree": 9
+      },
+      {
+        "entity_id": 3447,
+        "entity_raw": "/m/052h3",
+        "entity": "Murray Rothbard",
+        "degree": 21
+      },
+      {
+        "entity_id": 3451,
+        "entity_raw": "/m/03lmx1",
+        "entity": "Scottish people",
+        "degree": 24
+      },
+      {
+        "entity_id": 3485,
+        "entity_raw": "/m/03ryn",
+        "entity": "Indonesia",
+        "degree": 138
+      },
+      {
+        "entity_id": 3501,
+        "entity_raw": "/m/04gp1d",
+        "entity": "92nd United States Congress",
+        "degree": 47
+      },
+      {
+        "entity_id": 3504,
+        "entity_raw": "/m/01n1gc",
+        "entity": "Ben Stein",
+        "degree": 28
+      },
+      {
+        "entity_id": 3587,
+        "entity_raw": "/m/0bt7ws",
+        "entity": "Angela Kinsey",
+        "degree": 78
+      },
+      {
+        "entity_id": 3676,
+        "entity_raw": "/m/0mj0c",
+        "entity": "William James",
+        "degree": 27
+      },
+      {
+        "entity_id": 3701,
+        "entity_raw": "/m/03hkp",
+        "entity": "Hebrew Language",
+        "degree": 29
+      },
+      {
+        "entity_id": 3705,
+        "entity_raw": "/m/01___w",
+        "entity": "Lecturer-GB",
+        "degree": 7
+      },
+      {
+        "entity_id": 3730,
+        "entity_raw": "/m/0fdys",
+        "entity": "English Literature",
+        "degree": 98
+      },
+      {
+        "entity_id": 3749,
+        "entity_raw": "/m/06gh0t",
+        "entity": "Jason Momoa",
+        "degree": 27
+      },
+      {
+        "entity_id": 3750,
+        "entity_raw": "/m/06mnbn",
+        "entity": "Lena Headey",
+        "degree": 31
+      },
+      {
+        "entity_id": 3765,
+        "entity_raw": "/m/0hyxv",
+        "entity": "Glasgow",
+        "degree": 50
+      },
+      {
+        "entity_id": 3780,
+        "entity_raw": "/m/06z6r",
+        "entity": "Swimming",
+        "degree": 180
+      },
+      {
+        "entity_id": 3827,
+        "entity_raw": "/m/0d05q4",
+        "entity": "Iraq",
+        "degree": 59
+      },
+      {
+        "entity_id": 3843,
+        "entity_raw": "/m/02648p",
+        "entity": "Stargate Atlantis",
+        "degree": 10
+      },
+      {
+        "entity_id": 3854,
+        "entity_raw": "/m/04gqr",
+        "entity": "Libya",
+        "degree": 42
+      },
+      {
+        "entity_id": 3930,
+        "entity_raw": "/m/09b6zr",
+        "entity": "George W. Bush",
+        "degree": 50
+      },
+      {
+        "entity_id": 4212,
+        "entity_raw": "/m/0d05fv",
+        "entity": "Al Gore",
+        "degree": 40
+      },
+      {
+        "entity_id": 4288,
+        "entity_raw": "/m/019sc",
+        "entity": "Black",
+        "degree": 175
+      },
+      {
+        "entity_id": 4338,
+        "entity_raw": "/m/0h03fhx",
+        "entity": "Argo",
+        "degree": 123
+      },
+      {
+        "entity_id": 4394,
+        "entity_raw": "/m/02v5_g",
+        "entity": "Scream 2",
+        "degree": 37
+      },
+      {
+        "entity_id": 4539,
+        "entity_raw": "/m/04107",
+        "entity": "John Steinbeck",
+        "degree": 22
+      },
+      {
+        "entity_id": 4593,
+        "entity_raw": "/m/06g60w",
+        "entity": "Robert L. Surtees",
+        "degree": 26
+      },
+      {
+        "entity_id": 4770,
+        "entity_raw": "/m/0d7wh",
+        "entity": "British people",
+        "degree": 41
+      },
+      {
+        "entity_id": 4775,
+        "entity_raw": "/m/02rcwq0",
+        "entity": "Damages",
+        "degree": 38
+      },
+      {
+        "entity_id": 4881,
+        "entity_raw": "/m/0g2mbn",
+        "entity": "Aasif Mandvi",
+        "degree": 33
+      },
+      {
+        "entity_id": 4888,
+        "entity_raw": "/m/026cl_m",
+        "entity": "Time 100",
+        "degree": 24
+      },
+      {
+        "entity_id": 4899,
+        "entity_raw": "/m/03f77",
+        "entity": "Gordon Brown",
+        "degree": 22
+      },
+      {
+        "entity_id": 4912,
+        "entity_raw": "/m/026g801",
+        "entity": "Donald Sumpter",
+        "degree": 24
+      },
+      {
+        "entity_id": 4921,
+        "entity_raw": "/m/02hrh0_",
+        "entity": "Honolulu",
+        "degree": 34
+      },
+      {
+        "entity_id": 4925,
+        "entity_raw": "/m/01pqy_",
+        "entity": "Kelly Preston",
+        "degree": 38
+      },
+      {
+        "entity_id": 4940,
+        "entity_raw": "/m/0ptxj",
+        "entity": "The Towering Inferno",
+        "degree": 48
+      },
+      {
+        "entity_id": 4974,
+        "entity_raw": "/m/046zh",
+        "entity": "Julia Roberts",
+        "degree": 137
+      },
+      {
+        "entity_id": 4988,
+        "entity_raw": "/m/0bv7t",
+        "entity": "Toni Morrison",
+        "degree": 25
+      },
+      {
+        "entity_id": 5083,
+        "entity_raw": "/m/06h2w",
+        "entity": "Ron Carter",
+        "degree": 28
+      },
+      {
+        "entity_id": 5154,
+        "entity_raw": "/m/02rf1y",
+        "entity": "Jeffrey Jones",
+        "degree": 37
+      },
+      {
+        "entity_id": 5267,
+        "entity_raw": "/m/013xrm",
+        "entity": "Germans",
+        "degree": 53
+      },
+      {
+        "entity_id": 5268,
+        "entity_raw": "/m/01pk3z",
+        "entity": "Anna Faris",
+        "degree": 38
+      },
+      {
+        "entity_id": 5335,
+        "entity_raw": "/m/01l_pn",
+        "entity": "Charlie's Angels: Full Throttle",
+        "degree": 59
+      },
+      {
+        "entity_id": 5358,
+        "entity_raw": "/m/01kpt",
+        "entity": "Bronze Star Medal",
+        "degree": 5
+      },
+      {
+        "entity_id": 5382,
+        "entity_raw": "/m/0466p0j",
+        "entity": "51st Annual Grammy Awards-US",
+        "degree": 134
+      },
+      {
+        "entity_id": 5470,
+        "entity_raw": "/m/01clyr",
+        "entity": "Polydor Records",
+        "degree": 50
+      },
+      {
+        "entity_id": 5476,
+        "entity_raw": "/m/01nnsv",
+        "entity": "George Washington University",
+        "degree": 35
+      },
+      {
+        "entity_id": 5521,
+        "entity_raw": "/m/0x3r3",
+        "entity": "John Rawls",
+        "degree": 22
+      },
+      {
+        "entity_id": 5639,
+        "entity_raw": "/m/04s430",
+        "entity": "Chris Parnell",
+        "degree": 30
+      },
+      {
+        "entity_id": 5686,
+        "entity_raw": "/m/0bxbr",
+        "entity": "Bethesda",
+        "degree": 10
+      },
+      {
+        "entity_id": 5701,
+        "entity_raw": "/m/06r713",
+        "entity": "88th United States Congress",
+        "degree": 47
+      },
+      {
+        "entity_id": 5886,
+        "entity_raw": "/m/01w9wwg",
+        "entity": "Will.i.am",
+        "degree": 65
+      },
+      {
+        "entity_id": 5888,
+        "entity_raw": "/m/025cn2",
+        "entity": "Paul Francis Webster",
+        "degree": 24
+      },
+      {
+        "entity_id": 5949,
+        "entity_raw": "/m/03gh4",
+        "entity": "Hawaii",
+        "degree": 94
+      },
+      {
+        "entity_id": 6145,
+        "entity_raw": "/m/02wzv",
+        "entity": "French Polynesia",
+        "degree": 8
+      },
+      {
+        "entity_id": 6170,
+        "entity_raw": "/m/0404j37",
+        "entity": "The Hurt Locker",
+        "degree": 87
+      },
+      {
+        "entity_id": 6431,
+        "entity_raw": "/m/03295l",
+        "entity": "Filipino American",
+        "degree": 11
+      },
+      {
+        "entity_id": 6433,
+        "entity_raw": "/m/0gv2r",
+        "entity": "Lewis Milestone",
+        "degree": 17
+      },
+      {
+        "entity_id": 6480,
+        "entity_raw": "/m/0w7c",
+        "entity": "Acting",
+        "degree": 66
+      },
+      {
+        "entity_id": 6722,
+        "entity_raw": "/m/0dbc1s",
+        "entity": "David Mandel",
+        "degree": 32
+      },
+      {
+        "entity_id": 6767,
+        "entity_raw": "/m/059xnf",
+        "entity": "Mark Addy",
+        "degree": 42
+      },
+      {
+        "entity_id": 6768,
+        "entity_raw": "/m/02624g",
+        "entity": "Peter Dinklage",
+        "degree": 36
+      },
+      {
+        "entity_id": 6790,
+        "entity_raw": "/m/0mg1w",
+        "entity": "Fine art",
+        "degree": 25
+      },
+      {
+        "entity_id": 6839,
+        "entity_raw": "/m/0524b41",
+        "entity": "Game of Thrones",
+        "degree": 44
+      },
+      {
+        "entity_id": 6859,
+        "entity_raw": "/m/059_w",
+        "entity": "Native Americans in the United States",
+        "degree": 18
+      },
+      {
+        "entity_id": 6874,
+        "entity_raw": "/m/01lhdt",
+        "entity": "Ludwig Maximilian University of Munich",
+        "degree": 32
+      },
+      {
+        "entity_id": 6993,
+        "entity_raw": "/m/07c5l",
+        "entity": "Americas",
+        "degree": 41
+      },
+      {
+        "entity_id": 7031,
+        "entity_raw": "/m/0g9z_32",
+        "entity": "The Dictator",
+        "degree": 32
+      },
+      {
+        "entity_id": 7072,
+        "entity_raw": "/m/07h5d",
+        "entity": "Terry Gilliam",
+        "degree": 43
+      },
+      {
+        "entity_id": 7105,
+        "entity_raw": "/m/015dnt",
+        "entity": "Trevor Howard",
+        "degree": 17
+      },
+      {
+        "entity_id": 7153,
+        "entity_raw": "/m/03gvm3t",
+        "entity": "The X Factor (UK)",
+        "degree": 19
+      },
+      {
+        "entity_id": 7164,
+        "entity_raw": "/m/0hwpz",
+        "entity": "True Lies",
+        "degree": 36
+      },
+      {
+        "entity_id": 7215,
+        "entity_raw": "/m/060_7",
+        "entity": "Pablo Picasso-GB",
+        "degree": 18
+      },
+      {
+        "entity_id": 7223,
+        "entity_raw": "/m/0gls4q_",
+        "entity": "Jeff Schaffer",
+        "degree": 32
+      },
+      {
+        "entity_id": 7410,
+        "entity_raw": "/m/05rrtf",
+        "entity": "Spyglass Entertainment",
+        "degree": 29
+      },
+      {
+        "entity_id": 7414,
+        "entity_raw": "/m/02q0k7v",
+        "entity": "Body of Lies",
+        "degree": 33
+      },
+      {
+        "entity_id": 7563,
+        "entity_raw": "/m/02x3y41",
+        "entity": "Green Zone",
+        "degree": 31
+      },
+      {
+        "entity_id": 7629,
+        "entity_raw": "/m/02d9nr",
+        "entity": "Punahou School",
+        "degree": 16
+      },
+      {
+        "entity_id": 7686,
+        "entity_raw": "/m/0f2sx4",
+        "entity": "I Now Pronounce You Chuck and Larry",
+        "degree": 47
+      },
+      {
+        "entity_id": 7882,
+        "entity_raw": "/m/02z3zp",
+        "entity": "Garry Shandling",
+        "degree": 38
+      },
+      {
+        "entity_id": 8010,
+        "entity_raw": "/m/030vnj",
+        "entity": "Luke Wilson",
+        "degree": 41
+      },
+      {
+        "entity_id": 8059,
+        "entity_raw": "/m/016fly",
+        "entity": "Professor-GB",
+        "degree": 23
+      },
+      {
+        "entity_id": 8078,
+        "entity_raw": "/m/015ynm",
+        "entity": "Lilo & Stitch",
+        "degree": 28
+      },
+      {
+        "entity_id": 8244,
+        "entity_raw": "/m/019n9w",
+        "entity": "Pomona College",
+        "degree": 27
+      },
+      {
+        "entity_id": 8284,
+        "entity_raw": "/m/05q2c",
+        "entity": "Occidental College",
+        "degree": 32
+      },
+      {
+        "entity_id": 8315,
+        "entity_raw": "/m/0hz_1",
+        "entity": "Michael J. Fox",
+        "degree": 40
+      },
+      {
+        "entity_id": 8357,
+        "entity_raw": "/m/05vk_d",
+        "entity": "Megan Fox",
+        "degree": 35
+      },
+      {
+        "entity_id": 8755,
+        "entity_raw": "/m/01vh08",
+        "entity": "Richard Chamberlain",
+        "degree": 11
+      },
+      {
+        "entity_id": 8800,
+        "entity_raw": "/m/0d8qb",
+        "entity": "Journalist-GB",
+        "degree": 57
+      },
+      {
+        "entity_id": 8824,
+        "entity_raw": "/m/06y3r",
+        "entity": "Steve Jobs",
+        "degree": 24
+      },
+      {
+        "entity_id": 8909,
+        "entity_raw": "/m/0lmgy",
+        "entity": "Maui County",
+        "degree": 6
+      },
+      {
+        "entity_id": 8910,
+        "entity_raw": "/m/0jbs5",
+        "entity": "Maui",
+        "degree": 13
+      },
+      {
+        "entity_id": 8927,
+        "entity_raw": "/m/063576",
+        "entity": "The George Washington University Law School",
+        "degree": 12
+      },
+      {
+        "entity_id": 9037,
+        "entity_raw": "/m/0fr9jp",
+        "entity": "Beverly Hills High School",
+        "degree": 25
+      },
+      {
+        "entity_id": 9049,
+        "entity_raw": "/m/0kbwb",
+        "entity": "Wayne's World",
+        "degree": 29
+      },
+      {
+        "entity_id": 9116,
+        "entity_raw": "/m/0633p0",
+        "entity": "Anna Deavere Smith",
+        "degree": 28
+      },
+      {
+        "entity_id": 9235,
+        "entity_raw": "/m/04fv0k",
+        "entity": "Marriott International",
+        "degree": 27
+      },
+      {
+        "entity_id": 9309,
+        "entity_raw": "/m/024jvz",
+        "entity": "United States presidential election, 2008",
+        "degree": 3
+      },
+      {
+        "entity_id": 9310,
+        "entity_raw": "/m/07wcy",
+        "entity": "United States presidential election",
+        "degree": 1
+      },
+      {
+        "entity_id": 9357,
+        "entity_raw": "/m/0gps0z",
+        "entity": "Nicole Scherzinger",
+        "degree": 35
+      },
+      {
+        "entity_id": 9397,
+        "entity_raw": "/m/01c9x",
+        "entity": "Labour Party",
+        "degree": 5
+      },
+      {
+        "entity_id": 9398,
+        "entity_raw": "/m/0948xk",
+        "entity": "Tony Blair",
+        "degree": 20
+      },
+      {
+        "entity_id": 9488,
+        "entity_raw": "/m/0641kkh",
+        "entity": "MTV Movie Award for Most Desirable Female",
+        "degree": 23
+      },
+      {
+        "entity_id": 9515,
+        "entity_raw": "/m/010xjr",
+        "entity": "Richard Harris",
+        "degree": 39
+      },
+      {
+        "entity_id": 9543,
+        "entity_raw": "/m/058vfp4",
+        "entity": "Henry Grace",
+        "degree": 28
+      },
+      {
+        "entity_id": 9563,
+        "entity_raw": "/m/0fxky3",
+        "entity": "Alec Berg",
+        "degree": 28
+      },
+      {
+        "entity_id": 9576,
+        "entity_raw": "/m/056xkh",
+        "entity": "Be Cool",
+        "degree": 30
+      },
+      {
+        "entity_id": 9661,
+        "entity_raw": "/m/09kr66",
+        "entity": "Russian American",
+        "degree": 20
+      },
+      {
+        "entity_id": 9836,
+        "entity_raw": "/m/0p5vf",
+        "entity": "Member of Parliament-GB",
+        "degree": 31
+      },
+      {
+        "entity_id": 10000,
+        "entity_raw": "/m/0356dp",
+        "entity": "Julian Glover",
+        "degree": 34
+      },
+      {
+        "entity_id": 10049,
+        "entity_raw": "/m/0557q",
+        "entity": "Musical theatre",
+        "degree": 31
+      },
+      {
+        "entity_id": 10086,
+        "entity_raw": "/m/09x7p1",
+        "entity": "War in North-West Pakistan",
+        "degree": 6
+      },
+      {
+        "entity_id": 10087,
+        "entity_raw": "/m/07wj1",
+        "entity": "United States Air Force-GB",
+        "degree": 11
+      },
+      {
+        "entity_id": 10143,
+        "entity_raw": "/m/01trtc",
+        "entity": "Interscope Records",
+        "degree": 60
+      },
+      {
+        "entity_id": 10294,
+        "entity_raw": "/m/03rgvr",
+        "entity": "Jerome Flynn",
+        "degree": 27
+      },
+      {
+        "entity_id": 10304,
+        "entity_raw": "/m/021r6w",
+        "entity": "Edward Dmytryk",
+        "degree": 13
+      },
+      {
+        "entity_id": 10326,
+        "entity_raw": "/m/053vcrp",
+        "entity": "Hugh Hunt",
+        "degree": 26
+      },
+      {
+        "entity_id": 10394,
+        "entity_raw": "/m/0969fd",
+        "entity": "Edward Said",
+        "degree": 20
+      },
+      {
+        "entity_id": 10475,
+        "entity_raw": "/m/015nvj",
+        "entity": "Carol Reed",
+        "degree": 17
+      },
+      {
+        "entity_id": 10597,
+        "entity_raw": "/m/03c6v3",
+        "entity": "Lauren Graham",
+        "degree": 20
+      },
+      {
+        "entity_id": 10612,
+        "entity_raw": "/m/06myp",
+        "entity": "Sigmund Freud",
+        "degree": 33
+      },
+      {
+        "entity_id": 10735,
+        "entity_raw": "/m/06g4_",
+        "entity": "Richard Dawkins",
+        "degree": 28
+      },
+      {
+        "entity_id": 10814,
+        "entity_raw": "/m/02wh0",
+        "entity": "Friedrich Nietzsche",
+        "degree": 55
+      },
+      {
+        "entity_id": 10830,
+        "entity_raw": "/m/04zwtdy",
+        "entity": "Elie Samaha",
+        "degree": 27
+      },
+      {
+        "entity_id": 10933,
+        "entity_raw": "/m/0gfhg1y",
+        "entity": "Libyan Civil War",
+        "degree": 5
+      },
+      {
+        "entity_id": 10934,
+        "entity_raw": "/m/01cpjx",
+        "entity": "Major General",
+        "degree": 3
+      },
+      {
+        "entity_id": 11005,
+        "entity_raw": "/m/08_hns",
+        "entity": "David Petraeus",
+        "degree": 14
+      },
+      {
+        "entity_id": 11220,
+        "entity_raw": "/m/0444x",
+        "entity": "Jack Kemp",
+        "degree": 18
+      },
+      {
+        "entity_id": 11223,
+        "entity_raw": "/m/042g7t",
+        "entity": "Atlantic Time Zone-US",
+        "degree": 15
+      },
+      {
+        "entity_id": 11270,
+        "entity_raw": "/m/0168t",
+        "entity": "British Virgin Islands",
+        "degree": 10
+      },
+      {
+        "entity_id": 11328,
+        "entity_raw": "/m/044rv",
+        "entity": "Jakarta",
+        "degree": 11
+      },
+      {
+        "entity_id": 11534,
+        "entity_raw": "/m/0d6qjf",
+        "entity": "Central Intelligence Agency (CIA)",
+        "degree": 8
+      },
+      {
+        "entity_id": 11715,
+        "entity_raw": "/m/0bbgvp",
+        "entity": "Mutiny on the Bounty",
+        "degree": 27
+      },
+      {
+        "entity_id": 11847,
+        "entity_raw": "/m/01my95",
+        "entity": "Roger Federer",
+        "degree": 13
+      },
+      {
+        "entity_id": 11853,
+        "entity_raw": "/m/0cn68",
+        "entity": "Japanese American",
+        "degree": 12
+      },
+      {
+        "entity_id": 12019,
+        "entity_raw": "/m/01cf5",
+        "entity": "Barnard College",
+        "degree": 29
+      },
+      {
+        "entity_id": 12170,
+        "entity_raw": "/m/014vk4",
+        "entity": "Condoleezza Rice",
+        "degree": 32
+      },
+      {
+        "entity_id": 12294,
+        "entity_raw": "/m/05hwn",
+        "entity": "Khyber Pakhtunkhwa",
+        "degree": 5
+      },
+      {
+        "entity_id": 12427,
+        "entity_raw": "/m/0pgm3",
+        "entity": "Chris Elliott",
+        "degree": 17
+      },
+      {
+        "entity_id": 12637,
+        "entity_raw": "/m/079dy",
+        "entity": "Saddam Hussein",
+        "degree": 13
+      },
+      {
+        "entity_id": 12648,
+        "entity_raw": "/m/0ycht",
+        "entity": "White Plains",
+        "degree": 17
+      },
+      {
+        "entity_id": 13098,
+        "entity_raw": "/m/01cpp0",
+        "entity": "2003 invasion of Iraq",
+        "degree": 11
+      },
+      {
+        "entity_id": 13791,
+        "entity_raw": "/m/016m9h",
+        "entity": "Attorneys in the United States",
+        "degree": 3
+      },
+      {
+        "entity_id": 13970,
+        "entity_raw": "/m/0v74",
+        "entity": "al-Qaeda",
+        "degree": 4
+      },
+      {
+        "entity_id": 14094,
+        "entity_raw": "/m/0dfcn",
+        "entity": "Oahu",
+        "degree": 4
+      },
+      {
+        "entity_id": 14101,
+        "entity_raw": "/m/0j1_3",
+        "entity": "Java",
+        "degree": 3
+      },
+      {
+        "entity_id": 14105,
+        "entity_raw": "/m/015cl6",
+        "entity": "Medal of Honor",
+        "degree": 2
+      },
+      {
+        "entity_id": 14144,
+        "entity_raw": "/m/060s9",
+        "entity": "Prime Minister of the United Kingdom",
+        "degree": 2
+      },
+      {
+        "entity_id": 14164,
+        "entity_raw": "/m/014wxc",
+        "entity": "Hawaiian Islands",
+        "degree": 6
+      },
+      {
+        "entity_id": 14314,
+        "entity_raw": "/m/0190_8",
+        "entity": "Church of Scotland",
+        "degree": 2
+      },
+      {
+        "entity_id": 14496,
+        "entity_raw": "/m/060m4",
+        "entity": "Prime Minister of Canada",
+        "degree": 1
+      }
+    ],
+    "edges": [
+      {
+        "head_id": 755,
+        "head": "Matthew Perry",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 740,
+        "head": "Governor-GB",
+        "relation_id": 37,
+        "relation": "government government office category officeholders. government government position held jurisdiction of office",
+        "tail_id": 1131,
+        "tail": "United States Virgin Islands"
+      },
+      {
+        "head_id": 1330,
+        "head": "Master of Arts",
+        "relation_id": 112,
+        "relation": "education educational degree people with this degree. education education major field of study",
+        "tail_id": 1493,
+        "tail": "Sociology"
+      },
+      {
+        "head_id": 1774,
+        "head": "Black Swan",
+        "relation_id": 34,
+        "relation": "film film estimated budget. measurement unit dated money value currency",
+        "tail_id": 90,
+        "tail": "United States Dollar"
+      },
+      {
+        "head_id": 2018,
+        "head": "Joseph Campbell",
+        "relation_id": 21,
+        "relation": "influence influence node influenced by",
+        "tail_id": 2019,
+        "tail": "Arthur Schopenhauer"
+      },
+      {
+        "head_id": 664,
+        "head": "Timothy Olyphant",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 2313,
+        "tail": "Anna Gunn"
+      },
+      {
+        "head_id": 3052,
+        "head": "Deadwood",
+        "relation_id": 185,
+        "relation": "tv tv program country of origin",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 3384,
+        "head": "Tia Carrere",
+        "relation_id": 19,
+        "relation": "award award nominee award nominations. award award nomination award",
+        "tail_id": 3385,
+        "tail": "MTV Movie Award for Best Dance Sequence"
+      },
+      {
+        "head_id": 2381,
+        "head": "Molly Parker",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 3398,
+        "tail": "Powers Boothe"
+      },
+      {
+        "head_id": 3440,
+        "head": "Honolulu County",
+        "relation_id": 33,
+        "relation": "location statistical region rent50 2. measurement unit dated money value currency",
+        "tail_id": 90,
+        "tail": "United States Dollar"
+      },
+      {
+        "head_id": 3676,
+        "head": "William James",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 2006,
+        "tail": "Author-GB"
+      },
+      {
+        "head_id": 3749,
+        "head": "Jason Momoa",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 3750,
+        "tail": "Lena Headey"
+      },
+      {
+        "head_id": 596,
+        "head": "Sarah Palin",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 2006,
+        "tail": "Author-GB"
+      },
+      {
+        "head_id": 2090,
+        "head": "Sailing",
+        "relation_id": 104,
+        "relation": "olympics olympic sport athletes. olympics olympic athlete affiliation olympics",
+        "tail_id": 2722,
+        "tail": "2012 Summer Olympics"
+      },
+      {
+        "head_id": 4593,
+        "head": "Robert L. Surtees",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 4212,
+        "head": "Al Gore",
+        "relation_id": 60,
+        "relation": "base schemastaging person extra net worth. measurement unit dated money value currency",
+        "tail_id": 90,
+        "tail": "United States Dollar"
+      },
+      {
+        "head_id": 3373,
+        "head": "Texas",
+        "relation_id": 18,
+        "relation": "location statistical region religions. location religion percentage religion",
+        "tail_id": 2357,
+        "tail": "Presbyterianism"
+      },
+      {
+        "head_id": 2165,
+        "head": "Iraq War",
+        "relation_id": 88,
+        "relation": "base culturalevent event entity involved",
+        "tail_id": 4899,
+        "tail": "Gordon Brown"
+      },
+      {
+        "head_id": 5154,
+        "head": "Jeffrey Jones",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 2381,
+        "tail": "Molly Parker"
+      },
+      {
+        "head_id": 5267,
+        "head": "Germans",
+        "relation_id": 71,
+        "relation": "people ethnicity people",
+        "tail_id": 5268,
+        "tail": "Anna Faris"
+      },
+      {
+        "head_id": 3587,
+        "head": "Angela Kinsey",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 862,
+        "tail": "Actor-GB"
+      },
+      {
+        "head_id": 6145,
+        "head": "French Polynesia",
+        "relation_id": 206,
+        "relation": "location statistical region gdp real. measurement unit adjusted money value adjustment currency",
+        "tail_id": 90,
+        "tail": "United States Dollar"
+      },
+      {
+        "head_id": 5521,
+        "head": "John Rawls",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 5335,
+        "head": "Charlie's Angels: Full Throttle",
+        "relation_id": 34,
+        "relation": "film film estimated budget. measurement unit dated money value currency",
+        "tail_id": 90,
+        "tail": "United States Dollar"
+      },
+      {
+        "head_id": 1906,
+        "head": "Titus Welliver",
+        "relation_id": 85,
+        "relation": "people person spouse s. people marriage type of union",
+        "tail_id": 434,
+        "tail": "Marriage"
+      },
+      {
+        "head_id": 5267,
+        "head": "Germans",
+        "relation_id": 71,
+        "relation": "people ethnicity people",
+        "tail_id": 2361,
+        "tail": "Werner Herzog"
+      },
+      {
+        "head_id": 6767,
+        "head": "Mark Addy",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 6768,
+        "tail": "Peter Dinklage"
+      },
+      {
+        "head_id": 802,
+        "head": "Tate Donovan",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 6993,
+        "head": "Americas",
+        "relation_id": 15,
+        "relation": "location location contains",
+        "tail_id": 1131,
+        "tail": "United States Virgin Islands"
+      },
+      {
+        "head_id": 4881,
+        "head": "Aasif Mandvi",
+        "relation_id": 6,
+        "relation": "film actor film. film performance film",
+        "tail_id": 7031,
+        "tail": "The Dictator"
+      },
+      {
+        "head_id": 7105,
+        "head": "Trevor Howard",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 862,
+        "tail": "Actor-GB"
+      },
+      {
+        "head_id": 7215,
+        "head": "Pablo Picasso-GB",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 4912,
+        "head": "Donald Sumpter",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 2469,
+        "tail": "Aidan Gillen"
+      },
+      {
+        "head_id": 7414,
+        "head": "Body of Lies",
+        "relation_id": 34,
+        "relation": "film film estimated budget. measurement unit dated money value currency",
+        "tail_id": 90,
+        "tail": "United States Dollar"
+      },
+      {
+        "head_id": 4212,
+        "head": "Al Gore",
+        "relation_id": 45,
+        "relation": "base popstra celebrity friendship. base popstra friendship participant",
+        "tail_id": 2433,
+        "tail": "Barack Obama"
+      },
+      {
+        "head_id": 32,
+        "head": "United States of America",
+        "relation_id": 15,
+        "relation": "location location contains",
+        "tail_id": 5686,
+        "tail": "Bethesda"
+      },
+      {
+        "head_id": 4394,
+        "head": "Scream 2",
+        "relation_id": 28,
+        "relation": "film film country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 3384,
+        "head": "Tia Carrere",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 2161,
+        "tail": "Arnold Schwarzenegger"
+      },
+      {
+        "head_id": 7629,
+        "head": "Punahou School",
+        "relation_id": 22,
+        "relation": "education educational institution students graduates. education education student",
+        "tail_id": 4925,
+        "tail": "Kelly Preston"
+      },
+      {
+        "head_id": 2767,
+        "head": "Kevin Corrigan",
+        "relation_id": 6,
+        "relation": "film actor film. film performance film",
+        "tail_id": 7031,
+        "tail": "The Dictator"
+      },
+      {
+        "head_id": 3451,
+        "head": "Scottish people",
+        "relation_id": 71,
+        "relation": "people ethnicity people",
+        "tail_id": 4899,
+        "tail": "Gordon Brown"
+      },
+      {
+        "head_id": 5521,
+        "head": "John Rawls",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 8059,
+        "tail": "Professor-GB"
+      },
+      {
+        "head_id": 4212,
+        "head": "Al Gore",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 5949,
+        "head": "Hawaii",
+        "relation_id": 133,
+        "relation": "base biblioness bibs location country",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 4539,
+        "head": "John Steinbeck",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 2433,
+        "head": "Barack Obama",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 2006,
+        "tail": "Author-GB"
+      },
+      {
+        "head_id": 8284,
+        "head": "Occidental College",
+        "relation_id": 124,
+        "relation": "education educational institution school type",
+        "tail_id": 2956,
+        "tail": "Private school"
+      },
+      {
+        "head_id": 3750,
+        "head": "Lena Headey",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 862,
+        "tail": "Actor-GB"
+      },
+      {
+        "head_id": 3324,
+        "head": "White American",
+        "relation_id": 151,
+        "relation": "people ethnicity geographic distribution",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 3749,
+        "head": "Jason Momoa",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 862,
+        "tail": "Actor-GB"
+      },
+      {
+        "head_id": 3324,
+        "head": "White American",
+        "relation_id": 71,
+        "relation": "people ethnicity people",
+        "tail_id": 8755,
+        "tail": "Richard Chamberlain"
+      },
+      {
+        "head_id": 1770,
+        "head": "Pierre Trudeau",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 8800,
+        "tail": "Journalist-GB"
+      },
+      {
+        "head_id": 8909,
+        "head": "Maui County",
+        "relation_id": 15,
+        "relation": "location location contains",
+        "tail_id": 8910,
+        "tail": "Maui"
+      },
+      {
+        "head_id": 9309,
+        "head": "United States presidential election, 2008",
+        "relation_id": 210,
+        "relation": "time event instance of recurring event",
+        "tail_id": 9310,
+        "tail": "United States presidential election"
+      },
+      {
+        "head_id": 9397,
+        "head": "Labour Party",
+        "relation_id": 165,
+        "relation": "government political party politicians in this party. government political party tenure politician",
+        "tail_id": 9398,
+        "tail": "Tony Blair"
+      },
+      {
+        "head_id": 6767,
+        "head": "Mark Addy",
+        "relation_id": 19,
+        "relation": "award award nominee award nominations. award award nomination award",
+        "tail_id": 3385,
+        "tail": "MTV Movie Award for Best Dance Sequence"
+      },
+      {
+        "head_id": 3587,
+        "head": "Angela Kinsey",
+        "relation_id": 48,
+        "relation": "people person nationality",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 3169,
+        "head": "Columbia University",
+        "relation_id": 22,
+        "relation": "education educational institution students graduates. education education student",
+        "tail_id": 2433,
+        "tail": "Barack Obama"
+      },
+      {
+        "head_id": 2165,
+        "head": "Iraq War",
+        "relation_id": 88,
+        "relation": "base culturalevent event entity involved",
+        "tail_id": 2433,
+        "tail": "Barack Obama"
+      },
+      {
+        "head_id": 9515,
+        "head": "Richard Harris",
+        "relation_id": 85,
+        "relation": "people person spouse s. people marriage type of union",
+        "tail_id": 434,
+        "tail": "Marriage"
+      },
+      {
+        "head_id": 7223,
+        "head": "Jeff Schaffer",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 9563,
+        "tail": "Alec Berg"
+      },
+      {
+        "head_id": 8927,
+        "head": "The George Washington University Law School",
+        "relation_id": 124,
+        "relation": "education educational institution school type",
+        "tail_id": 873,
+        "tail": "Private university"
+      },
+      {
+        "head_id": 2018,
+        "head": "Joseph Campbell",
+        "relation_id": 85,
+        "relation": "people person spouse s. people marriage type of union",
+        "tail_id": 434,
+        "tail": "Marriage"
+      },
+      {
+        "head_id": 664,
+        "head": "Timothy Olyphant",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 1906,
+        "tail": "Titus Welliver"
+      },
+      {
+        "head_id": 2381,
+        "head": "Molly Parker",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 1906,
+        "tail": "Titus Welliver"
+      },
+      {
+        "head_id": 10086,
+        "head": "War in North-West Pakistan",
+        "relation_id": 88,
+        "relation": "base culturalevent event entity involved",
+        "tail_id": 10087,
+        "tail": "United States Air Force-GB"
+      },
+      {
+        "head_id": 8910,
+        "head": "Maui",
+        "relation_id": 122,
+        "relation": "base popstra location vacationers. base popstra vacation choice vacationer",
+        "tail_id": 8357,
+        "tail": "Megan Fox"
+      },
+      {
+        "head_id": 10304,
+        "head": "Edward Dmytryk",
+        "relation_id": 43,
+        "relation": "people person gender",
+        "tail_id": 141,
+        "tail": "Male"
+      },
+      {
+        "head_id": 8244,
+        "head": "Pomona College",
+        "relation_id": 22,
+        "relation": "education educational institution students graduates. education education student",
+        "tail_id": 8755,
+        "tail": "Richard Chamberlain"
+      },
+      {
+        "head_id": 10394,
+        "head": "Edward Said",
+        "relation_id": 17,
+        "relation": "people person profession",
+        "tail_id": 243,
+        "tail": "Writer-GB"
+      },
+      {
+        "head_id": 9563,
+        "head": "Alec Berg",
+        "relation_id": 8,
+        "relation": "award award nominee award nominations. award award nomination award nominee",
+        "tail_id": 7223,
+        "tail": "Jeff Schaffer"
+      },
+      {
+        "head_id": 10475,
+        "head": "Carol Reed",
+        "relation_id": 85,
+        "relation": "people person spouse s. people marriage type of union",
+        "tail_id": 434,
+        "tail": "Marriage"
+      },
+      {
+        "head_id": 245,
+        "head": "90th United States Congress",
+        "relation_id": 64,
+        "relation": "government legislative session members. government government position held legislative sessions",
+        "tail_id": 3501,
+        "tail": "92nd United States Congress"
+      },
+      {
+        "head_id": 9576,
+        "head": "Be Cool",
+        "relation_id": 13,
+        "relation": "film film release date s. film film regional release date film release region",
+        "tail_id": 32,
+        "tail": "United States of America"
+      },
+      {
+        "head_id": 6480,
+        "head": "Acting",
+        "relation_id": 140,
+        "relation": "education field of study students majoring. education education student",
+        "tail_id": 10597,
+        "tail": "Lauren Graham"
+      },
+      {
+        "head_id": 10612,
+        "head": "Sigmund Freud",
+        "relation_id": 21,
+        "relation": "influence influence node influenced by",
+        "tail_id": 2019,
+        "tail": "Arthur Schopenhauer"
+      },
+      {
+        "head_id": 4974,
+        "head": "Julia Roberts",
+        "relation_id": 77,
+        "relation": "base popstra celebrity dated. base popstra dated participant",
+        "tail_id": 2412,
+        "tail": "Elizabeth Hurley"
+      },
+      {
+        "head_id": 5382,
+        "head": "51st Annual Grammy Awards-US",
+        "relation_id": 27,
+        "relation": "award award ceremony awards presented. award award honor award winner",
+        "tail_id": 3384,
+        "tail": "Tia Carrere"
+      },
+      {
+        "head_id": 6722,
+        "head": "David Mandel",
+        "relation_id": 85,
+        "relation": "people person spouse s. people marriage type of union",
+        "tail_id": 434,
+        "tail": "Marriage"
+      },
+      {
+        "head_id": 5949,
+        "head": "Hawaii",
+        "relation_id": 15,
+        "relation": "location location contains",
+        "tail_id": 8909,
+        "tail": "Maui County"
+      }
+    ]
+  }
+}

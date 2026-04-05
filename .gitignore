@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large generated graph exports
+Review-3 outputs/outputs/fb15k_full_kg/edges.csv
+Review-3 outputs/outputs/fb15k_full_kg/fb15k_full.graphml
+Review-3 outputs/outputs/fb15k_full_kg/fb15k_full.gexf

@@ -1,0 +1,42 @@
+{
+  "model_type": "logistic_regression",
+  "feature_names": [
+    "relation_match_strength",
+    "hubness_log",
+    "embedding_coherence"
+  ],
+  "constraints": {
+    "relation_match_strength": "nonnegative",
+    "hubness_log": "nonpositive",
+    "embedding_coherence": "nonnegative"
+  },
+  "bias": 0.03673502802848816,
+  "weights": {
+    "relation_match_strength": 3.4448375701904297,
+    "hubness_log": -0.15513314306735992,
+    "embedding_coherence": 0.02256450057029724
+  },
+  "training_summary": {
+    "device": "cuda",
+    "train": {
+      "accuracy": 0.7427487373352051,
+      "loss": 0.5319486856460571,
+      "count": 51646
+    },
+    "valid": {
+      "accuracy": 0.744540810585022,
+      "loss": 0.5338754653930664,
+      "count": 9113
+    },
+    "positive_triples_used": 4000,
+    "negative_triples_used": 8000,
+    "training_rows": 60759,
+    "train_rows": 51646,
+    "valid_rows": 9113,
+    "constraints": {
+      "relation_match_strength": "nonnegative",
+      "hubness_log": "nonpositive",
+      "embedding_coherence": "nonnegative"
+    }
+  }
+}

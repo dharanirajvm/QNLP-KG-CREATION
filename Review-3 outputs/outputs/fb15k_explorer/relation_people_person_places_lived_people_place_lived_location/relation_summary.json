@@ -1,0 +1,271 @@
+{
+  "relation": "people person places lived. people place lived location",
+  "raw_relation": "/people/person/places_lived./people/place_lived/location",
+  "train_count": 3738,
+  "top_heads": [
+    {
+      "entity": "Nikola Tesla",
+      "count": 8
+    },
+    {
+      "entity": "Brendan Fraser",
+      "count": 8
+    },
+    {
+      "entity": "Jerry Orbach",
+      "count": 7
+    },
+    {
+      "entity": "Jack Nicholson",
+      "count": 7
+    },
+    {
+      "entity": "Courtney Love",
+      "count": 7
+    },
+    {
+      "entity": "Frances McDormand",
+      "count": 6
+    },
+    {
+      "entity": "J. Michael Straczynski",
+      "count": 6
+    },
+    {
+      "entity": "William H. Macy",
+      "count": 6
+    },
+    {
+      "entity": "Steven Spielberg",
+      "count": 6
+    },
+    {
+      "entity": "Robert Redford",
+      "count": 6
+    },
+    {
+      "entity": "Jennifer Aniston",
+      "count": 6
+    },
+    {
+      "entity": "Brad Pitt",
+      "count": 6
+    },
+    {
+      "entity": "Robert Downey Jr.",
+      "count": 6
+    },
+    {
+      "entity": "Viggo Mortensen",
+      "count": 6
+    },
+    {
+      "entity": "Mark Twain",
+      "count": 6
+    },
+    {
+      "entity": "Stephen Stills",
+      "count": 6
+    },
+    {
+      "entity": "Edgar Allan Poe",
+      "count": 6
+    },
+    {
+      "entity": "Kristin Davis",
+      "count": 5
+    },
+    {
+      "entity": "John Denver",
+      "count": 5
+    },
+    {
+      "entity": "Zooey Deschanel",
+      "count": 5
+    }
+  ],
+  "top_tails": [
+    {
+      "entity": "New York City",
+      "count": 332
+    },
+    {
+      "entity": "Los Angeles",
+      "count": 253
+    },
+    {
+      "entity": "Brooklyn",
+      "count": 128
+    },
+    {
+      "entity": "London",
+      "count": 123
+    },
+    {
+      "entity": "Manhattan",
+      "count": 63
+    },
+    {
+      "entity": "California",
+      "count": 53
+    },
+    {
+      "entity": "New York",
+      "count": 53
+    },
+    {
+      "entity": "The Bronx",
+      "count": 52
+    },
+    {
+      "entity": "Boston",
+      "count": 42
+    },
+    {
+      "entity": "Queens",
+      "count": 40
+    },
+    {
+      "entity": "Paris",
+      "count": 38
+    },
+    {
+      "entity": "Washington, D.C.",
+      "count": 37
+    },
+    {
+      "entity": "San Francisco",
+      "count": 36
+    },
+    {
+      "entity": "Toronto",
+      "count": 31
+    },
+    {
+      "entity": "Philadelphia",
+      "count": 31
+    },
+    {
+      "entity": "Chicago",
+      "count": 29
+    },
+    {
+      "entity": "Malibu",
+      "count": 27
+    },
+    {
+      "entity": "Beverly Hills",
+      "count": 26
+    },
+    {
+      "entity": "Atlanta",
+      "count": 26
+    },
+    {
+      "entity": "Mumbai",
+      "count": 26
+    }
+  ],
+  "sample_triples": [
+    {
+      "head": "Peter Morgan",
+      "relation": "people person places lived. people place lived location",
+      "tail": "London"
+    },
+    {
+      "head": "Stewart Copeland",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Beirut"
+    },
+    {
+      "head": "Joe Hisaishi",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Nagano Prefecture"
+    },
+    {
+      "head": "Gary Busey",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Tulsa"
+    },
+    {
+      "head": "Arnold Schoenberg",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Vienna"
+    },
+    {
+      "head": "Peter Coyote",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Englewood"
+    },
+    {
+      "head": "Dennis Rodman",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Trenton"
+    },
+    {
+      "head": "Robbie Williams",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Stoke-on-Trent"
+    },
+    {
+      "head": "Alan Ladd",
+      "relation": "people person places lived. people place lived location",
+      "tail": "North Hollywood"
+    },
+    {
+      "head": "Elisha Cuthbert",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Calgary"
+    },
+    {
+      "head": "Glen Ballard",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Natchez"
+    },
+    {
+      "head": "Arthur Wellesley, 1st Duke of Wellington",
+      "relation": "people person places lived. people place lived location",
+      "tail": "County Dublin"
+    },
+    {
+      "head": "Robert Rodriguez",
+      "relation": "people person places lived. people place lived location",
+      "tail": "San Antonio"
+    },
+    {
+      "head": "Frances McDormand",
+      "relation": "people person places lived. people place lived location",
+      "tail": "New York City"
+    },
+    {
+      "head": "Billy Bob Thornton",
+      "relation": "people person places lived. people place lived location",
+      "tail": "California"
+    },
+    {
+      "head": "Carla Gugino",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Los Angeles"
+    },
+    {
+      "head": "Eva Longoria",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Los Angeles"
+    },
+    {
+      "head": "Amy Grant",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Augusta"
+    },
+    {
+      "head": "Jay Baruchel",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Montreal"
+    },
+    {
+      "head": "Tara Strong",
+      "relation": "people person places lived. people place lived location",
+      "tail": "Toronto"
+    }
+  ]
+}

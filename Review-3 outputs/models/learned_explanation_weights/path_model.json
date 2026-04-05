@@ -1,0 +1,46 @@
+{
+  "model_type": "logistic_regression",
+  "feature_names": [
+    "path_reliability",
+    "relation_relevance",
+    "path_frequency_log",
+    "embedding_support"
+  ],
+  "constraints": {
+    "path_reliability": "nonnegative",
+    "relation_relevance": "nonnegative",
+    "path_frequency_log": "nonnegative",
+    "embedding_support": "nonnegative"
+  },
+  "bias": -2.7271766662597656,
+  "weights": {
+    "path_reliability": 0.21249213814735413,
+    "relation_relevance": 13.451956748962402,
+    "path_frequency_log": 0.10790422558784485,
+    "embedding_support": 0.049323227256536484
+  },
+  "training_summary": {
+    "device": "cuda",
+    "train": {
+      "accuracy": 0.9024533033370972,
+      "loss": 0.24710701406002045,
+      "count": 47895
+    },
+    "valid": {
+      "accuracy": 0.9015617370605469,
+      "loss": 0.24773745238780975,
+      "count": 8452
+    },
+    "positive_triples_used": 4000,
+    "negative_triples_used": 8000,
+    "training_rows": 56347,
+    "train_rows": 47895,
+    "valid_rows": 8452,
+    "constraints": {
+      "path_reliability": "nonnegative",
+      "relation_relevance": "nonnegative",
+      "path_frequency_log": "nonnegative",
+      "embedding_support": "nonnegative"
+    }
+  }
+}

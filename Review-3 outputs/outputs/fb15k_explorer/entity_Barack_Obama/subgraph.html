@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+             #loadingBar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width: 100%;
+                 height: 900px;
+                 background-color:rgba(200,200,200,0.8);
+                 -webkit-transition: all 0.5s ease;
+                 -moz-transition: all 0.5s ease;
+                 -ms-transition: all 0.5s ease;
+                 -o-transition: all 0.5s ease;
+                 transition: all 0.5s ease;
+                 opacity:1;
+             }
+
+             #bar {
+                 position:absolute;
+                 top:0px;
+                 left:0px;
+                 width:20px;
+                 height:20px;
+                 margin:auto auto auto auto;
+                 border-radius:11px;
+                 border:2px solid rgba(30,30,30,0.05);
+                 background: rgb(0, 173, 246); /* Old browsers */
+                 box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+             }
+
+             #border {
+                 position:absolute;
+                 top:10px;
+                 left:10px;
+                 width:500px;
+                 height:23px;
+                 margin:auto auto auto auto;
+                 box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+                 border-radius:10px;
+             }
+
+             #text {
+                 position:absolute;
+                 top:8px;
+                 left:530px;
+                 width:30px;
+                 height:50px;
+                 margin:auto auto auto auto;
+                 font-size:22px;
+                 color: #000000;
+             }
+
+             div.outerBorder {
+                 position:relative;
+                 top:400px;
+                 width:600px;
+                 height:44px;
+                 margin:auto auto auto auto;
+                 border:8px solid rgba(0,0,0,0.1);
+                 background: rgb(252,252,252); /* Old browsers */
+                 background: -moz-linear-gradient(top,  rgba(252,252,252,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+                 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+                 background: -webkit-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+                 background: -o-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+                 background: -ms-linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* IE10+ */
+                 background: linear-gradient(to bottom,  rgba(252,252,252,1) 0%,rgba(237,237,237,1) 100%); /* W3C */
+                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+                 border-radius:72px;
+                 box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+             }
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+            <div id="loadingBar">
+              <div class="outerBorder">
+                <div id="text">0%</div>
+                <div id="border">
+                  <div id="bar"></div>
+                </div>
+              </div>
+            </div>
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "#111111"}, "id": 32, "label": "United States of America", "shape": "dot", "size": 18, "title": "United States of America\u003cbr\u003edegree=7614"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 90, "label": "United States Dollar", "shape": "dot", "size": 18, "title": "United States Dollar\u003cbr\u003edegree=4286"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2722, "label": "2012 Summer Olympics", "shape": "dot", "size": 18, "title": "2012 Summer Olympics\u003cbr\u003edegree=322"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 434, "label": "Marriage", "shape": "dot", "size": 18, "title": "Marriage\u003cbr\u003edegree=2992"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3765, "label": "Glasgow", "shape": "dot", "size": 18, "title": "Glasgow\u003cbr\u003edegree=50"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 596, "label": "Sarah Palin", "shape": "dot", "size": 18, "title": "Sarah Palin\u003cbr\u003edegree=31"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4888, "label": "Time 100", "shape": "dot", "size": 18, "title": "Time 100\u003cbr\u003edegree=24"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 740, "label": "Governor-GB", "shape": "dot", "size": 18, "title": "Governor-GB\u003cbr\u003edegree=89"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1131, "label": "United States Virgin Islands", "shape": "dot", "size": 18, "title": "United States Virgin Islands\u003cbr\u003edegree=16"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11270, "label": "British Virgin Islands", "shape": "dot", "size": 18, "title": "British Virgin Islands\u003cbr\u003edegree=10"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1493, "label": "Sociology", "shape": "dot", "size": 18, "title": "Sociology\u003cbr\u003edegree=86"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1800, "label": "Mathematics", "shape": "dot", "size": 18, "title": "Mathematics\u003cbr\u003edegree=147"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1770, "label": "Pierre Trudeau", "shape": "dot", "size": 18, "title": "Pierre Trudeau\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8800, "label": "Journalist-GB", "shape": "dot", "size": 18, "title": "Journalist-GB\u003cbr\u003edegree=57"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1774, "label": "Black Swan", "shape": "dot", "size": 18, "title": "Black Swan\u003cbr\u003edegree=101"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2090, "label": "Sailing", "shape": "dot", "size": 18, "title": "Sailing\u003cbr\u003edegree=103"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2165, "label": "Iraq War", "shape": "dot", "size": 18, "title": "Iraq War\u003cbr\u003edegree=19"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4899, "label": "Gordon Brown", "shape": "dot", "size": 18, "title": "Gordon Brown\u003cbr\u003edegree=22"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2433, "label": "Barack Obama", "shape": "dot", "size": 18, "title": "Barack Obama\u003cbr\u003edegree=63"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11005, "label": "David Petraeus", "shape": "dot", "size": 18, "title": "David Petraeus\u003cbr\u003edegree=14"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 13098, "label": "2003 invasion of Iraq", "shape": "dot", "size": 18, "title": "2003 invasion of Iraq\u003cbr\u003edegree=11"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12637, "label": "Saddam Hussein", "shape": "dot", "size": 18, "title": "Saddam Hussein\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2361, "label": "Werner Herzog", "shape": "dot", "size": 18, "title": "Werner Herzog\u003cbr\u003edegree=20"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2767, "label": "Kevin Corrigan", "shape": "dot", "size": 18, "title": "Kevin Corrigan\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7031, "label": "The Dictator", "shape": "dot", "size": 18, "title": "The Dictator\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3451, "label": "Scottish people", "shape": "dot", "size": 18, "title": "Scottish people\u003cbr\u003edegree=24"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3485, "label": "Indonesia", "shape": "dot", "size": 18, "title": "Indonesia\u003cbr\u003edegree=138"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3587, "label": "Angela Kinsey", "shape": "dot", "size": 18, "title": "Angela Kinsey\u003cbr\u003edegree=78"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11328, "label": "Jakarta", "shape": "dot", "size": 18, "title": "Jakarta\u003cbr\u003edegree=11"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3676, "label": "William James", "shape": "dot", "size": 18, "title": "William James\u003cbr\u003edegree=27"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8059, "label": "Professor-GB", "shape": "dot", "size": 18, "title": "Professor-GB\u003cbr\u003edegree=23"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3780, "label": "Swimming", "shape": "dot", "size": 18, "title": "Swimming\u003cbr\u003edegree=180"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3827, "label": "Iraq", "shape": "dot", "size": 18, "title": "Iraq\u003cbr\u003edegree=59"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3854, "label": "Libya", "shape": "dot", "size": 18, "title": "Libya\u003cbr\u003edegree=42"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3930, "label": "George W. Bush", "shape": "dot", "size": 18, "title": "George W. Bush\u003cbr\u003edegree=50"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12170, "label": "Condoleezza Rice", "shape": "dot", "size": 18, "title": "Condoleezza Rice\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4212, "label": "Al Gore", "shape": "dot", "size": 18, "title": "Al Gore\u003cbr\u003edegree=40"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4881, "label": "Aasif Mandvi", "shape": "dot", "size": 18, "title": "Aasif Mandvi\u003cbr\u003edegree=33"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9836, "label": "Member of Parliament-GB", "shape": "dot", "size": 18, "title": "Member of Parliament-GB\u003cbr\u003edegree=31"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4921, "label": "Honolulu", "shape": "dot", "size": 18, "title": "Honolulu\u003cbr\u003edegree=34"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7629, "label": "Punahou School", "shape": "dot", "size": 18, "title": "Punahou School\u003cbr\u003edegree=16"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4988, "label": "Toni Morrison", "shape": "dot", "size": 18, "title": "Toni Morrison\u003cbr\u003edegree=25"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5521, "label": "John Rawls", "shape": "dot", "size": 18, "title": "John Rawls\u003cbr\u003edegree=22"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5949, "label": "Hawaii", "shape": "dot", "size": 18, "title": "Hawaii\u003cbr\u003edegree=94"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6170, "label": "The Hurt Locker", "shape": "dot", "size": 18, "title": "The Hurt Locker\u003cbr\u003edegree=87"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6722, "label": "David Mandel", "shape": "dot", "size": 18, "title": "David Mandel\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 6993, "label": "Americas", "shape": "dot", "size": 18, "title": "Americas\u003cbr\u003edegree=41"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7410, "label": "Spyglass Entertainment", "shape": "dot", "size": 18, "title": "Spyglass Entertainment\u003cbr\u003edegree=29"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7072, "label": "Terry Gilliam", "shape": "dot", "size": 18, "title": "Terry Gilliam\u003cbr\u003edegree=43"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7223, "label": "Jeff Schaffer", "shape": "dot", "size": 18, "title": "Jeff Schaffer\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9563, "label": "Alec Berg", "shape": "dot", "size": 18, "title": "Alec Berg\u003cbr\u003edegree=28"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7414, "label": "Body of Lies", "shape": "dot", "size": 18, "title": "Body of Lies\u003cbr\u003edegree=33"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4925, "label": "Kelly Preston", "shape": "dot", "size": 18, "title": "Kelly Preston\u003cbr\u003edegree=38"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8010, "label": "Luke Wilson", "shape": "dot", "size": 18, "title": "Luke Wilson\u003cbr\u003edegree=41"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8284, "label": "Occidental College", "shape": "dot", "size": 18, "title": "Occidental College\u003cbr\u003edegree=32"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2956, "label": "Private school", "shape": "dot", "size": 18, "title": "Private school\u003cbr\u003edegree=130"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 873, "label": "Private university", "shape": "dot", "size": 18, "title": "Private university\u003cbr\u003edegree=112"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11220, "label": "Jack Kemp", "shape": "dot", "size": 18, "title": "Jack Kemp\u003cbr\u003edegree=18"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8315, "label": "Michael J. Fox", "shape": "dot", "size": 18, "title": "Michael J. Fox\u003cbr\u003edegree=40"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8357, "label": "Megan Fox", "shape": "dot", "size": 18, "title": "Megan Fox\u003cbr\u003edegree=35"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9116, "label": "Anna Deavere Smith", "shape": "dot", "size": 18, "title": "Anna Deavere Smith\u003cbr\u003edegree=28"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9235, "label": "Marriott International", "shape": "dot", "size": 18, "title": "Marriott International\u003cbr\u003edegree=27"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9309, "label": "United States presidential election, 2008", "shape": "dot", "size": 18, "title": "United States presidential election, 2008\u003cbr\u003edegree=3"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9310, "label": "United States presidential election", "shape": "dot", "size": 18, "title": "United States presidential election\u003cbr\u003edegree=1"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9397, "label": "Labour Party", "shape": "dot", "size": 18, "title": "Labour Party\u003cbr\u003edegree=5"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 9398, "label": "Tony Blair", "shape": "dot", "size": 18, "title": "Tony Blair\u003cbr\u003edegree=20"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10086, "label": "War in North-West Pakistan", "shape": "dot", "size": 18, "title": "War in North-West Pakistan\u003cbr\u003edegree=6"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10087, "label": "United States Air Force-GB", "shape": "dot", "size": 18, "title": "United States Air Force-GB\u003cbr\u003edegree=11"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10735, "label": "Richard Dawkins", "shape": "dot", "size": 18, "title": "Richard Dawkins\u003cbr\u003edegree=28"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10933, "label": "Libyan Civil War", "shape": "dot", "size": 18, "title": "Libyan Civil War\u003cbr\u003edegree=5"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10934, "label": "Major General", "shape": "dot", "size": 18, "title": "Major General\u003cbr\u003edegree=3"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12427, "label": "Chris Elliott", "shape": "dot", "size": 18, "title": "Chris Elliott\u003cbr\u003edegree=17"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1199, "label": "Master of Arts", "shape": "dot", "size": 18, "title": "Master of Arts\u003cbr\u003edegree=59"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1404, "label": "Seven Psychopaths", "shape": "dot", "size": 18, "title": "Seven Psychopaths\u003cbr\u003edegree=56"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 1768, "label": "Internal Revenue Service", "shape": "dot", "size": 18, "title": "Internal Revenue Service\u003cbr\u003edegree=126"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2357, "label": "Presbyterianism", "shape": "dot", "size": 18, "title": "Presbyterianism\u003cbr\u003edegree=55"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2392, "label": "End of Watch", "shape": "dot", "size": 18, "title": "End of Watch\u003cbr\u003edegree=55"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2455, "label": "Dmitri Shostakovich", "shape": "dot", "size": 18, "title": "Dmitri Shostakovich\u003cbr\u003edegree=27"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 2940, "label": "Blue", "shape": "dot", "size": 18, "title": "Blue\u003cbr\u003edegree=212"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3041, "label": "Tyra Banks", "shape": "dot", "size": 18, "title": "Tyra Banks\u003cbr\u003edegree=37"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3064, "label": "Orange", "shape": "dot", "size": 18, "title": "Orange\u003cbr\u003edegree=44"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3188, "label": "Elizabeth II", "shape": "dot", "size": 18, "title": "Elizabeth II\u003cbr\u003edegree=25"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3447, "label": "Murray Rothbard", "shape": "dot", "size": 18, "title": "Murray Rothbard\u003cbr\u003edegree=21"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3504, "label": "Ben Stein", "shape": "dot", "size": 18, "title": "Ben Stein\u003cbr\u003edegree=28"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3701, "label": "Hebrew Language", "shape": "dot", "size": 18, "title": "Hebrew Language\u003cbr\u003edegree=29"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 3705, "label": "Lecturer-GB", "shape": "dot", "size": 18, "title": "Lecturer-GB\u003cbr\u003edegree=7"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4288, "label": "Black", "shape": "dot", "size": 18, "title": "Black\u003cbr\u003edegree=175"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4338, "label": "Argo", "shape": "dot", "size": 18, "title": "Argo\u003cbr\u003edegree=123"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 4770, "label": "British people", "shape": "dot", "size": 18, "title": "British people\u003cbr\u003edegree=41"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5083, "label": "Ron Carter", "shape": "dot", "size": 18, "title": "Ron Carter\u003cbr\u003edegree=28"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5268, "label": "Anna Faris", "shape": "dot", "size": 18, "title": "Anna Faris\u003cbr\u003edegree=38"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 5639, "label": "Chris Parnell", "shape": "dot", "size": 18, "title": "Chris Parnell\u003cbr\u003edegree=30"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7563, "label": "Green Zone", "shape": "dot", "size": 18, "title": "Green Zone\u003cbr\u003edegree=31"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 7882, "label": "Garry Shandling", "shape": "dot", "size": 18, "title": "Garry Shandling\u003cbr\u003edegree=38"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 8824, "label": "Steve Jobs", "shape": "dot", "size": 18, "title": "Steve Jobs\u003cbr\u003edegree=24"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10304, "label": "Edward Dmytryk", "shape": "dot", "size": 18, "title": "Edward Dmytryk\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 10394, "label": "Edward Said", "shape": "dot", "size": 18, "title": "Edward Said\u003cbr\u003edegree=20"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11223, "label": "Atlantic Time Zone-US", "shape": "dot", "size": 18, "title": "Atlantic Time Zone-US\u003cbr\u003edegree=15"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11534, "label": "Central Intelligence Agency (CIA)", "shape": "dot", "size": 18, "title": "Central Intelligence Agency (CIA)\u003cbr\u003edegree=8"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 11847, "label": "Roger Federer", "shape": "dot", "size": 18, "title": "Roger Federer\u003cbr\u003edegree=13"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 12294, "label": "Khyber Pakhtunkhwa", "shape": "dot", "size": 18, "title": "Khyber Pakhtunkhwa\u003cbr\u003edegree=5"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 13970, "label": "al-Qaeda", "shape": "dot", "size": 18, "title": "al-Qaeda\u003cbr\u003edegree=4"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14101, "label": "Java", "shape": "dot", "size": 18, "title": "Java\u003cbr\u003edegree=3"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14144, "label": "Prime Minister of the United Kingdom", "shape": "dot", "size": 18, "title": "Prime Minister of the United Kingdom\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14314, "label": "Church of Scotland", "shape": "dot", "size": 18, "title": "Church of Scotland\u003cbr\u003edegree=2"}, {"color": "#97c2fc", "font": {"color": "#111111"}, "id": 14496, "label": "Prime Minister of Canada", "shape": "dot", "size": 18, "title": "Prime Minister of Canada\u003cbr\u003edegree=1"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#5b7c99", "from": 32, "label": "location statistical region gdp real. measurement unit adjusted money value adjustment currency", "title": "location statistical region gdp real. measurement unit adjusted money value adjustment currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 32, "label": "dataworld gardening hint split to", "title": "dataworld gardening hint split to", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 32, "label": "olympics olympic participating country medals won. olympics olympic medal honor olympics", "title": "olympics olympic participating country medals won. olympics olympic medal honor olympics", "to": 2722, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 434, "label": "people marriage union type unions of this type. people marriage location of ceremony", "title": "people marriage union type unions of this type. people marriage location of ceremony", "to": 3765, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 596, "label": "award ranked item appears in ranked lists. award ranking list", "title": "award ranked item appears in ranked lists. award ranking list", "to": 4888, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 740, "label": "government government office category officeholders. government government position held jurisdiction of office", "title": "government government office category officeholders. government government position held jurisdiction of office", "to": 1131, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1131, "label": "location location adjoin s. location adjoining relationship adjoins", "title": "location location adjoin s. location adjoining relationship adjoins", "to": 11270, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1493, "label": "education field of study students majoring. education education major field of study", "title": "education field of study students majoring. education education major field of study", "to": 1800, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1770, "label": "people person profession", "title": "people person profession", "to": 8800, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 1774, "label": "film film estimated budget. measurement unit dated money value currency", "title": "film film estimated budget. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2090, "label": "olympics olympic sport athletes. olympics olympic athlete affiliation olympics", "title": "olympics olympic sport athletes. olympics olympic athlete affiliation olympics", "to": 2722, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2165, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 4899, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2165, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 2433, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2165, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 11005, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2165, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 13098, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2165, "label": "military military conflict combatants. military military combatant group combatants", "title": "military military conflict combatants. military military combatant group combatants", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2165, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 12637, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2361, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2433, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2767, "label": "film actor film. film performance film", "title": "film actor film. film performance film", "to": 7031, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 2767, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3451, "label": "people ethnicity people", "title": "people ethnicity people", "to": 4899, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3485, "label": "location statistical region gdp nominal per capita. measurement unit dated money value currency", "title": "location statistical region gdp nominal per capita. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3485, "label": "olympics olympic participating country medals won. olympics olympic medal honor olympics", "title": "olympics olympic participating country medals won. olympics olympic medal honor olympics", "to": 2722, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3587, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3587, "label": "people person places lived. people place lived location", "title": "people person places lived. people place lived location", "to": 11328, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3676, "label": "people person profession", "title": "people person profession", "to": 8059, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3780, "label": "olympics olympic sport athletes. olympics olympic athlete affiliation country", "title": "olympics olympic sport athletes. olympics olympic athlete affiliation country", "to": 3827, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3780, "label": "olympics olympic sport athletes. olympics olympic athlete affiliation country", "title": "olympics olympic sport athletes. olympics olympic athlete affiliation country", "to": 1131, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3854, "label": "location statistical region gdp nominal per capita. measurement unit dated money value currency", "title": "location statistical region gdp nominal per capita. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3930, "label": "government politician government positions held. government government position held jurisdiction of office", "title": "government politician government positions held. government government position held jurisdiction of office", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3930, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 12170, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 3930, "label": "base schemastaging person extra net worth. measurement unit dated money value currency", "title": "base schemastaging person extra net worth. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4212, "label": "base schemastaging person extra net worth. measurement unit dated money value currency", "title": "base schemastaging person extra net worth. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4212, "label": "base popstra celebrity friendship. base popstra friendship participant", "title": "base popstra celebrity friendship. base popstra friendship participant", "to": 2433, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4881, "label": "film actor film. film performance film", "title": "film actor film. film performance film", "to": 7031, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4899, "label": "government politician government positions held. government government position held basic title", "title": "government politician government positions held. government government position held basic title", "to": 9836, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4921, "label": "location location contains", "title": "location location contains", "to": 7629, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4988, "label": "base schemastaging person extra net worth. measurement unit dated money value currency", "title": "base schemastaging person extra net worth. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 4988, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5521, "label": "people person profession", "title": "people person profession", "to": 8059, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5949, "label": "base biblioness bibs location country", "title": "base biblioness bibs location country", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 5949, "label": "location location contains", "title": "location location contains", "to": 4921, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6170, "label": "film film release date s. film film regional release date film release region", "title": "film film release date s. film film regional release date film release region", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6722, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 6993, "label": "location location contains", "title": "location location contains", "to": 1131, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7031, "label": "film film production companies", "title": "film film production companies", "to": 7410, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7072, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7223, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 9563, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7414, "label": "film film estimated budget. measurement unit dated money value currency", "title": "film film estimated budget. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 7629, "label": "education educational institution students graduates. education education student", "title": "education educational institution students graduates. education education student", "to": 4925, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8010, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8284, "label": "education educational institution school type", "title": "education educational institution school type", "to": 2956, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8284, "label": "education educational institution school type", "title": "education educational institution school type", "to": 873, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8284, "label": "business business operation revenue. measurement unit dated money value currency", "title": "business business operation revenue. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8284, "label": "education educational institution students graduates. education education student", "title": "education educational institution students graduates. education education student", "to": 11220, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8284, "label": "education educational institution campuses", "title": "education educational institution campuses", "to": 8284, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8315, "label": "award ranked item appears in ranked lists. award ranking list", "title": "award ranked item appears in ranked lists. award ranking list", "to": 4888, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 8357, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9116, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9235, "label": "business business operation assets. measurement unit dated money value currency", "title": "business business operation assets. measurement unit dated money value currency", "to": 90, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9309, "label": "time event instance of recurring event", "title": "time event instance of recurring event", "to": 9310, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9397, "label": "government political party politicians in this party. government political party tenure politician", "title": "government political party politicians in this party. government political party tenure politician", "to": 9398, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9398, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9398, "label": "government politician government positions held. government government position held basic title", "title": "government politician government positions held. government government position held basic title", "to": 9836, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 9563, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 7223, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 10086, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 10087, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 10735, "label": "people person profession", "title": "people person profession", "to": 8059, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 10933, "label": "base culturalevent event entity involved", "title": "base culturalevent event entity involved", "to": 10934, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11005, "label": "award ranked item appears in ranked lists. award ranking list", "title": "award ranked item appears in ranked lists. award ranking list", "to": 4888, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11220, "label": "people person spouse s. people marriage type of union", "title": "people person spouse s. people marriage type of union", "to": 434, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11220, "label": "government politician government positions held. government government position held jurisdiction of office", "title": "government politician government positions held. government government position held jurisdiction of office", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 11328, "label": "base aareas schema administrative area administrative parent", "title": "base aareas schema administrative area administrative parent", "to": 3485, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 12170, "label": "award award nominee award nominations. award award nomination award nominee", "title": "award award nominee award nominations. award award nomination award nominee", "to": 3930, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 12170, "label": "people person nationality", "title": "people person nationality", "to": 32, "width": 1}, {"arrows": "to", "color": "#5b7c99", "from": 12427, "label": "film actor film. film performance film", "title": "film actor film. film performance film", "to": 7031, "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+                      network.on("stabilizationProgress", function(params) {
+                          document.getElementById('loadingBar').removeAttribute("style");
+                          var maxWidth = 496;
+                          var minWidth = 20;
+                          var widthFactor = params.iterations/params.total;
+                          var width = Math.max(minWidth,maxWidth * widthFactor);
+                          document.getElementById('bar').style.width = width + 'px';
+                          document.getElementById('text').innerHTML = Math.round(widthFactor*100) + '%';
+                      });
+                      network.once("stabilizationIterationsDone", function() {
+                          document.getElementById('text').innerHTML = '100%';
+                          document.getElementById('bar').style.width = '496px';
+                          document.getElementById('loadingBar').style.opacity = 0;
+                          // really clean the dom element
+                          setTimeout(function () {document.getElementById('loadingBar').style.display = 'none';}, 500);
+                      });
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
